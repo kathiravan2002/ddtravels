@@ -10,10 +10,10 @@ function Footer() {
     <>
       <div
         className="relative py-6 sm:py-8  bg-cover bg-center "
-        style={{ backgroundImage: "url('/assets/images/footerbg.png')" }}
+        style={{ backgroundImage: "url('/assets/images/footerbg3.jpg')" }}
       >
         <div className="absolute md:-top-8 lg:-top-14 2xl:-top-24 -top-4 sm:-top-8  z-20"><img src="/assets/images/footercloud.png" alt="footercloud" /></div>
-        <div className="absolute inset-0 bg-[#000000]  opacity-70"></div>
+        <div className="absolute inset-0 bg-[#000000]  opacity-65"></div>
         <div className="relative max-w-[1400px] mx-auto md:py-20 py-10 px-5">
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10 justify-center items-start">
             {/* Left Column - Logo and Description */}
@@ -82,7 +82,7 @@ function Footer() {
 
         </div>
         <div className="px-5">
-          <div className="realtive bg-white opacity-85 flex flex-col justify-center items-center gap-8 py-3 max-w-[1200px] mx-auto rounded-[10px] mb-5 px-5 " >
+          <div className="realtive bg-white opacity-85 flex flex-col justify-center items-center gap-5 py-3 max-w-[1200px] mx-auto rounded-[10px] mb-5 px-5 " >
             <h2 className=" md:text-3xl text-xl  fondamento-regular text-center">Follow Us</h2>
             <div className="flex shrink-0 gap-10 md:text-[36px] text-[24px]">
               <p className=""><FaInstagram /></p>
