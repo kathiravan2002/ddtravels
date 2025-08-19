@@ -55,7 +55,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
             </Link>
 
 
-            <Link to="/#about" className={` ${isActive == '/about' ? ' text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
+            <Link to="/about-us" className={` ${isActive == '/about' ? ' text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);

@@ -106,7 +106,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import "swiper/css/effect-coverflow";
-
 import { Autoplay, EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { PiArrowBendUpRightFill } from 'react-icons/pi';
 import { CircleCheckBig } from 'lucide-react';
@@ -400,7 +399,7 @@ export default function Home() {
 
                 <div className="">
                     <div className="space-y-2">
-                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Who We Are</h2>
+                        <h2 className="text-center montez-regular text-[#FFC83E] md:text-[45px] text-[32px]">Who We Are</h2>
                         <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">About Us</p>
                     </div>
                     <div className="mt-2 flex lg:flex-row xl:gap-20 gap-10 flex-col-reverse justify-center items-center ">
@@ -435,7 +434,7 @@ export default function Home() {
             <section className="lg:pb-20 pb-10 max-w-[1450px] mx-auto px-4 ">
                 <div className="">
                     <div className="space-y-2">
-                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Top Destination</h2>
+                        <h2 className="text-center montez-regular text-[#FFC83E] md:text-[45px] text-[32px]">Top Destination</h2>
                         <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Popular Destination</p>
                     </div>
                     <div className="bg-white md:py-16 py-10">
@@ -499,7 +498,7 @@ export default function Home() {
             <section className="lg:pb-20 pb-10 max-w-[1450px] mx-auto px-4 ">
                 <div className="">
                     <div className="space-y-2">
-                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Our Packages</h2>
+                        <h2 className="text-center montez-regular text-[#FFC83E] md:text-[45px] text-[32px]">Our Packages</h2>
                         <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Complete Packages</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 2xl:gap-0 mt-15 md:mt-0">
@@ -537,7 +536,7 @@ export default function Home() {
             <section className="lg:pb-20 pb-10 max-w-[1450px] mx-auto px-4 ">
                 <div className="">
                     <div className="space-y-2">
-                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Our Gallery</h2>
+                        <h2 className="text-center montez-regular text-[#FFC83E] md:text-[45px] text-[32px]">Our Gallery</h2>
                         <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Moments</p>
                     </div>
                     <div className="mt-10">
@@ -578,7 +577,7 @@ export default function Home() {
             <section className="lg:pb-20 pb-10 max-w-[1450px] mx-auto px-4 ">
                 <div className="">
                     <div className="space-y-2">
-                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Contact</h2>
+                        <h2 className="text-center montez-regular text-[#FFC83E] md:text-[45px] text-[32px]">Contact</h2>
                         <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Connect With Us</p>
                     </div>
                     <div className="flex gap-10 lg:flex-row flex-col  mt-10">

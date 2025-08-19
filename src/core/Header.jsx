@@ -107,7 +107,7 @@ function Header() {
                                     <Link to='/'>Home</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/#about'>About</Link>
+                                    <Link to='/about-us'>About</Link>
                                 </li>
                                 <li className="">
                                     <Link to='/#package'>Package</Link>
