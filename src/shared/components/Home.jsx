@@ -1,0 +1,670 @@
+// import React, { useState } from 'react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
+// import "swiper/css/effect-coverflow";
+
+// import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
+
+// export default function Home() {
+//     const [activeSlide, setActiveSlide] = useState(0);
+
+//     const images = [
+
+//         "/assets/images/Home/architect 1.png",
+//         "/assets/images/Home/architect 1.png",
+//         "/assets/images/Home/architect 1.png",
+//         "/assets/images/Home/architect 1.png",
+//         "/assets/images/Home/architect 1.png",
+//         "/assets/images/Home/architect 1.png",
+//     ];
+
+//     const handleSlideChange = (swiper) => {
+//         setActiveSlide(swiper.realIndex);
+//     };
+
+//     return (
+//         <>
+//             <section className="mt-20">
+//                 <div className="grid grid-cols-1 lg:grid-cols-12">
+//                     <div className="col-span-7 relative">
+//                         <div>
+//                             <img src="/assets/images/Home/lush-green-palm-fronds-tropical-paradise 1.png" alt="image" className="absolute -my-18" />
+//                         </div>
+//                         <div className="">
+//                             <img src="/assets/images/Home/travel.png" alt="image" className="absolute right-32 -bottom-18" />
+//                         </div>
+//                         <div className="absolute py-32 px-32 space-y-5">
+//                             <h1 className="text-2xl font-semibold text-[#FFC83E]">One Day</h1>
+//                             <p className="text-4xl text-[#6CBF02] font-semibold">Kanchipuram Tour Package</p>
+//                             <button className="px-5 py-2 border-2 border-[#6CBF02] text-[#6CBF02] rounded-4xl">
+//                                 Enquiry
+//                             </button>
+//                         </div>
+//                         <div className="md:mt-[30%] mt-[100%] z-50">
+
+//                             <Swiper
+//                                 className="overflow-hidden my-10 mb-20 "
+//                                 spaceBetween={-10}
+//                                 speed={1000}
+//                                 slidesPerView={2}
+//                                 breakpoints={{
+//                                     0: {
+//                                         slidesPerView: 1.5,
+//                                     },
+//                                     1024: {
+//                                         slidesPerView: 2,
+//                                     },
+//                                 }}
+//                                 centeredSlides={true}
+//                                 navigation
+//                                 pagination={{ clickable: true }}
+//                                 autoplay={{ delay: 3000, disableOnInteraction: false }}
+//                                 loop={true}
+//                                 modules={[Autoplay]}
+//                                   onSlideChange={handleSlideChange}
+//                                   onSwiper={(swiper) => {
+//                                     setActiveSlide(swiper.realIndex);
+//                                 }}
+//                             >
+//                                 {Array(3)
+//                                     .fill([
+//                                         '/assets/images/Home/architect 1.png',
+//                                         '/assets/images/Home/architect 1.png',
+//                                         '/assets/images/Home/architect 1.png'
+//                                     ])
+//                                     .flat()
+//                                     .map((data, index) => (
+//                                         <SwiperSlide key={index}
+//                                             className=""
+//                                         >{({ isActive }) => (
+//                                             <div className={`relative  overflow-hidden h-[200px] lg:h-[350px] rounded-[30px]  drop-shadow-[#c1956e] duration-300 ${isActive ? 'drop-shadow-xl drop-shadow-[#ddc49b]' : ''}`}>
+//                                                 <img
+//                                                     src={data}
+//                                                     alt={data}
+//                                                     className={`transition-transform w-full h-full object-cover duration-500 mx-auto ${isActive ? ' z-10 shadow-2xl scale-110' : 'scale-80 opacity-70'}`}
+//                                                     style={{ borderRadius: '1rem' }}
+//                                                 />
+//                                             </div>
+//                                         )}</SwiperSlide>
+//                                     ))}
+//                             </Swiper>
+//                         </div>
+//                     </div>
+//                     <div className="col-span-5 ">
+//                         <img src={images[activeSlide]} alt="" className="w-full h-screen object-cover bg-center transition-all duration-500 ease-in-out" />
+//                     </div>
+//                 </div>
+//             </section>
+//         </>
+//     );
+// }
+
+import React, { useState, useRef, useEffect } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import "swiper/css/effect-coverflow";
+
+import { Autoplay, EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { PiArrowBendUpRightFill } from 'react-icons/pi';
+import { CircleCheckBig } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { FaArrowRight, FaRegClock } from 'react-icons/fa';
+import { TbCircleArrowRightFilled } from 'react-icons/tb';
+
+export default function Home() {
+    const [activeSlide, setActiveSlide] = useState(0);
+    const swiperRef = useRef(null);
+
+    const images = [
+        "/assets/images/Home/architect 1.png",
+        "/assets/images/Home/architect 2.png",
+        "/assets/images/Home/architect 3.png",
+        "/assets/images/Home/architect 1.png",
+        "/assets/images/Home/architect 2.png",
+        "/assets/images/Home/architect 3.png",
+
+
+    ];
+    const popular = [
+        { src: "/assets/images/Home/architect 2.png", name: "Architect 2" },
+        { src: "/assets/images/Home/architect 3.png", name: "Architect 3" },
+        { src: "/assets/images/Home/architect 2.png", name: "Architect 2 Copy" },
+        { src: "/assets/images/Home/architect 3.png", name: "Architect 3 Copy" },
+        { src: "/assets/images/Home/architect 2.png", name: "Architect 2 Copy" },
+        { src: "/assets/images/Home/architect 3.png", name: "Architect 3 Copy" },
+        { src: "/assets/images/Home/architect 2.png", name: "Architect 2 Copy" },
+        { src: "/assets/images/Home/architect 3.png", name: "Architect 3 Copy" },
+
+
+
+    ];
+
+    const handleSlideChange = (swiper) => {
+        setActiveSlide(swiper.realIndex);
+    };
+
+    const goToPrevSlide = () => {
+        if (swiperRef.current && swiperRef.current.swiper) {
+            swiperRef.current.swiper.slidePrev();
+        }
+    };
+
+    const goToNextSlide = () => {
+        if (swiperRef.current && swiperRef.current.swiper) {
+            swiperRef.current.swiper.slideNext();
+        }
+    };
+    const multiplier = {
+        translate: 0.1,
+        rotate: 0.01,
+    };
+
+    useEffect(() => {
+        function calculateWheel() {
+            const slides = document.querySelectorAll(".single");
+            slides.forEach((slide) => {
+                const rect = slide.getBoundingClientRect();
+                const r = window.innerWidth * 0.5 - (rect.x + rect.width * 0.5);
+                let ty =
+                    Math.abs(r) * multiplier.translate -
+                    rect.width * multiplier.translate;
+
+                if (ty < 0) ty = 0;
+
+                const transformOrigin = r < 0 ? "left top" : "right top";
+                slide.style.transform = `translate(0, ${ty}px) rotate(${-r * multiplier.rotate
+                    }deg)`;
+                slide.style.transformOrigin = transformOrigin;
+            });
+        }
+
+        function raf() {
+            requestAnimationFrame(raf);
+            calculateWheel();
+        }
+
+        raf();
+    }, []);
+
+
+
+    const card = [
+        {
+            title: 'Mamalapuram',
+            content1: 'One Day Tour Package',
+            time: '6:00 AM to 9:00PM',
+            content2: 'Mamalapuram car rentals with best prices'
+        },
+        {
+            title: 'Mamalapuram',
+            content1: 'One Day Tour Package',
+            time: '6:00 AM to 9:00PM',
+            content2: 'Mamalapuram car rentals with best prices'
+        },
+        {
+            title: 'Mamalapuram',
+            content1: 'One Day Tour Package',
+            time: '6:00 AM to 9:00PM',
+            content2: 'Mamalapuram car rentals with best prices'
+        },
+        {
+            title: 'Mamalapuram',
+            content1: 'One Day Tour Package',
+            time: '6:00 AM to 9:00PM',
+            content2: 'Mamalapuram car rentals with best prices'
+        },
+        {
+            title: 'Mamalapuram',
+            content1: 'One Day Tour Package',
+            time: '6:00 AM to 9:00PM',
+            content2: 'Mamalapuram car rentals with best prices'
+        },
+        {
+            title: 'Mamalapuram',
+            content1: 'One Day Tour Package',
+            time: '6:00 AM to 9:00PM',
+            content2: 'Mamalapuram car rentals with best prices'
+        },
+    ]
+
+    return (
+        <>
+            <section className="lg:mt-10 xl:mt-0 mt-0">
+                <div className="flex flex-col lg:flex-row lg:min-h-screen">
+                    {/* Left Content Section */}
+                    <div className="w-full lg:w-3/5 bg-contain  2xl:bg-center sm:bg-cover  bg-center bg-no-repeat " style={{ backgroundImage: "url('/assets/images/Home/herohome2.png')" }}>
+
+                        <div className=" lg:pt-32 pt-20  pb-10 lg:pb-20 flex justify-center items-center">
+                            <div className="md:space-y-5 space-y-2   md:mt-15 mt-10">
+                                <h1 className="md:text-4xl text-2xl fondamento-regular text-[#FFC83E] text-center">One Day</h1>
+                                <p className="md:text-6xl text-4xl text-[#6CBF02] montez-regular text-center">Kanchipuram Tour Package</p>
+                                <div className="flex justify-center items-center">
+                                    <Link>
+                                        <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                                            <span className="relative z-10 text-[20px] -ml-4"> Enquiry Now </span>
+                                            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-23  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                            <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+                                        </button>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Swiper Section */}
+                        <div className="  relative lg:block hidden">
+                            {/* Custom Navigation Buttons */}
+
+
+                            <Swiper
+                                ref={swiperRef}
+                                className="overflow-hidden mb-10 "
+                                spaceBetween={-10}
+                                speed={1000}
+                                slidesPerView={2}
+                                breakpoints={{
+                                    0: {
+                                        slidesPerView: 1.2,
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                    },
+                                }}
+                                centeredSlides={true}
+                                navigation={false} // Disable default navigation
+                                // pagination={{ clickable: true }}
+                                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                                loop={true}
+                                modules={[Autoplay, Navigation, Pagination]}
+                                onSlideChange={handleSlideChange}
+                                onSwiper={(swiper) => {
+                                    setActiveSlide(swiper.realIndex);
+                                }}
+                            >
+                                {images
+                                    .map((data, index) => (
+                                        <SwiperSlide key={index} className="">
+                                            {({ isActive }) => (
+                                                <div className={`relative overflow-hidden h-[200px] md:h-[300px] rounded-[30px] drop-shadow-[#c1956e] duration-300 ${isActive ? 'drop-shadow-xl drop-shadow-[#ddc49b]' : ''}`}>
+                                                    <img
+                                                        src={data}
+                                                        alt={data}
+                                                        className={`transition-transform w-full h-full object-cover duration-500 mx-auto ${isActive ? ' z-10 shadow-2xl scale-110' : 'scale-80 opacity-70'}`}
+                                                        style={{ borderRadius: '1rem' }}
+                                                    />
+                                                </div>
+                                            )}
+                                        </SwiperSlide>
+                                    ))}
+                            </Swiper>
+                            <div className="flex justify-center gap-4 mb-6 ">
+                                <button
+                                    onClick={goToPrevSlide}
+                                    className="w-12 h-12 bg-[#6CBF02] text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-[#5aa002] transition-colors duration-300 shadow-lg"
+                                >
+                                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                                    </svg>
+                                </button>
+                                <button
+                                    onClick={goToNextSlide}
+                                    className="w-12 h-12 bg-[#6CBF02] text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-[#5aa002] transition-colors duration-300 shadow-lg"
+                                >
+                                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Right Image Section */}
+                    <div className="w-full lg:w-2/5 lg:block hidden">
+                        <img
+                            src={images[activeSlide]}
+                            alt=""
+                            className="w-full h-64 md:h-full md:min-h-screen object-cover object-center transition-all duration-500 ease-in-out rounded-[20px] lg:rounded-[0px]"
+                        />
+                    </div>
+                    <div className="  relative block lg:hidden">
+                        {/* Custom Navigation Buttons */}
+
+
+                        <Swiper
+                            ref={swiperRef}
+                            className="overflow-hidden  mb-10"
+                            spaceBetween={-10}
+                            speed={1000}
+                            slidesPerView={2}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1.2,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                },
+                            }}
+                            centeredSlides={true}
+                            navigation={false} // Disable default navigation
+                            // pagination={{ clickable: true }}
+                            autoplay={{ delay: 3000, disableOnInteraction: false }}
+                            loop={true}
+                            modules={[Autoplay, Navigation, Pagination]}
+                            onSlideChange={handleSlideChange}
+                            onSwiper={(swiper) => {
+                                setActiveSlide(swiper.realIndex);
+                            }}
+                        >
+                            {images
+                                .map((data, index) => (
+                                    <SwiperSlide key={index} className="">
+                                        {({ isActive }) => (
+                                            <div className={`relative overflow-hidden h-[200px] md:h-[300px] rounded-[30px] drop-shadow-[#c1956e] duration-300 ${isActive ? 'drop-shadow-xl drop-shadow-[#ddc49b]' : ''}`}>
+                                                <img
+                                                    src={data}
+                                                    alt={data}
+                                                    className={`transition-transform w-full h-full object-cover duration-500 mx-auto ${isActive ? ' z-10 shadow-2xl scale-110' : 'scale-80 opacity-70'}`}
+                                                    style={{ borderRadius: '1rem' }}
+                                                />
+                                            </div>
+                                        )}
+                                    </SwiperSlide>
+                                ))}
+                        </Swiper>
+                        <div className="flex justify-center gap-4 mb-6 ">
+                            <button
+                                onClick={goToPrevSlide}
+                                className="md:w-12 md:h-12 w-8 h-8 bg-[#6CBF02] text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-[#5aa002] transition-colors duration-300 shadow-lg"
+                            >
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                                </svg>
+                            </button>
+                            <button
+                                onClick={goToNextSlide}
+                                className="md:w-12 md:h-12 w-8 h-8 bg-[#6CBF02] text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-[#5aa002] transition-colors duration-300 shadow-lg"
+                            >
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
+
+                <div className="">
+                    <div className="space-y-2">
+                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Who We Are</h2>
+                        <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">About Us</p>
+                    </div>
+                    <div className="mt-2 flex lg:flex-row xl:gap-20 gap-10 flex-col-reverse justify-center items-center ">
+                        <div className="space-y-2 flex-70">
+                            <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">We, Divya Desan Travels is one of the leading travel agencies in Chennai. We are one of the successful entrepreneurs in car rental and car hire services in Chennai since 2010. We operate travels for five various travel packages, First one is Chennai Local trips, Second one is Chennai Temple Packages, Third one is Chennai urban trips, Fourth one is South India Tours from Chennai and last one is Hill station tours and travel packages.</p>
+                            <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">We provide all sorts for luxury vehicles such as Indica, Indigo, Swift, Etios, Innova and Tavera for car rental in Chennai. We offer temple tour packages, one-day sight-seeing in and around chennai city, holiday tour packages, corporate tour packages, students tour packages and south india tour packages etc..</p>
+                            <div className="flex gap-5 xl:flex-row flex-col mt-4">
+                                <p className="text-[18px]  poppins-medium opacity-75 flex gap-2  items-center"> <CircleCheckBig className='flex shrink-0 text-[28px] text-[#6CBF02]' />Trusted Travel Partner </p>
+                                <p className="text-[18px]  poppins-medium opacity-75 flex gap-2  items-center"> <CircleCheckBig className='flex shrink-0 text-[28px] text-[#6CBF02]' />Local & Outstation Tour Packages </p>
+                                <p className="text-[18px]  poppins-medium opacity-75 flex gap-2  items-center"> <CircleCheckBig className='flex shrink-0 text-[28px] text-[#6CBF02]' /> Wide Range of Vehicles </p>
+
+                            </div>
+                            <div className="flex md:justify-between flex-col md:flex-row">
+                                <p className="md:text-[28px] text-[20px] dancing-script opacity-75 flex gap-2  items-center "><img src="/assets/images/Home/car.png" alt="car" className='md:w-[150px] w-[120px]' /> Car Rental Provider </p>
+                                <div className="flex justify-center items-center">
+                                    <Link>
+                                        <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                                            <span className="relative z-10 text-[20px] -ml-4"> Enquiry Now </span>
+                                            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-23  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                            <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+                                        </button>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="max-w-[480px] mx-auto "><img src="/assets/images/Home/aboutus.png" alt="aboutus" className="" /></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section className="lg:pb-20 pb-10 max-w-[1450px] mx-auto px-4 ">
+                <div className="">
+                    <div className="space-y-2">
+                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Top Destination</h2>
+                        <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Popular Destination</p>
+                    </div>
+                    <div className="bg-white md:py-16 py-10">
+                        <Swiper
+                            slidesPerView="auto"
+                            spaceBetween={50}
+                            centeredSlides={true}
+                            loop={true}
+                            grabCursor={true}
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            }}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            modules={[Autoplay, Pagination]}
+                            className="overflow-visible pb-12"
+                        >
+                            {popular.map((img, i) => (
+                                <SwiperSlide key={i} className="!w-[300px] md:!w-[300px]">
+                                    <div className="single relative select-none pointer-events-none">
+                                        <img
+                                            src={img.src}
+                                            alt={img.name}
+                                            className="w-full h-auto rounded-lg shadow-md select-none pointer-events-none"
+                                        />
+                                        {/* Caption BELOW the image */}
+                                        <p className="text-center mt-3 text-sm font-medium text-black">
+                                            {img.name}
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
+
+                        {/* Pagination styling */}
+                        <style>
+                            {`
+                                  .swiper-pagination {
+                                    position: relative !important;
+                                    margin-top: 20px !important;
+                                    text-align: center !important;
+                                  }
+                                  .swiper-pagination-bullet {
+                                    background: #4ade80; /* green */
+                                    opacity: 0.5;
+                                  }
+                                  .swiper-pagination-bullet-active {
+                                    background: #22c55e; /* darker green */
+                                    opacity: 1;
+                                  }
+                                `}
+                        </style>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="lg:pb-20 pb-10 max-w-[1450px] mx-auto px-4 ">
+                <div className="">
+                    <div className="space-y-2">
+                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Our Packages</h2>
+                        <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Complete Packages</p>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 2xl:gap-0 mt-15 md:mt-0">
+                        {card.map((item, index) => (
+                            <div key={index}
+                                className="card relative flex justify-center items-start w-[400px] max-w-full h-[300px] mx-auto bg-white mb-13 rounded-[20px] shadow-[0_10px_25px_rgba(0,0,0,0.15)] md:mt-20 mt-5"
+                            >
+                                <div className="img-box absolute top-5 md:w-[350px] w-[300px] h-[220px] bg-gray-800 rounded-[12px] overflow-hidden">
+                                    <img src='/assets/images/Home/architect 1.png' alt='image' className="absolute top-0 left-0 w-full h-full object-cover " />
+                                </div>
+                                <div className="content absolute top-[252px] w-full h-[35px] p-0 px-[30px] text-center overflow-hidden ">
+                                    <div className='flex gap-2 justify-center '>
+                                        <p className="poppins-semibold text-xl text-[#6CBF02] mt-1">{item.title}</p>
+                                    </div>
+                                    {/* <h2 className="text-xl poppins-bold mt-5 " style={{ color: 'var(--clr)' }}></h2>
+                                <p className="text-gray-800 poppins-regular mt-3"></p> */}
+                                    <div className="space-y-2 mt-4 flex flex-col items-center ">
+                                        <h2 className="poppins-medium text-base opacity-85">{item.content1}</h2>
+                                        <p className="poppins-medium text-base opacity-85 flex justify-center items-center gap-2"><FaRegClock className='text-[24px] flex shrink-0 text-[#6CBF02]' />{item.time}</p>
+                                        <p className="poppins-medium text-base opacity-85">{item.content2}</p>
+                                        <div className="flex gap-5">
+                                            <div className="flex justify-center items-center "> <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[16px] rounded-4xl bg-[#6CBF02] flex gap-2 items-center justify-center">See Details <PiArrowBendUpRightFill className='flex shrinl-0 text-[24px]' /></button></div>
+                                            <div className="flex justify-center items-center "> <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[16px] rounded-4xl bg-[#6CBF02] flex gap-2 items-center justify-center">Enquiry  <PiArrowBendUpRightFill className='flex shrinl-0 text-[24px]' /></button></div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <section className="lg:pb-20 pb-10 max-w-[1450px] mx-auto px-4 ">
+                <div className="">
+                    <div className="space-y-2">
+                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Our Gallery</h2>
+                        <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Moments</p>
+                    </div>
+                    <div className="mt-10">
+                        <div className="lg:grid md:grid grid-cols-6 grid-rows-4 gap-4 space-y-3 lg:space-y-0">
+                            <div className="col-span-2 row-span-2 overflow-hidden rounded-xl">
+                                <img src="/assets/images/Home/architect 1.png" alt="Room 1" loading="lazy" className="rounded-xl w-full h-full object-cover hover:scale-110 transform transition-transform duration-300" />
+                            </div>
+                            <div className="col-span-2 row-span-2 col-start-1 row-start-3 rounded-xl overflow-hidden">
+                                <img src="/assets/images/Home/architect 2.png" alt="Room 2" loading="lazy" className="rounded-xl h-full w-full object-cover hover:scale-110 transform transition-transform duration-300" />
+                            </div>
+                            <div className="col-span-2 row-span-4 col-start-3 row-start-1 rounded-xl overflow-hidden">
+                                <img src="/assets/images/Home/architect 4.jpg" alt="Room 3" loading="lazy" className="h-full w-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />
+                            </div>
+                            <div className="col-span-2 row-span-2 col-start-5 row-start-1 rounded-xl overflow-hidden">
+                                <img src="/assets/images/Home/architect 1.png" alt="Room 4" loading="lazy" className="rounded-xl object-cover h-full hover:scale-110 transform transition-transform duration-300" />
+                            </div>
+                            <div className="row-span-2 col-start-5 row-start-3 rounded-xl overflow-hidden">
+                                <img src="/assets/images/Home/architect 5.jpg" alt="Room 5" loading="lazy" className="h-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />
+                            </div>
+                            <div className="row-span-2 col-start-6 row-start-3 rounded-xl overflow-hidden">
+                                <img src="/assets/images/Home/architect 3.png" alt="Room 6" loading="lazy" className="h-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />
+                            </div>
+                        </div>
+                        <div className="flex justify-center items-center mt-10">
+                            <Link>
+                                <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                                    <span className="relative z-10 text-[20px] -ml-4"> View More </span>
+                                    <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-20  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                    <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section className="lg:pb-20 pb-10 max-w-[1450px] mx-auto px-4 ">
+                <div className="">
+                    <div className="space-y-2">
+                        <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Contact</h2>
+                        <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Connect With Us</p>
+                    </div>
+                    <div className="flex gap-10 lg:flex-row flex-col  mt-10">
+                        <div className="bg-cover bg-center flex-40 rounded-[30px]" style={{ backgroundImage: "url('/assets/images/Home/homecontact.png')" }}>
+                            <div className="flex  justify-center items-center h-full px-10 py-10 lg:py-0 relative">
+                                <div className="">
+                                    <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]">Divya Desan Travels</h2>
+                                    <p className="text-white text-justify poppins-medium text-lg leading-[30px] mt-10">Chennai Star Travels provides best tour packages for Chennai and South India.</p>
+                                    <p className="text-white text-justify poppins-medium text-lg leading-[30px]">Chennai car rentals with best prices. Compare our tariff with other car service providers. Contact us for more details</p>
+                                </div>
+                                <div className="absolute right-0"><img src="/assets/images/Home/contactarrow.png" alt="arrow" className='w-[35px]' /></div>
+                            </div>
+                        </div>
+
+                        <form className="space-y-7 flex-40">
+                            <div className="relative">
+                                <label className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                    Name
+                                </label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    // value={formData.name}
+                                    // onChange={handleChange}
+                                    className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors"
+                                    required
+                                />
+                            </div>
+
+                            <div className="relative">
+                                <label className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium" >
+                                    Mobile
+                                </label>
+                                <input
+                                    type="tel"
+                                    name="mobile"
+                                    // value={formData.mobile}
+                                    // onChange={handleChange}
+                                    className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors"
+                                    required
+                                />
+                            </div>
+
+                            <div className="relative">
+                                <label className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                    Email
+                                </label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    // value={formData.email}
+                                    // onChange={handleChange}
+                                    className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors"
+                                    required
+                                />
+                            </div>
+
+                            <div className="relative">
+                                <label className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                    Message
+                                </label>
+                                <textarea
+                                    name="message"
+                                    // value={formData.message}
+                                    // onChange={handleChange}
+                                    rows={4}
+                                    className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors resize-vertical"
+                                    required
+                                />
+                            </div>
+
+                            <div className="flex justify-center items-center ">
+                                <Link>
+                                    <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                                        <span className="relative z-10 text-[20px] -ml-4">Submit </span>
+                                        <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-12  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                        <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+                                    </button>
+                                </Link>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </>
+    );
+}
