@@ -426,7 +426,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="max-w-[480px] mx-auto "><img src="/assets/images/Home/aboutus.png" alt="aboutus" className="" /></div>
+                        <div className="max-w-[480px] mx-auto "><img src="/assets/images/Home/aboutus2.png" alt="aboutus" className="" /></div>
                     </div>
                 </div>
             </section>
