@@ -110,11 +110,11 @@ function Header() {
                                     <Link to='/#about'>About</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/#career'>Package</Link>
+                                    <Link to='/#package'>Package</Link>
                                 </li>
 
                                 <li className="">
-                                    <Link to='/#portfolio'>Gallery</Link>
+                                    <Link to='/#gallery'>Gallery</Link>
                                 </li>
                                 <li className="">
                                     <Link to='/#contact-us'>Contact</Link>
