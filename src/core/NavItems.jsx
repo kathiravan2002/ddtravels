@@ -55,7 +55,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
             </Link>
 
 
-            <Link to="/about" className={` ${isActive == '/about' ? ' text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
+            <Link to="/#about" className={` ${isActive == '/about' ? ' text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);
@@ -78,7 +78,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                 Web Development
               </li>
             </Link> */}
-            <Link to="/career" className={` ${isActive == '/career' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
+            <Link to="/#package" className={` ${isActive == '/career' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);
@@ -89,7 +89,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                 Package
               </li>
             </Link>
-            <Link to="/portfolio" className={` ${isActive == '/portfolio' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
+            <Link to="/#gallery" className={` ${isActive == '/portfolio' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);
@@ -100,7 +100,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                 Gallery
               </li>
             </Link>
-            <Link to="/contact-us" className={` ${isActive == '/contact-us' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
+            <Link to="/#contact-us" className={` ${isActive == '/contact-us' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);

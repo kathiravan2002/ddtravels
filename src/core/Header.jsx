@@ -107,17 +107,17 @@ function Header() {
                                     <Link to='/'>Home</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/about'>About</Link>
+                                    <Link to='/#about'>About</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/career'>Package</Link>
+                                    <Link to='/#career'>Package</Link>
                                 </li>
 
                                 <li className="">
-                                    <Link to='/portfolio'>Gallery</Link>
+                                    <Link to='/#portfolio'>Gallery</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/contact-us'>Contact</Link>
+                                    <Link to='/#contact-us'>Contact</Link>
                                 </li>
                             </ul>
                         </div>
