@@ -21,7 +21,7 @@ function Register() {
                             Step into a world of unforgettable experiences with DD Travels. Whether it's a relaxing getaway, an adventure-filled escape, or a cultural exploration, we’re here to make it happen — with expert planning, personalized support, and complete peace of mind. Let’s turn your travel dreams into reality.
                         </p>
                         <div className="flex mt-4">
-                            <Link>
+                            <Link to='/contact-us'>
                                 <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
                                     <span className="relative z-10 text-[20px] -ml-4"> Contact Us </span>
                                     <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-20  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />

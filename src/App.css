@@ -184,7 +184,7 @@
   }
 }
 
-.car-animation {
+/* .car-animation {
   animation: carMove 15s linear infinite;
 } 
 
@@ -194,6 +194,58 @@
   }
   100% {
     transform: translateX(-100%);
+  }
+} */
+.car-animation {
+  animation: carSequence 10s ease-in-out infinite;
+}
+
+@keyframes carSequence {
+  0% {
+    transform: translateX(-120vw); /* Start off-screen left */
+  }
+  40% {
+    transform: translateX(65vw); /* Stop near person */
+  }
+  60% {
+    transform: translateX(65vw); /* Pause (stopped) */
+  }
+  100% {
+    transform: translateX(140vw); /* Drive away off-screen right */
+  }
+}
+
+/* Person hides after car stops */
+.person-animation {
+  animation: personHide 10s linear infinite;
+}
+
+@keyframes personHide {
+  0% {
+    opacity: 1; /* visible at start */
+  }
+  40% {
+    opacity: 1; /* still visible while car arrives */
+  }
+  50% {
+    opacity: 0; /* hide when car is stopped */
+  }
+  100% {
+    opacity: 0; /* stays hidden until car leaves */
+  }
+}
+
+/* Cloud Animation */
+.slide-animation {
+  animation: slide-left 20s linear infinite;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
   }
 }
 

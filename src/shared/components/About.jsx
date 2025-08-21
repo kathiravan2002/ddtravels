@@ -42,7 +42,7 @@ function About() {
         }
     ];
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div className=" lg:h-90 h-70  relative bg-cover bg-center lg:mt-20 mt-5" style={{ backgroundImage: "url('/assets/images/About/allhero.png')" }}>
                 <div className="absolute inset-0 bg-[#000000] opacity-65 lg:h-90 h-70 "></div>
                 <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-2">
@@ -59,18 +59,18 @@ function About() {
             <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
                 <div className="">
                     <div className="mt-2 flex lg:flex-row xl:gap-20 gap-10 flex-col-reverse justify-center items-center ">
-                        <div className="space-y-2 flex-70">
+                        <div className="space-y-2 flex-70" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                             <h2 className="text-[#FFB600] fondamento-regular-italic md:text-[32px] text-[32px]">Get To Know Us</h2>
                             <h2 className="text-[#6CBF02] poppins-medium  text-[24px] ">We are Car Rental Provider for Tours and Travel</h2>
                             <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">We,<span className="text-[#6CBF02]"> Divya Desan </span> Travels is one of the leading travel agencies in Chennai. We are one of the successful entrepreneurs in car rental and car hire services in Chennai since 2010. We operate travels for five various travel packages, First one is Chennai Local trips, Second one is Chennai Temple Packages, Third one is Chennai urban trips, Fourth one is South India Tours from Chennai and last one is Hill station tours and travel packages.</p>
                             <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">We provide all sorts for luxury vehicles such as Indica, Indigo, Swift, Etios, Innova and Tavera for car rental in Chennai. We offer temple tour packages, one-day sight-seeing in and around chennai city, holiday tour packages, corporate tour packages, students tour packages and south india tour packages etc..</p>
                             <div className="flex gap-5 xl:flex-row flex-col mt-4">
-                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/honesty.png' alt='trusted' className='w-16' />Trusted Travel Partner </p>
-                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/travel.png' alt='map' className='w-12' />Local & Outstation Tour Packages </p>
-                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/car.png' alt='car' className='w-18 -rotate-y-180' /> Wide Range of Vehicles </p>
+                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/honesty.png' alt='trusted' className='w-16' data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000"/>Trusted Travel Partner </p>
+                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/travel.png' alt='map' className='w-12' data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000"/>Local & Outstation Tour Packages </p>
+                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/car.png' alt='car' className='w-18 -rotate-y-180' data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000"/> Wide Range of Vehicles </p>
                             </div>
                         </div>
-                        <div className="max-w-[480px] mx-auto "><img src="/assets/images/About/about.png" alt="aboutus" className="" /></div>
+                        <div className="max-w-[480px] mx-auto " data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"><img src="/assets/images/About/about.png" alt="aboutus" className="" /></div>
                     </div>
                 </div>
             </section>
