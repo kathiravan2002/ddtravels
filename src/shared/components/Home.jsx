@@ -112,6 +112,8 @@ import { CircleCheckBig } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight, FaRegClock } from 'react-icons/fa';
 import { TbCircleArrowRightFilled } from 'react-icons/tb';
+import Herosection from './herosection';
+import Swiperfunction from './Swiperfunction';
 
 export default function Home() {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -209,31 +211,14 @@ export default function Home() {
             time: '6:00 AM to 9:00PM',
             content2: 'Mamalapuram car rentals with best prices'
         },
-        {
-            title: 'Mamalapuram',
-            content1: 'One Day Tour Package',
-            time: '6:00 AM to 9:00PM',
-            content2: 'Mamalapuram car rentals with best prices'
-        },
-        {
-            title: 'Mamalapuram',
-            content1: 'One Day Tour Package',
-            time: '6:00 AM to 9:00PM',
-            content2: 'Mamalapuram car rentals with best prices'
-        },
-        {
-            title: 'Mamalapuram',
-            content1: 'One Day Tour Package',
-            time: '6:00 AM to 9:00PM',
-            content2: 'Mamalapuram car rentals with best prices'
-        },
+       
     ]
 
     return (
         <>
+             {/* <Herosection/> */}
             <section className="lg:mt-10 xl:mt-0 mt-0">
                 <div className="flex flex-col lg:flex-row lg:min-h-screen">
-                    {/* Left Content Section */}
                     <div className="w-full lg:w-3/5 bg-contain  2xl:bg-center sm:bg-cover  bg-center bg-no-repeat " style={{ backgroundImage: "url('/assets/images/Home/herohome2.png')" }}>
 
                         <div className=" lg:pt-32 pt-20  pb-10 lg:pb-20 flex justify-center items-center">
@@ -241,7 +226,7 @@ export default function Home() {
                                 <h1 className="md:text-4xl text-2xl fondamento-regular text-[#FFC83E] text-center">One Day</h1>
                                 <p className="md:text-6xl text-4xl text-[#6CBF02] montez-regular text-center">Kanchipuram Tour Package</p>
                                 <div className="flex justify-center items-center">
-                                    <Link>
+                                    <Link to="/contact-us">
                                         <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
                                             <span className="relative z-10 text-[20px] -ml-4"> Enquiry Now </span>
                                             <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-23  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
@@ -252,74 +237,11 @@ export default function Home() {
                             </div>
                         </div>
 
-                        {/* Swiper Section */}
                         <div className="  relative lg:block hidden">
-                            {/* Custom Navigation Buttons */}
-
-
-                            <Swiper
-                                ref={swiperRef}
-                                className="overflow-hidden mb-10 "
-                                spaceBetween={-10}
-                                speed={1000}
-                                slidesPerView={2}
-                                breakpoints={{
-                                    0: {
-                                        slidesPerView: 1.2,
-                                    },
-                                    768: {
-                                        slidesPerView: 2,
-                                    },
-                                }}
-                                centeredSlides={true}
-                                navigation={false} // Disable default navigation
-                                // pagination={{ clickable: true }}
-                                autoplay={{ delay: 3000, disableOnInteraction: false }}
-                                loop={true}
-                                modules={[Autoplay, Navigation, Pagination]}
-                                onSlideChange={handleSlideChange}
-                                onSwiper={(swiper) => {
-                                    setActiveSlide(swiper.realIndex);
-                                }}
-                            >
-                                {images
-                                    .map((data, index) => (
-                                        <SwiperSlide key={index} className="">
-                                            {({ isActive }) => (
-                                                <div className={`relative overflow-hidden h-[200px] md:h-[300px] rounded-[30px] drop-shadow-[#c1956e] duration-300 ${isActive ? 'drop-shadow-xl drop-shadow-[#ddc49b]' : ''}`}>
-                                                    <img
-                                                        src={data}
-                                                        alt={data}
-                                                        className={`transition-transform w-full h-full object-cover duration-500 mx-auto ${isActive ? ' z-10 shadow-2xl scale-110' : 'scale-80 opacity-70'}`}
-                                                        style={{ borderRadius: '1rem' }}
-                                                    />
-                                                </div>
-                                            )}
-                                        </SwiperSlide>
-                                    ))}
-                            </Swiper>
-                            <div className="flex justify-center gap-4 mb-6 ">
-                                <button
-                                    onClick={goToPrevSlide}
-                                    className="w-12 h-12 bg-[#6CBF02] text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-[#5aa002] transition-colors duration-300 shadow-lg"
-                                >
-                                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                                    </svg>
-                                </button>
-                                <button
-                                    onClick={goToNextSlide}
-                                    className="w-12 h-12 bg-[#6CBF02] text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-[#5aa002] transition-colors duration-300 shadow-lg"
-                                >
-                                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                    </svg>
-                                </button>
-                            </div>
+                           <Swiperfunction/>
                         </div>
                     </div>
 
-                    {/* Right Image Section */}
                     <div className="w-full lg:w-2/5 lg:block hidden">
                         <img
                             src={images[activeSlide]}
@@ -328,68 +250,7 @@ export default function Home() {
                         />
                     </div>
                     <div className="  relative block lg:hidden">
-                        {/* Custom Navigation Buttons */}
-
-
-                        <Swiper
-                            ref={swiperRef}
-                            className="overflow-hidden  mb-10"
-                            spaceBetween={-10}
-                            speed={1000}
-                            slidesPerView={2}
-                            breakpoints={{
-                                0: {
-                                    slidesPerView: 1.2,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                },
-                            }}
-                            centeredSlides={true}
-                            navigation={false} // Disable default navigation
-                            // pagination={{ clickable: true }}
-                            autoplay={{ delay: 3000, disableOnInteraction: false }}
-                            loop={true}
-                            modules={[Autoplay, Navigation, Pagination]}
-                            onSlideChange={handleSlideChange}
-                            onSwiper={(swiper) => {
-                                setActiveSlide(swiper.realIndex);
-                            }}
-                        >
-                            {images
-                                .map((data, index) => (
-                                    <SwiperSlide key={index} className="">
-                                        {({ isActive }) => (
-                                            <div className={`relative overflow-hidden h-[200px] md:h-[300px] rounded-[30px] drop-shadow-[#c1956e] duration-300 ${isActive ? 'drop-shadow-xl drop-shadow-[#ddc49b]' : ''}`}>
-                                                <img
-                                                    src={data}
-                                                    alt={data}
-                                                    className={`transition-transform w-full h-full object-cover duration-500 mx-auto ${isActive ? ' z-10 shadow-2xl scale-110' : 'scale-80 opacity-70'}`}
-                                                    style={{ borderRadius: '1rem' }}
-                                                />
-                                            </div>
-                                        )}
-                                    </SwiperSlide>
-                                ))}
-                        </Swiper>
-                        <div className="flex justify-center gap-4 mb-6 ">
-                            <button
-                                onClick={goToPrevSlide}
-                                className="md:w-12 md:h-12 w-8 h-8 bg-[#6CBF02] text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-[#5aa002] transition-colors duration-300 shadow-lg"
-                            >
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                                </svg>
-                            </button>
-                            <button
-                                onClick={goToNextSlide}
-                                className="md:w-12 md:h-12 w-8 h-8 bg-[#6CBF02] text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-[#5aa002] transition-colors duration-300 shadow-lg"
-                            >
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                </svg>
-                            </button>
-                        </div>
+                         <Swiperfunction/>
                     </div>
                 </div>
             </section>
@@ -415,10 +276,10 @@ export default function Home() {
                             <div className="flex md:justify-between flex-col md:flex-row">
                                 <p className="md:text-[28px] text-[20px] dancing-script opacity-75 flex gap-2  items-center "><img src="/assets/images/Home/car.png" alt="car" className='md:w-[150px] w-[120px]' /> Car Rental Provider </p>
                                 <div className="flex justify-center items-center">
-                                    <Link>
+                                    <Link to="/about-us">
                                         <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
-                                            <span className="relative z-10 text-[20px] -ml-4"> Enquiry Now </span>
-                                            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-23  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                            <span className="relative z-10 text-[20px] -ml-4"> Read More </span>
+                                            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-20  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
                                             <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
                                         </button>
                                     </Link>
@@ -463,7 +324,7 @@ export default function Home() {
                                             className="w-full h-auto rounded-lg shadow-md select-none pointer-events-none"
                                         />
                                         {/* Caption BELOW the image */}
-                                        <p className="text-center mt-3 text-sm font-medium text-black">
+                                        <p className="text-center mt-3 text-lg poppins-semibold text-black">
                                             {img.name}
                                         </p>
                                     </div>
@@ -561,7 +422,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="flex justify-center items-center mt-10">
-                            <Link>
+                            <Link to="/gallery">
                                 <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
                                     <span className="relative z-10 text-[20px] -ml-4"> View More </span>
                                     <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-20  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />

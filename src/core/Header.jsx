@@ -110,14 +110,14 @@ function Header() {
                                     <Link to='/about-us'>About</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/#package'>Package</Link>
+                                    <Link to='/packages'>Package</Link>
                                 </li>
 
                                 <li className="">
-                                    <Link to='/#gallery'>Gallery</Link>
+                                    <Link to='/gallery'>Gallery</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/#contact-us'>Contact</Link>
+                                    <Link to='/contact-us'>Contact</Link>
                                 </li>
                             </ul>
                         </div>
@@ -125,7 +125,7 @@ function Header() {
 
                         <div className="flex justify-end items-center w-full ">
                             <div className="hidden lg:block">
-                                <Link>
+                                <Link to="/contact-us">
                                     <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
                                         <span className="relative z-10 text-[20px] -ml-4"> Enquiry Now </span>
                                         <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-23  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
