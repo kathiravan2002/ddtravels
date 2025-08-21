@@ -206,7 +206,7 @@ function Package() {
                         >
                            <FaFilter  className='text-white text-[24px]' />
 
-                            Filtered Packages
+                            Filter Packages
                         </button>
                     </div>
 
