@@ -96,6 +96,7 @@ import { ArrowUpRight} from 'lucide-react'
 import { Link } from 'react-router-dom';
 import { CgMenuGridO } from 'react-icons/cg';
 import { IoClose } from 'react-icons/io5';
+import { FaFilter } from 'react-icons/fa';
 
 
 function Package() {
@@ -203,7 +204,7 @@ function Package() {
                             onClick={toggleMenu}
                             className="p-2 bg-[#6CBF02] text-white rounded-md focus:outline-none flex gap-2 items-center text-[18px] poppins-medium"
                         >
-                           <CgMenuGridO className='text-white text-[36px]' />
+                           <FaFilter  className='text-white text-[24px]' />
 
                             Filtered Packages
                         </button>
