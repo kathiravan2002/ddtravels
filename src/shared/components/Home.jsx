@@ -112,8 +112,8 @@ import { CircleCheckBig } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight, FaRegClock } from 'react-icons/fa';
 import { TbCircleArrowRightFilled } from 'react-icons/tb';
-import Herosection from './herosection';
 import Swiperfunction from './Swiperfunction';
+import Homehero from './Homehero';
 
 export default function Home() {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -216,7 +216,8 @@ export default function Home() {
 
     return (
         <>
-             {/* <Herosection/> */}
+        <div className="overflow-hidden">
+             {/* <Homehero/> */}
             <section className="lg:mt-10 xl:mt-0 mt-0">
                 <div className="flex flex-col lg:flex-row lg:min-h-screen">
                     <div className="w-full lg:w-3/5 bg-contain  2xl:bg-center sm:bg-cover  bg-center bg-no-repeat " style={{ backgroundImage: "url('/assets/images/Home/herohome2.png')" }}>
@@ -524,7 +525,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
+</div>
         </>
     );
 }

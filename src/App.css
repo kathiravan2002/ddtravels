@@ -174,3 +174,79 @@
   animation: logo-spin infinite 8s linear;
 }
 
+
+@keyframes carMove {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.car-animation {
+  animation: carMove 15s linear infinite;
+} 
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide-left {
+  animation: slide-left 22s linear infinite;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+@keyframes slideLeftRight {
+  0% { transform: translateX(-100px); }
+  50% { transform: translateX(100px); }
+  100% { transform: translateX(-100px); }
+}
+
+.slide-animation {
+  animation: slideLeftRight 15s ease-in-out infinite;
+}
+
+
+@keyframes flightTakeoff {
+  0% {
+    transform: translate(100vw, 100px) rotate(10deg); /* start bottom-right */
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-100vw, -50vh) rotate(-10deg); /* exit top-left fully */
+    opacity: 0.8;
+  }
+}
+
+.flight-animation {
+  animation: flightTakeoff 15s linear infinite;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+@keyframes cloudMoveRight {
+  0% {
+    transform: translateX(-200px); /* Start off-screen left */
+  }
+  100% {
+    transform: translateX(100vw); /* Move fully to the right */
+  }
+}
+
+/* Example cloud class */
+.cloud {
+  position: absolute;
+  top: 50px; /* adjust vertical position */
+  width: 150px;
+  height: auto;
+  animation: cloudMoveRight 10s linear infinite; /* speed and repeat */
+}
