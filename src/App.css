@@ -53,6 +53,7 @@
   font-weight: 600;
   font-style: normal;
 }
+
 .namdhinggo-bold {
   font-family: "Namdhinggo", serif;
   font-weight: 700;
@@ -102,7 +103,7 @@
 }
 
 
-.dancing-script{
+.dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -137,9 +138,9 @@
   height: 300px;
 }
 
-.card .content a:hover {
+/* .card .content a:hover {
   opacity: 0.5;
-}
+} */
 
 /* @media (max-width: 480px) {
   .card {
@@ -165,8 +166,9 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
-    transform: rotate(360deg); 
+    transform: rotate(360deg);
   }
 }
 
@@ -179,6 +181,7 @@
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(100vw);
   }
@@ -196,22 +199,44 @@
     transform: translateX(-100%);
   }
 } */
+
+@keyframes tyre {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tyre {
+  animation: tyre infinite 1s linear;
+}
+
 .car-animation {
   animation: carSequence 10s ease-in-out infinite;
 }
 
 @keyframes carSequence {
   0% {
-    transform: translateX(-120vw); /* Start off-screen left */
+    transform: translateX(-120vw);
+    /* Start off-screen left */
   }
+
   40% {
-    transform: translateX(65vw); /* Stop near person */
+    transform: translateX(65vw);
+    /* Stop near person */
   }
+
   60% {
-    transform: translateX(65vw); /* Pause (stopped) */
+    transform: translateX(65vw);
+    /* Pause (stopped) */
   }
+
   100% {
-    transform: translateX(140vw); /* Drive away off-screen right */
+    transform: translateX(140vw);
+    /* Drive away off-screen right */
   }
 }
 
@@ -222,16 +247,23 @@
 
 @keyframes personHide {
   0% {
-    opacity: 1; /* visible at start */
+    opacity: 1;
+    /* visible at start */
   }
+
   40% {
-    opacity: 1; /* still visible while car arrives */
+    opacity: 1;
+    /* still visible while car arrives */
   }
+
   50% {
-    opacity: 0; /* hide when car is stopped */
+    opacity: 0;
+    /* hide when car is stopped */
   }
+
   100% {
-    opacity: 0; /* stays hidden until car leaves */
+    opacity: 0;
+    /* stays hidden until car leaves */
   }
 }
 
@@ -244,6 +276,7 @@
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(100%);
   }
@@ -256,9 +289,17 @@
 }
 
 @keyframes slideLeftRight {
-  0% { transform: translateX(-100px); }
-  50% { transform: translateX(100px); }
-  100% { transform: translateX(-100px); }
+  0% {
+    transform: translateX(-100px);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(-100px);
+  }
 }
 
 .slide-animation {
@@ -268,11 +309,14 @@
 
 @keyframes flightTakeoff {
   0% {
-    transform: translate(100vw, 100px) rotate(10deg); /* start bottom-right */
+    transform: translate(100vw, 100px) rotate(10deg);
+    /* start bottom-right */
     opacity: 1;
   }
+
   100% {
-    transform: translate(-100vw, -50vh) rotate(-10deg); /* exit top-left fully */
+    transform: translate(-100vw, -50vh) rotate(-10deg);
+    /* exit top-left fully */
     opacity: 0.8;
   }
 }
@@ -287,18 +331,23 @@
 
 @keyframes cloudMoveRight {
   0% {
-    transform: translateX(-200px); /* Start off-screen left */
+    transform: translateX(-200px);
+    /* Start off-screen left */
   }
+
   100% {
-    transform: translateX(100vw); /* Move fully to the right */
+    transform: translateX(100vw);
+    /* Move fully to the right */
   }
 }
 
 /* Example cloud class */
 .cloud {
   position: absolute;
-  top: 50px; /* adjust vertical position */
+  top: 50px;
+  /* adjust vertical position */
   width: 150px;
   height: auto;
-  animation: cloudMoveRight 10s linear infinite; /* speed and repeat */
+  animation: cloudMoveRight 10s linear infinite;
+  /* speed and repeat */
 }

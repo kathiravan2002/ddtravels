@@ -41,21 +41,21 @@ function Gallery() {
                             <img src="/assets/images/Gallery/photo4.png" alt="image5" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]">
-                            <img src="/assets/images/Gallery/photo3.png" alt="image6" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo5.png" alt="image6" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                     </div>
                     <div className="grid sm:grid-cols-4 grid-cols-1 gap-5">
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]">
-                            <img src="/assets/images/Gallery/photo8.png" alt="image7" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300 " />
+                            <img src="/assets/images/Gallery/photo6.png" alt="image7" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300 " />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]">
                             <img src="/assets/images/Gallery/photo7.png" alt="image8" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]">
-                            <img src="/assets/images/Gallery/photo6.png" alt="image9" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo8.png" alt="image9" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]">
-                            <img src="/assets/images/Gallery/photo5.png" alt="image10" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo9.png" alt="image10" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                     </div>
                 </div>

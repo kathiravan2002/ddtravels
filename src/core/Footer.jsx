@@ -36,13 +36,16 @@ function Footer() {
                 </h3>
                 <div className="flex flex-col items-start space-y-2 sm:space-y-3 md:space-y-4">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
+                    • Kanchipuram
+                  </p>
+                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
+                    • Mahabalipuram
+                  </p>
+                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
                     • Tirupati
                   </p>
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Thiruvannamalai
-                  </p>
-                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Chennai Sight Seeing
+                    • Kalahasti 
                   </p>
                 </div>
               </div>

@@ -297,74 +297,308 @@
 // export default Packagedetails
 
 
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+// import Register from './Register';
+// import { Link } from 'react-router-dom';
+
+// function Packagedetails() {
+//   // All data merged into a single object
+//   const packageDetails = {
+//     packageData: {
+//       title: "Chennai Local Temple One Day Tour Package",
+//       subtitle: "Choose your places and visit within the timeframe: 6.00 AM to 9.00 PM | Contact us for more details",
+//     },
+//     templeSection: {
+//       id: 1,
+//       title: "Kapaleeswarar Temple Park",
+//       image: "/assets/images/Package/packageimage.jpg",
+//       description: {
+//         1: "If you are religious and are hoping to visit some beautiful temples, then Chennai should be the place for you. The temples here are an embodiment of the culture, customs and spirituality of the Hindu faith and are known for their rich mythology, traditions and the thousands of devotees who come here every year to catch a glimpse of these Gods and Goddesses.",
+//         2: "Chennai Star Travels arranges Pilgrimage package tours that covering the temples in Chennai. Different packages are available at reasonable cost offering wide selection for the tourists. Chennai Star Travels arranges Tours in Chennai which include places of sightseeing and temples at an affordable cost. Embark on a journey that takes you to some of the most attractive destinations of Chennai with popular temples like Kapaleeshwarar Temple, Parthasarathy Temple,..",
+//         3: "Our one-day local temple tour package in Chennai is a must for anyone looking for a spiritual experience that goes beyond just sightseeing. It is an opportunity to immerse you in the rich cultural heritage of Chennai and to gain a deeper understanding of the city's spiritual traditions. Our expert guides are well-versed in the history, architecture, and spiritual significance of each temple, providing you with an unforgettable experience that will leave you feeling renewed and rejuvenated. Join us on this journey of spiritual discovery and explore the rich cultural heritage of Chennai.",
+//       },
+//     },
+//     carBookingSection: {
+//       title: "Kapaleeswarar Temple Park",
+//       featuredCar: {
+//         image: "/assets/images/Package/packagecar.png",
+//         price: "₹ 2000",
+//         name: "Swift Dzire (4+1)",
+//       },
+//     },
+//     carOptions: {
+//       1: {
+//         id: 1,
+//         name: "Etios (4+1)",
+//         price: "₹3000",
+//         image: "/assets/images/Package/car.png",
+//         featuredImage: "/assets/images/Package/packagecar.png",
+//       },
+//       2: {
+//         id: 2,
+//         name: "Swift Dzire (4+1)",
+//         price: "₹2000",
+//         image: "/assets/images/Package/car.png",
+//         featuredImage: "/assets/images/Package/packagecar.png",
+//       },
+//       3: {
+//         id: 3,
+//         name: "Xylo (7+1)",
+//         price: "₹4000",
+//         image: "/assets/images/Package/car.png",
+//         featuredImage: "/assets/images/Package/packagecar.png",
+//       },
+//     },
+//     additionalContent: {
+//       content:
+//         "Traveling to a new destination is an adventure that is often filled with excitement, new experiences, and endless possibilities. However, it can also be a stressful experience, particularly if you're unfamiliar with the area and don't have reliable transportation. The last thing you want to do is to get lost, spend hours searching for parking, or miss out on important landmarks or attractions because you're unsure of how to get there.",
+//     },
+//   };
+
+//   // State for selected car (default to first car)
+//   const [selectedCar, setSelectedCar] = useState(packageDetails.carOptions[1]);
+
+//   // Handle car selection
+//   const handleCarSelect = (car) => {
+//     setSelectedCar(car);
+//   };
+
+//   return (
+//     <div className="">
+//       <div
+//         className="lg:h-90 h-70 relative bg-cover bg-center lg:mt-20 mt-5"
+//         style={{ backgroundImage: "url('/assets/images/About/allhero.png')" }}
+//       >
+//         <div className="absolute inset-0 bg-[#000000] opacity-65 lg:h-90 h-70"></div>
+//         <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-2">
+//           <h2 className="text-[24px] md:text-[36px] lg:text-[45px] port-lligat-sans-regular text-[#6CBF02] lg:mt-0 mt-15">
+//             Package Details
+//           </h2>
+//           <div className="flex space-x-2">
+//             <Link to="/packages">
+//               <h2 className="md:text-[24px] text-[20px] poppins-medium text-white hover:text-[#FFC83E] duration-300">
+//                 Package
+//               </h2>
+//             </Link>
+//             <h2 className="md:text-[24px] text-[20px] poppins-medium text-[#FFC83E]">
+//               <span className="text-white">/ </span>Package Details
+//             </h2>
+//           </div>
+//         </div>
+//       </div>
+//       <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
+//         {/* Package Header */}
+//         <div className="">
+//           <h2 className="text-xl md:text-2xl fondamento-regular text-center text-[#6CBF02] tracking-wide">
+//             {packageDetails.packageData.title}
+//           </h2>
+//           <h2 className="text-lg poppins-medium opacity-75 mt-2 text-center">
+//             {packageDetails.packageData.subtitle}
+//           </h2>
+//         </div>
+
+//         {/* Temple Section */}
+//         <div className="mt-10">
+//           <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center">
+//             {packageDetails.templeSection.title}
+//           </h2>
+//           <div className="max-w-[700px] mx-auto">
+//             <img
+//               src={packageDetails.templeSection.image}
+//               alt="package"
+//               className="rounded-[20px] mt-5"
+//             />
+//           </div>
+//           <div className="space-y-3 mt-10">
+//             {Object.values(packageDetails.templeSection.description).map((description, index) => (
+//               <p
+//                 key={index}
+//                 className="poppins-medium opacity-80 leading-[30px] md:text-lg text-base text-justify"
+//               >
+//                 {description}
+//               </p>
+//             ))}
+//           </div>
+//         </div>
+
+//         <div className="mt-10">
+//           <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center">
+//             Car Package Details
+//           </h2>
+//           <div className="mt-10 flex flex-col lg:flex-row gap-10">
+//             {/* Featured/Selected Car */}
+//             <div className="max-w-[550px] relative">
+//               <img
+//                 src={selectedCar.featuredImage}
+//                 alt={`Featured ${selectedCar.name}`}
+//                 className="rounded-[30px] relative"
+//               />
+//               <div className="bg-[#6CBF02] px-5 py-2 w-fit rounded-full absolute top-5 left-5">
+//                 <p className="text-2xl poppins-medium text-white">{selectedCar.price}</p>
+//               </div>
+//               <div className="absolute bottom-10 left-5">
+//                 <p className="text-2xl poppins-semibold text-white tracking-wide">
+//                   {selectedCar.name}
+//                 </p>
+//               </div>
+//             </div>
+
+//             {/* Car Options List */}
+//             <div className="w-full space-y-8">
+//               {Object.values(packageDetails.carOptions).map((car) => (
+//                 <div
+//                   key={car.id}
+//                   onClick={() => handleCarSelect(car)}
+//                   className={`flex justify-between w-full border-2 py-2 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${
+//                     selectedCar.id === car.id
+//                       ? 'border-[#6CBF02] bg-[#6CBF02]/10 shadow-md'
+//                       : 'border-gray-400 hover:border-[#6CBF02]/50'
+//                   }`}
+//                 >
+//                   <div className="">
+//                     <h2
+//                       className={`poppins-semibold text-[20px] ${
+//                         selectedCar.id === car.id ? 'text-[#6CBF02]' : ''
+//                       }`}
+//                     >
+//                       {car.name}
+//                     </h2>
+//                     <p className="poppins-medium text-[18px] opacity-75">{car.price}</p>
+//                   </div>
+//                   <div className="">
+//                     <img src={car.image} alt={`${car.name}_image`} className="md:w-40 w-20" />
+//                   </div>
+//                   {selectedCar.id === car.id && (
+//                     <div className="absolute right-2 top-2">
+//                       <div className="w-6 h-6 bg-[#6CBF02] rounded-full flex items-center justify-center">
+//                         <svg
+//                           className="w-4 h-4 text-white"
+//                           fill="currentColor"
+//                           viewBox="0 0 20 20"
+//                         >
+//                           <path
+//                             fillRule="evenodd"
+//                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+//                             clipRule="evenodd"
+//                           />
+//                         </svg>
+//                       </div>
+//                     </div>
+//                   )}
+//                 </div>
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+
+//         {/* Additional Content */}
+//         <div className="mt-10">
+//           <p className="poppins-medium opacity-80 leading-[30px] md:text-lg text-base text-justify">
+//             {packageDetails.additionalContent.content}
+//           </p>
+//         </div>
+//       </section>
+//       <Register />
+//     </div>
+//   );
+// }
+
+// export default Packagedetails;
+
+
+import React, { useState, useEffect } from 'react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import Register from './Register';
-import { Link } from 'react-router-dom';
+import packageService from '../data/packageService.json';
 
 function Packagedetails() {
-  // All data merged into a single object
-  const packageDetails = {
-    packageData: {
-      title: "Chennai Local Temple One Day Tour Package",
-      subtitle: "Choose your places and visit within the timeframe: 6.00 AM to 9.00 PM | Contact us for more details",
-    },
-    templeSection: {
-      id: 1,
-      title: "Kapaleeswarar Temple Park",
-      image: "/assets/images/Package/packageimage.jpg",
-      description: {
-        1: "If you are religious and are hoping to visit some beautiful temples, then Chennai should be the place for you. The temples here are an embodiment of the culture, customs and spirituality of the Hindu faith and are known for their rich mythology, traditions and the thousands of devotees who come here every year to catch a glimpse of these Gods and Goddesses.",
-        2: "Chennai Star Travels arranges Pilgrimage package tours that covering the temples in Chennai. Different packages are available at reasonable cost offering wide selection for the tourists. Chennai Star Travels arranges Tours in Chennai which include places of sightseeing and temples at an affordable cost. Embark on a journey that takes you to some of the most attractive destinations of Chennai with popular temples like Kapaleeshwarar Temple, Parthasarathy Temple,..",
-        3: "Our one-day local temple tour package in Chennai is a must for anyone looking for a spiritual experience that goes beyond just sightseeing. It is an opportunity to immerse you in the rich cultural heritage of Chennai and to gain a deeper understanding of the city's spiritual traditions. Our expert guides are well-versed in the history, architecture, and spiritual significance of each temple, providing you with an unforgettable experience that will leave you feeling renewed and rejuvenated. Join us on this journey of spiritual discovery and explore the rich cultural heritage of Chennai.",
-      },
-    },
-    carBookingSection: {
-      title: "Kapaleeswarar Temple Park",
-      featuredCar: {
-        image: "/assets/images/Package/packagecar.png",
-        price: "₹ 2000",
-        name: "Swift Dzire (4+1)",
-      },
-    },
-    carOptions: {
-      1: {
-        id: 1,
-        name: "Etios (4+1)",
-        price: "₹3000",
-        image: "/assets/images/Package/car.png",
-        featuredImage: "/assets/images/Package/packagecar.png",
-      },
-      2: {
-        id: 2,
-        name: "Swift Dzire (4+1)",
-        price: "₹2000",
-        image: "/assets/images/Package/car.png",
-        featuredImage: "/assets/images/Package/packagecar.png",
-      },
-      3: {
-        id: 3,
-        name: "Xylo (7+1)",
-        price: "₹4000",
-        image: "/assets/images/Package/car.png",
-        featuredImage: "/assets/images/Package/packagecar.png",
-      },
-    },
-    additionalContent: {
-      content:
-        "Traveling to a new destination is an adventure that is often filled with excitement, new experiences, and endless possibilities. However, it can also be a stressful experience, particularly if you're unfamiliar with the area and don't have reliable transportation. The last thing you want to do is to get lost, spend hours searching for parking, or miss out on important landmarks or attractions because you're unsure of how to get there.",
-    },
-  };
+  const { packageId } = useParams(); 
+  const navigate = useNavigate();
+  const [packageDetails, setPackageDetails] = useState(null);
+  const [selectedCar, setSelectedCar] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  // State for selected car (default to first car)
-  const [selectedCar, setSelectedCar] = useState(packageDetails.carOptions[1]);
+  useEffect(() => {
+    try {
+      const details = packageService.packageDetails[packageId];
+      
+      if (details) {
+        setPackageDetails(details);
+        const firstCar = Object.values(details.carOptions)[0];
+        setSelectedCar(firstCar);
+      } else {
+        setError('Package not found');
+        console.log(packageId)
+      }
+    } catch (err) {
+      console.error('Error loading package details:', err);
+      setError('Error loading package details');
+    }
+    setLoading(false);
+  }, [packageId]);
 
-  // Handle car selection
   const handleCarSelect = (car) => {
     setSelectedCar(car);
   };
 
+  const handleBack = () => {
+    const category = packageDetails.packageData.category;
+    navigate(`/packages?category=${category}`);
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex justify-center items-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-[#6CBF02] mx-auto mb-4"></div>
+          <div className="text-2xl text-[#6CBF02] poppins-medium">Loading package details...</div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex flex-col justify-center items-center">
+        <div className="text-center">
+          <h2 className="text-3xl text-red-600 mb-4 poppins-semibold">Package Not Found</h2>
+          <p className="text-lg text-gray-600 mb-6 poppins-medium">
+            The package you're looking for doesn't exist or has been moved.
+          </p>
+          <Link 
+            to="/packages" 
+            className="bg-[#6CBF02] hover:bg-[#5ba002] text-white px-6 py-3 rounded-full transition-colors duration-300 poppins-medium"
+          >
+            Back to Packages
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  if (!packageDetails) {
+    return (
+      <div className="min-h-screen flex flex-col justify-center items-center">
+        <div className="text-center">
+          <h2 className="text-3xl text-red-600 mb-4 poppins-semibold">Package Not Available</h2>
+          <p className="text-lg text-gray-600 mb-6 poppins-medium">
+            This package is currently not available for booking.
+          </p>
+          <Link 
+            to="/packages" 
+            className="bg-[#6CBF02] hover:bg-[#5ba002] text-white px-6 py-3 rounded-full transition-colors duration-300 poppins-medium"
+          >
+            Browse Other Packages
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="">
+      {/* Hero Section */}
       <div
         className="lg:h-90 h-70 relative bg-cover bg-center lg:mt-20 mt-5"
         style={{ backgroundImage: "url('/assets/images/About/allhero.png')" }}
@@ -375,41 +609,47 @@ function Packagedetails() {
             Package Details
           </h2>
           <div className="flex space-x-2">
-            <Link to="/packages">
-              <h2 className="md:text-[24px] text-[20px] poppins-medium text-white hover:text-[#FFC83E] duration-300">
-                Package
-              </h2>
-            </Link>
+            <button
+            onClick={handleBack}
+            className="md:text-[24px] cursor-pointer text-[20px] poppins-medium text-white hover:text-[#FFC83E] duration-300"
+          >
+            Back
+          </button>
             <h2 className="md:text-[24px] text-[20px] poppins-medium text-[#FFC83E]">
               <span className="text-white">/ </span>Package Details
             </h2>
           </div>
         </div>
       </div>
+
       <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
         {/* Package Header */}
-        <div className="">
-          <h2 className="text-xl md:text-2xl fondamento-regular text-center text-[#6CBF02] tracking-wide">
+        <div className="mb-10">
+          <h1 className="text-xl md:text-2xl fondamento-regular text-center text-[#6CBF02] tracking-wide">
             {packageDetails.packageData.title}
-          </h2>
-          <h2 className="text-lg poppins-medium opacity-75 mt-2 text-center">
-            {packageDetails.packageData.subtitle}
+          </h1>
+          <h2 className="text-lg poppins-medium opacity-75 mt-2 text-center max-w-7xl mx-auto">
+            {packageDetails.packageData.subtitle} | <Link to="/contact-us"><span className="text-[#6CBF02] underline">Contact Us More Deatils</span></Link>
           </h2>
         </div>
 
-        {/* Temple Section */}
+        {/* Main Content Section */}
         <div className="mt-10">
-          <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center">
+          <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center mb-6">
             {packageDetails.templeSection.title}
           </h2>
-          <div className="max-w-[700px] mx-auto">
+          
+          {/* Featured Image */}
+          <div className="max-w-[700px] mx-auto mb-8">
             <img
               src={packageDetails.templeSection.image}
-              alt="package"
-              className="rounded-[20px] mt-5"
+              alt={packageDetails.templeSection.title}
+              className="rounded-[20px] w-full shadow-lg"
             />
           </div>
-          <div className="space-y-3 mt-10">
+          
+          {/* Description */}
+          <div className="space-y-4 mt-10">
             {Object.values(packageDetails.templeSection.description).map((description, index) => (
               <p
                 key={index}
@@ -421,55 +661,66 @@ function Packagedetails() {
           </div>
         </div>
 
-        <div className="mt-10">
-          <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center">
-            Car Package Details
+        {/* Car Package Section */}
+        <div className="mt-16">
+          <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center mb-10">
+            {packageDetails.carBookingSection.title}
           </h2>
-          <div className="mt-10 flex flex-col lg:flex-row gap-10">
+          
+          <div className="flex flex-col lg:flex-row gap-10">
             {/* Featured/Selected Car */}
-            <div className="max-w-[550px] relative">
-              <img
-                src={selectedCar.featuredImage}
-                alt={`Featured ${selectedCar.name}`}
-                className="rounded-[30px] relative"
-              />
-              <div className="bg-[#6CBF02] px-5 py-2 w-fit rounded-full absolute top-5 left-5">
-                <p className="text-2xl poppins-medium text-white">{selectedCar.price}</p>
+              <div className="max-w-[550px] relative ">
+                <img
+                  src={selectedCar.featuredImage}
+                  alt={`Featured ${selectedCar.name}`}
+                  className="rounded-[30px] w-full shadow-[0_0_10px_rgba(0,0,0,0.15)]"
+                />
+                <div className="bg-[#6CBF02] px-5 py-2 rounded-full absolute top-5 left-5">
+                  <p className="text-2xl poppins-medium text-white">{selectedCar.price}</p>
+                </div>
+                <div className="absolute lg:bottom-25  bottom-5 left-5 bg-black bg-opacity-50 px-4 py-2 rounded-full">
+                  <p className="md:text-xl text-lg poppins-semibold text-white tracking-wide">
+                    {selectedCar.name}
+                  </p>
+                </div>
               </div>
-              <div className="absolute bottom-10 left-5">
-                <p className="text-2xl poppins-semibold text-white tracking-wide">
-                  {selectedCar.name}
-                </p>
-              </div>
-            </div>
 
             {/* Car Options List */}
             <div className="w-full space-y-8">
+              {/* <h3 className="text-xl poppins-semibold text-[#6CBF02] mb-4">
+                Choose Your Vehicle:
+              </h3> */}
               {Object.values(packageDetails.carOptions).map((car) => (
                 <div
                   key={car.id}
                   onClick={() => handleCarSelect(car)}
-                  className={`flex justify-between w-full border-2 py-2 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${
+                  className={`relative flex justify-between items-center w-full border-2 py-4 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${
                     selectedCar.id === car.id
                       ? 'border-[#6CBF02] bg-[#6CBF02]/10 shadow-md'
-                      : 'border-gray-400 hover:border-[#6CBF02]/50'
+                      : 'border-gray-300 hover:border-[#6CBF02]/50'
                   }`}
                 >
-                  <div className="">
-                    <h2
-                      className={`poppins-semibold text-[20px] ${
-                        selectedCar.id === car.id ? 'text-[#6CBF02]' : ''
+                  <div className="flex-1">
+                    <h4
+                      className={`poppins-semibold text-[18px] md:text-[20px] ${
+                        selectedCar.id === car.id ? 'text-[#6CBF02]' : 'text-gray-800'
                       }`}
                     >
                       {car.name}
-                    </h2>
-                    <p className="poppins-medium text-[18px] opacity-75">{car.price}</p>
+                    </h4>
+                    <p className="poppins-medium text-[16px] md:text-[18px] opacity-75 text-gray-600">
+                      {car.price}
+                    </p>
                   </div>
-                  <div className="">
-                    <img src={car.image} alt={`${car.name}_image`} className="md:w-40 w-20" />
-                  </div>
-                  {selectedCar.id === car.id && (
-                    <div className="absolute right-2 top-2">
+                  
+                  <div className="flex items-center gap-4">
+                    <img 
+                      src={car.image} 
+                      alt={`${car.name}_image`} 
+                      className="w-16 h-12 md:w-20 md:h-16 object-contain" 
+                    />
+                    
+                    {selectedCar.id === car.id && (
                       <div className="w-6 h-6 bg-[#6CBF02] rounded-full flex items-center justify-center">
                         <svg
                           className="w-4 h-4 text-white"
@@ -483,8 +734,8 @@ function Packagedetails() {
                           />
                         </svg>
                       </div>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
@@ -492,12 +743,20 @@ function Packagedetails() {
         </div>
 
         {/* Additional Content */}
-        <div className="mt-10">
-          <p className="poppins-medium opacity-80 leading-[30px] md:text-lg text-base text-justify">
-            {packageDetails.additionalContent.content}
-          </p>
+        <div className="mt-12">
+          <div className="bg-gray-50 rounded-[20px] p-6 md:p-8">
+            <h3 className="text-xl poppins-semibold text-[#6CBF02] mb-4">
+              About This Package
+            </h3>
+            <p className="poppins-medium opacity-80 leading-[30px] md:text-lg text-base text-justify">
+              {packageDetails.additionalContent.content}
+            </p>
+          </div>
         </div>
+
+       
       </section>
+      
       <Register />
     </div>
   );

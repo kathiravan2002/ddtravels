@@ -78,21 +78,21 @@ function Header() {
 
             <div className="">
                 <div className={`${scroll ? "bg-[#000000]  " : "bg-[#000000] "}    py-5 `}>
-                    <div className="max-w-[1553px] mx-auto px-2 flex justify-evenly">
+                    <div className="max-w-[1553px] mx-auto px-2 flex justify-evenly items-center">
                         <div className="max-w-full mx-auto w-full relative ">
                             <div className="w-full flex items-center">
-                                <div className=" flex items-center z-10 " >
+                                <div className=" flex items-center justify-center z-10 " >
                                     <div className=" " ></div>
                                     <Link to={'/'}>
                                         <div className="" >
 
                                             <div className="flex justify-center items-center">
-                                                {/* <img
-                                                src='/images/logo.png'
+                                                <img
+                                                src='/assets/images/Carr copy.png'
                                                 alt="Website Logo"
-                                                className=" lg:min-w-40 lg:w-48 min-w-28 w-28 select-none  "
-                                            /> */}
-                                                <h2 className="fondamento-regular md:text-[32px] text-[24px] text-[#6CBF02]">DD Travels</h2>
+                                                className="w-70 select-none  "
+                                            />
+                                                {/* <h2 className="fondamento-regular md:text-[32px] text-[24px] text-[#6CBF02]">DD Travels</h2> */}
                                             </div>
                                         </div>
                                     </Link>

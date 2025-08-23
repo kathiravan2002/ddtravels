@@ -1,0 +1,1687 @@
+{
+  "packageCategories": [
+    {
+      "id": "all",
+      "name": "All Packages"
+    },
+    {
+      "id": "local-tour",
+      "name": "Chennai Local Tour Packages"
+    },
+    {
+      "id": "temple-tour",
+      "name": "Chennai Urban Temples/Paadal Petra Shiva Sthalams/Divya Desam Temples One Day Tour Packages"
+    },
+    {
+      "id": "one-way",
+      "name": "One Way Drop Service"
+    },
+    {
+      "id": "car-rental",
+      "name": "Chennai Car Rental Package"
+    },
+    {
+      "id": "one-day",
+      "name": "One Day Tour Packages"
+    },
+    {
+      "id": "tn-temples",
+      "name": "Tamil Nadu Temples Tour Packages"
+    },
+    {
+      "id": "hill-station",
+      "name": "Hill Station Tour Packages"
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala Tour Packages"
+    },
+    {
+      "id": "andhra",
+      "name": "Andhra Tour Packages"
+    },
+    {
+      "id": "karnataka",
+      "name": "Karnataka Tour Packages"
+    }
+  ],
+  "packages": [
+    {
+      "id": "temple-tour-1",
+      "image": "/assets/images/Package/templetour1.jpg",
+      "title": "One-Day Spiritual Tour to Paadal Petra Shiva Sthalams",
+      "time": "6.00AM to 9.00PM",
+      "category": "temple-tour",
+      "description": "Explore sacred Paadal Petra Shiva Sthalams."
+    },
+    {
+      "id": "temple-tour-2",
+      "image": "/assets/images/Package/templetour2.jpg",
+      "title": "Divya Desam Temples – Exclusive One-Day Pilgrimage Tour",
+      "time": "6.00AM to 9.00PM",
+      "category": "temple-tour",
+      "description": "Visit renowned Divya Desam temples today."
+    },
+    {
+      "id": "temple-tour-3",
+      "image": "/assets/images/Package/templetour3.jpg",
+      "title": "Sacred Shiva Vishnu Temples – Day Tour Experience",
+      "time": "6.00AM to 9.00PM",
+      "category": "temple-tour",
+      "description": "Discover famous Shiva and Vishnu shrines."
+    },
+    {
+      "id": "temple-tour-4",
+      "image": "/assets/images/Package/templetour4.jpg",
+      "title": "Chennai Murugan Temples – Special One-Day Darshan Package",
+      "time": "6.00AM to 9.00PM",
+      "category": "temple-tour",
+      "description": "Seek blessings at divine Murugan temples."
+    },
+    {
+      "id": "temple-tour-5",
+      "image": "/assets/images/Package/templetour5.jpg",
+      "title": "Three Sakthi Temples Full Moon Day Pilgrimage Tour",
+      "time": "6.00AM to 9.00PM",
+      "category": "temple-tour",
+      "description": "Experience divine energy at Sakthi temples."
+    },
+    {
+      "id": "local-tour-1",
+      "image": "/assets/images/Package/localtour.png",
+      "title": "One-Day Chennai Temple Tour",
+      "time": "6.00AM to 9.00PM",
+      "category": "local-tour",
+      "description": "Explore Chennai’s famous temples in peace."
+    },
+    {
+      "id": "local-tour-2",
+      "image": "/assets/images/Package/localtour2.png",
+      "title": "One-Day Chennai Heritage & Culture Trip",
+      "time": "6.00AM to 9.00PM",
+      "category": "local-tour",
+      "description": "Discover Chennai’s heritage, monuments, and culture."
+    },
+    {
+      "id": "local-tour-3",
+      "image": "/assets/images/Package/localtour3.jpg",
+      "title": "One-Day Navagraha Temple Tour from Chennai",
+      "time": "6.00AM to 9.00PM",
+      "category": "local-tour",
+      "description": "Visit Navagraha temples for spiritual blessings."
+    },
+    {
+      "id": "car-rental-1",
+      "image": "/assets/images/Package/taxirental.jpg",
+      "title": "Taxi Rental Services – Chennai",
+      "time": "6.00AM to 9.00PM",
+      "category": "car-rental",
+      "description": "Reliable taxi rental services for your Chennai travel needs"
+    },
+    {
+      "id": "car-rental-2",
+      "image": "/assets/images/Package/hiretaxi.jpg",
+      "title": "Car Hire Packages for Chennai Trips",
+      "time": "6.00AM to 9.00PM",
+      "category": "car-rental",
+      "description": "Affordable car hire packages for all your Chennai trips"
+    },
+    {
+      "id": "car-rental-3",
+      "image": "/assets/images/Package/innova.png",
+      "title": "Innova Rental Deals in Chennai",
+      "time": "6.00AM to 9.00PM",
+      "category": "car-rental",
+      "description": "Premium Innova rental services with best deals"
+    },
+    {
+      "id": "car-rental-4",
+      "image": "/assets/images/Package/temple.jpg",
+      "title": "Temple Tour Traveller Packages – Chennai",
+      "time": "6.00AM to 9.00PM",
+      "category": "car-rental",
+      "description": "Spacious traveller packages specially for temple tours"
+    },
+    {
+      "id": "one-way-1",
+      "image": "/assets/images/Package/oneway.jpg",
+      "title": "One Way Drop Service",
+      "time": "As per requirement",
+      "category": "one-way",
+      "description": "Comfortable one-way drop service"
+    },
+    {
+      "id": "hill-station-1",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Ooty Hill Station Tour",
+      "time": "3 Days 2 Nights",
+      "category": "hill-station",
+      "description": "Experience the Queen of Hill Stations with our Ooty tour package"
+    },
+    {
+      "id": "hill-station-2",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Kodaikanal Hill Station Package",
+      "time": "2 Days 1 Night",
+      "category": "hill-station",
+      "description": "Enjoy the Princess of Hill Stations with scenic beauty"
+    },
+    {
+      "id": "kerala-1",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Kerala Backwater Tour",
+      "time": "4 Days 3 Nights",
+      "category": "kerala",
+      "description": "Explore the enchanting backwaters of Kerala"
+    },
+    {
+      "id": "kerala-2",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Munnar Tea Garden Tour",
+      "time": "3 Days 2 Nights",
+      "category": "kerala",
+      "description": "Discover the beautiful tea plantations of Munnar"
+    },
+    {
+      "id": "tn-temples-1",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Chennai to Trichy Temple Tour",
+      "time": "5 Days 4 Nights",
+      "category": "tn-temples",
+      "description": "Comprehensive temple tour covering major Tamil Nadu temples"
+    },
+    {
+      "id": "tn-temples-2",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Spiritual Chennai to Kumbakonam Trip",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-3",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Divine Chennai to Chidambaram Pilgrimage",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-4",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Heritage Chennai to Thanjavur Tour",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-5",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Sacred Chennai to Thiruvarur Journey",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-6",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Temple City Chennai to Madurai Tour",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-7",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Historic Chennai to Pudukkottai Day Trip",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-8",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Chennai to Rameshwaram Spiritual Journey",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-9",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Cultural Chennai to Karur Day Tour",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-10",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Chennai to Erode Heritage Visit",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-11",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Chennai to Coimbatore One-Day Tour",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "tn-temples-12",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Chennai to Tirunelveli Temple Darshan Trip",
+      "time": "3 Days 2 Nights",
+      "category": "tn-temples",
+      "description": "Explore the magnificent Chola dynasty temples"
+    },
+    {
+      "id": "andhra-1",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Tirupati One Day Tour",
+      "time": "4.00AM to 11.00PM",
+      "category": "andhra",
+      "description": "Sacred journey to Lord Venkateswara Temple"
+    },
+    {
+      "id": "andhra-2",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Srisailam Temple Tour",
+      "time": "2 Days 1 Night",
+      "category": "andhra",
+      "description": "Visit the famous Jyotirlinga temple at Srisailam"
+    },
+    {
+      "id": "karnataka-1",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Bangalore City Tour",
+      "time": "2 Days 1 Night",
+      "category": "karnataka",
+      "description": "Explore the Garden City of India"
+    },
+    {
+      "id": "karnataka-2",
+      "image": "/assets/images/Package/packageimage.jpg",
+      "title": "Mysore Palace Tour",
+      "time": "2 Days 1 Night",
+      "category": "karnataka",
+      "description": "Visit the magnificent Mysore Palace and surrounding attractions"
+    },
+    {
+      "id": "one-day-1",
+      "image": "/assets/images/Package/oneday1.jpg",
+      "title": "Chennai to Mahabalipuram One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Explore rock-cut temples and ancient carvings."
+    },
+    {
+      "id": "one-day-2",
+      "image": "/assets/images/Package/oneday2.jpg",
+      "title": "Chennai to Kanchipuram One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Discover temples, silk sarees, and traditions."
+    },
+    {
+      "id": "one-day-3",
+      "image": "/assets/images/Package/oneday3.png",
+      "title": "Chennai to Kanchipuram Divya Desam Temples One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Visit sacred Divya Desam temples today."
+    },
+    {
+      "id": "one-day-4",
+      "image": "/assets/images/Package/oneday4.jpg",
+      "title": "Chennai to Tirupati One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Seek blessings at Lord Venkateswara Temple."
+    },
+    {
+      "id": "one-day-5",
+      "image": "/assets/images/Package/oneday5.jpg",
+      "title": "Chennai to Sri Kalahasti One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Perform Rahu-Ketu pooja, divine experience."
+    },
+    {
+      "id": "one-day-6",
+      "image": "/assets/images/Package/oneday6.jpg",
+      "title": "Chennai to Ahobilam One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Worship Lord Narasimha amidst scenic hills."
+    },
+    {
+      "id": "one-day-7",
+      "image": "/assets/images/Package/oneday7.jpg",
+      "title": "Chennai to Srisailam One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Jyotirlinga temple visit with divine serenity."
+    },
+    {
+      "id": "one-day-8",
+      "image": "/assets/images/Package/oneday8.jpg",
+      "title": "Chennai to Vellore Golden Temple One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Admire magnificent golden temple’s divine beauty."
+    },
+    {
+      "id": "one-day-9",
+      "image": "/assets/images/Package/oneday9.jpg",
+      "title": "Chennai to Sholingur One-Day Tour Package",
+      "time": "6.00AM to 8.00PM",
+      "category": "one-day",
+      "description": "Climb sacred hills, visit Narasimha temple."
+    }
+  ],
+  "packageDetails": {
+    "car-rental-1": {
+      "id": "car-rental-1",
+      "packageData": {
+        "title": "Taxi Rental Services - Chennai",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM ",
+        "category": "car-rental"
+      },
+      "templeSection": {
+        "title": "Premium Car Rental Services",
+        "image": "/assets/images/Package/taxirental.jpg",
+        "description": {
+          "1": "Divya Desan Travels provides trusted taxi and car rental services in Chennai, offering safe and convenient travel for all occasions. Whether you require a vehicle for airport transfers, family outings, local sightseeing, temple tours, or outstation trips, we ensure a smooth and comfortable ride with our professional chauffeurs.",
+          "2": "Our fleet includes popular models such as Swift, Etios, Innova, and Crysta, along with spacious Tempo Travellers for group travel. Every vehicle is well-maintained, clean, and equipped to give you a safe and pleasant travel experience. Our drivers are experienced, courteous, and familiar with both local and outstation routes.",
+          "3": "We offer flexible travel packages including hourly rentals, one-day trips, temple tour packages, and customized South India tours. With transparent pricing, reliable service, and round-the-clock support, Divya Desan Travels is your trusted partner for hassle-free car rentals in Chennai. Book with us and make every journey memorable."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹1000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Our car rental packages are designed to give you the perfect blend of comfort, safety, and affordability. With well-maintained vehicles like Swift, Etios, Innova, and Crysta, along with professional chauffeurs, we make every trip smooth and worry-free. Choose Divya Desan Travels for reliable car rentals in Chennai and enjoy a hassle-free journey."
+      }
+    },
+    "car-rental-2": {
+      "id": "car-rental-2",
+      "packageData": {
+        "title": "Car Hire Packages for Chennai Trips",
+        "subtitle": "Choose your favorite Places and visit. 8 Hours / 80 Kms ",
+        "category": "car-rental"
+      },
+      "templeSection": {
+        "title": "Premium Car Rental Services",
+        "image": "/assets/images/Package/hiretaxi.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers convenient and affordable car hire packages in Chennai, designed to make your travel simple and stress-free. Whether you need a car for business, airport transfers, local sightseeing, temple tours, or long outstation trips, we provide reliable service with professional drivers.",
+          "2": "Our fleet features comfortable and well-maintained cars such as Swift, Etios, Innova, and Crysta, along with spacious Tempo Travellers for groups. Each vehicle is fully serviced, clean, and equipped for a smooth ride, while our experienced chauffeurs ensure safe and punctual travel within Chennai and beyond.",
+          "3": "We provide flexible rental options including hourly plans, one-day packages, and customized multi-day tours. With transparent pricing, dedicated service, and 24/7 support, Divya Desan Travels makes car hire in Chennai easy and dependable. Choose us for your trips and experience comfort, safety, and peace of mind on every journey."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Our Chennai car hire packages are tailored to meet the needs of every traveler, whether it’s for local sightseeing, business meetings, or outstation journeys. We provide well-maintained cars including Swift, Etios, Innova, and Crysta, driven by experienced chauffeurs to ensure safety and comfort. With affordable rates and reliable service, Divya Desan Travels makes every trip in and around Chennai a pleasant experience."
+      }
+    },
+    "car-rental-3": {
+      "id": "car-rental-3",
+      "packageData": {
+        "title": "Innova Car Hire Packages in Chennai",
+        "subtitle": "Travel your way – 8 Hours / 80 Kms of Comfortable Ride",
+        "category": "car-rental"
+      },
+      "templeSection": {
+        "title": "Reliable & Comfortable Car Rentals",
+        "image": "/assets/images/Package/innova.png",
+        "description": {
+          "1": "Divya Desan Travels brings you the best Innova car hire packages in Chennai, designed for comfort, convenience, and affordability. Whether you’re planning a family trip, a business ride, airport transfers, or weekend getaways, our services are crafted to suit every need.",
+          "2": "Our fleet includes a wide range of vehicles such as Swift Dzire, Etios, Innova, Crysta, and Tempo Travellers for larger groups. Every car is kept in excellent condition, fully sanitized, and driven by skilled chauffeurs to ensure a smooth and safe journey.",
+          "3": "Choose from flexible rental options like hourly plans, one-day packages, and customized multi-day trips. With transparent pricing, reliable service, and round-the-clock customer support, Divya Desan Travels guarantees a hassle-free travel experience every time."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Rental Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Our Innova rental packages in Chennai are perfect for families, corporate groups, and leisure travelers who value comfort and reliability. With clean vehicles, punctual drivers, and affordable pricing, Divya Desan Travels ensures that every trip—be it within Chennai or outstation—is a safe, enjoyable, and stress-free journey."
+      }
+    },
+    "car-rental-4": {
+      "id": "car-rental-4",
+      "packageData": {
+        "title": "Chennai Temple Tour Car Packages",
+        "subtitle": "Plan your temple visits comfortably from 6:00 AM to 9:00 PM",
+        "category": "car-rental"
+      },
+      "templeSection": {
+        "title": "Comfortable & Affordable Temple Tour Rentals",
+        "image": "/assets/images/Package/temple.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers specially curated temple tour car rental packages in Chennai, making your pilgrimage trips smooth and memorable. From visiting ancient shrines to exploring nearby holy destinations, our services ensure both comfort and reliability throughout your journey.",
+          "2": "We provide a variety of well-maintained vehicles including Swift Dzire, Etios, Innova, Crysta, and spacious Tempo Travellers for group travel. All cars are regularly serviced, sanitized, and driven by courteous chauffeurs to guarantee a safe and pleasant ride.",
+          "3": "Choose from flexible plans such as one-day temple tours, full-day sightseeing, or customized multi-day spiritual trips. With clear pricing, professional service, and 24/7 assistance, Divya Desan Travels is your trusted partner for temple tours in and around Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Temple Tour Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Our Chennai temple tour car rentals are perfect for families, devotees, and groups looking to explore sacred sites in comfort. With experienced drivers, punctual service, and affordable pricing, Divya Desan Travels makes every temple visit peaceful, safe, and spiritually fulfilling."
+      }
+    },
+    "temple-tour-1": {
+      "id": "temple-tour-1",
+      "packageData": {
+        "title": "One-Day Spiritual Tour to Paadal Petra Shiva Sthalams",
+        "subtitle": "Plan your divine journey within the timeframe: 6.00 AM to 9.00 PM",
+        "category": "temple-tour"
+      },
+      "templeSection": {
+        "title": "Kapaleeswarar Temple Visit",
+        "image": "/assets/images/Package/templetour1.jpg",
+        "description": {
+          "1": "Chennai is a treasure of divine architecture and timeless devotion. The Paadal Petra Shiva Sthalams are among the most sacred shrines, deeply rooted in Tamil Saiva tradition. Every temple narrates centuries of history, spiritual practices, and cultural heritage, attracting thousands of devotees who seek peace, blessings, and a deeper connection with their faith.",
+          "2": "Our spiritual day trip covers iconic temples in and around Chennai, including Kapaleeswarar Temple, Parthasarathy Temple, and other notable shrines. Divya Desan Travels ensures a comfortable pilgrimage experience with well-planned itineraries, affordable packages, and guided assistance, making your visit meaningful and memorable without any hassle.",
+          "3": "This one-day temple tour is not just a pilgrimage—it is a cultural journey into Chennai’s sacred roots. Our guides share valuable insights about each temple’s history, architecture, and spiritual significance, ensuring you gain both knowledge and blessings. Experience the harmony of tradition and devotion while traveling in comfort with our reliable service."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2000",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Traveling with us ensures a smooth and stress-free pilgrimage. You don’t need to worry about routes, parking, or missing temples. Our experienced drivers and carefully designed itineraries allow you to focus entirely on your spiritual journey. With Divya Desan Travels, every moment of your trip is comfortable, meaningful, and filled with divine blessings."
+      }
+    },
+    "temple-tour-2": {
+      "id": "temple-tour-2",
+      "packageData": {
+        "title": "Divya Desam Temples – Exclusive One-Day Pilgrimage Tour",
+        "subtitle": "Embark on a divine journey to sacred Divya Desam temples | Duration: 6.00 AM to 9.00 PM ",
+        "category": "temple-tour"
+      },
+      "templeSection": {
+        "title": "Divya Desam Temples Visit",
+        "image": "/assets/images/Package/templetour2.jpg",
+        "description": {
+          "1": "The 108 Divya Desam temples dedicated to Lord Vishnu hold a special place in the Vaishnavite tradition. Chennai and its surrounding areas are home to some of these ancient shrines, where devotees come to seek the blessings of the Almighty and immerse themselves in centuries of spiritual devotion.",
+          "2": "Our carefully designed one-day Divya Desam temple tour covers some of the most prominent temples such as Parthasarathy Temple (Triplicane), Sri Adikesava Perumal Temple, and other nearby shrines. With our comfortable vehicles and experienced guides, you can enjoy a seamless spiritual journey enriched with stories, traditions, and temple architecture.",
+          "3": "This pilgrimage is more than a temple visit—it is an opportunity to connect deeply with divinity, culture, and heritage. Whether you are a devotee or a cultural explorer, our tour ensures a meaningful experience filled with peace, devotion, and spiritual fulfillment."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2200",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2200",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2200",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        }
+      },
+      "additionalContent": {
+        "content": "With Divya Desan Travels, your Divya Desam temple tour becomes a stress-free spiritual retreat. Our professional drivers, flexible itineraries, and reliable services ensure that you don’t miss any important shrines. Sit back, relax, and let us guide you through a divine journey filled with devotion, comfort, and blessings."
+      }
+    },
+    "temple-tour-3": {
+      "id": "temple-tour-3",
+      "packageData": {
+        "title": "Sacred Shiva Vishnu Temples – Day Tour Experience",
+        "subtitle": "Embark on a divine journey across Chennai’s sacred Shiva and Vishnu temples | Duration: 6.00 AM to 9.00 PM",
+        "category": "temple-tour"
+      },
+      "templeSection": {
+        "title": "Sacred Temples Visit",
+        "image": "/assets/images/Package/templetour3.jpg",
+        "description": {
+          "1": "Chennai is home to some of the most revered Shiva and Vishnu temples, each carrying centuries of devotion, tradition, and cultural importance. From architectural wonders to divine sanctuaries, every temple offers a unique spiritual experience for devotees seeking blessings, peace, and a deeper connection with the divine.",
+          "2": "This one-day tour covers popular shrines such as Parthasarathy Temple, Kapaleeswarar Temple, and other prominent places of worship in and around Chennai. With experienced drivers, guided support, and comfortable travel, we ensure a seamless pilgrimage filled with devotion, learning, and cultural exploration at every step.",
+          "3": "More than a simple temple visit, this tour is a journey into faith and tradition. It allows you to immerse yourself in spirituality while enjoying the heritage and beauty of Chennai’s sacred sites. With our well-planned itinerary, your day is designed to be meaningful, enriching, and spiritually fulfilling."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2200",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2200",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2200",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        }
+      },
+      "additionalContent": {
+        "content": "With Divya Desan Travels, your temple tour becomes a stress-free spiritual retreat. Our professional drivers, flexible itineraries, and reliable services ensure you don’t miss important shrines. Sit back, relax, and let us guide you through a divine journey filled with devotion, comfort, and blessings."
+      }
+    },
+    "temple-tour-4": {
+      "id": "temple-tour-4",
+      "packageData": {
+        "title": "One-Day Special Chennai Murugan Temples Darshan Package",
+        "subtitle": "Experience divine blessings at Chennai’s most sacred Murugan temples | Duration: 6.00 AM to 9.00 PM",
+        "category": "temple-tour"
+      },
+      "templeSection": {
+        "title": "Murugan Temples Visit",
+        "image": "/assets/images/Package/templetour4.jpg",
+        "description": {
+          "1": "Chennai is home to many revered Murugan temples, each representing devotion, spiritual energy, and centuries of tradition. These sacred shrines are powerful centers of worship where devotees gather to seek blessings, courage, and divine grace from Lord Murugan.",
+          "2": "Our one-day darshan package includes visits to prominent Murugan temples in and around Chennai, ensuring a fulfilling spiritual experience. With carefully planned itineraries, comfortable vehicles, and guided assistance, your pilgrimage is designed to be smooth, meaningful, and enriching.",
+          "3": "This tour is more than a visit—it’s a journey of faith, devotion, and cultural heritage. Along the way, you’ll experience the architectural beauty, religious significance, and spiritual atmosphere of each temple, making your day both memorable and soul-enriching."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2200",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2200",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2200",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        }
+      },
+      "additionalContent": {
+        "content": "With Divya Desan Travels, your Murugan temple tour becomes a truly divine journey. Our expert drivers, flexible itineraries, and reliable services allow you to focus on devotion while we handle the travel arrangements. Relax and immerse yourself in a day filled with blessings, comfort, and spiritual fulfillment."
+      }
+    },
+    "temple-tour-5": {
+      "id": "temple-tour-5",
+      "packageData": {
+        "title": "Three Sakthi Temples Full Moon Day Pilgrimage Tour",
+        "subtitle": "Seek divine energy at the powerful Sakthi temples on a blessed Pournami day | Duration: 6.00 AM to 9.00 PM",
+        "category": "temple-tour"
+      },
+      "templeSection": {
+        "title": "Sacred Sakthi Temples Visit",
+        "image": "/assets/images/Package/templetour5.jpg",
+        "description": {
+          "1": "The Three Sakthi Temples hold immense spiritual importance, especially on Full Moon (Pournami) days when thousands of devotees undertake this sacred pilgrimage. These shrines are believed to radiate divine feminine energy, offering blessings of health, prosperity, and spiritual upliftment to all who visit.",
+          "2": "This one-day pilgrimage package by Divya Desan Travels covers the renowned Sakthi temples in and around Chennai with utmost devotion and comfort. Our schedule ensures ample time for darshan, prayer, and exploration of the temple architecture and cultural traditions that surround these divine places.",
+          "3": "Designed to be more than a simple temple visit, this full moon day tour is a soulful journey into faith and divine energy. With our dedicated service, professional drivers, and seamless travel arrangements, your day becomes a spiritually enriching experience filled with devotion, peace, and fulfillment."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2200",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2200",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2200",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        }
+      },
+      "additionalContent": {
+        "content": "At Divya Desan Travels, we make your Sakthi temple pilgrimage serene and memorable. On auspicious Pournami days, our expert planning ensures smooth darshan at each temple. With reliable cars, professional drivers, and thoughtful itineraries, you can fully immerse in devotion while we take care of your comfort and travel needs."
+      }
+    },
+    "local-tour-1": {
+      "id": "local-tour-1",
+      "packageData": {
+        "title": "One-Day Chennai Temple Tour",
+        "subtitle": "A spiritual day trip across Chennai’s famous temples from 6.00 AM to 9.00 PM",
+        "category": "local-tour"
+      },
+      "templeSection": {
+        "title": "Chennai Temple Experience",
+        "image": "/assets/images/Package/localtour.png",
+        "description": {
+          "1": "Chennai is home to some of South India’s most renowned temples, blending spirituality with centuries of tradition. This one-day temple tour is designed for devotees and travelers who wish to seek blessings and experience the city’s divine heritage in a single trip.",
+          "2": "The itinerary covers sacred shrines such as Kapaleeshwarar Temple at Mylapore, Parthasarathy Temple in Triplicane, Vadapalani Murugan Temple, and Ashtalakshmi Temple near Besant Nagar Beach. Each temple has its own unique history and cultural significance, offering a memorable spiritual experience.",
+          "3": "Perfect for pilgrims and first-time visitors, this full-day Chennai temple tour provides a comfortable journey with professional chauffeurs, ensuring you have ample time for worship, exploration, and photography while enjoying the divine atmosphere of Chennai’s holy landmarks."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova Crysta (7+1)",
+          "price": "₹2600",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai temple package is ideal for those who wish to explore the city’s most famous temples in comfort and peace. With well-maintained cars, flexible timing, and professional chauffeurs, Divya Desan Travels ensures your spiritual journey is safe, smooth, and fulfilling."
+      }
+    },
+    "local-tour-2": {
+      "id": "local-tour-2",
+      "packageData": {
+        "title": "One-Day Chennai Heritage & Culture Trip",
+        "subtitle": "Discover Chennai’s heritage, history, and culture in a single day from 6.00 AM to 9.00 PM",
+        "category": "local-tour"
+      },
+      "templeSection": {
+        "title": "Chennai Heritage Experience",
+        "image": "/assets/images/Package/localtour2.png",
+        "description": {
+          "1": "Chennai is a city that beautifully combines history, tradition, and modernity. This one-day heritage and culture trip is designed for travelers who want to explore the cultural landmarks and historical treasures of this vibrant city.",
+          "2": "The itinerary includes visits to Marina Beach, San Thome Basilica, Fort St. George, Government Museum, Vivekananda House, and other heritage spots that showcase Chennai’s colonial past and cultural richness.",
+          "3": "Perfect for history lovers and culture enthusiasts, this guided trip provides a comfortable and informative experience, allowing you to immerse yourself in Chennai’s unique blend of architecture, tradition, and modern lifestyle."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova Crysta (7+1)",
+          "price": "₹2600",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai heritage and culture package is ideal for travelers who want to experience the city’s history, colonial landmarks, cultural hubs, and seaside beauty in comfort. Divya Desan Travels ensures a memorable journey with reliable cars, flexible schedules, and professional chauffeurs."
+      }
+    },
+    "local-tour-3": {
+      "id": "local-tour-3",
+      "packageData": {
+        "title": "One-Day Navagraha Temple Tour from Chennai",
+        "subtitle": "Visit the sacred Navagraha temples in and around Chennai with a spiritual journey from 6:00 AM to 9:00 PM",
+        "category": "local-tour"
+      },
+      "templeSection": {
+        "title": "Spiritual Highlights",
+        "image": "/assets/images/Package/localtour3.jpg",
+        "description": {
+          "1": "This one-day Navagraha temple tour is specially designed for devotees seeking divine blessings and spiritual peace. Starting from Chennai, the trip covers the important Navagraha shrines revered in Hindu tradition.",
+          "2": "The itinerary includes visits to temples dedicated to the nine planetary deities, where each shrine is believed to remove obstacles and bring prosperity. Along the journey, you will also experience the cultural and religious significance of these holy sites.",
+          "3": "Ideal for pilgrims and spiritual seekers, this guided tour offers a comfortable and devotional experience with well-planned travel, allowing you to focus on prayer and inner peace."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Rental Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova Crysta (7+1)",
+          "price": "₹2600",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Navagraha Temple tour package is perfect for devotees wishing to seek blessings from the nine planetary deities. With Divya Desan Travels, enjoy a peaceful spiritual journey supported by clean cars, flexible schedules, and experienced drivers who ensure your comfort and devotion throughout the trip."
+      }
+    },
+    "one-way-1": {
+      "id": "one-way-1",
+      "packageData": {
+        "title": "One Way Drop Service",
+        "subtitle": "Easy one-way travel | Flexible timings | Safe & reliable rides",
+        "category": "one-way"
+      },
+      "templeSection": {
+        "title": "Chennai to Pondicherry One Way Service",
+        "image": "/assets/images/Package/oneway.jpg",
+        "description": {
+          "1": "Our Chennai to Pondicherry one-way cab service is designed for travelers who want a convenient, private, and affordable journey. Whether you are heading to Pondicherry for a holiday, a family visit, or business purposes, we ensure a smooth and enjoyable ride.",
+          "2": "The distance between Chennai and Pondicherry is around 160 kilometers, and the travel time usually takes 3.5 to 4 hours depending on the chosen route and traffic. Our experienced drivers know the best routes, including the scenic East Coast Road (ECR), to provide you with a safe and comfortable trip. Pickup is available from any location in Chennai with drop at your preferred destination in Pondicherry.",
+          "3": "Our service removes the stress of arranging return travel and gives you flexibility at the best price. All our cars come with air conditioning, comfortable seating, and essential safety features. Transparent pricing, professional drivers, and 24/7 customer assistance make this service a reliable option for intercity travel."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 3600",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova Crysta (7+1)",
+          "price": "₹2600",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels provides a comfortable and budget-friendly Chennai to Pondicherry one-way drop taxi service. With skilled drivers, well-maintained vehicles, and flexible timings, we make your journey convenient and enjoyable. Choose Divya Desan Travels for a safe and smooth ride to Pondicherry."
+      }
+    },
+    "one-day-1": {
+      "id": "one-day-1",
+      "packageData": {
+        "title": "Chennai to Mahabalipuram One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Explore Mahabalipuram with Comfort",
+        "image": "/assets/images/Package/oneday1.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers a dedicated one-day trip from Chennai to Mahabalipuram, designed for travelers who wish to explore the UNESCO World Heritage monuments, ancient temples, and scenic beaches. Enjoy a seamless journey with our professional drivers and well-maintained vehicles.",
+          "2": "The tour covers iconic attractions such as Shore Temple, Arjuna’s Penance, Pancha Rathas, Mahabalipuram Lighthouse, and Krishna’s Butterball. Whether you are a history enthusiast, a devotee, or simply seeking a coastal getaway, this trip is crafted to offer a memorable experience.",
+          "3": "Choose from our range of vehicles like Swift Dzire, Etios, Innova, or Tempo Traveller for group travel. With affordable pricing, comfortable rides, and hassle-free bookings, Divya Desan Travels ensures your Chennai to Mahabalipuram journey is enriching and enjoyable."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹1000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Mahabalipuram tour is ideal for families, friends, and tourists looking to experience South India’s ancient art and seaside charm. With Divya Desan Travels, enjoy a comfortable ride, visit famous heritage spots, and return with unforgettable memories."
+      }
+    },
+    "one-day-2": {
+      "id": "one-day-2",
+      "packageData": {
+        "title": "Chennai to Kanchipuram One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Discover the Temple City of Kanchipuram",
+        "image": "/assets/images/Package/oneday2.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers a specially curated one-day trip from Chennai to Kanchipuram, perfect for travelers seeking to explore the rich cultural and spiritual heritage of the temple city. Travel with ease in our well-maintained vehicles and enjoy a hassle-free experience.",
+          "2": "The tour covers Kanchipuram’s most famous temples such as Ekambareswarar Temple, Kailasanathar Temple, Kamakshi Amman Temple, and Varadaraja Perumal Temple. Apart from its spiritual significance, Kanchipuram is also renowned for its world-famous silk sarees.",
+          "3": "Choose from a wide range of vehicles including Swift Dzire, Etios, Innova, or Tempo Traveller for group travel. With affordable packages, comfortable rides, and professional chauffeurs, Divya Desan Travels ensures your Chennai to Kanchipuram trip is both memorable and convenient."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹1000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Kanchipuram tour is ideal for families, pilgrims, and tourists who wish to explore the ancient temples and cultural heritage of the city. With Divya Desan Travels, enjoy a peaceful ride, visit iconic spiritual landmarks, and return with enriching experiences."
+      }
+    },
+    "one-day-3": {
+      "id": "one-day-3",
+      "packageData": {
+        "title": "Chennai to Kanchipuram Divya Desam Temples One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Discover the Temple City of Kanchipuram",
+        "image": "/assets/images/Package/oneday3.png",
+        "description": {
+          "1": "Divya Desan Travels presents a one-day trip from Chennai to Kanchipuram, specially designed for devotees and travelers who wish to explore the sacred Divya Desam temples along with other historic shrines. Experience a smooth and comfortable journey in our premium vehicles.",
+          "2": "This tour covers prominent temples including Varadaraja Perumal Temple (Divya Desam), Deepa Prakasa Perumal Temple (Divya Desam), Ashtabujakaram Perumal Temple (Divya Desam), Ekambareswarar Temple, Kamakshi Amman Temple, and Kailasanathar Temple. Apart from its spiritual significance, Kanchipuram is also world-famous for its exquisite silk sarees.",
+          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller for your travel needs. With affordable packages, professional chauffeurs, and flexible timings, Divya Desan Travels ensures your Chennai to Kanchipuram journey is both divine and delightful."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹2000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹1000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹2400",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Kanchipuram Divya Desam temples tour is ideal for devotees, families, and tourists looking for a spiritual retreat. With Divya Desan Travels, experience a hassle-free ride, visit ancient temples, and create everlasting memories."
+      }
+    },
+    "one-day-4": {
+      "id": "one-day-4",
+      "packageData": {
+        "title": "Chennai to Tirupati One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 10.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Seek Blessings at Tirupati Balaji Temple",
+        "image": "/assets/images/Package/oneday4.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers a specially organized one-day trip from Chennai to Tirupati, designed for devotees who wish to have a smooth darshan of Lord Venkateswara and nearby temples. Enjoy a peaceful journey with our comfortable vehicles.",
+          "2": "The tour includes darshan at the world-renowned Tirumala Venkateswara Temple, along with visits to other sacred places such as Padmavathi Ammavari Temple, Govindaraja Swamy Temple, and Kapila Theertham. Our package ensures a divine spiritual experience for all pilgrims.",
+          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller depending on your group size. With affordable pricing, experienced drivers, and timely service, Divya Desan Travels makes your Chennai to Tirupati pilgrimage seamless and memorable."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹3000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹4000",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹4500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Tirupati tour is ideal for devotees seeking darshan of Lord Venkateswara. With Divya Desan Travels, enjoy a stress-free trip, spiritual blessings, and a comfortable return journey."
+      }
+    },
+    "one-day-5": {
+      "id": "one-day-5",
+      "packageData": {
+        "title": "Chennai to Sri Kalahasti One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 10.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Seek Blessings at Sri Kalahasti Temple",
+        "image": "/assets/images/Package/oneday5.jpg",
+        "description": {
+          "1": "Divya Desan Travels presents a one-day trip from Chennai to Sri Kalahasti, specially designed for devotees seeking the divine blessings of Lord Shiva, known here as Vayu Linga. Enjoy a peaceful and comfortable journey in our premium cars.",
+          "2": "This tour covers the sacred Sri Kalahasteeswara Temple, one of the Panchabhoota Sthalams representing the element of Air (Vayu). The temple is renowned for its Rahu-Ketu Pooja and powerful spiritual aura, attracting thousands of pilgrims every day.",
+          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your travel needs. With affordable pricing, skilled chauffeurs, and timely service, Divya Desan Travels ensures your Chennai to Sri Kalahasti journey is spiritually fulfilling and hassle-free."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹3000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹4000",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹4500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Sri Kalahasti trip is ideal for devotees seeking peace, Rahu-Ketu remedies, and divine blessings. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and a safe return."
+      }
+    },
+    "one-day-6": {
+      "id": "one-day-6",
+      "packageData": {
+        "title": "Chennai to Ahobilam One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 10.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Seek Blessings at Ahobilam Narasimha Swamy Temple",
+        "image": "/assets/images/Package/oneday6.jpg",
+        "description": {
+          "1": "Divya Desan Travels presents a one-day trip from Chennai to Ahobilam, a sacred site dedicated to Lord Narasimha. Experience a spiritually enriching journey with our comfortable and well-maintained vehicles.",
+          "2": "This tour covers the famous Ahobilam temples, believed to be the place where Lord Narasimha appeared to protect Prahlada. Pilgrims can visit both Upper and Lower Ahobilam, exploring the nine Narasimha shrines (Nava Narasimha).",
+          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your travel needs. With affordable pricing, skilled chauffeurs, and timely service, Divya Desan Travels ensures your Chennai to Ahobilam trip is comfortable, safe, and spiritually fulfilling."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹3000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹4000",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹4500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Ahobilam trip is perfect for devotees seeking the divine blessings of Lord Narasimha. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and a safe return."
+      }
+    },
+    "one-day-7": {
+      "id": "one-day-7",
+      "packageData": {
+        "title": "Chennai to Ahobilam One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 10.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Seek Blessings at Ahobilam Narasimha Swamy Temple",
+        "image": "/assets/images/Package/oneday7.jpg",
+        "description": {
+          "1": "Divya Desan Travels presents a one-day trip from Chennai to Ahobilam, a sacred site dedicated to Lord Narasimha. Experience a spiritually enriching journey with our comfortable and well-maintained vehicles.",
+          "2": "This tour covers the famous Ahobilam temples, believed to be the place where Lord Narasimha appeared to protect Prahlada. Pilgrims can visit both Upper and Lower Ahobilam, exploring the nine Narasimha shrines (Nava Narasimha).",
+          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your travel needs. With affordable pricing, skilled chauffeurs, and timely service, Divya Desan Travels ensures your Chennai to Ahobilam trip is comfortable, safe, and spiritually fulfilling."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹3000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹4000",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹4500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Ahobilam trip is perfect for devotees seeking the divine blessings of Lord Narasimha. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and a safe return."
+      }
+    },
+    "one-day-8": {
+      "id": "one-day-8",
+      "packageData": {
+        "title": "Chennai to Vellore Golden Temple One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 10.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Visit the Famous Vellore Golden Temple",
+        "image": "/assets/images/Package/oneday8.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers a one-day trip from Chennai to Vellore, home to the world-renowned Golden Temple (Sripuram), dedicated to Goddess Mahalakshmi. The temple is fully covered in gold, symbolizing spiritual wealth and devotion.",
+          "2": "This tour lets you experience the divinity of Sripuram Golden Temple, known for its serene environment, beautiful architecture, and positive vibrations. It is one of Tamil Nadu’s most visited spiritual destinations.",
+          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller for your trip. With affordable fares, professional drivers, and timely service, Divya Desan Travels ensures your Chennai to Vellore journey is convenient, safe, and fulfilling."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹3000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹4000",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹4500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Vellore Golden Temple trip is ideal for devotees seeking the blessings of Goddess Mahalakshmi. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and safe return."
+      }
+    },
+    "one-day-9": {
+      "id": "one-day-9",
+      "packageData": {
+        "title": "Chennai to Sholingur One-Day Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 10.00 PM",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Seek Blessings at Sholingur Narasimha Swamy Temple",
+        "image": "/assets/images/Package/oneday9.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers a one-day trip from Chennai to Sholingur, a famous hill temple dedicated to Lord Narasimha and Yoga Anjaneya. This ancient temple is known for its spiritual significance and breathtaking hilltop views.",
+          "2": "Pilgrims climb around 1,300 steps to reach the temple, experiencing both devotion and divine energy along the way. Sholingur is believed to bestow blessings of health, prosperity, and peace.",
+          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller for your trip. With affordable fares, professional drivers, and timely service, Divya Desan Travels ensures your Chennai to Sholingur journey is safe, comfortable, and spiritually fulfilling."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 2800",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹3000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹2800",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹4000",
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹4500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Sholingur trip is perfect for devotees seeking the divine blessings of Lord Narasimha and Yoga Anjaneya. With Divya Desan Travels, enjoy a spiritual journey, hilltop darshan, and safe return."
+      }
+    },
+    "hill-station-1": {
+      "id": "hill-station-1",
+      "packageData": {
+        "title": "Ooty Hill Station Tour",
+        "subtitle": "Experience the Queen of Hill Stations | Duration: 3 Days 2 Nights | Includes accommodation and sightseeing",
+        "category": "hill-station"
+      },
+      "templeSection": {
+        "title": "Ooty - Queen of Hill Stations",
+        "image": "/assets/images/Package/packageimage.jpg",
+        "description": {
+          "1": "Ooty, officially known as Udhagamandalam, is one of the most popular hill stations in South India. Nestled in the Nilgiri Hills at an altitude of 2,240 meters, Ooty offers a perfect escape from the heat and hustle of city life. Known for its pleasant climate, scenic beauty, and colonial charm, Ooty is often referred to as the 'Queen of Hill Stations'.",
+          "2": "Our 3-day Ooty tour package includes visits to all major attractions including the famous Ooty Lake, Botanical Gardens, Rose Garden, Doddabetta Peak (highest point in the Nilgiris), and the heritage Nilgiri Mountain Railway. You'll also get to experience the tea gardens, eucalyptus forests, and stunning viewpoints that make Ooty a photographer's paradise.",
+          "3": "The package includes comfortable accommodation in quality hotels, all meals, transportation, and guided sightseeing tours. Our experienced tour guides will share interesting facts about the region's history, flora, and fauna. This tour is perfect for families, couples, and nature lovers seeking a refreshing break in the lap of nature."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 12000",
+          "name": "Swift Dzire (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios (4+1)",
+          "price": "₹14000",
+          "image": "/assets/images/Package/car.png",
+          "featuredImage": "/assets/images/Package/packagecar.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire (4+1)",
+          "price": "₹12000",
+          "image": "/assets/images/Package/car.png",
+          "featuredImage": "/assets/images/Package/packagecar.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Xylo (7+1)",
+          "price": "₹16000",
+          "image": "/assets/images/Package/car.png",
+          "featuredImage": "/assets/images/Package/packagecar.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova (7+1)",
+          "price": "₹18000",
+          "image": "/assets/images/Package/car.png",
+          "featuredImage": "/assets/images/Package/packagecar.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Our Ooty hill station tour offers the perfect blend of natural beauty, pleasant climate, and comfortable accommodations. Whether you're looking for a romantic getaway, a family vacation, or simply a peaceful retreat in nature, this package provides everything you need for a memorable hill station experience in the Nilgiris."
+      }
+    }
+  }
+}

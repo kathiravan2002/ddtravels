@@ -59,18 +59,18 @@ function About() {
             <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
                 <div className="">
                     <div className="mt-2 flex lg:flex-row xl:gap-20 gap-10 flex-col-reverse justify-center items-center ">
-                        <div className="space-y-2 flex-70" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                        <div className="space-y-2 flex-70" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                             <h2 className="text-[#FFB600] fondamento-regular-italic md:text-[32px] text-[32px]">Get To Know Us</h2>
                             <h2 className="text-[#6CBF02] poppins-medium  text-[24px] ">We are Car Rental Provider for Tours and Travel</h2>
-                            <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">We,<span className="text-[#6CBF02]"> Divya Desan </span> Travels is one of the leading travel agencies in Chennai. We are one of the successful entrepreneurs in car rental and car hire services in Chennai since 2010. We operate travels for five various travel packages, First one is Chennai Local trips, Second one is Chennai Temple Packages, Third one is Chennai urban trips, Fourth one is South India Tours from Chennai and last one is Hill station tours and travel packages.</p>
-                            <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">We provide all sorts for luxury vehicles such as Indica, Indigo, Swift, Etios, Innova and Tavera for car rental in Chennai. We offer temple tour packages, one-day sight-seeing in and around chennai city, holiday tour packages, corporate tour packages, students tour packages and south india tour packages etc..</p>
+                            <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">Welcome to <span className="text-[#6CBF02]"> Divya Desan Travels</span> your trusted travel companion in Chennai since 2018. We are dedicated to offering safe, reliable, and comfortable travel experiences for families, devotees, corporates, and holiday seekers. Our services include Chennai local trips, temple tours, South India tours, and hill station getaways, covering destinations like Kanchipuram, Mahabalipuram, Tirupati, Sri Kalahasti, Ahobilam, Srisailam, Vellore, and Sholingur.</p>
+                            <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">At Divya Desan Travels, we believe every journey should create lasting memories filled with comfort and peace of mind. To ensure a smooth and enjoyable trip, we provide well-maintained Innova Crysta, Swift, Etios, and sedans driven by professional chauffeurs. With our commitment to quality service, we continue to make travel easy, safe, and memorable for every customer we serve.</p>
                             <div className="flex gap-5 xl:flex-row flex-col mt-4">
-                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/honesty.png' alt='trusted' className='w-16' data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000"/>Trusted Travel Partner </p>
-                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/travel.png' alt='map' className='w-12' data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000"/>Local & Outstation Tour Packages </p>
-                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/car.png' alt='car' className='w-18 -rotate-y-180' data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000"/> Wide Range of Vehicles </p>
+                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/honesty.png' alt='trusted' className='md:w-16 w-12' />Trusted Travel Partner </p>
+                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/travel.png' alt='map' className='md:w-16 w-12' />Local & Outstation Tour Packages </p>
+                                <p className="text-[18px] tracking-wide poppins-medium opacity-75 flex gap-4  items-center"> <img src='/assets/images/About/car.png' alt='car' className='md:w-16 w-12 -rotate-y-180' /> Wide Range of Vehicles </p>
                             </div>
                         </div>
-                        <div className="max-w-[480px] mx-auto " data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"><img src="/assets/images/About/about.png" alt="aboutus" className="" /></div>
+                        <div className="max-w-[480px] mx-auto " data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000"><img src="/assets/images/About/about.png" alt="aboutus" className="" /></div>
                     </div>
                 </div>
             </section>
@@ -98,7 +98,7 @@ function About() {
 
                     <div className="flex flex-col items-center text-center">
                         <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold">
-                            {inView ? <CountUp start={0} end={5} duration={3} suffix="+" /> : '0+'}</p>
+                            {inView ? <CountUp start={0} end={7} duration={3} suffix="+" /> : '0+'}</p>
                         <p className="text-[#121C27] text-[14px]  md:text-[18px]  poppins-bold opacity-75">
                             Years of Experience
                         </p>
@@ -136,7 +136,7 @@ function About() {
                 <div className="grid lg:grid-cols-3 grid-cols-1 mt-10">
 
                     <div className="grid grid-cols-1 gap-10 ">
-                        <div className="bg-[#C8FF9E] px-5 py-2 flex gap-5 lg:flex-row flex-col-reverse rounded-[10px] items-center">
+                        <div className="bg-[#C8FF9E] px-5 py-2 flex gap-5 lg:flex-row flex-col-reverse rounded-[10px] items-center" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                             <div className="space-y-2 flex-70">
                                 <h2 className="poppins-semibold text-[20px] lg:text-end text-center">24/7 Support</h2>
                                 <p className="poppins-medium text-base text-justify leading-relaxed">Travel with confidence knowing our team is available around the clock. Day or night, we're here to help  - whenever you need us.</p>
@@ -145,7 +145,7 @@ function About() {
                                 <img src="/assets/images/About/support.png" alt="support" className="w-[65px]" />
                             </div>
                         </div>
-                        <div className="bg-[#FFE196] px-5 py-2 flex gap-5 lg:flex-row flex-col-reverse items-center rounded-[10px] relative  2xl:right-20">
+                        <div className="bg-[#FFE196] px-5 py-2 flex gap-5 lg:flex-row flex-col-reverse items-center rounded-[10px] relative  2xl:right-20" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                             <div className="space-y-2 flex-70">
                                 <h2 className="poppins-semibold text-[20px] lg:text-end text-center">1000+ Happy Travelers</h2>
                                 <p className="poppins-medium text-base text-justify leading-relaxed">Join our growing family of satisfied explorers who trust us for unforgettable travel experiences.</p>
@@ -163,16 +163,16 @@ function About() {
 
 
                     <div className="grid grid-cols-1 gap-10 ">
-                        <div className="bg-[#FFE196] px-5 py-2 flex gap-5 lg:flex-row flex-col items-center rounded-[10px] ">
+                        <div className="bg-[#FFE196] px-5 py-2 flex gap-5 lg:flex-row flex-col items-center rounded-[10px] " data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                             <div className="flex items-center">
                                 <img src="/assets/images/About/experience.png" alt="support" className="w-[65px]" />
                             </div>
                             <div className="space-y-2 flex-70">
-                                <h2 className="poppins-semibold text-[20px] lg:text-start text-center">5+ Years of Experience</h2>
+                                <h2 className="poppins-semibold text-[20px] lg:text-start text-center">7+ Years of Experience</h2>
                                 <p className="poppins-medium text-base text-justify leading-relaxed">With over five years in the travel industry, we’ve mastered the art of planning seamless and memorable trips.</p>
                             </div>
                         </div>
-                        <div className="bg-[#C8FF9E] px-5 py-2 flex gap-5 lg:flex-row flex-col items-center rounded-[10px] relative  2xl:-right-20">
+                        <div className="bg-[#C8FF9E] px-5 py-2 flex gap-5 lg:flex-row flex-col items-center rounded-[10px] relative  2xl:-right-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                             <div className="flex items-center">
                                 <img src="/assets/images/About/satisfication.png" alt="support" className="w-[65px]" />
                             </div>

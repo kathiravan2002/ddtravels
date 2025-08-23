@@ -116,25 +116,25 @@ import Swiperfunction from './Swiperfunction';
 import Homehero from './Homehero';
 
 export default function Home(props) {
-   
-const {images,goToNextSlide,goToPrevSlide,handleSlideChange,activeSlide,swiperRef,setActiveSlide} = props;
-    
+
+    const { images, goToNextSlide, goToPrevSlide, handleSlideChange, activeSlide, swiperRef, setActiveSlide } = props;
+
     const popular = [
-        { src: "/assets/images/Home/architect 2.png", name: "Architect 2" },
-        { src: "/assets/images/Home/architect 3.png", name: "Architect 3" },
-        { src: "/assets/images/Home/architect 2.png", name: "Architect 2 Copy" },
-        { src: "/assets/images/Home/architect 3.png", name: "Architect 3 Copy" },
-        { src: "/assets/images/Home/architect 2.png", name: "Architect 2 Copy" },
-        { src: "/assets/images/Home/architect 3.png", name: "Architect 3 Copy" },
-        { src: "/assets/images/Home/architect 2.png", name: "Architect 2 Copy" },
-        { src: "/assets/images/Home/architect 3.png", name: "Architect 3 Copy" },
+        { src: "/assets/images/Home/kapaleeswarar.jpg", name: "Kapaleeswarar" },
+        { src: "/assets/images/Home/mahapalipuram.jpg", name: "Mahabalipuram" },
+        { src: "/assets/images/Home/Sri Kalahasti Temple.jpg", name: "Sri Kalahasti Temple" },
+        { src: "/assets/images/Home/Srisailam.jpg", name: "Srisailam" },
+        { src: "/assets/images/Home/tirupathi.jpg", name: "Tirupati" },
+        { src: "/assets/images/Home/Vellore Golden Temple.jpg", name: "Vellore Golden Temple" },
+        { src: "/assets/images/Home/kapaleeswarar.jpg", name: "Kapaleeswarar" },
+        { src: "/assets/images/Home/mahapalipuram.jpg", name: "Mahapalipuram" },
 
 
 
     ];
 
-    
-   
+
+
     const multiplier = {
         translate: 0.1,
         rotate: 0.01,
@@ -171,22 +171,30 @@ const {images,goToNextSlide,goToPrevSlide,handleSlideChange,activeSlide,swiperRe
 
     const card = [
         {
-            title: 'Mamalapuram',
+            image: '/assets/images/Package/oneday1.jpg',
+            title: 'Mahabalipuram',
             content1: 'One Day Tour Package',
             time: '6:00 AM to 9:00PM',
-            content2: 'Mamalapuram car rentals with best prices'
+            content2: 'Explore rock-cut temples and ancient carvings.',
+            link: 'package-details/one-day-1'
         },
         {
-            title: 'Mamalapuram',
+            image: '/assets/images/Package/oneday8.jpg',
+            title: 'Vellore Golden Temple',
             content1: 'One Day Tour Package',
             time: '6:00 AM to 9:00PM',
-            content2: 'Mamalapuram car rentals with best prices'
+            content2: 'Admire magnificent golden temple’s divine beauty.',
+            link: 'package-details/one-day-8'
+
         },
         {
-            title: 'Mamalapuram',
+            image: '/assets/images/Package/oneday6.jpg',
+            title: 'Ahobilam ',
             content1: 'One Day Tour Package',
             time: '6:00 AM to 9:00PM',
-            content2: 'Mamalapuram car rentals with best prices'
+            content2: 'Worship Lord Narasimha amidst scenic hills.',
+            link: 'package-details/one-day-6'
+
         },
 
     ]
@@ -243,8 +251,8 @@ const {images,goToNextSlide,goToPrevSlide,handleSlideChange,activeSlide,swiperRe
                         </div>
                         <div className="mt-2 flex lg:flex-row xl:gap-20 gap-10 flex-col-reverse justify-center items-center ">
                             <div className="space-y-2 flex-70" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-                                <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">We, Divya Desan Travels is one of the leading travel agencies in Chennai. We are one of the successful entrepreneurs in car rental and car hire services in Chennai since 2010. We operate travels for five various travel packages, First one is Chennai Local trips, Second one is Chennai Temple Packages, Third one is Chennai urban trips, Fourth one is South India Tours from Chennai and last one is Hill station tours and travel packages.</p>
-                                <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">We provide all sorts for luxury vehicles such as Indica, Indigo, Swift, Etios, Innova and Tavera for car rental in Chennai. We offer temple tour packages, one-day sight-seeing in and around chennai city, holiday tour packages, corporate tour packages, students tour packages and south india tour packages etc..</p>
+                                <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">Welcome to <span className="text-[#6CBF02]"> Divya Desan Travels</span> your trusted travel companion in Chennai since 2018. We are dedicated to offering safe, reliable, and comfortable travel experiences for families, devotees, corporates, and holiday seekers. Our services include Chennai local trips, temple tours, South India tours, and hill station getaways, covering destinations like Kanchipuram, Mahabalipuram, Tirupati, Sri Kalahasti, Ahobilam, Srisailam, Vellore, and Sholingur.</p>
+                                <p className="text-[17px] leading-[30px] text-justify poppins-medium opacity-75">At Divya Desan Travels, we believe every journey should create lasting memories filled with comfort and peace of mind. To ensure a smooth and enjoyable trip, we provide well-maintained Innova Crysta, Swift, Etios, and sedans driven by professional chauffeurs. With our commitment to quality service, we continue to make travel easy, safe, and memorable for every customer we serve.</p>
                                 <div className="flex gap-5 xl:flex-row flex-col mt-4">
                                     <p className="text-[18px]  poppins-medium opacity-75 flex gap-2  items-center"> <CircleCheckBig className='flex shrink-0 text-[28px] text-[#6CBF02]' />Trusted Travel Partner </p>
                                     <p className="text-[18px]  poppins-medium opacity-75 flex gap-2  items-center"> <CircleCheckBig className='flex shrink-0 text-[28px] text-[#6CBF02]' />Local & Outstation Tour Packages </p>
@@ -346,7 +354,7 @@ const {images,goToNextSlide,goToPrevSlide,handleSlideChange,activeSlide,swiperRe
                                     className="card relative flex justify-center items-start w-[400px] max-w-full h-[300px] mx-auto bg-white mb-13 rounded-[20px] shadow-[0_10px_25px_rgba(0,0,0,0.15)] md:mt-20 mt-5"
                                 >
                                     <div className="img-box absolute top-5 md:w-[350px] w-[300px] h-[220px] bg-gray-800 rounded-[12px] overflow-hidden">
-                                        <img src='/assets/images/Home/architect 1.png' alt='image' className="absolute top-0 left-0 w-full h-full object-cover " />
+                                        <img src={item.image} alt='image' className="absolute top-0 left-0 w-full h-full object-cover border-4 border-[#6CBF02]" />
                                     </div>
                                     <div className="content absolute top-[252px] w-full h-[35px] p-0 px-[30px] text-center overflow-hidden ">
                                         <div className='flex gap-2 justify-center '>
@@ -359,8 +367,8 @@ const {images,goToNextSlide,goToPrevSlide,handleSlideChange,activeSlide,swiperRe
                                             <p className="poppins-medium text-base opacity-85 flex justify-center items-center gap-2"><FaRegClock className='text-[24px] flex shrink-0 text-[#6CBF02]' />{item.time}</p>
                                             <p className="poppins-medium text-base opacity-85">{item.content2}</p>
                                             <div className="flex gap-5">
-                                                <div className="flex justify-center items-center "> <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[16px] rounded-4xl bg-[#6CBF02] flex gap-2 items-center justify-center">See Details <PiArrowBendUpRightFill className='flex shrinl-0 text-[24px]' /></button></div>
-                                                <div className="flex justify-center items-center "> <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[16px] rounded-4xl bg-[#6CBF02] flex gap-2 items-center justify-center">Enquiry  <PiArrowBendUpRightFill className='flex shrinl-0 text-[24px]' /></button></div>
+                                                <Link to={item.link}>  <div className="flex justify-center items-center "> <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[16px] rounded-4xl bg-[#6CBF02] flex gap-2 items-center justify-center">See Details <PiArrowBendUpRightFill className='flex shrink-0 text-[24px]' /></button></div></Link>
+                                                <Link to="/contact-us"> <div className="flex justify-center items-center "> <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[16px] rounded-4xl bg-[#6CBF02] flex gap-2 items-center justify-center">Enquiry  <PiArrowBendUpRightFill className='flex shrink-0 text-[24px]' /></button></div></Link>
 
                                             </div>
                                         </div>
@@ -391,7 +399,7 @@ const {images,goToNextSlide,goToPrevSlide,handleSlideChange,activeSlide,swiperRe
                                         <img src="/assets/images/Home/architect 4.jpg" alt="Room 3" loading="lazy" className="h-full w-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />
                                     </div>
                                     <div className="col-span-2 row-span-2 col-start-5 row-start-1 rounded-xl overflow-hidden" data-aos="fade-down-left" data-aos-delay="300" data-aos-duration="1000">
-                                        <img src="/assets/images/Home/architect 1.png" alt="Room 4" loading="lazy" className="rounded-xl object-cover h-full hover:scale-110 transform transition-transform duration-300" />
+                                        <img src="/assets/images/Home/Srisailam.jpg" alt="Room 4" loading="lazy" className="rounded-xl object-cover h-full hover:scale-110 transform transition-transform duration-300" />
                                     </div>
                                     <div className="row-span-2 col-start-5 row-start-3 rounded-xl overflow-hidden" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
                                         <img src="/assets/images/Home/architect 5.jpg" alt="Room 5" loading="lazy" className="h-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />

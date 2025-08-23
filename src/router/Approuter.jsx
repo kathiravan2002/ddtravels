@@ -19,7 +19,7 @@ function Approuter() {
                 <Route path="/about-us" element={<Aboutpage/>}/>
                 <Route path="/contact-us" element={<ContactUspage/>}/>
                 <Route path="/packages" element={<Packagepage/>}/>
-                <Route path="/package-details" element={<Packagedetailspage/>}/>
+                <Route path="/package-details/:packageId" element={<Packagedetailspage/>}/>
                 <Route path="/gallery" element={<Gallerypage/>}/>
                 </Route>
             </Routes>

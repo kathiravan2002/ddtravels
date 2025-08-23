@@ -91,7 +91,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                 Package
               </li>
             </Link>
-            <Link to="/Gallery" className={` ${isActive == '/gallery' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
+            <Link to="/gallery" className={` ${isActive == '/gallery' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);
