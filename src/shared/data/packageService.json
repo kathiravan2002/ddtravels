@@ -378,7 +378,7 @@
       "id": "one-day-1",
       "image": "/assets/images/Package/oneday1.jpg",
       "title": "Chennai to Mahabalipuram One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Explore rock-cut temples and ancient carvings."
     },
@@ -386,7 +386,7 @@
       "id": "one-day-2",
       "image": "/assets/images/Package/oneday2.jpg",
       "title": "Chennai to Kanchipuram One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Discover temples, silk sarees, and traditions."
     },
@@ -394,7 +394,7 @@
       "id": "one-day-3",
       "image": "/assets/images/Package/oneday3.png",
       "title": "Chennai to Kanchipuram Divya Desam Temples One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Visit sacred Divya Desam temples today."
     },
@@ -402,7 +402,7 @@
       "id": "one-day-4",
       "image": "/assets/images/Package/oneday4.jpg",
       "title": "Chennai to Tirupati One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Seek blessings at Lord Venkateswara Temple."
     },
@@ -410,7 +410,7 @@
       "id": "one-day-5",
       "image": "/assets/images/Package/oneday5.jpg",
       "title": "Chennai to Sri Kalahasti One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Perform Rahu-Ketu pooja, divine experience."
     },
@@ -418,7 +418,7 @@
       "id": "one-day-6",
       "image": "/assets/images/Package/oneday6.jpg",
       "title": "Chennai to Ahobilam One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Worship Lord Narasimha amidst scenic hills."
     },
@@ -426,7 +426,7 @@
       "id": "one-day-7",
       "image": "/assets/images/Package/oneday7.jpg",
       "title": "Chennai to Srisailam One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Jyotirlinga temple visit with divine serenity."
     },
@@ -434,7 +434,7 @@
       "id": "one-day-8",
       "image": "/assets/images/Package/oneday8.jpg",
       "title": "Chennai to Vellore Golden Temple One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Admire magnificent golden temple’s divine beauty."
     },
@@ -442,7 +442,7 @@
       "id": "one-day-9",
       "image": "/assets/images/Package/oneday9.jpg",
       "title": "Chennai to Sholingur One-Day Tour Package",
-      "time": "6.00AM to 8.00PM",
+      "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Climb sacred hills, visit Narasimha temple."
     }
@@ -489,10 +489,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -547,10 +547,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -605,10 +605,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -663,10 +663,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -721,10 +721,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         }
       },
       "additionalContent": {
@@ -772,10 +772,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2800",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         }
       },
       "additionalContent": {
@@ -823,10 +823,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2800",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         }
       },
       "additionalContent": {
@@ -874,10 +874,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2800",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         }
       },
       "additionalContent": {
@@ -925,10 +925,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2800",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         }
       },
       "additionalContent": {
@@ -976,10 +976,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1034,10 +1034,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1092,10 +1092,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1150,10 +1150,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1208,10 +1208,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1228,24 +1228,24 @@
     "one-day-2": {
       "id": "one-day-2",
       "packageData": {
-        "title": "Chennai to Kanchipuram One-Day Tour Package",
-        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM",
+        "title": "Chennai to Kanchipuram Tour Package",
+        "subtitle": "Reliable car rental services available | Flexible timing: 6:00 AM to 10:00 PM",
         "category": "one-day"
       },
       "templeSection": {
-        "title": "Discover the Temple City of Kanchipuram",
+        "title": "Explore the Temple City of Kanchipuram",
         "image": "/assets/images/Package/oneday2.jpg",
         "description": {
-          "1": "Divya Desan Travels offers a specially curated one-day trip from Chennai to Kanchipuram, perfect for travelers seeking to explore the rich cultural and spiritual heritage of the temple city. Travel with ease in our well-maintained vehicles and enjoy a hassle-free experience.",
-          "2": "The tour covers Kanchipuram’s most famous temples such as Ekambareswarar Temple, Kailasanathar Temple, Kamakshi Amman Temple, and Varadaraja Perumal Temple. Apart from its spiritual significance, Kanchipuram is also renowned for its world-famous silk sarees.",
-          "3": "Choose from a wide range of vehicles including Swift Dzire, Etios, Innova, or Tempo Traveller for group travel. With affordable packages, comfortable rides, and professional chauffeurs, Divya Desan Travels ensures your Chennai to Kanchipuram trip is both memorable and convenient."
+          "1": "Experience the spiritual and cultural charm of Kanchipuram, famously known as the 'City of a Thousand Temples,' with Divya Desan Travels. Enjoy a comfortable, seamless, and enriching journey for families, pilgrims, and solo travelers.",
+          "2": "Visit iconic temples such as Kamakshi Amman Temple, Varadaraja Perumal Temple, Ekambareswarar Temple, Ulagalanda Perumal Temple, Kailasanathar Temple, Shankaracharya Mutt, Kumarakottam Murugan Temple, and Chitragupta Temple. Explore the rich heritage and famous Kanchipuram silk markets.",
+          "3": "Choose from a wide range of vehicles including Swift Dzire, Etios, Ertiga, or Innova Crysta for 1-day or 2-day trips. With affordable packages, comfortable rides, and professional chauffeurs, Divya Desan Travels ensures a memorable and convenient journey."
         }
       },
       "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
+          "price": "₹1800",
           "name": "Swift Dzire (4+1)"
         }
       },
@@ -1253,34 +1253,34 @@
         "1": {
           "id": 1,
           "name": "Etios (4+1)",
-          "price": "₹2000",
+          "price": "₹4,000 (1 Day) & ₹8,000 (2 Days)",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
-          "price": "₹1000",
+          "price": "₹3,800 (1 Day) & ₹7,500 (2 Days)",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
-          "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "name": "Ertiga (7+1)",
+          "price": "₹5,500 (1 Day) & ₹8,500 (2 Days)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
-          "name": "Innova (7+1)",
-          "price": "₹2400",
+          "name": "Innova Crysta (7+1)",
+          "price": "₹6,500 (1 Day) & ₹9,500 (2 Days)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
-        "content": "This one-day Chennai to Kanchipuram tour is ideal for families, pilgrims, and tourists who wish to explore the ancient temples and cultural heritage of the city. With Divya Desan Travels, enjoy a peaceful ride, visit iconic spiritual landmarks, and return with enriching experiences."
+        "content": "With Divya Desan Travels, your Chennai to Kanchipuram trip is more than sightseeing — it’s an immersive experience in culture, spirituality, and heritage. Enjoy flexible 1-day or 2-day itineraries, visit iconic temples, explore silk markets, and travel comfortably with professional drivers."
       }
     },
     "one-day-3": {
@@ -1324,10 +1324,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹2400",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1382,10 +1382,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹4000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1440,10 +1440,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹4000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1498,10 +1498,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹4000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1556,10 +1556,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹4000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1614,10 +1614,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹4000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1672,10 +1672,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹4000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1729,10 +1729,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹6000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1786,10 +1786,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹6000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1843,10 +1843,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹6000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1900,10 +1900,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹6500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -1957,10 +1957,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹9200",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2014,10 +2014,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹9700",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2071,10 +2071,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹8900",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2128,10 +2128,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹10500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2185,10 +2185,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹9500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2242,10 +2242,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹11000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2299,10 +2299,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹12000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2356,10 +2356,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹17000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2413,10 +2413,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹18000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2470,10 +2470,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹21000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2528,10 +2528,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹16000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2586,10 +2586,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹16500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2644,10 +2644,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹17000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2702,10 +2702,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹12000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2760,10 +2760,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹11500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2818,10 +2818,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹13,500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2876,10 +2876,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹22,000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2934,10 +2934,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹15,000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -2992,10 +2992,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹12,500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -3050,10 +3050,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹11,500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -3108,10 +3108,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹17,000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -3166,10 +3166,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹17,500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -3224,10 +3224,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹12,500",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
@@ -3282,10 +3282,10 @@
         },
         "3": {
           "id": 3,
-          "name": "Xylo (7+1)",
+          "name": "Ertiga (7+1)",
           "price": "₹11,000",
-          "image": "/assets/images/Package/xylo.png",
-          "featuredImage": "/assets/images/Package/xylo.png"
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,

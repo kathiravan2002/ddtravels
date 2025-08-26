@@ -66,7 +66,7 @@
 //                             </div>
 //                             <div className="flex justify-between w-full border-2 border-gray-400 py-2 px-5 rounded-[20px]">
 //                                 <div className="">
-//                                     <h2 className="poppins-medium md:text-[26px] text-[20px]">Xylo (7+1)</h2>
+//                                     <h2 className="poppins-medium md:text-[26px] text-[20px]">Ertiga (7+1)</h2>
 //                                     <p className="poppins-medium md:text-[24px] text-[18px] opacity-75"> ₹2000</p>
 //                                 </div>
 //                                 <div className="">
@@ -140,7 +140,7 @@
 //         },
 //         {
 //             id: 3,
-//             name: "Xylo (7+1)",
+//             name: "Ertiga (7+1)",
 //             price: "₹4000",
 //             image: "/assets/images/Package/car.png",
 //             featuredImage: "/assets/images/Package/packagecar.png"
@@ -343,7 +343,7 @@
 //       },
 //       3: {
 //         id: 3,
-//         name: "Xylo (7+1)",
+//         name: "Ertiga (7+1)",
 //         price: "₹4000",
 //         image: "/assets/images/Package/car.png",
 //         featuredImage: "/assets/images/Package/packagecar.png",
@@ -663,23 +663,23 @@ function Packagedetails() {
           </h2>
 
           <div className="flex flex-col lg:flex-row gap-10">
-            <div className="max-w-[550px] relative ">
+            <div className="max-w-[566px] relative ">
               <img
                 src={selectedCar.featuredImage}
                 alt={`Featured ${selectedCar.name}`}
                 className="rounded-[30px] w-full shadow-[0_0_10px_rgba(0,0,0,0.15)]"
               />
-              <div className="bg-[#6CBF02] px-5 py-2 rounded-full absolute top-5 left-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                <p className="text-2xl poppins-medium text-white" >{selectedCar.price}</p>
+              <div className="bg-[#6CBF02] px-5 py-2 rounded-full absolute md:top-5 top-2 left-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                <p className="md:text-xl text-base poppins-medium text-white" >{selectedCar.price}</p>
               </div>
-              <div className="absolute lg:bottom-25  bottom-5 left-5 bg-black bg-opacity-50 px-4 py-2 rounded-full" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+              <div className="absolute lg:bottom-25  bottom-2 left-5 bg-black bg-opacity-50 px-4 py-2 rounded-full" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                 <p className="md:text-xl text-lg poppins-semibold text-white tracking-wide">
                   {selectedCar.name}
                 </p>
               </div>
             </div>
 
-            <div className="w-full space-y-8">
+            <div className="w-full space-y-5">
               {/* <h3 className="text-xl poppins-semibold text-[#6CBF02] mb-4">
                 Choose Your Vehicle:
               </h3> */}
@@ -687,7 +687,7 @@ function Packagedetails() {
                 <div
                   key={car.id}
                   onClick={() => handleCarSelect(car)}
-                  className={`relative flex justify-between items-center w-full border-2 py-4 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${selectedCar.id === car.id
+                  className={`relative flex justify-between items-center w-full border-2 py-2 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${selectedCar.id === car.id
                       ? 'border-[#6CBF02] bg-[#6CBF02]/10 shadow-md'
                       : 'border-gray-300 hover:border-[#6CBF02]/50'
                     }`}
@@ -699,7 +699,7 @@ function Packagedetails() {
                     >
                       {car.name}
                     </h4>
-                    <p className="poppins-medium text-[16px] md:text-[18px] opacity-75 text-gray-600">
+                    <p className="poppins-medium text-[14px] md:text-[16px] opacity-75 text-gray-600">
                       {car.price}
                     </p>
                   </div>
