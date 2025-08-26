@@ -504,8 +504,8 @@ export default function Home(props) {
                                     <div className="">
                                         <h2 className="text-center montez-regular text-[#FFC83E] text-[32px]" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Divya Desan Travels</h2>
                                         <div className="" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                                            <p className="text-white text-justify poppins-medium text-lg leading-[30px] mt-10">Chennai Star Travels provides best tour packages for Chennai and South India.</p>
-                                            <p className="text-white text-justify poppins-medium text-lg leading-[30px]">Chennai car rentals with best prices. Compare our tariff with other car service providers. Contact us for more details</p>
+                                            <p className="text-white text-justify poppins-medium text-lg leading-[30px] mt-10">Divya Desan Travels offers the best tour packages in Chennai and across South India.</p>
+                                            <p className="text-white text-justify poppins-medium text-lg leading-[30px]">Affordable and reliable car rentals for local trips and outstation tours, with well-maintained vehicles, professional drivers, and transparent pricing.</p>
                                         </div>
                                     </div>
                                     <div className="absolute right-0"><img src="/assets/images/Home/contactarrow.png" alt="arrow" className='w-[35px]' /></div>

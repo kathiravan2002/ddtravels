@@ -23,7 +23,7 @@ function Footer() {
               </Link>
 
               <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] leading-relaxed sm:leading-[24px] md:leading-[28px] poppins-medium text-justify">
-                Chennai Star Travels provides best tour packages for Chennai and South India.Chennai car rentals with best prices. Compare our tariff with other car service providers. Contact us for more details.
+                Divya Desan Travels offers the best tour packages in Chennai and across South India.Affordable and reliable car rentals for local trips and outstation tours, with well-maintained vehicles, professional drivers, and transparent pricing.
               </p>
 
             </div>
