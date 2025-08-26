@@ -35,18 +35,26 @@ function Footer() {
                   Popular Packages
                 </h3>
                 <div className="flex flex-col items-start space-y-2 sm:space-y-3 md:space-y-4">
+                 <Link to="/package-details/one-day-2">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
                     • Kanchipuram
                   </p>
+                  </Link>
+                  <Link to="/package-details/one-day-1">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
                     • Mahabalipuram
                   </p>
+                  </Link>
+                  <Link to="/package-details/one-day-4">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
                     • Tirupati
                   </p>
+                  </Link>
+                  <Link to="/package-details/one-day-5">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
                     • Kalahasti 
                   </p>
+                  </Link>
                 </div>
               </div>
             </div>
