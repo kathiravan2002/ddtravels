@@ -510,9 +510,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import Register from './Register';
 import packageService from '../data/packageService.json';
+import { PiArrowBendUpRightFill } from 'react-icons/pi';
 
 function Packagedetails() {
-  const { packageId } = useParams(); 
+  const { packageId } = useParams();
   const navigate = useNavigate();
   const [packageDetails, setPackageDetails] = useState(null);
   const [selectedCar, setSelectedCar] = useState(null);
@@ -522,7 +523,7 @@ function Packagedetails() {
   useEffect(() => {
     try {
       const details = packageService.packageDetails[packageId];
-      
+
       if (details) {
         setPackageDetails(details);
         const firstCar = Object.values(details.carOptions)[0];
@@ -566,8 +567,8 @@ function Packagedetails() {
           <p className="text-lg text-gray-600 mb-6 poppins-medium">
             The package you're looking for doesn't exist or has been moved.
           </p>
-          <Link 
-            to="/packages" 
+          <Link
+            to="/packages"
             className="bg-[#6CBF02] hover:bg-[#5ba002] text-white px-6 py-3 rounded-full transition-colors duration-300 poppins-medium"
           >
             Back to Packages
@@ -585,8 +586,8 @@ function Packagedetails() {
           <p className="text-lg text-gray-600 mb-6 poppins-medium">
             This package is currently not available for booking.
           </p>
-          <Link 
-            to="/packages" 
+          <Link
+            to="/packages"
             className="bg-[#6CBF02] hover:bg-[#5ba002] text-white px-6 py-3 rounded-full transition-colors duration-300 poppins-medium"
           >
             Browse Other Packages
@@ -598,7 +599,6 @@ function Packagedetails() {
 
   return (
     <div className="overflow-hidden">
-      {/* Hero Section */}
       <div
         className="lg:h-90 h-70 relative bg-cover bg-center lg:mt-20 mt-5"
         style={{ backgroundImage: "url('/assets/images/About/allhero.png')" }}
@@ -610,11 +610,11 @@ function Packagedetails() {
           </h2>
           <div className="flex space-x-2">
             <button
-            onClick={handleBack}
-            className="md:text-[24px] cursor-pointer text-[20px] poppins-medium text-white hover:text-[#FFC83E] duration-300"
-          >
-            Back
-          </button>
+              onClick={handleBack}
+              className="md:text-[24px] cursor-pointer text-[20px] poppins-medium text-white hover:text-[#FFC83E] duration-300"
+            >
+              Back
+            </button>
             <h2 className="md:text-[24px] text-[20px] poppins-medium text-[#FFC83E]">
               <span className="text-white">/ </span>Package Details
             </h2>
@@ -622,8 +622,7 @@ function Packagedetails() {
         </div>
       </div>
 
-      <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
-        {/* Package Header */}
+      <section className="lg:pt-20 pt-15 max-w-[1450px] mx-auto px-4">
         <div className="mb-10">
           <h1 className="text-xl md:text-2xl fondamento-regular text-center text-[#6CBF02] tracking-wide" >
             {packageDetails.packageData.title}
@@ -633,13 +632,11 @@ function Packagedetails() {
           </h2>
         </div>
 
-        {/* Main Content Section */}
         <div className="mt-10">
           <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center mb-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
             {packageDetails.templeSection.title}
           </h2>
-          
-          {/* Featured Image */}
+
           <div className="max-w-[700px] mx-auto mb-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
             <img
               src={packageDetails.templeSection.image}
@@ -647,8 +644,7 @@ function Packagedetails() {
               className="rounded-[20px] w-full shadow-lg"
             />
           </div>
-          
-          {/* Description */}
+
           <div className="space-y-4 mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
             {Object.values(packageDetails.templeSection.description).map((description, index) => (
               <p
@@ -661,31 +657,28 @@ function Packagedetails() {
           </div>
         </div>
 
-        {/* Car Package Section */}
         <div className="mt-16">
           <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center mb-10">
             {packageDetails.carBookingSection.title}
           </h2>
-          
-          <div className="flex flex-col lg:flex-row gap-10">
-            {/* Featured/Selected Car */}
-              <div className="max-w-[550px] relative ">
-                <img
-                  src={selectedCar.featuredImage}
-                  alt={`Featured ${selectedCar.name}`}
-                  className="rounded-[30px] w-full shadow-[0_0_10px_rgba(0,0,0,0.15)]"
-                />
-                <div className="bg-[#6CBF02] px-5 py-2 rounded-full absolute top-5 left-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                  <p className="text-2xl poppins-medium text-white" >{selectedCar.price}</p>
-                </div>
-                <div className="absolute lg:bottom-25  bottom-5 left-5 bg-black bg-opacity-50 px-4 py-2 rounded-full" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                  <p className="md:text-xl text-lg poppins-semibold text-white tracking-wide">
-                    {selectedCar.name}
-                  </p>
-                </div>
-              </div>
 
-            {/* Car Options List */}
+          <div className="flex flex-col lg:flex-row gap-10">
+            <div className="max-w-[550px] relative ">
+              <img
+                src={selectedCar.featuredImage}
+                alt={`Featured ${selectedCar.name}`}
+                className="rounded-[30px] w-full shadow-[0_0_10px_rgba(0,0,0,0.15)]"
+              />
+              <div className="bg-[#6CBF02] px-5 py-2 rounded-full absolute top-5 left-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                <p className="text-2xl poppins-medium text-white" >{selectedCar.price}</p>
+              </div>
+              <div className="absolute lg:bottom-25  bottom-5 left-5 bg-black bg-opacity-50 px-4 py-2 rounded-full" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                <p className="md:text-xl text-lg poppins-semibold text-white tracking-wide">
+                  {selectedCar.name}
+                </p>
+              </div>
+            </div>
+
             <div className="w-full space-y-8">
               {/* <h3 className="text-xl poppins-semibold text-[#6CBF02] mb-4">
                 Choose Your Vehicle:
@@ -694,17 +687,15 @@ function Packagedetails() {
                 <div
                   key={car.id}
                   onClick={() => handleCarSelect(car)}
-                  className={`relative flex justify-between items-center w-full border-2 py-4 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${
-                    selectedCar.id === car.id
+                  className={`relative flex justify-between items-center w-full border-2 py-4 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${selectedCar.id === car.id
                       ? 'border-[#6CBF02] bg-[#6CBF02]/10 shadow-md'
                       : 'border-gray-300 hover:border-[#6CBF02]/50'
-                  }`}
+                    }`}
                 >
                   <div className="flex-1">
                     <h4
-                      className={`poppins-semibold text-[18px] md:text-[20px] ${
-                        selectedCar.id === car.id ? 'text-[#6CBF02]' : 'text-gray-800'
-                      }`}
+                      className={`poppins-semibold text-[18px] md:text-[20px] ${selectedCar.id === car.id ? 'text-[#6CBF02]' : 'text-gray-800'
+                        }`}
                     >
                       {car.name}
                     </h4>
@@ -712,14 +703,14 @@ function Packagedetails() {
                       {car.price}
                     </p>
                   </div>
-                  
+
                   <div className="flex items-center gap-4">
-                    <img 
-                      src={car.image} 
-                      alt={`${car.name}_image`} 
-                      className="w-16 h-12 md:w-20 md:h-16 object-contain" 
+                    <img
+                      src={car.image}
+                      alt={`${car.name}_image`}
+                      className="w-16 h-12 md:w-20 md:h-16 object-contain"
                     />
-                    
+
                     {selectedCar.id === car.id && (
                       <div className="w-6 h-6 bg-[#6CBF02] rounded-full flex items-center justify-center">
                         <svg
@@ -742,7 +733,6 @@ function Packagedetails() {
           </div>
         </div>
 
-        {/* Additional Content */}
         <div className="mt-12">
           <div className="bg-gray-50 rounded-[20px] p-6 md:p-8">
             <h3 className="text-xl poppins-semibold text-[#6CBF02] mb-4">
@@ -754,9 +744,18 @@ function Packagedetails() {
           </div>
         </div>
 
-       
+
       </section>
-      
+      <div className="py-10 flex justify-center">
+        <Link to="/contact-us">
+          <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+            <span className="relative z-10 text-[20px] -ml-4"> Enquiry Now </span>
+            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-23  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+            <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+          </button>
+        </Link>
+      </div>
+
       <Register />
     </div>
   );

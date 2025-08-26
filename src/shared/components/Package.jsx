@@ -383,7 +383,6 @@ function Package() {
 
             <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
                 <div className="flex flex-col lg:flex-row gap-10">
-                    {/* Menu Button for Mobile */}
                     <div className="lg:hidden ">
                         <button
                             onClick={toggleMenu}
@@ -394,7 +393,6 @@ function Package() {
                         </button>
                     </div>
 
-                    {/* Sidebar for Categories */}
                     <div
                         className={`fixed top-0 left-0 h-full bg-white border-2 border-gray-400 pb-4 px-4 rounded-[20px] w-[300px] overflow-scroll xl:overflow-hidden transform transition-transform duration-300 ease-in-out z-50 lg:z-0 lg:sticky lg:top-28 lg:transform-none lg:h-fit ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'
                             } lg:translate-x-0`}
@@ -423,7 +421,7 @@ function Package() {
                                         }`}
                                     onClick={() => {
                                         setSelectedCategory(category.id);
-                                        setIsMenuOpen(false); // Close menu on category selection in mobile
+                                        setIsMenuOpen(false); 
                                         navigate(`/packages?category=${category.id}`);
                                     }}
                                 >
@@ -433,7 +431,6 @@ function Package() {
                         </ul>
                     </div>
 
-                    {/* Overlay for Mobile Menu */}
                     {isMenuOpen && (
                         <div
                             className="fixed inset-0 bg-black/50 bg-opacity-50 z-40 lg:hidden"
@@ -441,7 +438,6 @@ function Package() {
                         ></div>
                     )}
 
-                    {/* Packages Grid */}
                     <div className="flex-1">
                         {filteredData.length > 0 ? (
                             <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">

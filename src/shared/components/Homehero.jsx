@@ -22,7 +22,6 @@ function Homehero() {
                 className="relative md:h-screen bg-cover overflow-hidden bg-center  py-5"
                 style={{ backgroundImage: "url('/assets/images/Hero/BG.png')" }}
             >
-                {/* Airport Image */}
                 <div className="absolute md:bottom-0 bottom-1 z-30">
                     <img
                         src="/assets/images/Hero/Air Port.png"
@@ -32,7 +31,6 @@ function Homehero() {
                     />
                 </div>
 
-                {/* Flight */}
                 <div className="absolute lg:top-[70%] top-[90%] left-[40%] flight-animation rotate-6">
                     <img
                         src="/assets/images/Hero/Flight.png"
@@ -41,7 +39,6 @@ function Homehero() {
                     />
                 </div>
 
-                {/* Person */}
                 <div className="absolute 2xl:top-[79%] xl:top-[82%] lg:top-[86%] md:top-[90%] top-[90%] z-40 inset-0 2xl:left-[70%] md:left-[75%]  left-[77%] person-animation">
                     <img
                         src="/assets/images/Hero/Person 3.svg"
@@ -50,7 +47,6 @@ function Homehero() {
                     />
                 </div>
 
-                {/* Clouds */}
                 <div className="absolute top-52 inset-0 left-52 slide-animation">
                     <img
                         src="/assets/images/Hero/cloud 4.svg"
@@ -66,7 +62,6 @@ function Homehero() {
                     />
                 </div>
 
-                {/* Car */}
                 <div className="absolute 2xl:top-[85%] xl:top-[85%] lg:top-[87%] md:top-[91%] sm:top-[92%] z-40 top-[94%] inset-0 car-animation">
                     <img
                         src="/assets/images/Hero/car.svg"
