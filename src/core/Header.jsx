@@ -104,20 +104,20 @@ function Header() {
                         <div className=" w-full text-white port-lligat-sans-regular   hidden lg:block ">
                             <ul className="flex text-[20px] justify-center items-center  2xl:gap-10 gap-6 h-full  ">
                                 <li className="">
-                                    <Link to='/'>Home</Link>
+                                    <Link to='/'  className={` ${isActive == '/' ? 'text-[#6CBF02] ' : '  '}`}>Home</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/about-us'>About</Link>
+                                    <Link to='/about-us' className={` ${isActive == '/about-us' ? 'text-[#6CBF02] ' : '  '}`}>About</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/packages'>Package</Link>
+                                    <Link to='/packages' className={` ${isActive == '/packages' ? 'text-[#6CBF02] ' : '  '}`}>Package</Link>
                                 </li>
 
                                 <li className="">
-                                    <Link to='/gallery'>Gallery</Link>
+                                    <Link to='/gallery' className={` ${isActive == '/gallery' ? 'text-[#6CBF02] ' : '  '}`}>Gallery</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/contact-us'>Contact</Link>
+                                    <Link to='/contact-us' className={` ${isActive == '/contact-us' ? 'text-[#6CBF02] ' : '  '}`}>Contact</Link>
                                 </li>
                             </ul>
                         </div>
