@@ -76,9 +76,9 @@ function About() {
             </section>
 
             <section className='relative '>
-                <div className=" md:h-[65dvh] h-[40dvh]  relative bg-cover bg-center  " style={{ backgroundImage: "url('/assets/images/About/aboutbg.png')" }}>
+                <div className=" md:h-[65dvh] h-[65dvh]  relative bg-cover bg-center  " style={{ backgroundImage: "url('/assets/images/About/aboutbg.png')" }}>
                     <div className="absolute inset-0 bg-[#000000] opacity-70  "></div>
-                    <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-4 px-4">
+                    <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-4 px-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                         <h2 className="text-[24px] md:text-[28px]  port-lligat-sans-regular text-white ">Love Where Your're Going</h2>
                         <p className="md:text-[32px] text-[26px] poppins-semibold text-white text-center">Explore Your Life - Travel Where You Want with <span className="text-[#FFB600]">DD Travels!</span></p>
                         <img src="/assets/images/About/car2.png" alt="car_icon" className="w-[84px]" />
@@ -89,7 +89,7 @@ function About() {
             <div className="max-w-[1400px] mx-auto relative  ">
                 <div ref={ref} className="shadow-[0_0_10px_rgba(0,0,0,0.15)] py-10 z-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-5 sm:gap-5 md:gap-8 lg:gap-25 rounded-[10px] md:absolute sm:-bottom-20  -bottom-90 2xl:ml-10 xl:ml-0 bg-white lg:mt-7 mt-0">
                     <div className="flex flex-col items-center text-center">
-                        <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold">
+                        <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                             {inView ? <CountUp start={0} end={1000} duration={3} suffix="+" /> : '0+'}</p>
                         <p className="text-[#121C27] text-[14px]  md:text-[18px]  poppins-bold opacity-75">
                             Happy Travelers
@@ -97,7 +97,7 @@ function About() {
                     </div>
 
                     <div className="flex flex-col items-center text-center">
-                        <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold">
+                        <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"> 
                             {inView ? <CountUp start={0} end={7} duration={3} suffix="+" /> : '0+'}</p>
                         <p className="text-[#121C27] text-[14px]  md:text-[18px]  poppins-bold opacity-75">
                             Years of Experience
@@ -106,7 +106,7 @@ function About() {
 
                     <div className="">
                         <div className="flex flex-col items-center text-center ">
-                            <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold">
+                            <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                 {inView ? <CountUp start={0} end={100} duration={3} suffix="%" /> : '0+'} </p>
                             <p className="text-[14px]  md:text-[18px]  poppins-bold opacity-75">
                                 Customer Satisfaction Rate
@@ -115,7 +115,7 @@ function About() {
                     </div>
                     <div className="">
                         <div className="flex flex-col items-center text-center">
-                            <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold">
+                            <p className="text-[#121C27] text-[24px]  md:text-[40px]  poppins-semibold" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                 24/7
                             </p>
                             <p className="text-[14px] md:text-[18px]  poppins-bold opacity-75">

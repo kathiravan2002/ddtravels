@@ -53,17 +53,26 @@ function Footer() {
 
             {/* Right Column - Contact Us */}
             <div className="flex lg:justify-end justify-start">
-              <div className="flex flex-col space-y-3 sm:space-y-4 md:space-y-6 ">
+              <div className="flex flex-col space-y-3 sm:space-y-3 md:space-y-3 ">
                 <h3 className="text-white fondamento-regular text-xl sm:text-lg md:text-xl lg:text-[24px]">
                   Contact Us
                 </h3>
                 <div className="flex items-center space-x-3">
                   <MdPhoneInTalk className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                   <a
-                    href="tel:+919486883084"
+                    href="tel:+918925530559"
                     className="text-white text-sm sm:text-sm md:text-base lg:text-[16px]  poppins-medium"
                   >
-                    +91-1234567890
+                    +91-8925530559
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <MdPhoneInTalk className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+                  <a
+                    href="tel:+918925530558"
+                    className="text-white text-sm sm:text-sm md:text-base lg:text-[16px]  poppins-medium"
+                  >
+                    +91-8925530558
                   </a>
                 </div>
                 <div className="flex items-start space-x-3">

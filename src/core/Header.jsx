@@ -70,8 +70,8 @@ function Header() {
                         </div>
                     </div>
                     <div className="flex  gap-5">
-                        <p className="port-lligat-sans-regular text-[20px] flex justify-center items-center text-white gap-2"><FiPhone className='flex shrink-0 text-[24px]' />+ 91 1234567890</p>
-                        <p className="port-lligat-sans-regular text-[20px] flex justify-center items-center text-white gap-2"><IoIosMail className='flex shrink-0 text-[24px]' />sample@gmail.com</p>
+                        <p className="port-lligat-sans-regular text-[20px] flex justify-center items-center text-white gap-2"><FiPhone className='flex shrink-0 text-[24px]' />+ 91 8925530559, + 91 8925530558</p>
+                        <p className="port-lligat-sans-regular text-[20px] flex justify-center items-center text-white gap-2"><IoIosMail className='flex shrink-0 text-[24px]' />divyadesantravels23@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -88,10 +88,10 @@ function Header() {
 
                                             <div className="flex justify-center items-center">
                                                 <img
-                                                src='/assets/images/Carr copy.png'
-                                                alt="Website Logo"
-                                                className="w-70 select-none  "
-                                            />
+                                                    src='/assets/images/Carr copy.png'
+                                                    alt="Website Logo"
+                                                    className="w-70 select-none  "
+                                                />
                                                 {/* <h2 className="fondamento-regular md:text-[32px] text-[24px] text-[#6CBF02]">DD Travels</h2> */}
                                             </div>
                                         </div>

@@ -128,9 +128,6 @@ export default function Home(props) {
         { src: "/assets/images/Home/Vellore Golden Temple.jpg", name: "Vellore Golden Temple" },
         { src: "/assets/images/Home/kapaleeswarar.jpg", name: "Kapaleeswarar" },
         { src: "/assets/images/Home/mahapalipuram.jpg", name: "Mahapalipuram" },
-
-
-
     ];
 
 
@@ -198,6 +195,26 @@ export default function Home(props) {
         },
 
     ]
+
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phoneno: "",
+        message: ''
+    });
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.id]: e.target.value });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const { name, email, phoneno, message } = formData;
+        const phoneNumber = '+918925530559'; // e.g., +919876543210
+        const whatsappMessage = `Name: ${name}\nEmail: ${email}\nPhone no: ${phoneno}\nMessage: ${message}`;
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+        window.open(whatsappUrl);
+    };
 
     return (
         <>
@@ -495,71 +512,69 @@ export default function Home(props) {
                                 </div>
                             </div>
 
-                            <form className="space-y-7 flex-40">
+                            <form className="space-y-7 flex-40" onSubmit={handleSubmit}>
                                 <div className="relative">
-                                    <label className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                    <label htmlFor='name' className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
                                         Name
                                     </label>
                                     <input
                                         type="text"
-                                        name="name"
-                                        // value={formData.name}
-                                        // onChange={handleChange}
-                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors"
+                                        id="name"
+                                        value={formData.name}
+                                        onChange={handleChange}
+                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors poppins-medium"
                                         required
                                     />
                                 </div>
 
                                 <div className="relative">
-                                    <label className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium" >
+                                    <label htmlFor="phoneno" className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium" >
                                         Mobile
                                     </label>
                                     <input
                                         type="tel"
-                                        name="mobile"
-                                        // value={formData.mobile}
-                                        // onChange={handleChange}
-                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors"
+                                        id="phoneno"
+                                        value={formData.phoneno}
+                                        onChange={handleChange}
+                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors poppins-medium"
                                         required
                                     />
                                 </div>
 
                                 <div className="relative">
-                                    <label className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                    <label htmlFor='email' className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
                                         Email
                                     </label>
                                     <input
                                         type="email"
-                                        name="email"
-                                        // value={formData.email}
-                                        // onChange={handleChange}
-                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors"
+                                        id="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors poppins-medium"
                                         required
                                     />
                                 </div>
 
                                 <div className="relative">
-                                    <label className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                    <label htmlFor='message' className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
                                         Message
                                     </label>
                                     <textarea
-                                        name="message"
-                                        // value={formData.message}
-                                        // onChange={handleChange}
+                                        id="message"
+                                        value={formData.message}
+                                        onChange={handleChange}
                                         rows={4}
-                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors resize-vertical"
+                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors resize-vertical poppins-medium"
                                         required
                                     />
                                 </div>
 
                                 <div className="flex justify-center items-center ">
-                                    <Link>
-                                        <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
-                                            <span className="relative z-10 text-[20px] -ml-4">Submit </span>
-                                            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-12  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
-                                            <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
-                                        </button>
-                                    </Link>
+                                    <button type='submit' className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                                        <span className="relative z-10 text-[20px] -ml-4">Submit </span>
+                                        <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-12  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                        <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+                                    </button>
                                 </div>
 
                             </form>

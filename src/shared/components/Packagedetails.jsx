@@ -597,7 +597,7 @@ function Packagedetails() {
   }
 
   return (
-    <div className="">
+    <div className="overflow-hidden">
       {/* Hero Section */}
       <div
         className="lg:h-90 h-70 relative bg-cover bg-center lg:mt-20 mt-5"
@@ -625,7 +625,7 @@ function Packagedetails() {
       <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
         {/* Package Header */}
         <div className="mb-10">
-          <h1 className="text-xl md:text-2xl fondamento-regular text-center text-[#6CBF02] tracking-wide">
+          <h1 className="text-xl md:text-2xl fondamento-regular text-center text-[#6CBF02] tracking-wide" >
             {packageDetails.packageData.title}
           </h1>
           <h2 className="text-lg poppins-medium opacity-75 mt-2 text-center max-w-7xl mx-auto">
@@ -635,12 +635,12 @@ function Packagedetails() {
 
         {/* Main Content Section */}
         <div className="mt-10">
-          <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center mb-6">
+          <h2 className="text-2xl text-[#6CBF02] poppins-semibold text-center mb-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
             {packageDetails.templeSection.title}
           </h2>
           
           {/* Featured Image */}
-          <div className="max-w-[700px] mx-auto mb-8">
+          <div className="max-w-[700px] mx-auto mb-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
             <img
               src={packageDetails.templeSection.image}
               alt={packageDetails.templeSection.title}
@@ -649,7 +649,7 @@ function Packagedetails() {
           </div>
           
           {/* Description */}
-          <div className="space-y-4 mt-10">
+          <div className="space-y-4 mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
             {Object.values(packageDetails.templeSection.description).map((description, index) => (
               <p
                 key={index}
@@ -675,10 +675,10 @@ function Packagedetails() {
                   alt={`Featured ${selectedCar.name}`}
                   className="rounded-[30px] w-full shadow-[0_0_10px_rgba(0,0,0,0.15)]"
                 />
-                <div className="bg-[#6CBF02] px-5 py-2 rounded-full absolute top-5 left-5">
-                  <p className="text-2xl poppins-medium text-white">{selectedCar.price}</p>
+                <div className="bg-[#6CBF02] px-5 py-2 rounded-full absolute top-5 left-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                  <p className="text-2xl poppins-medium text-white" >{selectedCar.price}</p>
                 </div>
-                <div className="absolute lg:bottom-25  bottom-5 left-5 bg-black bg-opacity-50 px-4 py-2 rounded-full">
+                <div className="absolute lg:bottom-25  bottom-5 left-5 bg-black bg-opacity-50 px-4 py-2 rounded-full" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                   <p className="md:text-xl text-lg poppins-semibold text-white tracking-wide">
                     {selectedCar.name}
                   </p>

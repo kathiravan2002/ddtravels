@@ -367,7 +367,7 @@ function Package() {
     }
 
     return (
-        <div>
+        <div className=''>
             <div className=" lg:h-90 h-70  relative bg-cover bg-center lg:mt-20 mt-5" style={{ backgroundImage: "url('/assets/images/About/allhero.png')" }}>
                 <div className="absolute inset-0 bg-[#000000] opacity-65 lg:h-90 h-70 "></div>
                 <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-2">
@@ -444,7 +444,7 @@ function Package() {
                     {/* Packages Grid */}
                     <div className="flex-1">
                         {filteredData.length > 0 ? (
-                            <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
+                            <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                 {filteredData.map((packageItem, index) => (
                                     <div
                                         key={packageItem.id}
