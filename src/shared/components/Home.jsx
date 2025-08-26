@@ -277,7 +277,7 @@ export default function Home(props) {
 
                                 </div>
                                 <div className="flex md:justify-between flex-col md:flex-row">
-                                    <p className="md:text-[28px] text-[20px] dancing-script opacity-75 flex gap-2  items-center "><img src="/assets/images/Home/car.png" alt="car" className='md:w-[150px] w-[120px]' /> Car Rental Provider </p>
+                                    <p className="md:text-[28px] text-[20px] dancing-script opacity-75 flex gap-2  items-center "><img src="/assets/images/Home/crystavector.jpg" alt="car" className='md:w-[120px] w-[120px]' /> Car Rental Provider </p>
                                     <div className="flex justify-center items-center">
                                         <Link to="/about-us">
                                             <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
