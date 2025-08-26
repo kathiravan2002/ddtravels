@@ -2516,29 +2516,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹14000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹12000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹16000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹18000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2574,29 +2574,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹14500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹12500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹16500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹18500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2632,29 +2632,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹15000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹13000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹17000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹19000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2690,29 +2690,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹10000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹9000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹12000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹14000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2748,29 +2748,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹9500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹8500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹11500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹13500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2806,29 +2806,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹11,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹10,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹13,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹15,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2864,29 +2864,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹19,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹18,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹22,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹25,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2922,29 +2922,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹13,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹12,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹15,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹17,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2980,29 +2980,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹10,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹9,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹12,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹14,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -3038,29 +3038,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹9,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹8,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹11,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹13,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -3096,29 +3096,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹16,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹15,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹17,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹18,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -3154,29 +3154,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹16,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹16,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹17,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹19,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -3212,29 +3212,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹11,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹11,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹12,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹13,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -3270,29 +3270,29 @@
           "id": 1,
           "name": "Etios (4+1)",
           "price": "₹9,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
           "price": "₹9,500",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Xylo (7+1)",
           "price": "₹11,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/xylo.png",
+          "featuredImage": "/assets/images/Package/xylo.png"
         },
         "4": {
           "id": 4,
           "name": "Innova (7+1)",
           "price": "₹12,000",
-          "image": "/assets/images/Package/car.png",
-          "featuredImage": "/assets/images/Package/packagecar.png"
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
