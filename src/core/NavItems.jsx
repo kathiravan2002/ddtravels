@@ -122,7 +122,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
           <div className=" flex gap-4 "><Link to="https://www.linkedin.com/company/thirsty-crowz/" target="_blank" rel="noopener noreferrer"><img src="/images/linkedin (1).png" alt="linkedin" className="w-[26px] h-[26px]" /> </Link></div> */}
             <div className="flex justify-center items-center">
               <Link to="/contact-us">
-                <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                <button  onClick={() => {ToggleMenu(false);}} className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
                   <span className="relative z-10 text-[20px] -ml-4"> Enquiry Now </span>
                   <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-23  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
                   <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
