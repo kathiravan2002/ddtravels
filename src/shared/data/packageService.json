@@ -375,41 +375,41 @@
       "description": "Visit the magnificent Mysore Palace and surrounding attractions"
     },
     {
-      "id": "one-day-1",
+      "id": "mahabalipuram-tour-package",
       "image": "/assets/images/Package/oneday1.jpg",
-      "title": "Chennai to Mahabalipuram One-Day Tour Package",
+      "title": "Chennai to Mahabalipuram Tour Package",
       "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Explore rock-cut temples and ancient carvings."
     },
     {
-      "id": "one-day-2",
+      "id": "kanchipuram-tour-package",
       "image": "/assets/images/Package/oneday2.jpg",
-      "title": "Chennai to Kanchipuram One-Day Tour Package",
+      "title": "Chennai to Kanchipuram Tour Package",
       "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Discover temples, silk sarees, and traditions."
     },
     {
-      "id": "one-day-3",
+      "id": "kanchipuram-Divya-Desam-Temples",
       "image": "/assets/images/Package/oneday3.png",
-      "title": "Chennai to Kanchipuram Divya Desam Temples One-Day Tour Package",
+      "title": "Chennai to Kanchipuram Divya Desam Temples Tour Package",
       "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Visit sacred Divya Desam temples today."
     },
     {
-      "id": "one-day-4",
+      "id": "tirupati-tour-package",
       "image": "/assets/images/Package/oneday4.jpg",
-      "title": "Chennai to Tirupati One-Day Tour Package",
+      "title": "Chennai to Tirupati Tour Package",
       "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Seek blessings at Lord Venkateswara Temple."
     },
     {
-      "id": "one-day-5",
+      "id": "sri-kalahasti-tour-package",
       "image": "/assets/images/Package/oneday5.jpg",
-      "title": "Chennai to Sri Kalahasti One-Day Tour Package",
+      "title": "Chennai to Sri Kalahasti Tour Package",
       "time": "6.00AM to 9.00PM",
       "category": "one-day",
       "description": "Perform Rahu-Ketu pooja, divine experience."
@@ -1167,10 +1167,10 @@
         "content": "Divya Desan Travels provides a comfortable and budget-friendly Chennai to Pondicherry one-way drop taxi service. With skilled drivers, well-maintained vehicles, and flexible timings, we make your journey convenient and enjoyable. Choose Divya Desan Travels for a safe and smooth ride to Pondicherry."
       }
     },
-    "one-day-1": {
-      "id": "one-day-1",
+    "mahabalipuram-tour-package": {
+      "id": "mahabalipuram-tour-package",
       "packageData": {
-        "title": "Chennai to Mahabalipuram One-Day Tour Package",
+        "title": "Chennai to Mahabalipuram Tour Package",
         "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM",
         "category": "one-day"
       },
@@ -1178,9 +1178,30 @@
         "title": "Explore Mahabalipuram with Comfort",
         "image": "/assets/images/Package/oneday1.jpg",
         "description": {
-          "1": "Divya Desan Travels offers a dedicated one-day trip from Chennai to Mahabalipuram, designed for travelers who wish to explore the UNESCO World Heritage monuments, ancient temples, and scenic beaches. Enjoy a seamless journey with our professional drivers and well-maintained vehicles.",
-          "2": "The tour covers iconic attractions such as Shore Temple, Arjuna’s Penance, Pancha Rathas, Mahabalipuram Lighthouse, and Krishna’s Butterball. Whether you are a history enthusiast, a devotee, or simply seeking a coastal getaway, this trip is crafted to offer a memorable experience.",
-          "3": "Choose from our range of vehicles like Swift Dzire, Etios, Innova, or Tempo Traveller for group travel. With affordable pricing, comfortable rides, and hassle-free bookings, Divya Desan Travels ensures your Chennai to Mahabalipuram journey is enriching and enjoyable."
+          "1": "Mahabalipuram, also known as Mamallapuram, is a historic coastal town in the Kancheepuram district of Tamil Nadu, located about 60 km south of Chennai. Famous for its ancient rock-cut architecture, it was once a bustling seaport that connected India with Southeast Asia. By the 7th century, under the Pallava dynasty, Mahabalipuram flourished as a center of art, culture, and trade.",
+          "2": "Today, it is renowned for its UNESCO World Heritage monuments, including the Shore Temple, the intricately carved Five Rathas, the massive open-air rock relief Arjuna’s Penance, and several mandapas (cave sanctuaries). The town is also home to the famous Tiger’s Cave and other Pallava-era marvels that reflect the glory of ancient Indian craftsmanship.",
+          "3": "Apart from its historical significance, Mamallapuram Beach offers the perfect blend of natural beauty and relaxation. Visitors can enjoy the serene coastline, capture stunning photographs, and experience the charm of a vibrant cultural hub. The town also hosts traditional dance festivals and showcases the rich legacy of stone carving through its sculpture schools.",
+          "4": "With Divya Desan Travels, you can experience the wonders of Mahabalipuram in a comfortable and hassle-free journey. Whether you wish to explore in a single day or extend your trip for a more relaxed experience, this tour ensures a memorable blend of spirituality, history, and scenic beauty."
+        },
+        "visitplaces": {
+          "1": "Beach Temples",
+          "2": "Arjunan Thapasu",
+          "3": "Pancha Pandava Ratha",
+          "4": "Mahishamardini cave",
+          "5": "Ganesh Temple",
+          "6": "Butter Ball",
+          "7": "Sthalasayana perumal temple",
+          "8": "Tiger Cave",
+          "9": "Crocodile Bank",
+          "10": "Muttukadu Boat house",
+          "11": "Dakshinachirta Heritage Museum"
+        },
+         "templedescription": {
+          "1": "Divya Desan Travels offers a comfortable and convenient Chennai to Mahabalipuram tour package, perfect for devotees, families, and travelers who wish to explore the rich cultural and historical heritage of Tamil Nadu. Mahabalipuram, also known as Mamallapuram, is a UNESCO World Heritage Site celebrated for its magnificent temples, rock-cut caves, and serene beaches.",
+          "2": "The journey begins with a smooth pick-up from your hotel or residence in Chennai in a well-maintained, air-conditioned vehicle driven by an experienced driver. Mahabalipuram is just 60 km away, and the drive takes around 2 hours, giving you time to relax and enjoy the scenic beauty along the way.",
+          "3": "Once you arrive, you’ll get to explore iconic monuments such as the Shore Temple, Pancha Rathas (Five Rathas), Arjuna’s Penance, Krishna Mandapam, and Krishna’s Butterball. Each site is a remarkable testimony to Pallava-era architecture and craftsmanship, offering insights into India’s glorious heritage. After soaking in the history and art of these monuments, you can unwind at the Mahabalipuram Beach, where the golden sands and the gentle breeze from the Bay of Bengal provide a perfect backdrop for relaxation or even water activities.",
+          "4": "The package includes transportation, parking fees, toll charges, and driver charges, ensuring a hassle-free trip. Meals, entry tickets, and personal expenses are excluded, allowing flexibility to explore local cuisine and activities as per your preference. Divya Desan Travels also offers the convenience of customizing the itinerary, so whether you prefer a quick one-day temple and heritage tour or a more relaxed two-day experience covering additional spots at your own pace, everything can be arranged to suit your needs.",
+          "5": "With affordable and transparent pricing, no hidden charges, and personalized services, Divya Desan Travels ensures a memorable journey. From historical wonders to spiritual experiences and scenic landscapes, this Chennai to Mahabalipuram tour guarantees cherished memories for a lifetime."
         }
       },
       "carBookingSection": {
@@ -1195,38 +1216,38 @@
         "1": {
           "id": 1,
           "name": "Etios (4+1)",
-          "price": "₹2000",
+          "price": "₹4,000 (1 Day) & ₹8,000 (2 Days)",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
-          "price": "₹1000",
+          "price": "₹3,800 (1 Day) & ₹7,500 (2 Days)",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga (7+1)",
-          "price": "₹2400",
+          "price": "₹5,500 (1 Day) & ₹8,500 (2 Days)",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
-          "name": "Innova (7+1)",
-          "price": "₹2400",
+          "name": "Innova Crysta (7+1)",
+          "price": "₹6,500 (1 Day) & ₹9,500 (2 Days)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
-        "content": "This one-day Chennai to Mahabalipuram tour is ideal for families, friends, and tourists looking to experience South India’s ancient art and seaside charm. With Divya Desan Travels, enjoy a comfortable ride, visit famous heritage spots, and return with unforgettable memories."
+        "content": "The one-day and two-day Chennai to Mahabalipuram tour is ideal for families, friends, and tourists looking to experience South India’s ancient art and seaside charm. With Divya Desan Travels, enjoy a comfortable ride, visit famous heritage spots, and return with unforgettable memories."
       }
     },
-    "one-day-2": {
-      "id": "one-day-2",
+    "kanchipuram-tour-package": {
+      "id": "kanchipuram-tour-package",
       "packageData": {
         "title": "Chennai to Kanchipuram Tour Package",
         "subtitle": "Reliable car rental services available | Flexible timing: 6:00 AM to 10:00 PM",
@@ -1236,9 +1257,27 @@
         "title": "Explore the Temple City of Kanchipuram",
         "image": "/assets/images/Package/oneday2.jpg",
         "description": {
-          "1": "Experience the spiritual and cultural charm of Kanchipuram, famously known as the 'City of a Thousand Temples,' with Divya Desan Travels. Enjoy a comfortable, seamless, and enriching journey for families, pilgrims, and solo travelers.",
-          "2": "Visit iconic temples such as Kamakshi Amman Temple, Varadaraja Perumal Temple, Ekambareswarar Temple, Ulagalanda Perumal Temple, Kailasanathar Temple, Shankaracharya Mutt, Kumarakottam Murugan Temple, and Chitragupta Temple. Explore the rich heritage and famous Kanchipuram silk markets.",
-          "3": "Choose from a wide range of vehicles including Swift Dzire, Etios, Ertiga, or Innova Crysta for 1-day or 2-day trips. With affordable packages, comfortable rides, and professional chauffeurs, Divya Desan Travels ensures a memorable and convenient journey."
+          "1": "Kanchipuram has long been celebrated as the capital of the Pallava dynasty and is today cherished as the City of a Thousand Temples. Over the centuries, it has also been referred to by different names such as Kanchiampathi and Conjeevaram. The city is adorned with magnificent temples that stand as living testaments to its spiritual significance and architectural brilliance.",
+          "2": "If you are seeking a destination that combines history, spirituality, culture, and tradition, Kanchipuram is the perfect choice. Often known as the spiritual heart of South India, the city captivates visitors with its breathtaking temple architecture and sacred atmosphere. Beyond religious devotion, the temples are treasured as landmarks of Dravidian heritage, showcasing the artistic passion of ancient rulers. Kanchipuram is also famous worldwide for its exquisite handwoven silk sarees, making it a cultural hub as much as a pilgrimage center.",
+          "3": "Among its many attractions, the Kamakshi Amman Temple holds a special place. Situated at the heart of the city, this temple is dedicated to Goddess Kamakshi, a revered form of Shakti. Another must-see is the Varadaraja Perumal Temple, originally built in the 10th century and later expanded by the Vijayanagar rulers. Its vast courtyards, intricate carvings, and towering gopurams highlight the grandeur of South Indian temple design.",
+          "4": "Kanchipuram is also vibrant with festivals throughout the year. Popular celebrations such as the Garudothsavam, Brahmothsavam, and the Car (Rath) Festival draw thousands of devotees and travelers alike. Weather-wise, the city experiences hot summers with temperatures ranging between 21°C and 37°C, while winters are milder, ranging from 20°C to 29°C. On average, Kanchipuram receives about 87 cm of rainfall annually, making it a year-round travel destination.",
+          "5": "At Divya Desan Travels, we invite you to explore this historic city, discover its timeless temples, experience its colorful festivals, and immerse yourself in its cultural heritage. Whether you seek spirituality, tradition, or artistry, Kanchipuram offers an unforgettable journey through our exclusive one-day and two-day tour packages."
+        },
+        "visitplaces": {
+          "1": "Sri Kamatchi Amman Temple",
+          "2": "Sri Ekambaranathar Temple",
+          "3": "Sri Varadharaja Perumal Temple",
+          "4": "Sri Ulagalantha Perumal Temple",
+          "5": "Sri Kailasanathar Temple",
+          "6": "Sri Chitragupta Temple",
+          "7": "Sri Kumarakottam Subramanya Swamy Temple"
+        },
+        "templedescription": {
+          "1": "Chennai, the bustling capital of Tamil Nadu, is a city that blends tradition, culture, and modern charm. Just two hours away lies the historic town of Kanchipuram, fondly called the “City of Thousand Temples.” With its grand temples, rich history, and vibrant silk-weaving heritage, Kanchipuram is one of South India’s most remarkable destinations. Divya Desan Travels brings you exclusive one-day and two-day tour packages from Chennai to Kanchipuram, ensuring a comfortable and memorable travel experience.",
+          "2": "The tours from Divya Desan Travels begin early in the morning with a professional driver picking you up from your hotel or residence in Chennai. The journey of about 72 km offers a peaceful drive through the scenic countryside before you arrive in Kanchipuram. Once there, you’ll explore its legendary temples such as the Kailasanathar Temple, Varadharaja Perumal Temple, and Ekambareswarar Temple. Each temple stands as a masterpiece of South Indian architecture, showcasing intricate carvings and age-old traditions. You will also get a chance to visit the city’s famous silk weaving centers, where artisans craft the world-renowned Kanchipuram silk sarees.",
+          "3": "These packages from Divya Desan Travels cover entrance fees and include the services of an experienced guide who will share fascinating stories about the temples and the city’s glorious past. The one-day trip concludes in the evening as you are dropped back at your Chennai accommodation, while the two-day package offers an extended experience with additional time for sightseeing and cultural exploration.",
+          "4": "During the tours, you will visit significant temples like the Sri Kamatchi Amman Temple, devoted to Goddess Kamakshi, celebrated for its grandeur and sacred energy. The Sri Ekambaranathar Temple, dedicated to Lord Shiva, amazes visitors with its towering gopuram and ancient mango tree believed to be thousands of years old. You will also see the Sri Varadharaja Perumal Temple, known for its unique stone chain sculpture, and the Sri Ulagalantha Perumal Temple, admired for its rare architectural style. Other highlights include the Sri Kailasanathar Temple, one of the oldest temples in Tamil Nadu, the Sri Chitragupta Temple, dedicated to the God of records, and the Sri Kumarakottam Subramanya Swamy Temple, honoring Lord Murugan with its distinctive heritage.",
+          "5": "The one-day and two-day tour packages from Divya Desan Travels offer travelers a chance to witness Kanchipuram’s sacred temples, artistic traditions, and cultural richness in a convenient and stress-free way. With comfortable travel, expert guidance, and thoughtfully planned visits, these packages ensure an enriching journey for both short and extended travelers."
         }
       },
       "carBookingSection": {
@@ -1283,10 +1322,10 @@
         "content": "With Divya Desan Travels, your Chennai to Kanchipuram trip is more than sightseeing — it’s an immersive experience in culture, spirituality, and heritage. Enjoy flexible 1-day or 2-day itineraries, visit iconic temples, explore silk markets, and travel comfortably with professional drivers."
       }
     },
-    "one-day-3": {
-      "id": "one-day-3",
+    "kanchipuram-Divya-Desam-Temples": {
+      "id": "kanchipuram-Divya-Desam-Temples",
       "packageData": {
-        "title": "Chennai to Kanchipuram Divya Desam Temples One-Day Tour Package",
+        "title": "Chennai to Kanchipuram Divya Desam Temples Tour Package",
         "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM",
         "category": "one-day"
       },
@@ -1294,9 +1333,39 @@
         "title": "Discover the Temple City of Kanchipuram",
         "image": "/assets/images/Package/oneday3.png",
         "description": {
-          "1": "Divya Desan Travels presents a one-day trip from Chennai to Kanchipuram, specially designed for devotees and travelers who wish to explore the sacred Divya Desam temples along with other historic shrines. Experience a smooth and comfortable journey in our premium vehicles.",
-          "2": "This tour covers prominent temples including Varadaraja Perumal Temple (Divya Desam), Deepa Prakasa Perumal Temple (Divya Desam), Ashtabujakaram Perumal Temple (Divya Desam), Ekambareswarar Temple, Kamakshi Amman Temple, and Kailasanathar Temple. Apart from its spiritual significance, Kanchipuram is also world-famous for its exquisite silk sarees.",
-          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller for your travel needs. With affordable packages, professional chauffeurs, and flexible timings, Divya Desan Travels ensures your Chennai to Kanchipuram journey is both divine and delightful."
+          "1": "Kanchipuram, one of the holiest cities in India, is renowned for its abundance of ancient temples. Among them, the Vishnu Temples and Shiva Temples hold great significance. The Varadharaja Perumal Temple is dedicated to Lord Vishnu, while the Ekambaranathar Temple is one of the most revered shrines of Lord Shiva. Other notable temples include the Kamakshi Amman Temple, Kumara Kottam, Kachapeshwarar Temple, and the Kailasanathar Temple.",
+          "2": "The city is traditionally divided into two regions: Chinna Kanchipuram (Vishnu Kanchi), home to many Vishnu temples, and Periya Kanchipuram (Shiva Kanchi), which is famous for its numerous Shiva temples. Out of the 108 Divya Desam Temples of Lord Vishnu, 82 are located in Tamil Nadu, with 16 situated in Kanchipuram. According to legend, Lord Vishnu once worshipped Lord Shiva here in the form of a tortoise (Kurma). Inscriptions also refer to the area as Kachipedu, and the temple lies close to the Kanthakottam Temple.",
+          "3": "Kanchipuram is often called the “City of a Thousand Temples”, as its temples stand as remarkable symbols of spiritual and architectural heritage. While the majority of shrines are dedicated to Lord Vishnu and Lord Shiva, the city is also home to Buddhist monasteries, Jain temples, and mosques, showcasing its rich cultural diversity."
+        },
+        "visitplaces": {
+          "1": "Thiruvekka- sonna vannam seitha perumal",
+          "2": "Thiru Ooragam- thiru vikraman (ulagalantha perumal temple)",
+          "3": "Thiruneeragam- ulagalantha perumal temple",
+          "4": "Thiru nila thundam-santhirasoodar perumal(inside ekambar esvarar temple)",
+          "5": "Thiru karvannam-karvanar nindra thiru kolam west face (inside ulagalantha perumal temple)",
+          "6": "Thiru karagam-karunakara perumal nindra kolam(inside ulagalantha perumal temple)",
+          "7": " Thirukachi Athigiri -Varadharaja perumal temple",
+          "8": "Thiru kalvanur- kalvar perumal thiru koil (inside kamatchi amman temple)",
+          "9": "Thiru padagam- pandavar thoothar perumal temple",
+          "10": "Thiru pavala vannam-pachai vanna perumal",
+          "11": "Thiru Parameswara Vinnagaram- vaikunta nathar perumal temple",
+          "12": " Thiru thanga- vilakoli perumal temple",
+          "13": "Thiru veligai- azhagiya singar temple",
+          "14": " Asta puyakaram- adhikeshwa perumal temple",
+          "15": "Kamakostam",
+          "16": "Pachai vannan"
+        },
+        "templedescription": {
+          "1": "Chennai is a city of culture, and what better way to experience it than by taking a one-day or two-day tour package to the Divyadesam Temples in Kanchipuram. These temples are considered to be some of the most revered shrines in the Hindu religion. Here's what you can expect from our tour package:",
+          "2": "Our tour will start early in the morning, and a well-maintained car with an experienced driver will pick you up from your Chennai hotel or residence. From there, we will begin our journey to Kanchipuram, which is approximately 70 km away from Chennai. The journey takes around 2 hours, and you can sit back, relax and enjoy the scenic beauty along the way. During the tour, you will visit 16 significant temples, including Thiruvekka, Thiru Ooragam, Thiru Nilathundam, Thiru Karvannam, Thiru Karagam, Thirukachi Athigiri, Thiru Kalvanur, Thiru Padagam, Thiru Pavala Vannam, Thiru Parameswara Vinnagaram, Thiru Thanga, Thiru Veligai, Asta Puyakaram, Kamakostam, and Pachai Vannan. Each of these temples has a unique significance and history, making the trip an unforgettable experience.",
+          "3": "These temples offer visitors a chance to experience the rich cultural heritage of Kanchipuram, and each temple has its own architectural style and design. The Sri Kamatchi Amman Temple, Sri Ekambaranathar Temple, Sri Varadharaja Perumal Temple, and Sri Ulagalantha Perumal Temple are some of the temples you will visit on the tour. Our tour package includes comfortable transportation, an experienced driver, and a knowledgeable guide who will take you through the history and significance of each temple. So, get ready to explore the Divyadesam Temples in Kanchipuram with our one-day or two-day tour package and take back unforgettable memories.",
+          "4": "The tour will commence early in the morning, and a well-maintained car with a skilled driver will pick you up from your hotel or residence in Chennai. The first stop of the tour is at Thiruvekka – Sonna Vannam Seitha Perumal Temple, and the journey will continue through all the other temples mentioned in the package. During the tour, visitors will get a chance to witness the exquisite architecture and intricate carvings of each temple. The tour also provides a great opportunity for visitors to learn about the rich history and culture of the region. The package includes all entrance fees and a delicious lunch, making it a hassle-free and convenient experience for tourists. Visitors can sit back, relax, and enjoy the scenic beauty of the region while being transported in the comfort of a car. The Chennai to Kanchipuram Divyadesam Temples One-Day and Two-Day Tour Package is a perfect option for those who wish to explore the famous temples in Kanchipuram and experience the rich culture and heritage of the region.",
+          "5": "Depending on the time you choose, the one-day tour offers a fast-paced experience covering all the important temples within a single day, while the two-day tour allows for a more relaxed journey with additional time to explore temples like Varadharaja Perumal, Ekambaranatha, Kamakshi Amman, Kailasanathar, and other cultural highlights of Kanchipuram. The two-day option is ideal for those who want to immerse themselves deeply in the architectural marvels and spiritual significance without rushing.",
+          "6": "The temples in Kanchipuram are not only known for their religious importance but also for their stunning architecture and historical significance. The experienced guide accompanying you will provide you with information about the history and legends of each temple, making your visit even more enriching. At the end of the trip, you will be driven back to Chennai in the same car, with the memories of a spiritually fulfilling journey.",
+          "7": "Kanchipuram is a holy city known for its numerous temples, including Vishnu Temples and Shiva Temples. Among the temples dedicated to Lord Vishnu, the Varadharaja Perumal Temple is one of the most popular. The temple is renowned for its grand architecture and rich history, attracting devotees and tourists from all over the world. The temple complex also includes several smaller shrines and a large water tank. Another prominent temple in Kanchipuram is the Ekambaranatha Temple, dedicated to Lord Shiva. It is one of the largest temples in Kanchipuram and is believed to have been built in the 6th century. The temple has a towering gopuram (entrance tower) and houses a sacred mango tree that is believed to be thousands of years old. The temple is also known for its elaborate carvings and sculptures.",
+          "8": "Apart from these two temples, Kanchipuram is home to several other famous temples. The Kamakshi Amman Temple, dedicated to the goddess Kamakshi, is a popular pilgrimage site for devotees of the goddess. The Kumara Kottam, Kachapeshwarar Temple, and the Kailasanathar Temple are other important temples that attract devotees and tourists alike. The Kanchipuram temples are not only religious places but also architectural marvels that showcase the rich cultural heritage of South India.",
+          "9": "In the 108 Divya Desa Temples of Lord Vishnu, which are considered holy by Vaishnavites, 82 temples are located in Tamil Nadu, out of which 16 temples are situated in Kanchipuram. The city is known for its deep connections with Lord Vishnu, and it is believed that the god was worshipped in the form of Kurma, a turtle, in the region. The Vishnu temples in Kanchipuram are revered for their beauty and spiritual significance.",
+          "10": "With its numerous temples and spiritual charm, the Chennai to Kanchipuram Divyadesam Temples One-Day and Two-Day Tour Package is a must-do for anyone looking to experience the divine energy, architecture, and cultural richness of South India."
         }
       },
       "carBookingSection": {
@@ -1311,40 +1380,40 @@
         "1": {
           "id": 1,
           "name": "Etios (4+1)",
-          "price": "₹2000",
+          "price": "₹4,000 (1 Day) & ₹8,000 (2 Days)",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
-          "price": "₹1000",
+          "price": "₹3,800 (1 Day) & ₹7,500 (2 Days)",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga (7+1)",
-          "price": "₹2400",
+          "price": "₹5,500 (1 Day) & ₹8,500 (2 Days)",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
-          "name": "Innova (7+1)",
-          "price": "₹2400",
+          "name": "Innova Crysta (7+1)",
+          "price": "₹6,500 (1 Day) & ₹9,500 (2 Days)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
-        "content": "This one-day Chennai to Kanchipuram Divya Desam temples tour is ideal for devotees, families, and tourists looking for a spiritual retreat. With Divya Desan Travels, experience a hassle-free ride, visit ancient temples, and create everlasting memories."
+        "content": "The one-day and two-day Chennai to Kanchipuram Divya Desam Temples Tour is ideal for devotees, families, and tourists seeking a spiritual retreat. With Divya Desan Travels, you can enjoy a hassle-free journey, visit ancient temples, and create everlasting memories."
       }
     },
-    "one-day-4": {
-      "id": "one-day-4",
+    "tirupati-tour-package": {
+      "id": "tirupati-tour-package",
       "packageData": {
-        "title": "Chennai to Tirupati One-Day Tour Package",
+        "title": "Chennai to Tirupati Tour Package",
         "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM",
         "category": "one-day"
       },
@@ -1352,9 +1421,33 @@
         "title": "Seek Blessings at Tirupati Balaji Temple",
         "image": "/assets/images/Package/oneday4.jpg",
         "description": {
-          "1": "Divya Desan Travels offers a specially organized one-day trip from Chennai to Tirupati, designed for devotees who wish to have a smooth darshan of Lord Venkateswara and nearby temples. Enjoy a peaceful journey with our comfortable vehicles.",
-          "2": "The tour includes darshan at the world-renowned Tirumala Venkateswara Temple, along with visits to other sacred places such as Padmavathi Ammavari Temple, Govindaraja Swamy Temple, and Kapila Theertham. Our package ensures a divine spiritual experience for all pilgrims.",
-          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller depending on your group size. With affordable pricing, experienced drivers, and timely service, Divya Desan Travels makes your Chennai to Tirupati pilgrimage seamless and memorable."
+          "1": "Divya Desan Travels offers a well-planned one and two days pilgrimage tour from Chennai to Tirupati, specially designed for devotees who wish to experience a comfortable and hassle-free darshan of Lord Venkateswara. Our package ensures a smooth and peaceful journey with neatly maintained vehicles, courteous drivers, and complete guidance throughout the trip. Whether you choose a single-day visit or extend it to two days for a more relaxed spiritual experience, Divya Desan Travels makes sure your pilgrimage is truly divine and memorable.",
+          "2": "The tour covers darshan at the world-famous Tirumala Venkateswara Temple, along with visits to other sacred shrines like Padmavathi Ammavari Temple, Govindaraja Swamy Temple, and Kapila Theertham. With our organized itinerary, devotees can enjoy a spiritually uplifting experience without any stress.",
+          "3": "Travelers can choose from a wide range of vehicles such as Swift Dzire, Etios, Innova, and Tempo Traveller based on their group size. With affordable pricing, reliable service, and experienced drivers, Divya Desan Travels makes your Chennai to Tirupati pilgrimage memorable and spiritually fulfilling."
+        },
+         "visitplaces": {
+          "1": "Silathoranam, Tirumala Hills",
+          "2": "Rock Garden",
+          "3": "Japali Teertham",
+          "4": "Akasa Ganga",
+          "5": "Sri Venkateshwara Museum",
+          "6": "Papavinasanam Theertham",
+          "7": "Geetopadesam Park",
+          "8": "Lord Balaji Foot Prints",
+          "9": "Papa Vinasanam Dam",
+          "10": "Sri Varahaswami Temple",
+          "11": "Jabila Theertham",
+          "12": "Sri Bedi Anjaneya Swamy Temple",
+          "13": "Deer Park",
+          "14": " Asta puyakaram- adhikeshwa perumal temple"
+        },
+         "templedescription": {
+          "1": "Tirupati is one of the most sacred pilgrimage centers in India, attracting millions of devotees every year to seek the blessings of Lord Venkateswara. Divya Desan Travels offers a comfortable and devotional journey to Tirupati, ensuring you get the most out of your pilgrimage.",
+          "2": "The journey starts early in the morning from Chennai, with a well-maintained car and an experienced driver picking you up from your residence or hotel. On reaching Tirupati, the first visit is usually to Sri Padmavathi Ammavari Temple at Tiruchanur, followed by darshan at the Tirumala Venkateswara Temple on the hilltop. Along with this, devotees will also get to visit sacred places like Govindaraja Swamy Temple and Kapila Theertham.",
+          "3": "In addition to the main darshan, the trip also includes visits to several holy sites around Tirumala such as Silathoranam, Akasa Ganga, Papavinasanam Theertham, Sri Varahaswami Temple, and Sri Bedi Anjaneya Swamy Temple. Each location has its own spiritual and historical importance, offering devotees a deeply enriching experience.",
+          "4": "The package is designed to ensure comfort and convenience. Our drivers are experienced in Tirupati routes, making sure your darshan and temple visits are completed on time. For larger groups, Tempo Travellers are available, ensuring everyone travels together in comfort.",
+          "5": "This one-day trip is an ideal choice for families, groups, and individuals looking for a divine spiritual journey without worrying about travel arrangements. Divya Desan Travels takes care of everything from transportation to guiding you through the important temples, making your Tirupati trip truly blessed."
+
         }
       },
       "carBookingSection": {
@@ -1365,32 +1458,32 @@
           "name": "Swift Dzire (4+1)"
         }
       },
-      "carOptions": {
+       "carOptions": {
         "1": {
           "id": 1,
           "name": "Etios (4+1)",
-          "price": "₹3000",
+          "price": "₹10,500 (1 Day) & ₹12,500 (2 Days)",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire (4+1)",
-          "price": "₹2800",
+          "price": "₹10,500 (1 Day) & ₹12,500 (2 Days)",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
-          "name": "Ertiga (7+1)",
-          "price": "₹4000",
+          "name": "Ertiga (6+1)",
+          "price": "₹14,500 (1 Day) & ₹15,500 (2 Days)",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
-          "name": "Innova (7+1)",
-          "price": "₹4500",
+          "name": "Innova Crysta (6+1)",
+          "price": "₹18,000 (1 Day) & ₹19,000 (2 Days)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1399,10 +1492,10 @@
         "content": "This one-day Chennai to Tirupati tour is ideal for devotees seeking darshan of Lord Venkateswara. With Divya Desan Travels, enjoy a stress-free trip, spiritual blessings, and a comfortable return journey."
       }
     },
-    "one-day-5": {
-      "id": "one-day-5",
+    "sri-kalahasti-tour-package": {
+      "id": "sri-kalahasti-tour-package",
       "packageData": {
-        "title": "Chennai to Sri Kalahasti One-Day Tour Package",
+        "title": "Chennai to Sri Kalahasti Tour Package",
         "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 6.00 AM to 9.00 PM",
         "category": "one-day"
       },

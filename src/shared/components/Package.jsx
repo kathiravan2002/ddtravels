@@ -253,7 +253,7 @@
 //                                 <li
 //                                     key={category.id}
 //                                     className={`cursor-pointer hover:text-[#6CBF02] duration-300 ${selectedCategory === category.id
-//                                             ? 'text-[#6CBF02] font-semibold'
+//                                             ? 'text-[#6CBF02] poppins-semibold'
 //                                             : ''
 //                                         }`}
 //                                     onClick={() => {
@@ -416,7 +416,7 @@ function Package() {
                                 <li
                                     key={category.id}
                                     className={`cursor-pointer hover:text-[#6CBF02] duration-300 ${selectedCategory === category.id
-                                        ? 'text-[#6CBF02] font-semibold'
+                                        ? 'text-[#6CBF02] poppins-semibold'
                                         : ''
                                         }`}
                                     onClick={() => {
