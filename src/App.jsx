@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
   Aos.init({
     duration: 800,
-    once: false,       
+    once: true,       
     mirror: true      
   });
 }, []);
