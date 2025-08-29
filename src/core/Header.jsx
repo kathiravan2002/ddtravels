@@ -88,9 +88,9 @@ function Header() {
 
                                             <div className="flex justify-center items-center">
                                                 <img
-                                                    src='/assets/images/Carr copy.png'
+                                                    src='/assets/images/Logo.png'
                                                     alt="Website Logo"
-                                                    className="w-70 select-none  "
+                                                    className="sm:max-w-80 max-w-[250px] select-none  "
                                                 />
                                                 {/* <h2 className="fondamento-regular md:text-[32px] text-[24px] text-[#6CBF02]">DD Travels</h2> */}
                                             </div>
@@ -99,7 +99,6 @@ function Header() {
                                 </div>
                             </div>
                         </div>
-
 
                         <div className=" w-full text-white port-lligat-sans-regular   hidden lg:block ">
                             <ul className="flex text-[20px] justify-center items-center  2xl:gap-10 gap-6 h-full  ">

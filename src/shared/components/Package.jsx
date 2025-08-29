@@ -394,10 +394,10 @@ function Package() {
                     </div>
 
                     <div
-                        className={`fixed top-0 left-0 h-full bg-white border-2 border-gray-400 pb-4 px-4 rounded-[20px] w-[300px] overflow-scroll xl:overflow-hidden transform transition-transform duration-300 ease-in-out z-50 lg:z-0 lg:sticky lg:top-28 lg:transform-none lg:h-fit ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'
+                        className={`fixed top-0 left-0 h-full bg-white border-2 border-gray-400 pb-4 px-4 rounded-[20px] w-[300px]  transform transition-transform duration-300 ease-in-out z-50 lg:z-0 lg:sticky lg:top-32 lg:transform-none lg:h-fit ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'
                             } lg:translate-x-0`}
                     >
-                        <div className="flex justify-between items-center lg:hidden sticky top-0 bg-white mt-5">
+                        <div className="flex justify-between items-center lg:hidden sticky top-0 bg-white mt-5 ">
                             <h2 className="text-xl fondamento-regular text-[#6CBF02] text-center">
                                 Packages
                             </h2>
@@ -408,10 +408,10 @@ function Package() {
                                 <IoClose className='text-[#6CBF02] text-[36px]' />
                             </button>
                         </div>
-                        <h2 className="text-xl fondamento-regular text-[#6CBF02] text-center hidden lg:block mt-5">
+                        <h2 className="text-2xl fondamento-regular text-[#6CBF02] text-center hidden lg:block mt-5">
                             Packages
                         </h2>
-                        <ul className="list-disc poppins-medium text-lg text-start marker:text-[#6CBF02] space-y-5 px-4 mt-5">
+                        <ul className="list-disc poppins-medium text-lg text-start marker:text-[#6CBF02] space-y-5 px-4 mt-5 overflow-auto lg:h-[calc(95vh-200px)] h-full ">
                             {packageCategories.map((category) => (
                                 <li
                                     key={category.id}
@@ -454,14 +454,14 @@ function Package() {
                                             />
                                         </div>
                                         <div className="space-y-2 px-4 py-4">
-                                            <h3 className="poppins-medium text-[18px] opacity-85 ">
+                                            <h3 className="poppins-medium text-[18px] opacity-85 line-clamp-2 h-[54px]">
                                                 {packageItem.title}
                                             </h3>
                                             <p className="poppins-medium text-[16px] opacity-75 ">
                                                 Timeframe: {packageItem.time}
                                             </p>
                                             {packageItem.description && (
-                                                <p className="poppins-medium text-[14px] opacity-70 line-clamp-2">
+                                                <p className="poppins-medium text-[14px] opacity-70 line-clamp-2 h-[42px]">
                                                     {packageItem.description}
                                                 </p>
                                             )}
