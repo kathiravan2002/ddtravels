@@ -282,7 +282,7 @@
 //             </div>
 //           </div>
 //         </div>
-    
+
 //         <div className="mt-12">
 //           <div className="bg-gray-50 rounded-[20px] p-6 md:p-8">
 //             <h3 className="text-xl poppins-semibold text-[#6CBF02] mb-4">
@@ -296,7 +296,7 @@
 
 
 //       </section>
-     
+
 //       <div className="  flex items-center justify-center">
 //         {/* Book Now Button */}
 //         <div className="py-10 flex justify-center">
@@ -456,7 +456,7 @@ function Packagedetails() {
       if (details) {
         setPackageDetails(details);
         setFormData(prev => ({ ...prev, package: details.packageData.title }));
-        
+
         // Initialize selectedCars for all car booking sections
         const initialSelectedCars = {};
         Object.keys(details).forEach(key => {
@@ -469,7 +469,7 @@ function Packagedetails() {
       } else {
         setError('Package not found');
         console.log(packageId);
-      }   
+      }
     } catch (err) {
       console.error('Error loading package details:', err);
       setError('Error loading package details');
@@ -518,9 +518,9 @@ function Packagedetails() {
   // Function to get car booking sections dynamically
   const getCarBookingSections = () => {
     if (!packageDetails) return [];
-    
+
     const sections = [];
-    
+
     // Check for carOptions and carBookingSection
     if (packageDetails.carOptions && packageDetails.carBookingSection) {
       sections.push({
@@ -535,13 +535,13 @@ function Packagedetails() {
     while (packageDetails[`carOptions${sectionIndex}`]) {
       const sectionKey = `carOptions${sectionIndex}`;
       const titleKey = `carBookingSection${sectionIndex}`;
-      
+
       sections.push({
         key: sectionKey,
         title: packageDetails[titleKey]?.title || `Car Booking Section ${sectionIndex}`,
         cars: packageDetails[sectionKey]
       });
-      
+
       sectionIndex++;
     }
 
@@ -551,7 +551,7 @@ function Packagedetails() {
   // Function to render car booking section
   const renderCarBookingSection = (section, index) => {
     const selectedCar = selectedCars[section.key];
-    
+
     if (!selectedCar) return null;
 
     return (
@@ -582,17 +582,15 @@ function Packagedetails() {
               <div
                 key={car.id}
                 onClick={() => handleCarSelect(car, section.key)}
-                className={`relative flex justify-between items-center w-full border-2 py-2 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${
-                  selectedCar.id === car.id
-                    ? 'border-[#6CBF02] bg-[#6CBF02]/10 shadow-md'
-                    : 'border-gray-300 hover:border-[#6CBF02]/50'
-                }`}
+                className={`relative flex justify-between items-center w-full border-2 py-2 px-5 rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-lg ${selectedCar.id === car.id
+                  ? 'border-[#6CBF02] bg-[#6CBF02]/10 shadow-md'
+                  : 'border-gray-300 hover:border-[#6CBF02]/50'
+                  }`}
               >
                 <div className="flex-1">
                   <h4
-                    className={`poppins-semibold text-[18px] md:text-[20px] ${
-                      selectedCar.id === car.id ? 'text-[#6CBF02]' : 'text-gray-800'
-                    }`}
+                    className={`poppins-semibold text-[18px] md:text-[20px] ${selectedCar.id === car.id ? 'text-[#6CBF02]' : 'text-gray-800'
+                      }`}
                   >
                     {car.name}
                   </h4>
@@ -721,7 +719,7 @@ function Packagedetails() {
             {packageDetails.packageData.title}
           </h1>
           <h2 className="text-lg poppins-medium opacity-75 mt-2 text-center max-w-7xl mx-auto">
-            {packageDetails.packageData.subtitle} | <Link to="/contact-us"><span className="text-[#6CBF02] underline">Contact Us More Details</span></Link>
+            {packageDetails.packageData.subtitle} ~ <Link to="/contact-us"><span className="text-[#6CBF02] underline">Contact Us More Details</span></Link>
           </h2>
         </div>
 
@@ -749,6 +747,7 @@ function Packagedetails() {
             ))}
           </div>
 
+
           {packageDetails?.templeSection.visitplaces && Object.values(packageDetails.templeSection.visitplaces).length > 0 && (
             <div className="border-2 border-[#6CBF02] rounded-[10px] p-5 w-fit mx-auto mt-10">
               <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">Our Travel Destinations</h2>
@@ -772,6 +771,19 @@ function Packagedetails() {
               </p>
             ))}
           </div>
+
+          {packageDetails?.templeSection.food && Object.values(packageDetails.templeSection.food).length > 0 && (
+            <div className=" flex flex-col justify-center items-center mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+              <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">Included Services</h2>
+              <div className="space-y-4" >
+                {Object.values(packageDetails.templeSection.food || {}).map((description, index) => (
+                  <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
+                    <img src="/assets/images/alert.png" alt="Temples" className="w-6" />{description}
+                  </p>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Dynamic Car Booking Sections */}
@@ -788,7 +800,7 @@ function Packagedetails() {
           </div>
         </div>
       </section>
-     
+
       <div className="flex items-center justify-center">
         {/* Book Now Button */}
         <div className="py-10 flex justify-center">

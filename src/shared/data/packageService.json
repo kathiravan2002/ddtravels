@@ -5,6 +5,10 @@
       "name": "All Packages"
     },
     {
+      "id": "one-day",
+      "name": "One & Two Days Tour Packages"
+    },
+    {
       "id": "local-tour",
       "name": "Chennai Local Tour Packages"
     },
@@ -20,10 +24,7 @@
       "id": "car-rental",
       "name": "Chennai Car Rental Package"
     },
-    {
-      "id": "one-day",
-      "name": "One & Two Days Tour Packages"
-    },
+    
     {
       "id": "tn-temples",
       "name": "Tamil Nadu Temples Tour Packages"
@@ -408,7 +409,7 @@
     },
     {
       "id": "tirupati-one-day-tour-package",
-      "image": "/assets/images/Package/oneday4-2.jpg",
+      "image": "/assets/images/Package/tirupatibalaji.jpg",
       "title": "Chennai to Tirupati One Day Tour Package",
       "time": "24/7 hours",
       "category": "one-day",
@@ -1511,7 +1512,7 @@
       },
       "templeSection": {
         "title": "Seek Blessings at Tirupati Balaji Temple",
-        "image": "/assets/images/Package/oneday4-2.jpg",
+        "image": "/assets/images/Package/tirupatibalaji.jpg",
         "description": {
           "1": "Divya Desan Travels offers a well-planned one-day pilgrimage tour from Chennai to Tirupati, specially designed for devotees who wish to experience a comfortable and hassle-free darshan of Lord Venkateswara. Our package ensures a smooth and peaceful journey with neatly maintained vehicles, courteous drivers, and complete guidance throughout the trip, making your pilgrimage truly divine and memorable.",
           "2": "The tour covers darshan at the world-famous Tirumala Venkateswara Temple, along with visits to other sacred shrines like Padmavathi Ammavari Temple, Govindaraja Swamy Temple, and Kapila Theertham. With our organized itinerary, devotees can enjoy a spiritually uplifting experience without any stress.",
@@ -1522,8 +1523,7 @@
           "2": "Alamelumangapuram in Tirupati (Padmavathi Temple)",
           "3": "Sri Varaha Swamy Temple",
           "4": "Sri Varasidhi Vinayaka Swamy Temple",
-          "5": "Sri Bedi Anjaneya Swamy Temple",
-          "6": "Papavinasanam Theertham"
+          "5": "Sri Bedi Anjaneya Swamy Temple"
         },
         "templedescription": {
           "1": "Tirupati is one of the most sacred pilgrimage centers in India, attracting millions of devotees every year to seek the blessings of Lord Venkateswara. Divya Desan Travels offers a comfortable and devotional one-day journey to Tirupati, ensuring you get the most out of your pilgrimage.",
@@ -1531,11 +1531,16 @@
           "3": "In addition to the main darshan, the trip also includes visits to several holy sites around Tirumala such as Silathoranam, Akasa Ganga, Papavinasanam Theertham, Sri Varahaswami Temple, and Sri Bedi Anjaneya Swamy Temple. Each location has its own spiritual and historical importance, offering devotees a deeply enriching experience.",
           "4": "The package is designed to ensure comfort and convenience. Our drivers are experienced in Tirupati routes, making sure your darshan and temple visits are completed on time. For larger groups, Tempo Travellers are available, ensuring everyone travels together in comfort.",
           "5": "This one-day trip is an ideal choice for families, groups, and individuals looking for a divine spiritual journey without worrying about travel arrangements. Divya Desan Travels takes care of everything from transportation to guiding you through the important temples, making your Tirupati trip truly blessed."
+        },
+        "food":{
+          "1":"Delicious breakfast and lunch at the selected Restaurant",
+          "2":"Toll Gate Charges, Permit charges, Parking charges included",
+          "3":"Pick and drop at your Doorstep"
         }
       },
       
       "carBookingSection": {
-        "title": "Car Package Details (Includes Foods)",
+        "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
           "price": "₹ 2800",
