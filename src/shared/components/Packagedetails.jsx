@@ -633,6 +633,7 @@ function Packagedetails() {
   const carTypes = [
     'Ertiga',
     'Etios',
+    'Innova',
     'Innova Crysta',
     'Swift Dzire',
   ];
@@ -775,7 +776,7 @@ function Packagedetails() {
             <div className="">
               {packageDetails?.templeSection.included && Object.values(packageDetails.templeSection.included).length > 0 && (
                 <div className=" f mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                  <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">Included Services</h2>
+                  <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#6CBF02] mb-6">Included Services</h2>
                   <div className="space-y-4" >
                     {Object.values(packageDetails.templeSection.included || {}).map((description, index) => (
                       <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
@@ -787,7 +788,7 @@ function Packagedetails() {
               )}
               {packageDetails?.templeSection.excluded && Object.values(packageDetails.templeSection.excluded).length > 0 && (
                 <div className=" mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                  <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">Excluded Services</h2>
+                  <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#6CBF02] mb-6">Excluded Services</h2>
                   <div className="space-y-4" >
                     {Object.values(packageDetails.templeSection.excluded || {}).map((description, index) => (
                       <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
@@ -804,7 +805,7 @@ function Packagedetails() {
         {carBookingSections.map((section, index) => renderCarBookingSection(section, index))}
 
         <div className="mt-12">
-          <div className="bg-gray-50 rounded-[20px] p-6 md:p-8">
+          <div className="bg-gray-100 rounded-[20px] p-6 md:p-8">
             <h3 className="text-xl poppins-semibold text-[#6CBF02] mb-4">
               About This Package
             </h3>
@@ -821,9 +822,9 @@ function Packagedetails() {
           <button
             onClick={() => setIsPopupOpen(true)}
             className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2"
-            style={{ fontFamily: 'Port Lligat Sans, sans-serif' }}
+           
           >
-            <span className="relative z-10 text-[20px] -ml-4"> Book Now </span>
+            <span className="relative z-10 text-[20px] -ml-4 port-lligat-sans-regular"> Book Now </span>
             <PiArrowBendUpRightFill className='absolute z-10 group-hover:translate-x-18 opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
             <div className="absolute inset-0 scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
           </button>
@@ -831,20 +832,20 @@ function Packagedetails() {
 
         {/* Popup Modal */}
         {isPopupOpen && (
-          <div className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 transform transition-all duration-300 scale-100">
+          <div className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center z-50 p-4 ">
+            <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 transform transition-all duration-300 scale-100 ">
               {/* Header */}
-              <div className="bg-gradient-to-r from-[#6CBF02] to-[#5AA002] text-white p-6 rounded-t-2xl relative">
-                <h2 className="text-lg poppins-semibold text-center">Book your ride now with Divya Desan Travels.</h2>
+              <div className="bg-gradient-to-r from-[#6CBF02] to-[#5AA002] text-white md:p-6 p-2 rounded-t-2xl relative">
+                <h2 className="md:text-lg text-base mt-5 md:mt-0 poppins-semibold text-center">Book your ride now with Divya Desan Travels.</h2>
                 <button
                   onClick={() => setIsPopupOpen(false)}
-                  className="absolute top-4 right-4 text-white hover:text-gray-200 transition-colors cursor-pointer"
+                  className="absolute md:top-4 top-1 right-4 text-white hover:text-gray-200 transition-colors cursor-pointer"
                 >
                   <X size={24} />
                 </button>
               </div>
 
-              <div className="p-6 space-y-5">
+              <div className="md:p-6  p-4 md:space-y-5 space-y-2.5">
                 <div>
                   <label htmlFor="name" className="block text-sm poppins-semibold text-gray-700 mb-2">
                     Full Name *
@@ -935,7 +936,7 @@ function Packagedetails() {
                   <button
                     type="button"
                     onClick={handleSubmit}
-                    className="w-full bg-gradient-to-r from-[#6CBF02] to-[#5AA002] text-white py-3 px-6 rounded-lg poppins-semibold hover:from-[#5AA002] hover:to-[#4A8F02] transform transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
+                    className="w-full bg-gradient-to-r from-[#6CBF02] to-[#5AA002] text-white py-3 px-6 rounded-lg text-[15px] md:text-lg poppins-semibold hover:from-[#5AA002] hover:to-[#4A8F02] transform transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
                   >
                     Submit Booking Request
                   </button>
