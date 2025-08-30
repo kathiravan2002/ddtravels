@@ -857,7 +857,7 @@ function Packagedetails() {
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all poppins-medium"
+                    className="w-full px-4 md:py-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all poppins-medium"
                     placeholder="Enter your full name"
                   />
                 </div>
@@ -873,7 +873,7 @@ function Packagedetails() {
                     value={formData.mobile}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all poppins-medium"
+                    className="w-full px-4 md:py-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all poppins-medium"
                     placeholder="Enter your mobile number"
                   />
                 </div>
@@ -889,7 +889,7 @@ function Packagedetails() {
                     value={formData.package}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all poppins-medium"
+                    className="w-full px-4 md:py-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all poppins-medium"
                     placeholder="Enter package name"
                   />
                 </div>
@@ -906,7 +906,7 @@ function Packagedetails() {
                     onChange={handleInputChange}
                     required
                     min="1"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all poppins-medium"
+                    className="w-full px-4 md:py-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all poppins-medium"
                     placeholder="Number of days"
                   />
                 </div>
@@ -921,7 +921,7 @@ function Packagedetails() {
                     value={formData.carType}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all bg-white poppins-medium"
+                    className="w-full px-4 md:py-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6CBF02] focus:border-transparent outline-none transition-all bg-white poppins-medium"
                   >
                     <option value="">Select car type</option>
                     {carTypes.map((type) => (
