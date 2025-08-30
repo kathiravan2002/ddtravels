@@ -382,8 +382,24 @@ export default function Home(props) {
                                             <p className="poppins-medium text-base opacity-85 flex justify-center items-center gap-2"><FaRegClock className='text-[24px] flex shrink-0 text-[#6CBF02]' />{item.time}</p>
                                             <p className="poppins-medium text-base opacity-85">{item.content2}</p>
                                             <div className="flex gap-5">
-                                                <Link to={item.link}>  <div className="flex justify-center items-center "> <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[16px] rounded-4xl bg-[#6CBF02] flex gap-2 items-center justify-center">See Details <PiArrowBendUpRightFill className='flex shrink-0 text-[24px]' /></button></div></Link>
-                                                <Link to="/contact-us"> <div className="flex justify-center items-center "> <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[16px] rounded-4xl bg-[#6CBF02] flex gap-2 items-center justify-center">Enquiry  <PiArrowBendUpRightFill className='flex shrink-0 text-[24px]' /></button></div></Link>
+                                                <Link to={item.link}>
+                                                    <div className="flex justify-center items-center ">
+                                                        <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer px-10 py-2 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                                                            <span className="relative z-10 text-[16px] -ml-4"> View More </span>
+                                                            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-14  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                                            <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+                                                        </button>
+                                                    </div>
+                                                    </Link>
+                                                <Link to="/contact-us"> 
+                                                <div className="flex justify-center items-center ">
+                                                        <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer px-10 py-2 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                                                            <span className="relative z-10 text-[16px] -ml-4"> Enquiry </span>
+                                                            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-10  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                                            <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+                                                        </button>
+                                                    </div>
+                                                </Link>
 
                                             </div>
                                         </div>

@@ -324,6 +324,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { IoClose } from 'react-icons/io5';
 import { FaFilter } from 'react-icons/fa';
 import packageService from '../data/packageService.json';
+import { PiArrowBendUpRightFill } from 'react-icons/pi';
 
 function Package() {
     const [selectedCategory, setSelectedCategory] = useState('all');
@@ -421,7 +422,7 @@ function Package() {
                                         }`}
                                     onClick={() => {
                                         setSelectedCategory(category.id);
-                                        setIsMenuOpen(false); 
+                                        setIsMenuOpen(false);
                                         navigate(`/packages?category=${category.id}`);
                                     }}
                                 >
@@ -467,10 +468,11 @@ function Package() {
                                             )}
                                             <div className="flex justify-center mt-4">
                                                 <Link to={`/package-details/${packageItem.id}`}>
-                                                    <button className="port-lligat-sans-regular cursor-pointer text-white px-4 py-2 text-[18px] rounded-full bg-[#6CBF02] hover:bg-[#5ba002] transition-colors duration-300 flex gap-2 items-center justify-center">
-                                                        See Details{' '}
-                                                        <ArrowUpRight className="flex shrink-0 text-[24px]" />
-                                                    </button>
+                                                        <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer px-10 py-2 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
+                                                            <span className="relative z-10 text-[16px] -ml-4"> See Details </span>
+                                                            <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-[60px]  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
+                                                            <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
+                                                        </button>
                                                 </Link>
                                             </div>
                                         </div>
