@@ -18,7 +18,7 @@ function Register() {
                             Book Your Incredible Journey with Our Trusted Services
                         </p>
                         <p className="poppins-medium md:text-lg text-base mt-4 text-justify leading-[30px]" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-                            Step into a world of unforgettable experiences with DD Travels. Whether it's a relaxing getaway, an adventure-filled escape, or a cultural exploration, we’re here to make it happen — with expert planning, personalized support, and complete peace of mind. Let’s turn your travel dreams into reality.
+                            Step into a world of unforgettable experiences with Divya Desan Travels. Whether it's a relaxing getaway, an adventure-filled escape, or a cultural exploration, we’re here to make it happen — with expert planning, personalized support, and complete peace of mind. Let’s turn your travel dreams into reality.
                         </p>
                         <div className="flex mt-4" data-aos="fade-up-right" data-aos-delay="300" data-aos-duration="1000">
                             <Link to='/contact-us'>

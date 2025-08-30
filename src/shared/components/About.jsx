@@ -28,7 +28,7 @@ function About() {
             id: 2,
             name: "Priya S., Mumbai",
             title: "Exceptional Service",
-            quote: "DD Travels made our family vacation unforgettable.",
+            quote: "Divya Desan Travels made our family vacation unforgettable.",
             description: "The attention to detail and personalized service exceeded our expectations. From booking to the final day, everything was perfectly organized. Our kids had the time of their lives, and we created memories that will last forever!",
             image: "/assets/images/About/testimonial.png"
         },
@@ -80,7 +80,7 @@ function About() {
                     <div className="absolute inset-0 bg-[#000000] opacity-70  "></div>
                     <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-4 px-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                         <h2 className="text-[24px] md:text-[28px]  port-lligat-sans-regular text-white ">Love Where Your're Going</h2>
-                        <p className="md:text-[32px] text-[26px] poppins-semibold text-white text-center">Explore Your Life - Travel Where You Want with <span className="text-[#FFB600]">DD Travels!</span></p>
+                        <p className="md:text-[32px] text-[26px] poppins-semibold text-white text-center">Explore Your Life - Travel Where You Want with <span className="text-[#FFB600]">Divya Desan Travels!</span></p>
                         <img src="/assets/images/About/car2.png" alt="car_icon" className="w-[84px]" />
                     </div>
                 </div>
@@ -130,7 +130,7 @@ function About() {
                 <div className="space-y-2">
                     <h2 className="text-center montez-regular text-[#FFC83E] md:text-[45px] text-[32px]">Why Choose Us</h2>
                     <p className="text-center poppins-semibold text-[#6CBF02] md:text-[36px] text-[28px]">Your Trusted Travel Partner</p>
-                    <p className="text-center poppins-medium md:text-[24px] text-[20px]">At DD Travels, we make your journey smooth, safe, and memorable.</p>
+                    <p className="text-center poppins-medium md:text-[24px] text-[20px]">At Divya Desan Travels, we make your journey smooth, safe, and memorable.</p>
                 </div>
 
                 <div className="grid lg:grid-cols-3 grid-cols-1 mt-10">

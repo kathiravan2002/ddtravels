@@ -117,9 +117,10 @@ function Footer() {
         </div>
         <div className='bg-white h-0.5 w-full relative' ></div>
         <div className="mt-9 relative">
-          <p className="text-center text-white poppins-medium text-sm sm:text-sm md:text-[16px]">
+      
+            <p className=" text-center text-white poppins-medium text-sm sm:text-sm md:text-[16px]">
             Copyright ©2025 All rights reserved. Developed by{' '}
-            <span className="text-white poppins-medium ">Arrow Thought</span>
+          <a href="https://www.arrowthought.com/" target='_blank'> <span className="text-white poppins-medium cursor-pointer hover:underline">Arrow Thought</span></a> 
           </p>
         </div>
       </div>
