@@ -370,7 +370,7 @@
     {
       "id": "mahabalipuram-tour-package",
       "image": "/assets/images/Package/oneday1.jpg",
-      "title": "Chennai to Mahabalipuram Tour Package",
+      "title": "Chennai to Mahabalipuram One day Tour Package",
       "time": "24/7 hours",
       "category": "one-day",
       "description": "Explore rock-cut temples and ancient carvings."
@@ -1368,7 +1368,7 @@
     "mahabalipuram-tour-package": {
       "id": "mahabalipuram-tour-package",
       "packageData": {
-        "title": "Chennai to Mahabalipuram Tour Package",
+        "title": "Chennai to Mahabalipuram One Day Tour Package",
         "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
         "category": "one-day"
       },
