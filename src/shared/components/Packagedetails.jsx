@@ -509,8 +509,14 @@ function Packagedetails() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, mobile, package: packageTitle, days, carType } = formData;
-    const phoneNumber = '+918925530559';
-    const whatsappMessage = `Name: ${name}\nPhone no: ${mobile}\nPackage: ${packageTitle}\nDays: ${days}\nCar Type: ${carType}`;
+    const phoneNumber = '+98925530559';
+    const whatsappMessage = `***** Booking Request *****
+• Name: ${name}
+• Phone No: ${mobile}
+• Package: ${packageTitle}
+• Days: ${days}
+• Car Type: ${carType}`;
+
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl);
   };
@@ -822,7 +828,7 @@ function Packagedetails() {
           <button
             onClick={() => setIsPopupOpen(true)}
             className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2"
-           
+
           >
             <span className="relative z-10 text-[20px] -ml-4 port-lligat-sans-regular"> Book Now </span>
             <PiArrowBendUpRightFill className='absolute z-10 group-hover:translate-x-18 opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />

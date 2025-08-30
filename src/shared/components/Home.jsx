@@ -209,7 +209,12 @@ export default function Home(props) {
         e.preventDefault();
         const { name, email, phoneno, message } = formData;
         const phoneNumber = '+918925530559'; // e.g., +919876543210
-        const whatsappMessage = `Name: ${name}\nEmail: ${email}\nPhone no: ${phoneno}\nMessage: ${message}`;
+        const whatsappMessage = `***** Contact Request *****
+  • Name: ${name}
+  • Email: ${email}
+  • Phone No: ${phoneno}
+  • Message: ${message}
+    `;
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
         window.open(whatsappUrl);
     };
@@ -390,9 +395,9 @@ export default function Home(props) {
                                                             <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
                                                         </button>
                                                     </div>
-                                                    </Link>
-                                                <Link to="/contact-us"> 
-                                                <div className="flex justify-center items-center ">
+                                                </Link>
+                                                <Link to="/contact-us">
+                                                    <div className="flex justify-center items-center ">
                                                         <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer px-10 py-2 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
                                                             <span className="relative z-10 text-[16px] -ml-4"> Enquiry </span>
                                                             <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-10  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
