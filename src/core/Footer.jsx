@@ -14,10 +14,10 @@ function Footer() {
       >
         <div className="absolute md:-top-8 lg:-top-14 2xl:-top-24 -top-4 sm:-top-8  z-20"><img src="/assets/images/footercloud.png" alt="footercloud" /></div>
         <div className="absolute inset-0 bg-[#000000]  opacity-75 lg:opacity-80"></div>
-        <div className="relative max-w-[1400px] mx-auto md:py-20 py-10 px-5">
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10 justify-center items-start">
+        <div className="relative max-w-[1800px] mx-auto md:py-20 py-10 px-5">
+          <div className="flex justify-evenly lg:flex-row flex-col gap-8 sm:gap-8 md:gap-10 lg:gap-10 xl:gap-10 ">
             {/* Left Column - Logo and Description */}
-            <div className="flex flex-col space-y-4 sm:space-y-6">
+            <div className="flex flex-col  space-y-4 sm:space-y-6 lg:max-w-[400px]" >
               <Link to="/">
                 <h2 className="fondamento-regular text-xl lg:text-2xl text-white"> Divya Desan Travels</h2>
               </Link>
@@ -29,30 +29,35 @@ function Footer() {
             </div>
 
             {/* Middle Column - Quick Links */}
-            <div className="flex lg:justify-end justify-start">
+            <div className="flex ">
               <div className="flex flex-col space-y-3 sm:space-y-4 md:space-y-5 lg:items-center">
                 <h3 className="text-white fondamento-regular text-xl sm:text-xl md:text-xl lg:text-[24px]">
                   Popular Packages
                 </h3>
                 <div className="flex flex-col items-start space-y-2 sm:space-y-3 md:space-y-4">
-                 <Link to="/package-details/one-day-2">
+                 <Link to="/package-details/kanchipuram-one-day-tour-package">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Kanchipuram
+                    • Kanchipuram 1 Day Tour 
                   </p>
                   </Link>
-                  <Link to="/package-details/one-day-1">
+                  <Link to="/package-details/kanchipuram-two-days-tour-package">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Mahabalipuram
+                    • Kanchipuram 2 Days Tour 
                   </p>
                   </Link>
-                  <Link to="/package-details/one-day-4">
+                  <Link to="/package-details/tirupati-one-day-tour-package">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Tirupati
+                    • Tirupati 1 Day Tour
                   </p>
                   </Link>
-                  <Link to="/package-details/one-day-5">
+                  <Link to="/package-details/tirupati-two-days-tour-package">
                   <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Kalahasti 
+                    • Tirupati 2 Day Tour 
+                  </p>
+                  </Link>
+                  <Link to="/package-details/ahobilam-temple-tour">
+                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
+                    • Ahobilam 
                   </p>
                   </Link>
                 </div>
@@ -60,13 +65,13 @@ function Footer() {
             </div>
 
             {/* Right Column - Contact Us */}
-            <div className="flex lg:justify-end justify-start">
+            <div className="flex max-w-[300px]">
               <div className="flex flex-col space-y-3 sm:space-y-3 md:space-y-3 ">
                 <h3 className="text-white fondamento-regular text-xl sm:text-lg md:text-xl lg:text-[24px]">
                   Contact Us
                 </h3>
                 <div className="flex items-center space-x-3">
-                  <MdPhoneInTalk className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+                  <MdPhoneInTalk className="w-4 h-4 sm:w-5 sm:h-5 text-white flex shrink-0" />
                   <a
                     href="tel:+918925530559"
                     className="text-white text-sm sm:text-sm md:text-base lg:text-[16px]  poppins-medium"
@@ -75,7 +80,7 @@ function Footer() {
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <MdPhoneInTalk className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+                  <MdPhoneInTalk className="w-4 h-4 sm:w-5 sm:h-5 text-white flex shrink-0" />
                   <a
                     href="tel:+918925530558"
                     className="text-white text-sm sm:text-sm md:text-base lg:text-[16px]  poppins-medium"
@@ -84,16 +89,14 @@ function Footer() {
                   </a>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <FaLocationDot className="w-4 h-4 sm:w-5 sm:h-5 mt-1 text-white" />
+                  <FaLocationDot className="w-4 h-4 sm:w-5 sm:h-5 mt-1 text-white flex shrink-0" />
                   <a
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white text-sm sm:text-sm md:text-base lg:text-[16px]  poppins-medium"
                   >
-                    3/916 , North Street
-                    <br />
-                    Chennai, Tamil Nadu
+                   No-3/327,Ram Street,Shanmuha Nagar, Pozhichalur, Chennai - 600074
                   </a>
                 </div>
               </div>

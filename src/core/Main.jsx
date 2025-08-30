@@ -11,7 +11,7 @@ function Main() {
         <Outlet />
       </main>
       <Footer />
-      <div className="fixed bottom-28 right-5 z-50 ">
+      <div className="fixed md:bottom-28 bottom-56 right-5 z-50 ">
         <a
           href="https://wa.me/918925530559" 
           target="_blank"

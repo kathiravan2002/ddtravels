@@ -771,21 +771,35 @@ function Packagedetails() {
               </p>
             ))}
           </div>
-
-          {packageDetails?.templeSection.food && Object.values(packageDetails.templeSection.food).length > 0 && (
-            <div className=" flex flex-col justify-center items-center mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-              <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">Included Services</h2>
-              <div className="space-y-4" >
-                {Object.values(packageDetails.templeSection.food || {}).map((description, index) => (
-                  <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                    <img src="/assets/images/alert.png" alt="Temples" className="w-6" />{description}
-                  </p>
-                ))}
-              </div>
+          <div className="flex flex-col justify-center items-center">
+            <div className="">
+              {packageDetails?.templeSection.included && Object.values(packageDetails.templeSection.included).length > 0 && (
+                <div className=" f mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                  <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">Included Services</h2>
+                  <div className="space-y-4" >
+                    {Object.values(packageDetails.templeSection.included || {}).map((description, index) => (
+                      <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
+                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" />{description}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {packageDetails?.templeSection.excluded && Object.values(packageDetails.templeSection.excluded).length > 0 && (
+                <div className=" mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                  <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">Excluded Services</h2>
+                  <div className="space-y-4" >
+                    {Object.values(packageDetails.templeSection.excluded || {}).map((description, index) => (
+                      <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
+                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" />{description}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
-          )}
+          </div>
         </div>
-
         {/* Dynamic Car Booking Sections */}
         {carBookingSections.map((section, index) => renderCarBookingSection(section, index))}
 

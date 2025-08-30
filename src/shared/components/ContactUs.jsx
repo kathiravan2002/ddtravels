@@ -57,7 +57,7 @@ function ContactUs() {
                         </div>
                         <div className="space-y-1 mt-2 flex justify-center  flex-col items-center">
                             <p className="poppins-medium md:text-[24px] text-[20px] text-center">Address</p>
-                            <p className="poppins-medium md:text-[18px] text-[16px] opacity-75 text-center">3/916 , North Street , Chennai</p>
+                            <p className="poppins-medium md:text-[18px] text-[16px] opacity-75 text-center">No-3/327,Ram Street,Shanmuha Nagar, Pozhichalur, Chennai - 600074</p>
                         </div>
                     </div>
                     <div className="p-5 lg:border-r-2 border-gray-400">

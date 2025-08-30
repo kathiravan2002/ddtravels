@@ -169,29 +169,27 @@ export default function Home(props) {
     const card = [
         {
             image: '/assets/images/Package/oneday1.jpg',
-            title: 'Mahabalipuram',
-            content1: 'One Day Tour Package',
-            time: '6:00 AM to 9:00PM',
-            content2: 'Explore rock-cut temples and ancient carvings.',
-            link: 'package-details/one-day-1'
+            title: 'Tirupati One Day Tour Package',
+            content1: 'Sacred Tirupati Balaji Darshan',
+            time: '24/7',
+            content2: 'Experience a divine journey to the holy Tirumala hills and seek blessings of Lord Venkateswara.',
+            link: 'package-details/tirupati-one-day-tour-package'
         },
         {
             image: '/assets/images/Package/oneday8.jpg',
-            title: 'Vellore Golden Temple',
-            content1: 'One Day Tour Package',
-            time: '6:00 AM to 9:00PM',
-            content2: 'Admire magnificent golden temple’s divine beauty.',
-            link: 'package-details/one-day-8'
-
+            title: 'Kanchipuram One Day Tour Package',
+            content1: 'Spiritual Kanchipuram Temple Tour',
+            time: '24/7',
+            content2: 'Discover the rich heritage and sacred temples of the City of Thousand Temples.',
+            link: 'package-details/kanchipuram-one-day-tour-package'
         },
         {
             image: '/assets/images/Package/oneday6.jpg',
-            title: 'Ahobilam ',
-            content1: 'One Day Tour Package',
-            time: '6:00 AM to 9:00PM',
-            content2: 'Worship Lord Narasimha amidst scenic hills.',
-            link: 'package-details/one-day-6'
-
+            title: 'Ahobilam',
+            content1: 'Divine Ahobilam Temple Tour',
+            time: '24/7',
+            content2: 'Experience the sacred Nava Narasimha temples nestled in the Nallamala hills.',
+            link: 'package-details/ahobilam-tour-package'
         },
 
     ]

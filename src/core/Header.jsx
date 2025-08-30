@@ -70,8 +70,8 @@ function Header() {
                         </div>
                     </div>
                     <div className="flex  gap-5">
-                        <p className="port-lligat-sans-regular text-[20px] flex justify-center items-center text-white gap-2"><FiPhone className='flex shrink-0 text-[24px]' />+ 91 8925530559, + 91 8925530558</p>
-                        <p className="port-lligat-sans-regular text-[20px] flex justify-center items-center text-white gap-2"><IoIosMail className='flex shrink-0 text-[24px]' />divyadesantravels23@gmail.com</p>
+                        <p className="port-lligat-sans-regular text-[20px] flex justify-center items-center text-white gap-2"><FiPhone className='flex shrink-0 text-[24px]' />  <a href="tel:+918925530559" className="">+91 8925530559</a>,{" "}   <a href="tel:+918925530558" className="">+91 8925530558</a></p>
+                      <p className="port-lligat-sans-regular text-[20px] flex justify-center items-center text-white gap-2"><IoIosMail className='flex shrink-0 text-[24px]' /> <a href="mailto:divyadesantravels23@gmail.com">divyadesantravels23@gmail.com</a> </p>
                     </div>
                 </div>
             </div>
