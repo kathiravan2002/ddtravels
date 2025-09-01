@@ -795,6 +795,31 @@ function Packagedetails() {
               </p>
             ))}
           </div>
+          <div className="max-w-[1000px] mx-auto">
+          {Object.values(packageDetails?.templeSection.daywise || {}).map((desc, index) => {
+            const [prefix, ...rest] = desc.split(":");
+            const restText = rest.join(":").trim();
+
+            return (
+              <p
+                key={index}
+                className={
+                  desc.startsWith("Day")
+                    ? "text-[#6CBF02] poppins-semibold text-xl md:text-2xl mt-6 mb-2 "
+                    : "text-base md:text-lg leading-[28px] opacity-80 poppins-medium mb-2 text-justify"
+                } data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"
+              >
+                {desc.startsWith("Day") ? (
+                  desc
+                ) : (
+                  <>
+                    <span className="poppins-semibold text-[#FFC83E]">{prefix} :</span> {restText}
+                  </>
+                )}
+              </p>
+            );
+          })}
+          </div>
           <div className="flex flex-col justify-center items-center">
             <div className="">
               {packageDetails?.templeSection.included && Object.values(packageDetails.templeSection.included).length > 0 && (
