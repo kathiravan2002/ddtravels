@@ -69,7 +69,7 @@ function Homepage() {
         { src: "/assets/images/Home/Srisailam.jpg", name: "Srisailam" },
         { src: "/assets/images/Home/tirupathi.jpg", name: "Tirupati" },
         { src: "/assets/images/Home/Vellore Golden Temple.jpg", name: "Vellore Golden Temple" },
-        { src: "/assets/images/ahobilamtem.jpg", name: "Ahobilam" },
+        { src: "/assets/images/Thiru.jpg", name: "Tiruvannamalai" },
         { src: "/assets/images/pondy.jpg", name: "Pondicherry" },
     ];
 
