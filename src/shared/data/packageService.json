@@ -1780,7 +1780,7 @@
           }
         },
         "special": {
-          "title": "Special Information",
+          "title": "Our Special Care For",
           "list": {
             "1": "Infant Darshan",
             "2": "NRI Darshan",
@@ -1799,11 +1799,12 @@
           "4": "This one-day trip is an ideal choice for families, groups, and individuals looking for a divine spiritual journey without worrying about travel arrangements. Divya Desan Travels takes care of everything from transportation to guiding you through the important temples, making your Tirupati trip truly blessed."
         },
         "included": {
-          "1": "Tirumala darshan ticket ₹300 and SriVari Laddu – 1 per person",
-          "3": "Toll Gate Charges, Permit charges, Parking charges included",
-          "4": "Driver Beta and Fuel Charges",
-          "5": "If the journey continues past 11:00 PM, an additional ₹500 will be applicable",
-          "6": "Pick and drop at your Doorstep (City limit only)"
+          "1": "Tirumala lord balaji special Entry darshan ticket  ",
+          "2": "SriVari Laddu – 1 per person",
+          "3": "Cab rent,Driver Beta and Fuel Charges",
+          "4": "Toll Gate Charges, Permit charges, Parking charges included",
+          "5": "Pick and drop at your Doorstep (City limit only)",
+          "6":"If the journey continues past 11:00 PM, an additional charges will be applicable"
         }
       },
       "carBookingSection": {
