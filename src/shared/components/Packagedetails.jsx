@@ -754,19 +754,36 @@ function Packagedetails() {
             ))}
           </div>
 
-
-          {packageDetails?.templeSection.visitplaces && Object.values(packageDetails.templeSection.visitplaces).length > 0 && (
-            <div className="border-2 border-[#6CBF02] rounded-[10px] p-5 w-fit mx-auto mt-10">
-              <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">Our Travel Destinations</h2>
-              <div className="flex flex-col justify-center space-y-5">
-                {Object.values(packageDetails?.templeSection.visitplaces || {}).map((visitplaces, index) => (
-                  <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                    <img src="/assets/images/arrow.png" alt="Temples" className="w-6" />{visitplaces}
-                  </p>
-                ))}
+          <div className="flex md:flex-row flex-col lg:gap-15 md:gap-5">
+            {packageDetails?.templeSection.visitplaces && Object.values(packageDetails.templeSection.visitplaces).length > 0 && (
+              <div className="border-2 border-[#6CBF02] rounded-[10px] p-5 w-fit mx-auto mt-10">
+                <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">
+                  {packageDetails.templeSection.visitplaces.title}
+                </h2>
+                <div className="flex flex-col justify-center space-y-5">
+                  {Object.values(packageDetails?.templeSection.visitplaces.list || {}).map((visitplaces, index) => (
+                    <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
+                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" />{visitplaces}
+                    </p>
+                  ))}
+                </div>
               </div>
-            </div>
-          )}
+            )}
+            {packageDetails?.templeSection.special && Object.values(packageDetails.templeSection.special).length > 0 && (
+              <div className="border-2 border-[#6CBF02] rounded-[10px] p-5 w-fit mx-auto mt-10 xl:flex-50">
+                <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] mb-6">
+                  {packageDetails.templeSection.special.title}
+                </h2>
+                <div className="flex flex-col justify-center space-y-5">
+                  {Object.values(packageDetails?.templeSection.special.list || {}).map((special, index) => (
+                    <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
+                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" />{special}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
 
           <div className="space-y-4 mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
             {Object.values(packageDetails?.templeSection.templedescription || {}).map((description, index) => (

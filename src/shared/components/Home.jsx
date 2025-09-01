@@ -100,7 +100,7 @@
 //     );
 // }
 
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -117,107 +117,9 @@ import Homehero from './Homehero';
 
 export default function Home(props) {
 
-    const { images, goToNextSlide, goToPrevSlide, handleSlideChange, activeSlide, swiperRef, setActiveSlide } = props;
+    const {popular,card,formData,handleChange,handleSubmit, images, goToNextSlide, goToPrevSlide, handleSlideChange, activeSlide, swiperRef, setActiveSlide } = props;
 
-    const popular = [
-        { src: "/assets/images/Home/kapaleeswarar.jpg", name: "Kapaleeswarar" },
-        { src: "/assets/images/Home/mahapalipuram.jpg", name: "Mahabalipuram" },
-        { src: "/assets/images/Home/Sri Kalahasti Temple.jpg", name: "Sri Kalahasti Temple" },
-        { src: "/assets/images/Home/Srisailam.jpg", name: "Srisailam" },
-        { src: "/assets/images/Home/tirupathi.jpg", name: "Tirupati" },
-        { src: "/assets/images/Home/Vellore Golden Temple.jpg", name: "Vellore Golden Temple" },
-        { src: "/assets/images/Home/kapaleeswarar.jpg", name: "Kapaleeswarar" },
-        { src: "/assets/images/Home/mahapalipuram.jpg", name: "Mahapalipuram" },
-    ];
-
-
-
-    const multiplier = {
-        translate: 0.1,
-        rotate: 0.01,
-    };
-
-    useEffect(() => {
-        function calculateWheel() {
-            const slides = document.querySelectorAll(".single");
-            slides.forEach((slide) => {
-                const rect = slide.getBoundingClientRect();
-                const r = window.innerWidth * 0.5 - (rect.x + rect.width * 0.5);
-                let ty =
-                    Math.abs(r) * multiplier.translate -
-                    rect.width * multiplier.translate;
-
-                if (ty < 0) ty = 0;
-
-                const transformOrigin = r < 0 ? "left top" : "right top";
-                slide.style.transform = `translate(0, ${ty}px) rotate(${-r * multiplier.rotate
-                    }deg)`;
-                slide.style.transformOrigin = transformOrigin;
-            });
-        }
-
-        function raf() {
-            requestAnimationFrame(raf);
-            calculateWheel();
-        }
-
-        raf();
-    }, []);
-
-
-
-    const card = [
-        {
-            image: '/assets/images/Package/oneday1.jpg',
-            title: 'Tirupati One Day Tour Package',
-            content1: 'Sacred Tirupati Balaji Darshan',
-            time: '24/7',
-            content2: 'Experience a divine journey to the holy Tirumala hills and seek blessings of Lord Venkateswara.',
-            link: 'package-details/tirupati-one-day-tour-package'
-        },
-        {
-            image: '/assets/images/Package/oneday8.jpg',
-            title: 'Kanchipuram One Day Tour Package',
-            content1: 'Spiritual Kanchipuram Temple Tour',
-            time: '24/7',
-            content2: 'Discover the rich heritage and sacred temples of the City of Thousand Temples.',
-            link: 'package-details/kanchipuram-one-day-tour-package'
-        },
-        {
-            image: '/assets/images/Package/oneday6.jpg',
-            title: 'Ahobilam',
-            content1: 'Divine Ahobilam Temple Tour',
-            time: '24/7',
-            content2: 'Experience the sacred Nava Narasimha temples nestled in the Nallamala hills.',
-            link: 'package-details/ahobilam-tour-package'
-        },
-
-    ]
-
-
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        phoneno: "",
-        message: ''
-    });
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.id]: e.target.value });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        const { name, email, phoneno, message } = formData;
-        const phoneNumber = '+918925530559'; // e.g., +919876543210
-        const whatsappMessage = `***** Contact Request *****
-  • Name: ${name}
-  • Email: ${email}
-  • Phone No: ${phoneno}
-  • Message: ${message}
-    `;
-        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
-        window.open(whatsappUrl);
-    };
+   
 
     return (
         <>

@@ -91,8 +91,8 @@ function Homehero() {
                     />
                 </div> */}
 
-                <div className="relative flex flex-col gap-4 items-center justfiy-center h-full 2xl:mt-72 xl:mt-64 lg:mt-44 md:mt-96 mt-40 max-w-[1400px] mx-auto px-2 pb-25 ">
-                    <h2 className=" md:text-5xl text-4xl text-shadow-lg montez-regular text-[#f3d00c] text-center tracking-wide">Welcome to Divya Desan Travels</h2>
+                <div className="relative flex flex-col gap-4 items-center justfiy-center h-full 2xl:mt-72 xl:mt-64 lg:mt-44 md:mt-96 mt-40 max-w-[1400px] mx-auto px-2 pb-25 " data-aos="zoom-in">
+                    <h2 className=" md:text-5xl text-4xl text-shadow-lg montez-regular text-[#f3d00c] text-center tracking-wide ">Welcome to Divya Desan Travels</h2>
                     <p className="md:text-xl text-base  text-shadow-sm poppins-medium md:text-center text-justify text-black md:text-white  leading-[30px] xl:block hidden">At Divya Desan Travels, we make your travel easy, safe, and hassle-free with our trusted car rental services. Whether you need a car for local sightseeing, outstation trips, airport transfers, or one-way drops, we offer well-maintained vehicles with professional drivers to ensure a smooth journey.</p>
                     <p className="md:text-xl text-base  text-shadow-sm poppins-medium md:text-center text-justify text-black xl:text-white  leading-[30px] xl:hidden block">At Divya Desan Travels, we provide safe and hassle-free car rentals for local tours, outstation trips, airport transfers, and one-way drops with well-maintained vehicles and professional drivers.</p>                   <div className="lg:hidden block">
                         <div className="flex justify-center items-center ">

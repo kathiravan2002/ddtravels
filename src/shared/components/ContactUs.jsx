@@ -1,34 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Register from './Register'
 import { Link } from 'react-router-dom'
 import { PiArrowBendUpRightFill } from 'react-icons/pi'
 
-function ContactUs() {
+function ContactUs({formData,handleSubmit,handleChange}) {
 
-    const [formData, setFormData] = useState({
-        firstname: '',
-        lastname: '',
-        email: '',
-        phoneno: "",
-        message: ''
-    });
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.id]: e.target.value });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        const { firstname, lastname, email, phoneno, message } = formData;
-        const phoneNumber = '+918925530559'; // e.g., +919876543210
-        const whatsappMessage = `***** Contact Request *****
-• Name: ${firstname} ${lastname}
-• Email: ${email}
-• Phone No: ${phoneno}
-• Message: ${message}
-                               `;
-        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
-        window.open(whatsappUrl);
-    };
     return (
         <div className='overflow-hidden'>
             <div className=" lg:h-90 h-70  relative bg-cover bg-center lg:mt-20 mt-5" style={{ backgroundImage: "url('/assets/images/About/allhero.png')" }}>

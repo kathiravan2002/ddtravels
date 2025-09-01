@@ -358,7 +358,6 @@
       "category": "andhra",
       "description": "Sacred visit to Lord Narasimha temples"
     },
- 
     {
       "id": "mysore-palace-tour",
       "image": "/assets/images/Package/mysore-palace.jpg",
@@ -514,13 +513,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "Our car rental packages are designed to give you the perfect blend of comfort, safety, and affordability. With well-maintained vehicles like Swift, Etios, Innova, and Crysta, along with professional chauffeurs, we make every trip smooth and worry-free. Choose Divya Desan Travels for reliable car rentals in Chennai and enjoy a hassle-free journey."
@@ -542,7 +540,7 @@
           "3": "We provide flexible rental options including hourly plans, one-day packages, and customized multi-day tours. With transparent pricing, dedicated service, and 24/7 support, Divya Desan Travels makes car hire in Chennai easy and dependable. Choose us for your trips and experience comfort, safety, and peace of mind on every journey."
         }
       },
-     "carBookingSection": {
+      "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
@@ -575,13 +573,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "Our Chennai car hire packages are tailored to meet the needs of every traveler, whether it’s for local sightseeing, business meetings, or outstation journeys. We provide well-maintained cars including Swift, Etios, Innova, and Crysta, driven by experienced chauffeurs to ensure safety and comfort. With affordable rates and reliable service, Divya Desan Travels makes every trip in and around Chennai a pleasant experience."
@@ -636,13 +633,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "Our Innova rental packages in Chennai are perfect for families, corporate groups, and leisure travelers who value comfort and reliability. With clean vehicles, punctual drivers, and affordable pricing, Divya Desan Travels ensures that every trip—be it within Chennai or outstation—is a safe, enjoyable, and stress-free journey."
@@ -664,7 +660,7 @@
           "3": "Choose from flexible plans such as one-day temple tours, full-day sightseeing, or customized multi-day spiritual trips. With clear pricing, professional service, and 24/7 assistance, Divya Desan Travels is your trusted partner for temple tours in and around Chennai."
         }
       },
-     "carBookingSection": {
+      "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
@@ -697,13 +693,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "Our Chennai temple tour car rentals are perfect for families, devotees, and groups looking to explore sacred sites in comfort. With experienced drivers, punctual service, and affordable pricing, Divya Desan Travels makes every temple visit peaceful, safe, and spiritually fulfilling."
@@ -725,12 +720,15 @@
           "3": "This one-day temple tour is not just a pilgrimage—it is a cultural journey into Chennai’s sacred roots. Our guides share valuable insights about each temple’s history, architecture, and spiritual significance, ensuring you gain both knowledge and blessings. Experience the harmony of tradition and devotion while traveling in comfort with our reliable service."
         },
         "visitplaces": {
-          "1": "Mylapre Kapaleeshwar Temple",
-          "2": "Tiruvetriyur Thiyagarajaswamy Vadivudai Amman Temple",
-          "3": "Padi Tiruvalithayam Tiruvallesvarar Temple",
-          "4": "Tirumullaivoil Masilamaneeswarar Temple",
-          "5": "Tiruverkadu Vedapureeswarar Temple",
-          "6": "Tiruvanmiyur Marundeeswarar Temple"
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Mylapre Kapaleeshwar Temple",
+            "2": "Tiruvetriyur Thiyagarajaswamy Vadivudai Amman Temple",
+            "3": "Padi Tiruvalithayam Tiruvallesvarar Temple",
+            "4": "Tirumullaivoil Masilamaneeswarar Temple",
+            "5": "Tiruverkadu Vedapureeswarar Temple",
+            "6": "Tiruvanmiyur Marundeeswarar Temple"
+          }
         }
       },
       "carBookingSection": {
@@ -797,7 +795,9 @@
           "2": "Our carefully designed one-day Divya Desam temple tour covers some of the most prominent temples such as Parthasarathy Temple (Triplicane), Sri Adikesava Perumal Temple, and other nearby shrines. With our comfortable vehicles and experienced guides, you can enjoy a seamless spiritual journey enriched with stories, traditions, and temple architecture.",
           "3": "This pilgrimage is more than a temple visit—it is an opportunity to connect deeply with divinity, culture, and heritage. Whether you are a devotee or a cultural explorer, our tour ensures a meaningful experience filled with peace, devotion, and spiritual fulfillment."
         },
-        "visitplaces": {
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Tiruvallikeni Parthasarathy Swamy Temple",
           "2": "Thiruneermalai Sri Ranganatha Swamy Temple",
           "3": "Tiruvidanthai Nithya Kalyana Perumal Temple",
@@ -807,6 +807,7 @@
           "7": "Tiruvallur Veera Ragava Perumal Temple",
           "8": " Tirunindravur Bhaktavatsala Perumal Temple"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -873,6 +874,8 @@
           "3": "More than a simple temple visit, this tour is a journey into faith and tradition. It allows you to immerse yourself in spirituality while enjoying the heritage and beauty of Chennai’s sacred sites. With our well-planned itinerary, your day is designed to be meaningful, enriching, and spiritually fulfilling."
         },
         "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list":{
           "1": "Mylapore Kapaleeshwar Temple",
           "2": "Tiruvallikeni Parthasarathy Swamy Temple",
           "3": "Tiruvanmiyur Marundeeswarar Temple",
@@ -884,6 +887,7 @@
           "9": "SingapermalKoil Sri Patalathri Narasimha Perumal Temple",
           "10": "Tirusulam Thrisulanathar Temple"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -949,7 +953,9 @@
           "2": "Our one-day darshan package includes visits to prominent Murugan temples in and around Chennai, ensuring a fulfilling spiritual experience. With carefully planned itineraries, comfortable vehicles, and guided assistance, your pilgrimage is designed to be smooth, meaningful, and enriching.",
           "3": "This tour is more than a visit—it’s a journey of faith, devotion, and cultural heritage. Along the way, you’ll experience the architectural beauty, religious significance, and spiritual atmosphere of each temple, making your day both memorable and soul-enriching."
         },
-        "visitplaces": {
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Vallakottai Murugan Temple",
           "2": "Vadapalani Murugan Temple",
           "3": "Kandhakottam Kandaswami Temple",
@@ -959,6 +965,7 @@
           "7": "Thiruporur Kandaswamy Temple",
           "8": "Ilayanar Velur Balasubramanya Swamy Temple"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -1024,11 +1031,14 @@
           "2": "This one-day pilgrimage package by Divya Desan Travels covers the renowned Sakthi temples in and around Chennai with utmost devotion and comfort. Our schedule ensures ample time for darshan, prayer, and exploration of the temple architecture and cultural traditions that surround these divine places.",
           "3": "Designed to be more than a simple temple visit, this full moon day tour is a soulful journey into faith and divine energy. With our dedicated service, professional drivers, and seamless travel arrangements, your day becomes a spiritually enriching experience filled with devotion, peace, and fulfillment."
         },
-        "visitplaces": {
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Tiruvetriyur Valiyudaiamman Thiyagarajaswamy Temple",
           "2": "Melur Thirumanangeeswarar Thiruvudai Amman Temple",
           "3": "Tirumullaivoil Masilamaniswarar Kodiyidai Amman"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -1095,6 +1105,8 @@
           "3": "Perfect for pilgrims and first-time visitors, this full-day Chennai temple tour provides a comfortable journey with professional chauffeurs, ensuring you have ample time for worship, exploration, and photography while enjoying the divine atmosphere of Chennai’s holy landmarks."
         },
         "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list":{
           "1": "Kapaleeshwarar Temple",
           "2": "Parthasarathy Temple",
           "3": "Ashtalakshmi Temple",
@@ -1111,6 +1123,7 @@
           "14": "vivekananda memorial hall",
           "15": "Valluvar kottam"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -1177,6 +1190,8 @@
           "3": "Perfect for history lovers and culture enthusiasts, this guided trip provides a comfortable and informative experience, allowing you to immerse yourself in Chennai’s unique blend of architecture, tradition, and modern lifestyle."
         },
         "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list":{
           "1": "Egmore museum(Friday holiday)",
           "2": "st.George fort",
           "3": "Merina beach",
@@ -1192,6 +1207,7 @@
           "13": "vivekananda memorial hall",
           "14": "Valluvar kottam"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -1257,11 +1273,14 @@
           "2": "The itinerary includes visits to temples dedicated to the nine planetary deities, where each shrine is believed to remove obstacles and bring prosperity. Along the journey, you will also experience the cultural and religious significance of these holy sites.",
           "3": "Ideal for pilgrims and spiritual seekers, this guided tour offers a comfortable and devotional experience with well-planned travel, allowing you to focus on prayer and inner peace."
         },
-        "visitplaces": {
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "MangaduKamatchiamman Temple",
           "2": "KundrathurMurugan Temple",
           "3": "Kerugambakkam"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -1382,6 +1401,8 @@
           "4": "With Divya Desan Travels, you can experience the wonders of Mahabalipuram in a comfortable and hassle-free journey. Whether you wish to explore in a single day or extend your trip for a more relaxed experience, this tour ensures a memorable blend of spirituality, history, and scenic beauty."
         },
         "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list":{
           "1": "Beach Temples",
           "2": "Arjunan Thapasu",
           "3": "Pancha Pandava Ratha",
@@ -1393,6 +1414,7 @@
           "9": "Crocodile Bank",
           "10": "Muttukadu Boat house",
           "11": "Dakshinachirta Heritage Museum"
+          }
         },
         "templedescription": {
           "1": "Divya Desan Travels offers a comfortable and convenient Chennai to Mahabalipuram tour package, perfect for devotees, families, and travelers who wish to explore the rich cultural and historical heritage of Tamil Nadu. Mahabalipuram, also known as Mamallapuram, is a UNESCO World Heritage Site celebrated for its magnificent temples, rock-cut caves, and serene beaches.",
@@ -1468,7 +1490,9 @@
           "4": "Kanchipuram is also vibrant with festivals throughout the year. Popular celebrations such as the Garudothsavam, Brahmothsavam, and the Car (Rath) Festival draw thousands of devotees and travelers alike. Weather-wise, the city experiences hot summers with temperatures ranging between 21°C and 37°C, while winters are milder, ranging from 20°C to 29°C. On average, Kanchipuram receives about 87 cm of rainfall annually, making it a year-round travel destination.",
           "5": "At Divya Desan Travels, we invite you to explore this historic city, discover its timeless temples, experience its colorful festivals, and immerse yourself in its cultural heritage. Whether you seek spirituality, tradition, or artistry, Kanchipuram offers an unforgettable journey through our exclusive one-day tour package."
         },
-        "visitplaces": {
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Kamakshi Amman Temple",
           "2": "Varadharajar Perumal Temple (Vishnu Kanchi)",
           "3": "Eakambarhwarar Temple (Shiva Kanchi)",
@@ -1478,6 +1502,7 @@
           "7": "Kumarakottam Murugan Temple",
           "8": "Chitragupta Temple",
           "9": "Kanchipuram Silk Shopping"
+          }
         },
         "templedescription": {
           "1": "Chennai, the bustling capital of Tamil Nadu, is a city that blends tradition, culture, and modern charm. Just two hours away lies the historic town of Kanchipuram, fondly called the “City of Thousand Temples.” With its grand temples, rich history, and vibrant silk-weaving heritage, Kanchipuram is one of South India’s most remarkable destinations. Divya Desan Travels brings you an exclusive one-day tour package from Chennai to Kanchipuram, ensuring a comfortable and memorable travel experience.",
@@ -1561,7 +1586,9 @@
           "4": "Kanchipuram is also vibrant with festivals throughout the year. Popular celebrations such as the Garudothsavam, Brahmothsavam, and the Car (Rath) Festival draw thousands of devotees and travelers alike. Weather-wise, the city experiences hot summers with temperatures ranging between 21°C and 37°C, while winters are milder, ranging from 20°C to 29°C. On average, Kanchipuram receives about 87 cm of rainfall annually, making it a year-round travel destination.",
           "5": "At Divya Desan Travels, we invite you to explore this historic city in depth with our exclusive two-day tour package. Enjoy an extended itinerary that allows you to fully immerse yourself in the temples, heritage, silk markets, and cultural experiences that Kanchipuram has to offer."
         },
-        "visitplaces": {
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Kamakshi Amman Temple",
           "2": "Varadharajar Perumal Temple (Vishnu Kanchi)",
           "3": "Eakambarhwarar Temple (Shiva Kanchi)",
@@ -1571,6 +1598,7 @@
           "7": "Kumarakottam Murugan Temple",
           "8": "Chitragupta Temple",
           "9": "Kanchipuram Silk Shopping"
+          }
         },
         "templedescription": {
           "1": "Chennai, the bustling capital of Tamil Nadu, is a city that blends tradition, culture, and modern charm. Just two hours away lies the historic town of Kanchipuram, fondly called the 'City of Thousand Temples.' With its grand temples, rich history, and vibrant silk-weaving heritage, Kanchipuram is one of South India’s most remarkable destinations. Divya Desan Travels brings you an exclusive two-day tour package from Chennai to Kanchipuram, ensuring a comfortable and memorable travel experience.",
@@ -1644,7 +1672,9 @@
           "2": "The city is traditionally divided into two regions: Chinna Kanchipuram (Vishnu Kanchi), home to many Vishnu temples, and Periya Kanchipuram (Shiva Kanchi), which is famous for its numerous Shiva temples. Out of the 108 Divya Desam Temples of Lord Vishnu, 82 are located in Tamil Nadu, with 16 situated in Kanchipuram. According to legend, Lord Vishnu once worshipped Lord Shiva here in the form of a tortoise (Kurma). Inscriptions also refer to the area as Kachipedu, and the temple lies close to the Kanthakottam Temple.",
           "3": "Kanchipuram is often called the “City of a Thousand Temples”, as its temples stand as remarkable symbols of spiritual and architectural heritage. While the majority of shrines are dedicated to Lord Vishnu and Lord Shiva, the city is also home to Buddhist monasteries, Jain temples, and mosques, showcasing its rich cultural diversity."
         },
-        "visitplaces": {
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Thiruvekka- sonna vannam seitha perumal",
           "2": "Thiru Ooragam- thiru vikraman (ulagalantha perumal temple)",
           "3": "Thiruneeragam- ulagalantha perumal temple",
@@ -1661,6 +1691,7 @@
           "14": " Asta puyakaram- adhikeshwa perumal temple",
           "15": "Kamakostam",
           "16": "Pachai vannan"
+          }
         },
         "templedescription": {
           "1": "Chennai is a city of culture, and what better way to experience it than by taking a one-day tour package to the Divyadesam Temples in Kanchipuram. These temples are considered to be some of the most revered shrines in the Hindu religion. Here's what you can expect from our tour package:",
@@ -1736,28 +1767,43 @@
         "image": "/assets/images/Package/tirupatibalaji.jpg",
         "description": {
           "1": "Divya Desan Travels offers a well-planned one-day pilgrimage tour from Chennai to Tirupati, specially designed for devotees who wish to experience a comfortable and hassle-free darshan of Lord Venkateswara. Our package ensures a smooth and peaceful journey with neatly maintained vehicles, courteous drivers, and complete guidance throughout the trip, making your pilgrimage truly divine and memorable.",
-          "2": "The tour covers darshan at the world-famous Tirumala Venkateswara Temple, along with visits to other sacred shrines like Padmavathi Ammavari Temple, Govindaraja Swamy Temple, and Kapila Theertham. With our organized itinerary, devotees can enjoy a spiritually uplifting experience without any stress.",
-          "3": "Travelers can choose from a wide range of vehicles such as Swift Dzire, Etios, Innova, and Tempo Traveller based on their group size. With affordable pricing, reliable service, and experienced drivers, Divya Desan Travels makes your Chennai to Tirupati one-day pilgrimage memorable and spiritually fulfilling."
+          "2": "Travelers can choose from a wide range of vehicles such as Swift Dzire, Etios, Innova, and Tempo Traveller based on their group size. With affordable pricing, reliable service, and experienced drivers, Divya Desan Travels makes your Chennai to Tirupati one-day pilgrimage memorable and spiritually fulfilling."
         },
         "visitplaces": {
-          "1": "Tirumala Tirupati Balaji Temple",
-          "2": "Alamelumangapuram in Tirupati (Padmavathi Temple)",
-          "3": "Sri Varaha Swamy Temple",
-          "4": "Sri Varasidhi Vinayaka Swamy Temple",
-          "5": "Sri Bedi Anjaneya Swamy Temple"
+          "title": "Tirupati Tour package 5 Temples Covered",
+          "list": {
+            "1": "Tirupati Padmavathi ammavari Temple",
+            "2": "Sri Varasiddi Vinayakar Temple",
+            "3": "Tirumala Tirupati Balaji Temple",
+            "4": "Varaghaswamy Temple",
+            "5": "Sri Anuman Temple"
+          }
         },
+        "special": {
+          "title": "Special Information",
+          "list": {
+            "1": "Infant Darshan",
+            "2": "NRI Darshan",
+            "3": "Srivani VIP Break Darshan",
+            "4": "Senior Citizens/physically Challenged",
+            "5": "Tirumala Angapradakshinam",
+            "6":"Special Entry Darshan",
+            "7":"SRIVARI ARJITHA SEVAS like Kalyanam, Unjal Seva, Arjitha Brahmotsavam,Sahasra Deepalankara Seva"
+          }
+        },
+        
         "templedescription": {
           "1": "Tirupati is one of the most sacred pilgrimage centers in India, attracting millions of devotees every year to seek the blessings of Lord Venkateswara. Divya Desan Travels offers a comfortable and devotional one-day journey to Tirupati, ensuring you get the most out of your pilgrimage.",
-          "2": "The journey starts early in the morning from Chennai, with a well-maintained car and an experienced driver picking you up from your residence or hotel. On reaching Tirupati, the first visit is usually to Sri Padmavathi Ammavari Temple at Tiruchanur, followed by darshan at the Tirumala Venkateswara Temple on the hilltop. Along with this, devotees will also get to visit sacred places like Govindaraja Swamy Temple and Kapila Theertham.",
-          "3": "In addition to the main darshan, the trip also includes visits to several holy sites around Tirumala such as Silathoranam, Akasa Ganga, Papavinasanam Theertham, Sri Varahaswami Temple, and Sri Bedi Anjaneya Swamy Temple. Each location has its own spiritual and historical importance, offering devotees a deeply enriching experience.",
-          "4": "The package is designed to ensure comfort and convenience. Our drivers are experienced in Tirupati routes, making sure your darshan and temple visits are completed on time. For larger groups, Tempo Travellers are available, ensuring everyone travels together in comfort.",
-          "5": "This one-day trip is an ideal choice for families, groups, and individuals looking for a divine spiritual journey without worrying about travel arrangements. Divya Desan Travels takes care of everything from transportation to guiding you through the important temples, making your Tirupati trip truly blessed."
+          "2": "In addition to the main darshan, the trip also includes visits to several holy sites around Tirumala such as Govindaraja Swamy Temple and Kapila Theertham. Each location has its own spiritual and historical importance, offering devotees a deeply enriching experience.",
+          "3": "The package is designed to ensure comfort and convenience. Our drivers are experienced in Tirupati routes, making sure your darshan and temple visits are completed on time. For larger groups, Tempo Travellers are available, ensuring everyone travels together in comfort.",
+          "4": "This one-day trip is an ideal choice for families, groups, and individuals looking for a divine spiritual journey without worrying about travel arrangements. Divya Desan Travels takes care of everything from transportation to guiding you through the important temples, making your Tirupati trip truly blessed."
         },
         "included": {
-          "1": "Delicious breakfast and lunch at the selected Restaurant",
-          "2": "Toll Gate Charges, Permit charges, Parking charges included",
-          "3": "Driver Beta and Fuel Charges",
-          "4": "City limit only"
+          "1": "Tirumala darshan ticket ₹300 and SriVari Laddu – 1 per person",
+          "3": "Toll Gate Charges, Permit charges, Parking charges included",
+          "4": "Driver Beta and Fuel Charges",
+          "5": "If the journey continues past 11:00 PM, an additional ₹500 will be applicable",
+          "6": "Pick and drop at your Doorstep (City limit only)"
         }
       },
       "carBookingSection": {
@@ -1824,7 +1870,9 @@
           "2": "The two-day tour covers darshan at the world-famous Tirumala Venkateswara Temple, along with visits to other sacred shrines like Padmavathi Ammavari Temple, Govindaraja Swamy Temple, Kapila Theertham, and several holy places in and around Tirumala. With our organized itinerary, devotees can enjoy a spiritually uplifting experience without any stress.",
           "3": "Travelers can choose from a wide range of vehicles such as Swift Dzire, Etios, Innova, and Tempo Traveller based on their group size. With affordable pricing, reliable service, and experienced drivers, Divya Desan Travels makes your Chennai to Tirupati two-day pilgrimage memorable and spiritually fulfilling."
         },
-        "visitplaces": {
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Silathoranam, Tirumala Hills",
           "2": "Rock Garden",
           "3": "Japali Teertham",
@@ -1839,6 +1887,7 @@
           "12": "Sri Bedi Anjaneya Swamy Temple",
           "13": "Deer Park",
           "14": "Asta Puyakaram - Adhikeshava Perumal Temple"
+          }
         },
         "templedescription": {
           "1": "Tirupati is one of the most sacred pilgrimage centers in India, attracting millions of devotees every year to seek the blessings of Lord Venkateswara. Divya Desan Travels offers a comfortable and devotional two-day journey to Tirupati, ensuring you get the most out of your pilgrimage.",
@@ -2195,7 +2244,9 @@
           "2": "This tour covers the famous Ahobilam temples, believed to be the place where Lord Narasimha appeared to protect Prahlada. Pilgrims can visit both Upper and Lower Ahobilam, exploring the nine Narasimha shrines (Nava Narasimha).",
           "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your travel needs. With affordable pricing, skilled chauffeurs, and timely service, Divya Desan Travels ensures your Chennai to Ahobilam trip is comfortable, safe, and spiritually fulfilling."
         },
-        "visitplaces":{
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list":{
           "1": "Ahobilam Narasimha (Upper Ahobilam includes Narasimha Temples) ",
           "2": "Kroda Narasimha (Upper Ahobilam includes Narasimha Temples)",
           "3": "Jwala Narasimha (Upper Ahobilam includes Narasimha Temples)",
@@ -2205,8 +2256,9 @@
           "7": "Chatravata Narasimha (lower Ahobilam includes Narasimha Temples)",
           "8": "Pavana Narasimha (lower Ahobilam includes Narasimha Temples) ",
           "9": "Bhargava Narasimha (lower Ahobilam includes Narasimha Temples)"
+          }
         },
-        "templedescription":{
+        "templedescription": {
           "1": "Day 1: Pickup from Chennai at 5:00 AM and proceed towards Ahobilam. On the way, visit Sri Kodanda Rama Swamy Temple, Vontimitta. Arrive at Ahobilam by 4:00 PM and check in for a comfortable night stay. After freshening up, visit Chatravata Narasimha Temple, Yogananda Narasimha Temple, and Sri Lakshmi Narasimha Swamy Temple. Overnight stay at Ahobilam.",
           "2": "Day 2: Early morning 6:00 AM, begin the temple tour. Visit Ahobilam Narasimha Temple, Karanja Narasimha Temple, Kroda Narasimha Temple, Jwala Narasimha Temple, and Malola Narasimha Temple. Enjoy lunch around 2:00 PM, followed by visits to Pavana Narasimha Temple and Bhargava Narasimha Temple. Overnight stay at Ahobilam.",
           "3": "Day 3: After breakfast, check out and start the return journey to Chennai at 7:00 AM, marking the end of the tour."
@@ -2251,7 +2303,7 @@
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "4": {
-           "id": 4,
+          "id": 4,
           "name": "Innova Crysta A/C (6+1)",
           "price": "₹32,500",
           "image": "/assets/images/Package/crysta.png",
@@ -2278,6 +2330,8 @@
           "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your travel needs. With affordable pricing, skilled chauffeurs, and timely service, Divya Desan Travels ensures your Chennai to Pondicherry trip is comfortable, safe, and memorable."
         },
         "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list":{
           "1": "Arovil",
           "2": "Aravindhar Ashramam",
           "3": "Manakula Vinayagar Temple",
@@ -2286,6 +2340,7 @@
           "6": "Sri Lakshmi Narasimar temple-Singarkudi",
           "7": "Panchavati Angeneyar temple"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -2299,35 +2354,35 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "7000",
+          "price": "₹ 7000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "7000",
+          "price": "₹ 7000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "7000",
+          "price": "₹ 7000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "8500",
+          "price": "₹ 8500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "9000",
+          "price": "₹ 9000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -2354,13 +2409,17 @@
           "5": "Whether you are a devotee seeking the blessings of Goddess Mahalakshmi, a traveler fascinated by temple architecture, or someone longing for a peaceful spiritual getaway, the Chennai to Vellore Golden Temple trip promises an unforgettable experience. With us, your journey is not just about visiting temples but about immersing yourself in the divine atmosphere and returning with peace, positivity, and blessings."
         },
         "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list":{
           "1": "Kanchipuram Sri Kamakshi Amman Temple",
           "2": "Kanchipuram Ekambareswarar Kovil",
           "3": "Valliammai Murugan Temple",
           "4": "Thiruvallam Vilvanadeshwarar Temple",
           "5": "Vellore Jalakandeshwarar Temple",
           "6": "Sripuram Golden Temple"
+          }
         },
+        
         "templedescription": {
           "1": "The Sripuram Golden Temple in Vellore is a unique temple complex spread across 100 acres, completely covered in gold foil work, and designed in the form of a star path. The temple draws devotees and tourists alike for its unmatched grandeur and spiritual energy.",
           "2": "Kanchipuram, often called the 'City of a Thousand Temples,' adds to the divine charm of this trip. Temples like Kamakshi Amman and Ekambareswarar are not only architecturally significant but also powerful centers of Shakti and Shiva worship.",
@@ -2434,6 +2493,8 @@
           "5": "Whether you are a devotee seeking the blessings of Goddess Mahalakshmi, a traveler fascinated by temple architecture, or someone longing for a peaceful spiritual getaway, the Chennai to Vellore Golden Temple trip promises an unforgettable experience. With us, your journey is not just about visiting temples but about immersing yourself in the divine atmosphere and returning with peace, positivity, and blessings."
         },
         "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list":{
           "1": "Govindavadi guru bhagavan temple",
           "2": "Nemili sri bala temple",
           "3": "Sholingur narasimhar temple",
@@ -2447,6 +2508,7 @@
           "11": "Amirthi Forest",
           "12": "Virinjipuram",
           "13": "Pallikonda Perumal Temple"
+          }
         },
         "templedescription": {
           "1": "The Sripuram Golden Temple in Vellore is a unique temple complex spread across 100 acres, completely covered in gold foil work, and designed in the form of a star path. The temple draws devotees and tourists alike for its unmatched grandeur and spiritual energy.",
@@ -2519,7 +2581,6 @@
           "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller for your trip. With affordable fares, professional drivers, and timely service, Divya Desan Travels ensures your Chennai to Sholingur journey is safe, comfortable, and spiritually fulfilling."
         }
       },
-     
       "additionalContent": {
         "content": "This one-day and two-days Chennai to Sholingur trip is perfect for devotees seeking the divine blessings of Lord Narasimha and Yoga Anjaneya. With Divya Desan Travels, enjoy a spiritual journey, hilltop darshan, and safe return."
       }
@@ -2537,857 +2598,6 @@
         "description": {
           "oneDay": "This one-day Chennai to Trichy temple tour covers Sri Ranganathaswamy Temple (Srirangam), Jambukeswarar Temple (Thiruvanaikaval), and Ucchi Pillayar Temple at Rockfort. A perfect spiritual getaway with same-day return.",
           "twoDay": "This two-day Chennai to Trichy trip offers a relaxed temple darshan. Day 1 includes Sri Ranganathaswamy Temple and Jambukeswarar Temple. Stay overnight in Trichy. Day 2 covers Ucchi Pillayar Temple, Samayapuram Mariamman Temple, and nearby shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers both one-day and two-day Trichy temple tour packages from Chennai. Choose your trip duration, enjoy comfortable rides, professional drivers, and a fulfilling spiritual journey."
-      }
-    },
-    "kumbakonam-temple-tour": {
-      "id": "kumbakonam-temple-tour",
-      "packageData": {
-        "title": "Spiritual Chennai to Kumbakonam Trip",
-        "subtitle": "Reliable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore the Sacred Temples of Kumbakonam",
-        "image": "/assets/images/Package/tn-temple-2.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Kumbakonam trip covers Adi Kumbeswarar Temple, Sarangapani Temple, and Chakrapani Temple. A perfect spiritual getaway with same-day return.",
-          "twoDay": "This two-day Chennai to Kumbakonam temple trip offers a relaxed darshan. Day 1 includes Adi Kumbeswarar Temple, Sarangapani Temple, and Chakrapani Temple. Stay overnight in Kumbakonam. Day 2 covers Uppiliappan Temple, Swamimalai Murugan Temple, and other nearby shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers one-day and two-day Kumbakonam temple tour packages from Chennai. Experience divine darshans, professional drivers, and a comfortable journey tailored for your spiritual trip."
-      }
-    },
-    "chidambaram-temple-tour": {
-      "id": "chidambaram-temple-tour",
-      "packageData": {
-        "title": "Divine Chennai to Chidambaram Pilgrimage",
-        "subtitle": "Reliable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore the Sacred Temples of Chidambaram",
-        "image": "/assets/images/Package/tn-temple-3.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Chidambaram trip covers the famous Nataraja Temple and Thillai Kali Amman Temple. A fulfilling spiritual experience with same-day return.",
-          "twoDay": "This two-day Chennai to Chidambaram temple trip offers a relaxed darshan. Day 1 includes Nataraja Temple and Thillai Kali Amman Temple with an overnight stay. Day 2 covers nearby temples like Pichavaram Mangrove visit and surrounding shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers one-day and two-day Chidambaram temple tour packages from Chennai. Enjoy divine darshans, reliable cars, and professional drivers for a smooth spiritual journey."
-      }
-    },
-    "thanjavur-temple-tour": {
-      "id": "thanjavur-temple-tour",
-      "packageData": {
-        "title": "Heritage Chennai to Thanjavur Tour",
-        "subtitle": "Comfortable rides | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore the Majestic Temples of Thanjavur",
-        "image": "/assets/images/Package/tn-temple-4.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Thanjavur trip covers the UNESCO World Heritage Brihadeeswarar Temple, Saraswathi Mahal Library, and Schwartz Church. Same-day return with divine experience.",
-          "twoDay": "This two-day Chennai to Thanjavur temple tour allows a deeper cultural experience. Day 1 includes Brihadeeswarar Temple, Saraswathi Mahal Library, and Schwartz Church with an overnight stay in Thanjavur. Day 2 covers Gangaikonda Cholapuram Temple, Airavatesvara Temple at Darasuram, and nearby shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers one-day and two-day Thanjavur temple packages from Chennai. Discover the grandeur of Chola architecture, world heritage temples, and a seamless travel experience."
-      }
-    },
-    "thiruvarur-temple-tour": {
-      "id": "thiruvarur-temple-tour",
-      "packageData": {
-        "title": "Sacred Chennai to Thiruvarur Journey",
-        "subtitle": "Comfortable rides | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Discover the Divine Temples of Thiruvarur",
-        "image": "/assets/images/Package/tn-temple-5.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Thiruvarur trip covers the famous Thyagaraja Temple, Veedhi Vidangar Temple, and Kamalambal Temple. Same-day return with comfortable travel.",
-          "twoDay": "This two-day Chennai to Thiruvarur temple trip provides a relaxed experience. Day 1 includes Thyagaraja Temple and Kamalambal Temple with overnight stay in Thiruvarur. Day 2 covers Veedhi Vidangar Temple and nearby shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers one-day and two-day Chennai to Thiruvarur temple packages. Experience the grandeur of Thyagaraja Temple and other sacred shrines with safe rides and professional drivers."
-      }
-    },
-    "madurai-temple-tour": {
-      "id": "madurai-temple-tour",
-      "packageData": {
-        "title": "Temple City Chennai to Madurai Tour",
-        "subtitle": "Spiritual comfort travel | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Experience the Spiritual Glory of Madurai",
-        "image": "/assets/images/Package/tn-temple-6.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Madurai trip covers the world-famous Meenakshi Amman Temple and Thirumalai Nayakkar Palace, offering a divine and cultural experience before same-day return.",
-          "twoDay": "This two-day Chennai to Madurai pilgrimage provides a relaxed darshan. Day 1 includes Meenakshi Amman Temple and Thirumalai Nayakkar Palace with overnight stay in Madurai. Day 2 covers Alagar Kovil, Pazhamudhircholai Murugan Temple, and other nearby shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers Chennai to Madurai temple tour packages with one-day and two-day options. Visit the iconic Meenakshi Amman Temple, explore cultural landmarks, and enjoy safe, comfortable rides with professional drivers."
-      }
-    },
-    "pudukkottai-temple-tour": {
-      "id": "pudukkottai-temple-tour",
-      "packageData": {
-        "title": "Historic Chennai to Pudukkottai Day Trip",
-        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Discover the Historic Temples of Pudukkottai",
-        "image": "/assets/images/Package/tn-temple-7.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Pudukkottai trip covers Avudaiyar Kovil (Thiruperunthurai), Kudumiyanmalai Temple, and Viralimalai Murugan Temple. Same-day return with a blend of spirituality and history.",
-          "twoDay": "This two-day Chennai to Pudukkottai heritage tour offers a relaxed itinerary. Day 1 includes Avudaiyar Kovil, Kudumiyanmalai Temple, and Thiruvappudaiyar Temple with overnight stay in Pudukkottai. Day 2 covers Viralimalai Murugan Temple, Sathyamurthi Perumal Temple, and other nearby shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels provides historic temple tour packages from Chennai to Pudukkottai. Visit iconic temples like Avudaiyar Kovil and Kudumiyanmalai, with comfortable rides, professional drivers, and flexible trip plans for your divine journey."
-      }
-    },
-    "rameshwaram-temple-tour": {
-      "id": "rameshwaram-temple-tour",
-      "packageData": {
-        "title": "Chennai to Rameshwaram Spiritual Journey",
-        "subtitle": "Trusted service | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Sacred Temples of Rameshwaram",
-        "image": "/assets/images/Package/tn-temple-8.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Rameshwaram trip is a fast-paced pilgrimage covering Ramanathaswamy Temple and Agni Theertham. Same-day return journey for divine seekers.",
-          "twoDay": "This two-day Chennai to Rameshwaram spiritual trip offers a peaceful darshan. Day 1 covers Ramanathaswamy Temple, Agni Theertham, and Panchamukhi Hanuman Temple with an overnight stay. Day 2 includes Dhanushkodi, Ramar Patham, and other nearby shrines before returning to Chennai."
-        }
-      },
-    "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers Chennai to Rameshwaram temple tour packages with one-day and two-day options. Experience the sacred Ramanathaswamy Temple, Dhanushkodi, and holy theerthams with a comfortable and safe journey."
-      }
-    },
-    "karur-temple-tour": {
-      "id": "karur-temple-tour",
-      "packageData": {
-        "title": "Cultural Chennai to Karur Day Tour",
-        "subtitle": "Professional drivers | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore the Historic Temples of Karur",
-        "image": "/assets/images/Package/tn-temple-9.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Karur temple tour covers Pasupatheswarar Temple, Sri Kalyana Pasupatheswarar Temple, and Sri Mariamman Temple. Same-day return for a cultural spiritual trip.",
-          "twoDay": "This two-day Chennai to Karur temple trip offers a relaxed pilgrimage. Day 1 includes Pasupatheswarar Temple and Sri Kalyana Pasupatheswarar Temple, with overnight stay in Karur. Day 2 covers Mariamman Temple and nearby shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels presents one-day and two-day Chennai to Karur cultural temple tours. Discover Pasupatheswarar Temple, Mariamman Temple, and other sacred sites with reliable car rental and safe travel."
-      }
-    },
-    "erode-temple-tour": {
-      "id": "erode-temple-tour",
-      "packageData": {
-        "title": "Chennai to Erode Heritage Visit",
-        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore the Ancient Temples of Erode",
-        "image": "/assets/images/Package/tn-temple-10.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Erode heritage trip covers famous temples including Bhavani Sangameshwarar Temple, Periya Mariamman Temple, and Bannari Amman Temple. Same-day return for a spiritual and cultural experience.",
-          "twoDay": "This two-day Chennai to Erode temple tour allows relaxed exploration. Day 1 includes Bhavani Sangameshwarar Temple and Bannari Amman Temple with overnight stay in Erode. Day 2 covers Periya Mariamman Temple, Thindal Murugan Temple, and other local shrines before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers heritage temple packages from Chennai to Erode, covering iconic temples like Bhavani Sangameshwarar and Bannari Amman. Travel comfortably with experienced drivers and flexible itineraries."
-      }
-    },
-    "coimbatore-temple-tour": {
-      "id": "coimbatore-temple-tour",
-      "packageData": {
-        "title": "Chennai to Coimbatore One-Day Tour",
-        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Discover the Temples of Coimbatore",
-        "image": "/assets/images/Package/tn-temple-11.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Coimbatore trip covers famous temples including Marudhamalai Murugan Temple, Perur Pateeswarar Temple, and Eachanari Vinayagar Temple with same-day return.",
-          "twoDay": "This two-day Chennai to Coimbatore temple tour offers relaxed travel. Day 1 covers Marudhamalai Murugan Temple, Perur Pateeswarar Temple, and overnight stay in Coimbatore. Day 2 includes Eachanari Vinayagar Temple, Dhyanalinga Temple, and other cultural spots before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers a special Coimbatore temple package covering Marudhamalai Murugan, Perur Pateeswarar, and Eachanari Vinayagar temples with flexible and comfortable travel options."
-      }
-    },
-    "tirunelveli-temple-tour": {
-      "id": "tirunelveli-temple-tour",
-      "packageData": {
-        "title": "Chennai to Tirunelveli Temple Darshan Trip",
-        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore Tirunelveli Temples",
-        "image": "/assets/images/Package/tn-temple-12.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Tirunelveli temple trip covers the famous Nellaiappar Kanthimathi Amman Temple, Sankaranarayanar Kovil, and Tiruchendur Murugan Temple with same-day return.",
-          "twoDay": "This two-day Chennai to Tirunelveli temple tour allows relaxed darshan. Day 1 covers Nellaiappar Kanthimathi Amman Temple and Sankaranarayanar Kovil. Overnight stay in Tirunelveli. Day 2 includes Tiruchendur Murugan Temple and additional cultural spots before return to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers a divine Tirunelveli temple darshan trip covering Nellaiappar Kanthimathi Amman, Sankaranarayanar, and Tiruchendur Murugan temples with flexible car packages for comfortable journeys."
-      }
-    },
-    "kanyakumari-temple-tour": {
-      "id": "kanyakumari-temple-tour",
-      "packageData": {
-        "title": "Chennai to Kanyakumari Sunrise Tour",
-        "subtitle": "Car rental packages | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Sacred Kanyakumari Temples & Sunrise",
-        "image": "/assets/images/Package/tn-temple-13.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Kanyakumari temple tour covers Kanyakumari Amman Temple, Suchindram Thanumalayan Temple, Vivekananda Rock Memorial, and the spectacular Kanyakumari sunrise with same-day return.",
-          "twoDay": "This two-day Chennai to Kanyakumari package offers relaxed darshan. Day 1 covers Kanyakumari Amman Temple, Vivekananda Rock Memorial, and sunset view. Overnight stay in Kanyakumari. Day 2 includes Suchindram Thanumalayan Temple and Padmanabhapuram Palace before returning to Chennai."
-        }
-      },
-     "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels presents a divine Kanyakumari sunrise trip, including Kanyakumari Amman Temple, Vivekananda Rock Memorial, Suchindram Thanumalayan Temple, and Padmanabhapuram Palace for a soulful journey."
-      }
-    },
-    "arupadai-murugan-temple-tour": {
-      "id": "arupadai-murugan-temple-tour",
-      "packageData": {
-        "title": "Chennai to Arupadai Murugan Temples Yatra",
-        "subtitle": "Car rental packages | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Arupadai Murugan Temples Yatra",
-        "image": "/assets/images/Package/tn-temple-14.jpg",
-        "description": {
-          "oneDay": "This one-day yatra from Chennai covers select Arupadai Murugan temples for devotees seeking darshan and blessings, returning the same day with comfortable travel.",
-          "twoDay": "This two-day Chennai to Arupadai Murugan tour covers all six sacred Murugan temples—Thiruchendur, Swamimalai, Palani, Thiruthani, Pazhamudircholai, and Thiruparankundram—with overnight stay and flexible itinerary for peaceful darshan."
-        }
-      },
-    "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5":{
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-         
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers a divine Arupadai Murugan Yatra covering all six holy temples—Thiruchendur, Swamimalai, Palani, Thiruthani, Pazhamudircholai, and Thiruparankundram—for a complete spiritual experience."
-      }
-    },
-    "kodaikanal": {
-      "id": "kodaikanal",
-      "packageData": {
-        "title": "Chennai to Kodaikanal Scenic Hill Tour",
-        "subtitle": "Experience the Princess of Hill Stations | Duration: 24/7 | Includes accommodation and sightseeing",
-        "category": "hill-station"
-      },
-      "templeSection": {
-        "title": "Kodaikanal - Princess of Hill Stations",
-        "image": "/assets/images/Package/hill-station-1.jpg",
-        "description": {
-          "1": "Kodaikanal, fondly called the 'Princess of Hill Stations', is located in the Palani Hills of Tamil Nadu at an altitude of 2,133 meters. Famous for its mist-covered cliffs, lush valleys, and serene lakes, Kodaikanal is the perfect destination for a refreshing hill getaway.",
-          "2": "This tour package covers major attractions such as the star-shaped Kodaikanal Lake, Coaker’s Walk, Bryant Park, Silver Cascade Falls, Pillar Rocks, and scenic viewpoints like Green Valley. Guests will also enjoy boating, nature walks, and exploring the vibrant local markets.",
-          "3": "The package includes quality accommodation, meals, comfortable transportation, and guided sightseeing tours. Our professional tour guides provide insights into the history, natural beauty, and local culture of Kodaikanal, ensuring a memorable experience for couples, families, and nature lovers alike."
-        },
-        "visitplaces":{
-          "1":"Berijam Lake",
-          "2":"Coakers Walk",
-          "3":"Kodai Lake",
-          "4":"Kurinjiandavar Temple",
-          "5":"Dolphin’s Nose",
-          "6":"Bryant Park",
-          "7":"Kodaikanal Solar Observatory",
-          "8":"Green Valley View"
         }
       },
       "carBookingSection": {
@@ -3423,13 +2633,852 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers both one-day and two-day Trichy temple tour packages from Chennai. Choose your trip duration, enjoy comfortable rides, professional drivers, and a fulfilling spiritual journey."
+      }
+    },
+    "kumbakonam-temple-tour": {
+      "id": "kumbakonam-temple-tour",
+      "packageData": {
+        "title": "Spiritual Chennai to Kumbakonam Trip",
+        "subtitle": "Reliable car rental services | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Explore the Sacred Temples of Kumbakonam",
+        "image": "/assets/images/Package/tn-temple-2.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Kumbakonam trip covers Adi Kumbeswarar Temple, Sarangapani Temple, and Chakrapani Temple. A perfect spiritual getaway with same-day return.",
+          "twoDay": "This two-day Chennai to Kumbakonam temple trip offers a relaxed darshan. Day 1 includes Adi Kumbeswarar Temple, Sarangapani Temple, and Chakrapani Temple. Stay overnight in Kumbakonam. Day 2 covers Uppiliappan Temple, Swamimalai Murugan Temple, and other nearby shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers one-day and two-day Kumbakonam temple tour packages from Chennai. Experience divine darshans, professional drivers, and a comfortable journey tailored for your spiritual trip."
+      }
+    },
+    "chidambaram-temple-tour": {
+      "id": "chidambaram-temple-tour",
+      "packageData": {
+        "title": "Divine Chennai to Chidambaram Pilgrimage",
+        "subtitle": "Reliable car rental services | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Explore the Sacred Temples of Chidambaram",
+        "image": "/assets/images/Package/tn-temple-3.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Chidambaram trip covers the famous Nataraja Temple and Thillai Kali Amman Temple. A fulfilling spiritual experience with same-day return.",
+          "twoDay": "This two-day Chennai to Chidambaram temple trip offers a relaxed darshan. Day 1 includes Nataraja Temple and Thillai Kali Amman Temple with an overnight stay. Day 2 covers nearby temples like Pichavaram Mangrove visit and surrounding shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers one-day and two-day Chidambaram temple tour packages from Chennai. Enjoy divine darshans, reliable cars, and professional drivers for a smooth spiritual journey."
+      }
+    },
+    "thanjavur-temple-tour": {
+      "id": "thanjavur-temple-tour",
+      "packageData": {
+        "title": "Heritage Chennai to Thanjavur Tour",
+        "subtitle": "Comfortable rides | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Explore the Majestic Temples of Thanjavur",
+        "image": "/assets/images/Package/tn-temple-4.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Thanjavur trip covers the UNESCO World Heritage Brihadeeswarar Temple, Saraswathi Mahal Library, and Schwartz Church. Same-day return with divine experience.",
+          "twoDay": "This two-day Chennai to Thanjavur temple tour allows a deeper cultural experience. Day 1 includes Brihadeeswarar Temple, Saraswathi Mahal Library, and Schwartz Church with an overnight stay in Thanjavur. Day 2 covers Gangaikonda Cholapuram Temple, Airavatesvara Temple at Darasuram, and nearby shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers one-day and two-day Thanjavur temple packages from Chennai. Discover the grandeur of Chola architecture, world heritage temples, and a seamless travel experience."
+      }
+    },
+    "thiruvarur-temple-tour": {
+      "id": "thiruvarur-temple-tour",
+      "packageData": {
+        "title": "Sacred Chennai to Thiruvarur Journey",
+        "subtitle": "Comfortable rides | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Discover the Divine Temples of Thiruvarur",
+        "image": "/assets/images/Package/tn-temple-5.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Thiruvarur trip covers the famous Thyagaraja Temple, Veedhi Vidangar Temple, and Kamalambal Temple. Same-day return with comfortable travel.",
+          "twoDay": "This two-day Chennai to Thiruvarur temple trip provides a relaxed experience. Day 1 includes Thyagaraja Temple and Kamalambal Temple with overnight stay in Thiruvarur. Day 2 covers Veedhi Vidangar Temple and nearby shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers one-day and two-day Chennai to Thiruvarur temple packages. Experience the grandeur of Thyagaraja Temple and other sacred shrines with safe rides and professional drivers."
+      }
+    },
+    "madurai-temple-tour": {
+      "id": "madurai-temple-tour",
+      "packageData": {
+        "title": "Temple City Chennai to Madurai Tour",
+        "subtitle": "Spiritual comfort travel | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Experience the Spiritual Glory of Madurai",
+        "image": "/assets/images/Package/tn-temple-6.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Madurai trip covers the world-famous Meenakshi Amman Temple and Thirumalai Nayakkar Palace, offering a divine and cultural experience before same-day return.",
+          "twoDay": "This two-day Chennai to Madurai pilgrimage provides a relaxed darshan. Day 1 includes Meenakshi Amman Temple and Thirumalai Nayakkar Palace with overnight stay in Madurai. Day 2 covers Alagar Kovil, Pazhamudhircholai Murugan Temple, and other nearby shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers Chennai to Madurai temple tour packages with one-day and two-day options. Visit the iconic Meenakshi Amman Temple, explore cultural landmarks, and enjoy safe, comfortable rides with professional drivers."
+      }
+    },
+    "pudukkottai-temple-tour": {
+      "id": "pudukkottai-temple-tour",
+      "packageData": {
+        "title": "Historic Chennai to Pudukkottai Day Trip",
+        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Discover the Historic Temples of Pudukkottai",
+        "image": "/assets/images/Package/tn-temple-7.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Pudukkottai trip covers Avudaiyar Kovil (Thiruperunthurai), Kudumiyanmalai Temple, and Viralimalai Murugan Temple. Same-day return with a blend of spirituality and history.",
+          "twoDay": "This two-day Chennai to Pudukkottai heritage tour offers a relaxed itinerary. Day 1 includes Avudaiyar Kovil, Kudumiyanmalai Temple, and Thiruvappudaiyar Temple with overnight stay in Pudukkottai. Day 2 covers Viralimalai Murugan Temple, Sathyamurthi Perumal Temple, and other nearby shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels provides historic temple tour packages from Chennai to Pudukkottai. Visit iconic temples like Avudaiyar Kovil and Kudumiyanmalai, with comfortable rides, professional drivers, and flexible trip plans for your divine journey."
+      }
+    },
+    "rameshwaram-temple-tour": {
+      "id": "rameshwaram-temple-tour",
+      "packageData": {
+        "title": "Chennai to Rameshwaram Spiritual Journey",
+        "subtitle": "Trusted service | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Sacred Temples of Rameshwaram",
+        "image": "/assets/images/Package/tn-temple-8.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Rameshwaram trip is a fast-paced pilgrimage covering Ramanathaswamy Temple and Agni Theertham. Same-day return journey for divine seekers.",
+          "twoDay": "This two-day Chennai to Rameshwaram spiritual trip offers a peaceful darshan. Day 1 covers Ramanathaswamy Temple, Agni Theertham, and Panchamukhi Hanuman Temple with an overnight stay. Day 2 includes Dhanushkodi, Ramar Patham, and other nearby shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers Chennai to Rameshwaram temple tour packages with one-day and two-day options. Experience the sacred Ramanathaswamy Temple, Dhanushkodi, and holy theerthams with a comfortable and safe journey."
+      }
+    },
+    "karur-temple-tour": {
+      "id": "karur-temple-tour",
+      "packageData": {
+        "title": "Cultural Chennai to Karur Day Tour",
+        "subtitle": "Professional drivers | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Explore the Historic Temples of Karur",
+        "image": "/assets/images/Package/tn-temple-9.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Karur temple tour covers Pasupatheswarar Temple, Sri Kalyana Pasupatheswarar Temple, and Sri Mariamman Temple. Same-day return for a cultural spiritual trip.",
+          "twoDay": "This two-day Chennai to Karur temple trip offers a relaxed pilgrimage. Day 1 includes Pasupatheswarar Temple and Sri Kalyana Pasupatheswarar Temple, with overnight stay in Karur. Day 2 covers Mariamman Temple and nearby shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels presents one-day and two-day Chennai to Karur cultural temple tours. Discover Pasupatheswarar Temple, Mariamman Temple, and other sacred sites with reliable car rental and safe travel."
+      }
+    },
+    "erode-temple-tour": {
+      "id": "erode-temple-tour",
+      "packageData": {
+        "title": "Chennai to Erode Heritage Visit",
+        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Explore the Ancient Temples of Erode",
+        "image": "/assets/images/Package/tn-temple-10.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Erode heritage trip covers famous temples including Bhavani Sangameshwarar Temple, Periya Mariamman Temple, and Bannari Amman Temple. Same-day return for a spiritual and cultural experience.",
+          "twoDay": "This two-day Chennai to Erode temple tour allows relaxed exploration. Day 1 includes Bhavani Sangameshwarar Temple and Bannari Amman Temple with overnight stay in Erode. Day 2 covers Periya Mariamman Temple, Thindal Murugan Temple, and other local shrines before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers heritage temple packages from Chennai to Erode, covering iconic temples like Bhavani Sangameshwarar and Bannari Amman. Travel comfortably with experienced drivers and flexible itineraries."
+      }
+    },
+    "coimbatore-temple-tour": {
+      "id": "coimbatore-temple-tour",
+      "packageData": {
+        "title": "Chennai to Coimbatore One-Day Tour",
+        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Discover the Temples of Coimbatore",
+        "image": "/assets/images/Package/tn-temple-11.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Coimbatore trip covers famous temples including Marudhamalai Murugan Temple, Perur Pateeswarar Temple, and Eachanari Vinayagar Temple with same-day return.",
+          "twoDay": "This two-day Chennai to Coimbatore temple tour offers relaxed travel. Day 1 covers Marudhamalai Murugan Temple, Perur Pateeswarar Temple, and overnight stay in Coimbatore. Day 2 includes Eachanari Vinayagar Temple, Dhyanalinga Temple, and other cultural spots before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers a special Coimbatore temple package covering Marudhamalai Murugan, Perur Pateeswarar, and Eachanari Vinayagar temples with flexible and comfortable travel options."
+      }
+    },
+    "tirunelveli-temple-tour": {
+      "id": "tirunelveli-temple-tour",
+      "packageData": {
+        "title": "Chennai to Tirunelveli Temple Darshan Trip",
+        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Explore Tirunelveli Temples",
+        "image": "/assets/images/Package/tn-temple-12.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Tirunelveli temple trip covers the famous Nellaiappar Kanthimathi Amman Temple, Sankaranarayanar Kovil, and Tiruchendur Murugan Temple with same-day return.",
+          "twoDay": "This two-day Chennai to Tirunelveli temple tour allows relaxed darshan. Day 1 covers Nellaiappar Kanthimathi Amman Temple and Sankaranarayanar Kovil. Overnight stay in Tirunelveli. Day 2 includes Tiruchendur Murugan Temple and additional cultural spots before return to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers a divine Tirunelveli temple darshan trip covering Nellaiappar Kanthimathi Amman, Sankaranarayanar, and Tiruchendur Murugan temples with flexible car packages for comfortable journeys."
+      }
+    },
+    "kanyakumari-temple-tour": {
+      "id": "kanyakumari-temple-tour",
+      "packageData": {
+        "title": "Chennai to Kanyakumari Sunrise Tour",
+        "subtitle": "Car rental packages | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Sacred Kanyakumari Temples & Sunrise",
+        "image": "/assets/images/Package/tn-temple-13.jpg",
+        "description": {
+          "oneDay": "This one-day Chennai to Kanyakumari temple tour covers Kanyakumari Amman Temple, Suchindram Thanumalayan Temple, Vivekananda Rock Memorial, and the spectacular Kanyakumari sunrise with same-day return.",
+          "twoDay": "This two-day Chennai to Kanyakumari package offers relaxed darshan. Day 1 covers Kanyakumari Amman Temple, Vivekananda Rock Memorial, and sunset view. Overnight stay in Kanyakumari. Day 2 includes Suchindram Thanumalayan Temple and Padmanabhapuram Palace before returning to Chennai."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels presents a divine Kanyakumari sunrise trip, including Kanyakumari Amman Temple, Vivekananda Rock Memorial, Suchindram Thanumalayan Temple, and Padmanabhapuram Palace for a soulful journey."
+      }
+    },
+    "arupadai-murugan-temple-tour": {
+      "id": "arupadai-murugan-temple-tour",
+      "packageData": {
+        "title": "Chennai to Arupadai Murugan Temples Yatra",
+        "subtitle": "Car rental packages | Flexible timing: 24/7",
+        "category": "tn-temples"
+      },
+      "templeSection": {
+        "title": "Arupadai Murugan Temples Yatra",
+        "image": "/assets/images/Package/tn-temple-14.jpg",
+        "description": {
+          "oneDay": "This one-day yatra from Chennai covers select Arupadai Murugan temples for devotees seeking darshan and blessings, returning the same day with comfortable travel.",
+          "twoDay": "This two-day Chennai to Arupadai Murugan tour covers all six sacred Murugan temples—Thiruchendur, Swamimalai, Palani, Thiruthani, Pazhamudircholai, and Thiruparankundram—with overnight stay and flexible itinerary for peaceful darshan."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers a divine Arupadai Murugan Yatra covering all six holy temples—Thiruchendur, Swamimalai, Palani, Thiruthani, Pazhamudircholai, and Thiruparankundram—for a complete spiritual experience."
+      }
+    },
+    "kodaikanal": {
+      "id": "kodaikanal",
+      "packageData": {
+        "title": "Chennai to Kodaikanal Scenic Hill Tour",
+        "subtitle": "Experience the Princess of Hill Stations | Duration: 24/7 | Includes accommodation and sightseeing",
+        "category": "hill-station"
+      },
+      "templeSection": {
+        "title": "Kodaikanal - Princess of Hill Stations",
+        "image": "/assets/images/Package/hill-station-1.jpg",
+        "description": {
+          "1": "Kodaikanal, fondly called the 'Princess of Hill Stations', is located in the Palani Hills of Tamil Nadu at an altitude of 2,133 meters. Famous for its mist-covered cliffs, lush valleys, and serene lakes, Kodaikanal is the perfect destination for a refreshing hill getaway.",
+          "2": "This tour package covers major attractions such as the star-shaped Kodaikanal Lake, Coaker’s Walk, Bryant Park, Silver Cascade Falls, Pillar Rocks, and scenic viewpoints like Green Valley. Guests will also enjoy boating, nature walks, and exploring the vibrant local markets.",
+          "3": "The package includes quality accommodation, meals, comfortable transportation, and guided sightseeing tours. Our professional tour guides provide insights into the history, natural beauty, and local culture of Kodaikanal, ensuring a memorable experience for couples, families, and nature lovers alike."
+        },
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
+          "1": "Berijam Lake",
+          "2": "Coakers Walk",
+          "3": "Kodai Lake",
+          "4": "Kurinjiandavar Temple",
+          "5": "Dolphin’s Nose",
+          "6": "Bryant Park",
+          "7": "Kodaikanal Solar Observatory",
+          "8": "Green Valley View"
+        }
+      }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
       },
       "additionalContent": {
         "content": "Our Kodaikanal Scenic Hill Tour offers the perfect blend of natural beauty, cool climate, and peaceful stays. Whether it’s a honeymoon, family vacation, or solo retreat, this package ensures a rejuvenating experience in the tranquil hills of Kodaikanal."
@@ -3449,28 +3498,31 @@
           "1": "Ooty, also known as Udhagamandalam, is a picturesque hill station nestled in the Nilgiri Hills. Famous for its pleasant weather, lush green valleys, and serene landscapes, Ooty is the perfect destination for those seeking relaxation and natural beauty.",
           "2": "This package includes visits to some of the most popular attractions in Ooty such as the Ooty Lake, Botanical Gardens, Rose Garden, and Doddabetta Peak. Guests will also experience the charm of tea plantations, pine forests, and scenic viewpoints that offer breathtaking views of the Nilgiris.",
           "3": "The package ensures a comfortable experience with quality accommodation, meals, and guided sightseeing tours. Our professional guides will share fascinating insights into Ooty’s colonial past, local culture, and natural wonders, making your trip truly memorable."
-          },
+        },
         "visitplaces":{
-          "1":"Botanical Gardens",
-          "2":"Tea Factory",
-          "3":"Doddabetta Peak",
-          "4":"Avalanche Lake",
-          "5":"Government Rose Gardens",
-          "6":"Pykara River",
-          "7":"Ooty Lake",
-          "8":"Mudumalai National Park",
-          "9":"Emerald Lake",
-          "10":"Stone House",
-          "11":"Toda Huts",
-          "12":"Ooty Mountain Railway",
-          "13":"St. Stephens Church",
-          "14":"Wax World",
-          "15":"Tribal Museum",
-          "16":"Deer Park",
-          "17":"Mariamman Temple"
+          "title": "Our Travel Destinations",
+          "list": {
+          "1": "Botanical Gardens",
+          "2": "Tea Factory",
+          "3": "Doddabetta Peak",
+          "4": "Avalanche Lake",
+          "5": "Government Rose Gardens",
+          "6": "Pykara River",
+          "7": "Ooty Lake",
+          "8": "Mudumalai National Park",
+          "9": "Emerald Lake",
+          "10": "Stone House",
+          "11": "Toda Huts",
+          "12": "Ooty Mountain Railway",
+          "13": "St. Stephens Church",
+          "14": "Wax World",
+          "15": "Tribal Museum",
+          "16": "Deer Park",
+          "17": "Mariamman Temple"
         }
+      }
       },
-     "carBookingSection": {
+      "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
@@ -3502,13 +3554,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "Our Ooty Cool Breeze Escape is designed for travelers looking to unwind amidst tea gardens, mountain views, and colonial charm. With comfortable stays, guided tours, and scenic drives, this package offers everything you need for a refreshing hill station getaway."
@@ -3529,23 +3580,26 @@
           "2": "This package includes visits to major attractions such as Tea Gardens, Mattupetty Dam, Echo Point, Kundala Lake, and Eravikulam National Park, home to the endangered Nilgiri Tahr. The scenic beauty of Munnar’s valleys and waterfalls makes it an unforgettable experience.",
           "3": "The package offers comfortable stays, meals, transport, and guided sightseeing. Our expert guides ensure travelers enjoy not just the sights but also learn about Munnar’s tea culture, history, and unique biodiversity. Ideal for honeymooners, nature lovers, and families."
         },
-         "visitplaces":{
-          "1":"Mattupetty Dam",
-          "2":"Mattupedi Dairy Farm",
-          "3":"Kundala Lake",
-          "4":"Top Station",
-          "5":"Echo Point",
-          "6":"Rajamalai (Part of Eravikulam National Park)",
-          "7":"Tea Museum",
-          "8":"Marayoor Sandalwood Forests",
-          "9":"Attukad Waterfalls",
-          "10":"Blossom Park",
-          "11":"Chinnar Wildlife Sanctuary",
-          "12":"Tea Plantations",
-          "13":"Lakkom Water Falls"
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
+          "1": "Mattupetty Dam",
+          "2": "Mattupedi Dairy Farm",
+          "3": "Kundala Lake",
+          "4": "Top Station",
+          "5": "Echo Point",
+          "6": "Rajamalai (Part of Eravikulam National Park)",
+          "7": "Tea Museum",
+          "8": "Marayoor Sandalwood Forests",
+          "9": "Attukad Waterfalls",
+          "10": "Blossom Park",
+          "11": "Chinnar Wildlife Sanctuary",
+          "12": "Tea Plantations",
+          "13": "Lakkom Water Falls"
         }
+      }
       },
-    "carBookingSection": {
+      "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
@@ -3577,13 +3631,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "Our Munnar Misty Hills Journey is crafted for travelers who love tea gardens, misty valleys, and natural beauty. Whether it’s a honeymoon, family vacation, or solo retreat, Munnar offers a refreshing escape into nature’s lap."
@@ -3603,22 +3656,25 @@
           "1": "Kolli Hills, located in Tamil Nadu’s Namakkal district, is a hidden gem known for its untouched natural beauty, winding 70 hairpin bends, and thrilling landscapes. The hill station offers both adventure and tranquility for nature lovers.",
           "2": "The trip covers major attractions such as Agaya Gangai Waterfalls, Arapaleeswarar Temple, Siddhar Caves, and the botanical gardens. Kolli Hills is also popular for trekking routes, viewpoints like Seekuparai and Selur Nadu, and medicinal herb farms.",
           "3": "Our package ensures a comfortable and adventurous journey with well-planned itineraries, transportation, meals, and accommodation. Perfect for adventure seekers, nature enthusiasts, and spiritual travelers looking for an offbeat destination."
-         },
-         "visitplaces":{
-          "1":"Agaya Gangai Waterfalls",
-          "2":"Arappaleeswar Temple",
-          "3":"Botanical Garden",
-          "4":"Boat House",
-          "5":"Selur View Point",
-          "6":"Selur Nadu",
-          "7":"View Points",
-          "8":"Mini Falls",
-          "9":"Siddhar caves",
-          "10":"Tampcol Medicinal Farm",
-          "11":"Arappaleeshvarar Temple"
+        },
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
+          "1": "Agaya Gangai Waterfalls",
+          "2": "Arappaleeswar Temple",
+          "3": "Botanical Garden",
+          "4": "Boat House",
+          "5": "Selur View Point",
+          "6": "Selur Nadu",
+          "7": "View Points",
+          "8": "Mini Falls",
+          "9": "Siddhar caves",
+          "10": "Tampcol Medicinal Farm",
+          "11": "Arappaleeshvarar Temple"
         }
+      }
       },
-     "carBookingSection": {
+      "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
@@ -3650,13 +3706,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "Our Kolli Hills Adventure Trip is designed for those who love mountain drives, waterfalls, and unexplored nature. With thrilling routes, cultural temples, and serene valleys, this package offers a unique hill station experience close to Chennai."
@@ -3677,25 +3732,28 @@
           "2": "Highlights of the trip include Yercaud Lake (Boating Point), Lady’s Seat viewpoint, Pagoda Point, Killiyur Falls, Anna Park, and the Shevaroy Temple. The winding roads and lush greenery make the drive an unforgettable experience.",
           "3": "Our package includes comfortable travel, cozy accommodations, and guided sightseeing. It is ideal for travelers looking for serenity, natural beauty, and a break from the city rush."
         },
-         "visitplaces":{
-          "1":"Yercaud Lake",
-          "2":"32-km Loop Road",
-          "3":"Montfort School",
-          "4":"Pagoda Point",
-          "5":"The Servaroyan Temple",
-          "6":"Kiliyur waterfall",
-          "7":"Lady's Seat",
-          "8":"Silk Farm and Rose Garden",
-          "9":"Deer Park",
-          "10":"Norton’s Bungalow",
-          "11":"Bears Cave",
-          "12":"Kottachedu Teak Forest",
-          "13":"Anna Park",
-          "14":"The Grange",
-          "15":"Orchidarium"
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
+          "1": "Yercaud Lake",
+          "2": "32-km Loop Road",
+          "3": "Montfort School",
+          "4": "Pagoda Point",
+          "5": "The Servaroyan Temple",
+          "6": "Kiliyur waterfall",
+          "7": "Lady's Seat",
+          "8": "Silk Farm and Rose Garden",
+          "9": "Deer Park",
+          "10": "Norton’s Bungalow",
+          "11": "Bears Cave",
+          "12": "Kottachedu Teak Forest",
+          "13": "Anna Park",
+          "14": "The Grange",
+          "15": "Orchidarium"
         }
+      }
       },
-     "carBookingSection": {
+      "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
@@ -3728,13 +3786,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "The Yercaud Serene Hills Tour offers breathtaking views, boating at the lake, visits to enchanting waterfalls, and relaxing strolls through coffee estates. This trip is perfect for nature lovers seeking a calm yet refreshing holiday experience."
@@ -3754,30 +3811,33 @@
           "1": "Valparai, located in the Anamalai Hills of Tamil Nadu, is a serene and eco-friendly hill station known for its tea estates, wildlife, and breathtaking landscapes. Unlike crowded tourist spots, Valparai offers peace and untouched natural beauty.",
           "2": "Highlights include Aliyar Dam, Monkey Falls, Balaji Temple, Nallamudi Viewpoint, Sholayar Dam, Loam’s Viewpoint, and tea estate drives. The region is also rich in wildlife such as lion-tailed macaques, Indian bison, and numerous bird species.",
           "3": "Our package ensures a comfortable journey with premium travel arrangements, pleasant stays, and guided tours, making it a must-visit for nature lovers, wildlife enthusiasts, and photography seekers."
-       },
-         "visitplaces":{
-          "1":"Aanamalai wildlife sanctuary",
-          "2":"Aaliyar dam",
-          "3":"Birla Falls",
-          "4":"Sidhi vinayagar temple",
-          "5":"Congreve falls",
-          "6":"Manompally forest",
-          "7":"Grass Hills",
-          "8":"Athirapally falls",
-          "9":"Deer Park",
-          "10":"Norton’s Bungalow",
-          "11":"Nallamudi- Pooncholai(valley view)",
-          "12":"Monkey falls",
-          "13":"Loams view point",
-          "14":"Tiger valley",
-          "15":"Carver marsh view point",
-          "16":"Balaji temple",
+        },
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
+          "1": "Aanamalai wildlife sanctuary",
+          "2": "Aaliyar dam",
+          "3": "Birla Falls",
+          "4": "Sidhi vinayagar temple",
+          "5": "Congreve falls",
+          "6": "Manompally forest",
+          "7": "Grass Hills",
+          "8": "Athirapally falls",
+          "9": "Deer Park",
+          "10": "Norton’s Bungalow",
+          "11": "Nallamudi- Pooncholai(valley view)",
+          "12": "Monkey falls",
+          "13": "Loams view point",
+          "14": "Tiger valley",
+          "15": "Carver marsh view point",
+          "16": "Balaji temple",
           "17": "Iraichal parai falls",
-          "18":"Chinna Kallar",
-          "19":"Valparai Dams (8 Dams)"
+          "18": "Chinna Kallar",
+          "19": "Valparai Dams (8 Dams)"
         }
+      }
       },
-    "carBookingSection": {
+      "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
@@ -3810,13 +3870,12 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
-         
       },
       "additionalContent": {
         "content": "The Valparai Green Nature Tour is perfect for those who wish to reconnect with nature. From tranquil tea plantations to stunning viewpoints and waterfalls, Valparai offers a refreshing escape from city life while immersing you in its rich biodiversity."
@@ -3838,17 +3897,19 @@
           "3": "Our package ensures a safe and comfortable journey with well-arranged travel, stays, and guidance for devotees, making this a fulfilling spiritual yatra for families and groups."
         },
         "visitplaces":{
-          "1":"Tirupattur (Brahmapureeswarar temple)",
-          "2":"Samayapuram Mariyamman Koil",
-          "3":"Srirangam Temple",
-          "4":"Sabarimalai",
-          "5":"Kutralam",
-          "6":"Tenkasi",
-          "7":"Madurai",
-          "8":"Chennai"
-
+          "title": "Our Travel Destinations",
+          "list": {
+          "1": "Tirupattur (Brahmapureeswarar temple)",
+          "2": "Samayapuram Mariyamman Koil",
+          "3": "Srirangam Temple",
+          "4": "Sabarimalai",
+          "5": "Kutralam",
+          "6": "Tenkasi",
+          "7": "Madurai",
+          "8": "Chennai"
+          }
         },
-        "included":{
+        "included": {
           "1": "Tollgate, Kerala Permit, Temple Parking Charge and Driver Bata"
         }
       },
@@ -3888,7 +3949,7 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
@@ -3915,18 +3976,20 @@
           "3": "This package offers a peaceful journey with comfortable travel, houseboat accommodation, and sightseeing, making it a dream destination for honeymooners, families, and nature lovers."
         },
         "visitplaces":{
-          "1":"Alleppey Beach",
-          "2":"Krishnapuram Palace",
-          "3":"Backwaters",
-          "4":"Captivating Kerala",
-          "5":"Kuttanad",
-          "6":"St. Mary Forane Church",
-          "7":"Arthunkal Church",
-          "8":"Karumadi Kuttan Statue",
-          "9":"Revi Karunakaran Museum",
-          "10":"Marari Beach"
-
+          "title": "Our Travel Destinations",
+          "list": {
+          "1": "Alleppey Beach",
+          "2": "Krishnapuram Palace",
+          "3": "Backwaters",
+          "4": "Captivating Kerala",
+          "5": "Kuttanad",
+          "6": "St. Mary Forane Church",
+          "7": "Arthunkal Church",
+          "8": "Karumadi Kuttan Statue",
+          "9": "Revi Karunakaran Museum",
+          "10": "Marari Beach"
         }
+      }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -3960,7 +4023,7 @@
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
-        "5":{
+        "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
           "image": "/assets/images/Package/crysta.png",
@@ -4101,8 +4164,10 @@
           "1": "Srisailam Mallikarjuna Temple is one of the 12 Jyotirlingas of Lord Shiva and an important Shakti Peetha, making it a highly revered pilgrimage site.",
           "2": "Located amidst the Nallamala hills and the River Krishna, the temple offers a perfect blend of divinity and natural beauty.",
           "3": "Pilgrims can enjoy darshan at the Mallikarjuna Swamy temple, visit Bhramaramba Devi Temple, and explore scenic spots like Srisailam Dam and Akkamahadevi Caves."
-         },
+        },
         "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Sikharam ",
           "2": "Hathakesvara Temple",
           "3": "Sakshi Ganapathi Temple",
@@ -4113,10 +4178,12 @@
           "8": "Chenchu Lakshmi Tribal Museum",
           "9": "Chhatrapati Shivaji Maharaj Temple",
           "10": "Akka Mahadevi Caves(Krishna River Boating)"
+          }
         },
-        "templedescription":{
+        "templedescription": {
           "1": "Day 1: Pickup from Chennai at 5:00 AM and proceed towards Srisailam. On the way, visit Sikharam, Hathakesvara Temple, Sakshi Ganapathi Temple, Mallikarjuna Swamy Temple, and Bhramarambha Temple. Arrive at Srisailam by 4:00 PM and check in for a comfortable night stay.",
-          "2": "Day 2: Early morning 5:00 AM, begin the sightseeing. Visit Pathala Ganga (Krishna River), Mallikarjuna Swamy Temple & Bhramarambha Temple, Srisailam Dam View, Chenchu Lakshmi Tribal Museum, Chhatrapati Shivaji Maharaj Temple, and Akka Mahadevi Caves (via Krishna River boating). After completing the darshan and sightseeing, the tour concludes. Begin the return journey to Chennai at 11:00 AM."        },
+          "2": "Day 2: Early morning 5:00 AM, begin the sightseeing. Visit Pathala Ganga (Krishna River), Mallikarjuna Swamy Temple & Bhramarambha Temple, Srisailam Dam View, Chenchu Lakshmi Tribal Museum, Chhatrapati Shivaji Maharaj Temple, and Akka Mahadevi Caves (via Krishna River boating). After completing the darshan and sightseeing, the tour concludes. Begin the return journey to Chennai at 11:00 AM."
+        },
         "included": {
           "1": "One Night Room Stay",
           "2": "Toll Gate Charges,Tollgate, Andhra Permit, Temple Parking Charge",
@@ -4170,7 +4237,7 @@
     },
     "ahobilam-temple-tour": {
       "id": "ahobilam-temple-tour",
-       "packageData": {
+      "packageData": {
         "title": "Chennai to Ahobilam  Tour Package",
         "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
         "category": "one-day"
@@ -4184,6 +4251,8 @@
           "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your travel needs. With affordable pricing, skilled chauffeurs, and timely service, Divya Desan Travels ensures your Chennai to Ahobilam trip is comfortable, safe, and spiritually fulfilling."
         },
         "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Ahobilam Narasimha (Upper Ahobilam includes Narasimha Temples) ",
           "2": "Kroda Narasimha (Upper Ahobilam includes Narasimha Temples)",
           "3": "Jwala Narasimha (Upper Ahobilam includes Narasimha Temples)",
@@ -4193,8 +4262,9 @@
           "7": "Chatravata Narasimha (lower Ahobilam includes Narasimha Temples)",
           "8": "Pavana Narasimha (lower Ahobilam includes Narasimha Temples) ",
           "9": "Bhargava Narasimha (lower Ahobilam includes Narasimha Temples)"
+          }
         },
-        "templedescription":{
+        "templedescription": {
           "1": "Day 1: Pickup from Chennai at 5:00 AM and proceed towards Ahobilam. On the way, visit Sri Kodanda Rama Swamy Temple, Vontimitta. Arrive at Ahobilam by 4:00 PM and check in for a comfortable night stay. After freshening up, visit Chatravata Narasimha Temple, Yogananda Narasimha Temple, and Sri Lakshmi Narasimha Swamy Temple. Overnight stay at Ahobilam.",
           "2": "Day 2: Early morning 6:00 AM, begin the temple tour. Visit Ahobilam Narasimha Temple, Karanja Narasimha Temple, Kroda Narasimha Temple, Jwala Narasimha Temple, and Malola Narasimha Temple. Enjoy lunch around 2:00 PM, followed by visits to Pavana Narasimha Temple and Bhargava Narasimha Temple. Overnight stay at Ahobilam.",
           "3": "Day 3: After breakfast, check out and start the return journey to Chennai at 7:00 AM, marking the end of the tour."
@@ -4239,7 +4309,7 @@
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "4": {
-           "id": 4,
+          "id": 4,
           "name": "Innova Crysta A/C (6+1)",
           "price": "₹32,500",
           "image": "/assets/images/Package/crysta.png",
@@ -4250,7 +4320,6 @@
         "content": "This one-day Chennai to Ahobilam trip is perfect for devotees seeking the divine blessings of Lord Narasimha. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and a safe return."
       }
     },
-    
     "mysore-palace-tour": {
       "id": "mysore-palace-tour",
       "packageData": {
@@ -4266,7 +4335,9 @@
           "2": "The palace showcases Indo-Saracenic architecture with intricate carvings, domes, arches, and stunning Durbar Halls, offering a glimpse into the opulent lifestyle of the Wodeyar dynasty.",
           "3": "Apart from the palace, the tour covers key attractions in Mysore such as Chamundi Hills, St. Philomena’s Church, and the vibrant Mysore markets famous for silk, sandalwood, and handicrafts."
         },
-         "visitplaces":{
+        "visitplaces":{
+          "title": "Our Travel Destinations",
+          "list": {
           "1": "Chamundi Hill Temple ",
           "2": "Big Bull (Nandhi)",
           "3": "Zoological Garden (Zoo)",
@@ -4274,8 +4345,10 @@
           "5": "Tipu Sultan Death Place (Srirangapatna)",
           "6": "Bird Sanctuary (Srirangapatna)",
           "7": "Krishnaraja Sagar Dam (Srirangapatna)",
-          "8": "Brindavan Garden (Srirangapatna)"        },
-        "templedescription":{
+          "8": "Brindavan Garden (Srirangapatna)"
+          }
+        },
+        "templedescription": {
           "1": "Day 1: Pickup from Chennai at 5:00 AM and proceed towards Ahobilam. On the way, visit Sri Kodanda Rama Swamy Temple, Vontimitta. Arrive at Ahobilam by 4:00 PM and check in for a comfortable night stay. After freshening up, visit Chatravata Narasimha Temple, Yogananda Narasimha Temple, and Sri Lakshmi Narasimha Swamy Temple. Overnight stay at Ahobilam.",
           "2": "Day 2: Early morning 6:00 AM, begin the temple tour. Visit Ahobilam Narasimha Temple, Karanja Narasimha Temple, Kroda Narasimha Temple, Jwala Narasimha Temple, and Malola Narasimha Temple. Enjoy lunch around 2:00 PM, followed by visits to Pavana Narasimha Temple and Bhargava Narasimha Temple. Overnight stay at Ahobilam.",
           "3": "Day 3: After breakfast, check out and start the return journey to Chennai at 7:00 AM, marking the end of the tour."
