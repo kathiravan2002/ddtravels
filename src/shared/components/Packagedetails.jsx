@@ -795,7 +795,7 @@ function Packagedetails() {
               </p>
             ))}
           </div>
-          <div className="max-w-[1000px] mx-auto">
+          <div className="max-w-[800px] mx-auto">
           {Object.values(packageDetails?.templeSection.daywise || {}).map((desc, index) => {
             const [prefix, ...rest] = desc.split(":");
             const restText = rest.join(":").trim();
@@ -803,10 +803,10 @@ function Packagedetails() {
             return (
               <p
                 key={index}
-                className={
+                className={     
                   desc.startsWith("Day")
                     ? "text-[#6CBF02] poppins-semibold text-xl md:text-2xl mt-6 mb-2 "
-                    : "text-base md:text-lg leading-[28px] opacity-80 poppins-medium mb-2 text-justify"
+                    : "text-base md:text-lg md:leading-[30px] leading-[28px] opacity-80 poppins-medium mb-2 text-justify"
                 } data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"
               >
                 {desc.startsWith("Day") ? (

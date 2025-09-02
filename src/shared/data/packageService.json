@@ -1881,6 +1881,17 @@
           "9": "Afternoon: Explore local markets for souvenirs.",
           "10": "Evening: Depart from Tirumala"
         },
+         "visitplaces": {
+          "title": "Tirupati Tour Two Days Packages ",
+          "list": {
+            "1": "Package 1 - Tirupati Balaji Temple & Alamelmangapuram",
+            "2": "Package 2 - Tirupati Balaji Temple, Alamelmangapuram & Tirumala Sightseeing ",
+            "3": "Package 3 - Tirupati balaji darshan, Alamelmangapuram & Srikalahasti, Tirutani ",
+            "4": "Package 4 - Tirupati Balaji Temple, Alamelmangapuram & Kancheepuram Temples ",
+            "5": "Package 5 - Tirupati Balaji Temple, Alamelmangapuram & Vellore Golden Temple",
+            "6": "Package 6 - Tirupati Balaji Temple, Alamelmangapuram & Vellore Golden Temple, Kancheepuram Temples"
+          }
+        },
         "included": {
           "1": "Tirumala lord balaji special Entry darshan ticket  ",
           "2": "SriVari Laddu – 1 per person",
@@ -1891,7 +1902,7 @@
         }
       },
       "carBookingSection": {
-        "title": "Package 01 (Tirumala Balaji & Padmavathi Temples)",
+        "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
           "price": "₹ 2800",
@@ -1902,264 +1913,35 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "₹10,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹10,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹12,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹13,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹15,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
-      "carBookingSection2": {
-        "title": "Package 02 (Tirumala Balaji & Padmavathi Temples + Tirumala Sightseeing)",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions2": {
-        "1": {
-          "id": 1,
-          "name": "Etios A/C (4+1)",
-          "price": "₹11,000",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "price": "₹11,000",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "price": "₹13,000",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "price": "₹15,000",
-          "image": "/assets/images/Package/innovacar.png",
-          "featuredImage": "/assets/images/Package/innovacar.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "price": "₹17,000",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "carBookingSection3": {
-        "title": "Package 03 (Tirumala Balaji & Padmavathi + Thiruthani + Kalahasti Temples)",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions3": {
-        "1": {
-          "id": 1,
-          "name": "Etios A/C (4+1)",
-          "price": "₹11,500",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "price": "₹11,500",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "price": "₹13,500",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "price": "₹15,500",
-          "image": "/assets/images/Package/innovacar.png",
-          "featuredImage": "/assets/images/Package/innovacar.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "price": "₹17,500",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "carBookingSection4": {
-        "title": "Package 04 (Tirumala Balaji & Padmavathi Temples, Tirumala Sight seeing (6) + 3 Places)",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions4": {
-        "1": {
-          "id": 1,
-          "name": "Etios A/C (4+1)",
-          "price": "₹12,000",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "price": "₹12,000",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "price": "₹15,500",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "price": "₹16,000",
-          "image": "/assets/images/Package/innovacar.png",
-          "featuredImage": "/assets/images/Package/innovacar.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "price": "₹16,500",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "carBookingSection5": {
-        "title": "Package 05 (Tirumala Balaji & Padmavathi, + Vellore Golden Temples)",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions5": {
-        "1": {
-          "id": 1,
-          "name": "Etios A/C (4+1)",
-          "price": "₹12,000",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "price": "₹12,000",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "price": "₹16,000",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "price": "₹16,500",
-          "image": "/assets/images/Package/innovacar.png",
-          "featuredImage": "/assets/images/Package/innovacar.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "price": "₹17,000",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "carBookingSection6": {
-        "title": "Package 06 (Tirumala Balaji & Padmavathi + Vellore Golden + Kanchipuram Temples)",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions6": {
-        "1": {
-          "id": 1,
-          "name": "Etios A/C (4+1)",
-          "price": "₹13,000",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "price": "₹13,000",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "price": "₹17,000",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "price": "₹17,500",
-          "image": "/assets/images/Package/innovacar.png",
-          "featuredImage": "/assets/images/Package/innovacar.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "price": "₹18,000",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
+
       "additionalContent": {
         "content": "This two-day Chennai to Tirupati tour is ideal for devotees seeking darshan of Lord Venkateswara along with sightseeing at sacred places around Tirumala. With Divya Desan Travels, enjoy a stress-free trip, spiritual blessings, and a comfortable return journey."
       }
