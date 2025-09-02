@@ -385,7 +385,7 @@
     {
       "id": "mahabalipuram-tour-package",
       "image": "/assets/images/Package/oneday1.jpg",
-      "title": "Chennai to Mahabalipuram One day Tour Package",
+      "title": "Chennai to Mahabalipuram One Day Heritage and Culture Trip",
       "time": "24/7 hours",
       "category": "one-day",
       "description": "Explore rock-cut temples and ancient carvings."
@@ -1383,11 +1383,10 @@
             "16": "Madhavaram Botanical Garden",
             "17": "Vandalur Zoo (Tuesday Holiday)"
           }
-          
         },
-        "templedescription":{
-            "1": "All places can’t be covered in one day — based on your selection, the trip will be one or two days."
-          }
+        "templedescription": {
+          "1": "All places can’t be covered in one day — based on your selection, the trip will be one or two days."
+        }
       },
       "carBookingSection": {
         "title": "Car Package Details",
@@ -1567,7 +1566,7 @@
     "mahabalipuram-tour-package": {
       "id": "mahabalipuram-tour-package",
       "packageData": {
-        "title": "Chennai to Mahabalipuram One Day Tour Package",
+        "title": "Chennai to Mahabalipuram One Day Heritage and Culture Trip",
         "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
         "category": "one-day"
       },
@@ -1583,25 +1582,22 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Beach Temples",
-            "2": "Arjunan Thapasu",
-            "3": "Pancha Pandava Ratha",
-            "4": "Mahishamardini cave",
-            "5": "Ganesh Temple",
-            "6": "Butter Ball",
-            "7": "Sthalasayana perumal temple",
-            "8": "Tiger Cave",
-            "9": "Crocodile Bank",
-            "10": "Muttukadu Boat house",
-            "11": "Dakshinachirta Heritage Museum"
+            "1": "Kovalam Beach",
+            "2": "Muttukadu Boat House",
+            "3": "Dakshina Chitra Heritage Museum",
+            "4": "VGP Golden Beach",
+            "5": "Crocodile Bank",
+            "6": "Mahabalipuram beach",
+            "7": "The Five Rathas (Pancha Rathas)",
+            "8": "Arjuna penance",
+            "9": "Shore Temple",
+            "10": "Krishna butter ball",
+            "11": "Cave Temple",
+            "12": "Light house",
+            "13": "Descent of the Ganges",
+            "14": "Mukunda Nayanar Temple",
+            "15": "Olakkanesvara Temple"
           }
-        },
-        "templedescription": {
-          "1": "Divya Desan Travels offers a comfortable and convenient Chennai to Mahabalipuram tour package, perfect for devotees, families, and travelers who wish to explore the rich cultural and historical heritage of Tamil Nadu. Mahabalipuram, also known as Mamallapuram, is a UNESCO World Heritage Site celebrated for its magnificent temples, rock-cut caves, and serene beaches.",
-          "2": "The journey begins with a smooth pick-up from your hotel or residence in Chennai in a well-maintained, air-conditioned vehicle driven by an experienced driver. Mahabalipuram is just 60 km away, and the drive takes around 2 hours, giving you time to relax and enjoy the scenic beauty along the way.",
-          "3": "Once you arrive, you’ll get to explore iconic monuments such as the Shore Temple, Pancha Rathas (Five Rathas), Arjuna’s Penance, Krishna Mandapam, and Krishna’s Butterball. Each site is a remarkable testimony to Pallava-era architecture and craftsmanship, offering insights into India’s glorious heritage. After soaking in the history and art of these monuments, you can unwind at the Mahabalipuram Beach, where the golden sands and the gentle breeze from the Bay of Bengal provide a perfect backdrop for relaxation or even water activities.",
-          "4": "The package includes transportation, parking fees, toll charges, and driver charges, ensuring a hassle-free trip. Meals, entry tickets, and personal expenses are excluded, allowing flexibility to explore local cuisine and activities as per your preference. Divya Desan Travels also offers the convenience of customizing the itinerary, so whether you prefer a quick one-day temple and heritage tour or a more relaxed two-day experience covering additional spots at your own pace, everything can be arranged to suit your needs.",
-          "5": "With affordable and transparent pricing, no hidden charges, and personalized services, Divya Desan Travels ensures a memorable journey. From historical wonders to spiritual experiences and scenic landscapes, this Chennai to Mahabalipuram tour guarantees cherished memories for a lifetime."
         }
       },
       "carBookingSection": {
