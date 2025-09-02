@@ -105,7 +105,7 @@
     {
       "id": "chennai-temple-tour",
       "image": "/assets/images/Package/localtour.png",
-      "title": "One day Chennai sightseeing",
+      "title": "One day Chennai Temple Tour",
       "time": "24/7 hours",
       "category": "local-tour",
       "description": "Explore Chennai’s famous temples in peace."
@@ -113,7 +113,7 @@
     {
       "id": "chennai-heritage-culture-trip",
       "image": "/assets/images/Package/localtour2.png",
-      "title": "One-Day Chennai Heritage & Culture Trip",
+      "title": "Chennai One Day Sightseeing Tour Package",
       "time": "24/7 hours",
       "category": "local-tour",
       "description": "Discover Chennai’s heritage, monuments, and culture."
@@ -1272,7 +1272,7 @@
     "chennai-temple-tour": {
       "id": "chennai-temple-tour",
       "packageData": {
-        "title": "One day Chennai sightseeing",
+        "title": "One day Chennai Temple Tour",
         "subtitle": "A spiritual day trip across Chennai’s famous temples from 24/7",
         "category": "local-tour"
       },
@@ -1351,7 +1351,7 @@
     "chennai-heritage-culture-trip": {
       "id": "chennai-heritage-culture-trip",
       "packageData": {
-        "title": "One-Day Chennai Heritage & Culture Trip",
+        "title": "Chennai One Day Sightseeing Tour Package",
         "subtitle": "Discover Chennai’s heritage, history, and culture in a single day from 24/7",
         "category": "local-tour"
       },
@@ -1365,13 +1365,29 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "VGP golden beach (Theam park)",
-            "2": "Temples MGM Resort (Theam park)",
-            "3": "Temples Dakshinachitra",
-            "4": "Temples Muttukadu boat house",
-            "5": "Temples Vandalore zoo(tuesday)"
+            "1": "Elliott Beach",
+            "2": "St.Thomas cathedral Basilica",
+            "3": "Egmore Museum (Friday Holiday)",
+            "4": "Valluvar kottam",
+            "5": "Marina Beach ",
+            "6": "Vivekananda House ",
+            "7": "Chennai Rail Museum (Monday Holiday) ",
+            "8": "Anna Tower ",
+            "9": "Chennai snake Park(Tuesday Holiday)",
+            "10": "Guindy Children's Park ",
+            "11": "Shri Ashtalakshmi Temple",
+            "12": "Santhome Cathedral Basilica",
+            "13": "Chetpet Ecopark",
+            "14": "Arupadai Veedu Murugan Temple",
+            "15": "Semmozhi Poonga",
+            "16": "Madhavaram Botanical Garden",
+            "17": "Vandalur Zoo (Tuesday Holiday)"
           }
-        }
+          
+        },
+        "templedescription":{
+            "1": "All places can’t be covered in one day — based on your selection, the trip will be one or two days."
+          }
       },
       "carBookingSection": {
         "title": "Car Package Details",
