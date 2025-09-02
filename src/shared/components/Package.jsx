@@ -384,7 +384,7 @@ function Package() {
 
             <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
                 <div className="flex flex-col lg:flex-row gap-10">
-                    <div className="lg:hidden ">
+                    <div className="lg:hidden sticky top-[98px] bg-white py-2 z-20">
                         <button
                             onClick={toggleMenu}
                             className="p-2 bg-[#6CBF02] text-white rounded-md focus:outline-none flex gap-2 items-center text-[18px] poppins-medium"
@@ -424,6 +424,7 @@ function Package() {
                                         setSelectedCategory(category.id);
                                         setIsMenuOpen(false);
                                         navigate(`/packages?category=${category.id}`);
+                                        window.scrollTo({ top: 0, behavior: "smooth" });
                                     }}
                                 >
                                     {category.name}

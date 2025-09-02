@@ -55,12 +55,28 @@
       "description": "Explore sacred Paadal Petra Shiva Sthalams."
     },
     {
-      "id": "divya-desam-temples",
+      "id": "chennai-divya-desam-temples",
       "image": "/assets/images/Package/templetour2.jpg",
-      "title": "Divya Desam Temples – Exclusive One-Day Pilgrimage Tour",
+      "title": "Chennai to Divya Desam Temples One Day Tour Package",
       "time": "24/7 hours",
-      "category": "temple-tour",
+      "category": "one-day",
       "description": "Visit renowned Divya Desam temples today."
+    },
+    {
+      "id": "kanchipuram-divya-desam-temples",
+      "image": "/assets/images/Package/kanchi dd.jpg",
+      "title": "Kanchipuram to Divya Desam Temples One Day Tour Package",
+      "time": "24/7 hours",
+      "category": "one-day",
+      "description": "Explore sacred temples with divine heritage"
+    },
+    {
+      "id": "thondai-nadu-divya-desam-temples",
+      "image": "/assets/images/Package/thondai nadu.jpg",
+      "title": "Thondai Nadu Divya Desam Temples Two days Tour Package",
+      "time": "24/7 hours",
+      "category": "one-day",
+      "description": "Discover sacred temples with timeless heritage"
     },
     {
       "id": "sacred-shiva-vishnu-temples",
@@ -89,7 +105,7 @@
     {
       "id": "chennai-temple-tour",
       "image": "/assets/images/Package/localtour.png",
-      "title": "One-Day Chennai Temple Tour",
+      "title": "One day Chennai sightseeing",
       "time": "24/7 hours",
       "category": "local-tour",
       "description": "Explore Chennai’s famous temples in peace."
@@ -389,14 +405,6 @@
       "time": "24/7 hours",
       "category": "one-day",
       "description": "Discover temples, silk sarees, and traditions."
-    },
-    {
-      "id": "kanchipuram-Divya-Desam-Temples",
-      "image": "/assets/images/Package/oneday3.png",
-      "title": "Chennai to Kanchipuram Divya Desam Temples Tour Package",
-      "time": "24/7 hours",
-      "category": "one-day",
-      "description": "Visit sacred Divya Desam temples today."
     },
     {
       "id": "tirupati-one-day-tour-package",
@@ -780,32 +788,31 @@
         "content": "Traveling with us ensures a smooth and stress-free pilgrimage. You don’t need to worry about routes, parking, or missing temples. Our experienced drivers and carefully designed itineraries allow you to focus entirely on your spiritual journey. With Divya Desan Travels, every moment of your trip is comfortable, meaningful, and filled with divine blessings."
       }
     },
-    "divya-desam-temples": {
-      "id": "divya-desam-temples",
+    "chennai-divya-desam-temples": {
+      "id": "chennai-divya-desam-temples",
       "packageData": {
-        "title": "Divya Desam Temples – Exclusive One-Day Pilgrimage Tour",
+        "title": "Chennai to Divya Desam Temples One Day Tour Package",
         "subtitle": "Embark on a divine journey to sacred Divya Desam temples | Duration: 24/7 ",
-        "category": "temple-tour"
+        "category": "one-day"
       },
       "templeSection": {
         "title": "Divya Desam Temples Visit",
         "image": "/assets/images/Package/templetour2.jpg",
         "description": {
-          "1": "The 108 Divya Desam temples dedicated to Lord Vishnu hold a special place in the Vaishnavite tradition. Chennai and its surrounding areas are home to some of these ancient shrines, where devotees come to seek the blessings of the Almighty and immerse themselves in centuries of spiritual devotion.",
-          "2": "Our carefully designed one-day Divya Desam temple tour covers some of the most prominent temples such as Parthasarathy Temple (Triplicane), Sri Adikesava Perumal Temple, and other nearby shrines. With our comfortable vehicles and experienced guides, you can enjoy a seamless spiritual journey enriched with stories, traditions, and temple architecture.",
-          "3": "This pilgrimage is more than a temple visit—it is an opportunity to connect deeply with divinity, culture, and heritage. Whether you are a devotee or a cultural explorer, our tour ensures a meaningful experience filled with peace, devotion, and spiritual fulfillment."
+          "1": "Begin your spiritual journey by visiting the sacred Divya Desam temples around Chennai, each holding centuries of history and devotion to Lord Vishnu. These shrines are not just places of worship, but living symbols of culture, architecture, and faith.",
+          "2": "Our one-day itinerary covers prominent temples such as Thirunindravur Sri Bhatavatsala Perumal Temple, Thiruvallikkeni Sri Parthasarathy Swamy Temple, Thiruneermalai Sri Neervanna Perumal Temple, and many more from the Divya Desam list. Each destination is carefully chosen to give you a deep cultural and devotional experience.",
+          "3": "As you travel through temples like Thirukadalmallai Sri Sthala Sayana Perumal Temple and Thiruvedanthai Sri Nithya Kalyana Perumal Temple, the journey unfolds with fascinating legends, rituals, and architectural marvels. This isn’t just a tour—it’s an opportunity to seek blessings, experience serenity, and connect with the timeless heritage of the Divya Desam temples."
         },
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Tiruvallikeni Parthasarathy Swamy Temple",
-            "2": "Thiruneermalai Sri Ranganatha Swamy Temple",
-            "3": "Tiruvidanthai Nithya Kalyana Perumal Temple",
-            "4": "Mamallapuram Sthalasayana Perumal Temple",
-            "5": "SingapermalKoil Sri Patalathri Narasimha Perumal Temple",
-            "6": "Sriperumpudur Adikesava Perumal Temple",
-            "7": "Tiruvallur Veera Ragava Perumal Temple",
-            "8": " Tirunindravur Bhaktavatsala Perumal Temple"
+            "1": "Thirunindravur - Sri Bhatavatsala Perumal Temple",
+            "2": "Thiruvallikkeni - Sri Parthasarathy Swamy Temple",
+            "3": "Thiruneermalai - Sri Neervanna Perumal Temple",
+            "4": "Thiruvedanthai - Sri Nithya kalyana Perumal Temple",
+            "5": "Thirukadalmallai - Sri Sthala Sayana Perumal Temple",
+            "6": "Thiruvallur Sri Veeraraghava Perumal Temple",
+            "7": "Thirukkadigai - Sri Yoga Narasimha Swamy Temple"
           }
         }
       },
@@ -856,6 +863,178 @@
       },
       "additionalContent": {
         "content": "With Divya Desan Travels, your Divya Desam temple tour becomes a stress-free spiritual retreat. Our professional drivers, flexible itineraries, and reliable services ensure that you don’t miss any important shrines. Sit back, relax, and let us guide you through a divine journey filled with devotion, comfort, and blessings."
+      }
+    },
+    "kanchipuram-divya-desam-temples": {
+      "id": "kanchipuram-divya-desam-temples",
+      "packageData": {
+        "title": "Kanchipuram to Divya Desam Temples One Day Tour Package",
+        "subtitle": "Discover Kanchipuram’s sacred Divya Desam temples in a peaceful one-day journey | Duration: Flexible 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Kanchipuram Divya Desam Temples Visit",
+        "image": "/assets/images/Package/kanchi dd.jpg",
+        "description": {
+          "1": "Explore Kanchipuram’s most revered Divya Desam temples, each showcasing timeless devotion to Lord Vishnu and reflecting centuries of spiritual heritage.",
+          "2": "This exclusive one-day pilgrimage covers significant shrines where history, architecture, and faith merge to offer an inspiring spiritual retreat.",
+          "3": "From ancient carvings to divine legends, every temple visit enriches your soul, making this more than a journey—it’s an unforgettable spiritual experience."
+        },
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Thiruparameshwara Vinnagaram - Sri Vaikunda Perumal Temple",
+            "2": "Thiru Pavala Vannan - Sri Pavala Vannar Perumal Temple",
+            "3": "Thiru Paadagam - Sri Pandava Thoothar Perumal Temple",
+            "4": "Thiru Ooragam - Sri Ulagalantha Perumal Temple",
+            "5": "Thiru Kaaragam - Sri Karunakara Perumal Temple",
+            "6": "Thirukarvanam - Sri Thiru karvannar Perumal Temple",
+            "7": "Thiru Neeragam - Sri Jagadeeshwara Perumal Temple",
+            "8": "Thiru Nilathingal Thundam - Sri Nilathingal Thundathan Perumal Temple",
+            "9": "Thiru Kalvanoor - Sri Adivaraha Perumal Temple",
+            "10": "Thiruputkuzi - Sri Vijayaragava Perumal Temple",
+            "11": "Thirukacchi - Sri Varadaraja Perumal Temple",
+            "12": "Thiru Vekka - Sri Yathothakaari Perumal Temple",
+            "13": "Ashtabujam - Sri Aadikesava Perumal Temple",
+            "14": "Thiruvelukkai - Sri Azhagiya Singa Perumal Temple",
+            "15": "Thiruthanka - Sri Deepa Prakasar Perumal Temple"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "price": "₹4,500",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "₹4,500",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "₹5,500",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "₹5,500",
+          "image": "/assets/images/Package/innovacar.png",
+          "featuredImage": "/assets/images/Package/innovacar.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "₹6,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels ensures a seamless temple experience with expert drivers, comfortable cars, and customizable itineraries. From timely pickups to guided temple visits, we make your pilgrimage stress-free, meaningful, and filled with devotion."
+      }
+    },
+    "thondai-nadu-divya-desam-temples": {
+      "id": "thondai-nadu-divya-desam-temples",
+      "packageData": {
+        "title": "Thondai Nadu Divya Desam Temples Two days Tour Package",
+        "subtitle": "Embark on a spiritual two-day journey across Kanchipuram’s sacred Divya Desam temples | Service Available 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Kanchipuram Divya Desam Temples Visit",
+        "image": "/assets/images/Package/kanchi dd.jpg",
+        "description": {
+          "1": "Journey through the divine heritage of Kanchipuram, home to some of the most revered Divya Desam temples dedicated to Lord Vishnu.",
+          "2": "In this sacred two-day itinerary, witness timeless architecture, vibrant legends, and centuries of devotion that define these holy shrines.",
+          "3": "Every temple visit is an opportunity to deepen your faith, find inner peace, and create lasting spiritual memories."
+        },
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Thiruparameshwara Vinnagaram - Sri Vaikunda Perumal Temple",
+            "2": "Thiru Pavala Vannan - Sri Pavala Vannar Perumal Temple",
+            "3": "Thiru Paadagam - Sri Pandava Thoothar Perumal Temple",
+            "4": "Thiru Ooragam - Sri Ulagalantha Perumal Temple",
+            "5": "Thiru Kaaragam - Sri Karunakara Perumal Temple",
+            "6": "Thirukarvanam - Sri Thiru karvannar Perumal Temple",
+            "7": "Thiru Neeragam - Sri Jagadeeshwara Perumal Temple",
+            "8": "Thiru Nilathingal Thundam - Sri Nilathingal Thundathan Perumal Temple",
+            "9": "Thiru Kalvanoor - Sri Adivaraha Perumal Temple",
+            "10": "Thiruputkuzi - Sri Vijayaragava Perumal Temple",
+            "11": "Thirukacchi - Sri Varadaraja Perumal Temple",
+            "12": "Thiru Vekka - Sri Yathothakaari Perumal Temple",
+            "13": "Ashtabujam - Sri Aadikesava Perumal Temple",
+            "14": "Thiruvelukkai - Sri Azhagiya Singa Perumal Temple",
+            "15": "Thiruthanka - Sri Deepa Prakasar Perumal Temple",
+            "16": "Thirunindravur - Sri Bhatavatsala Perumal Temple",
+            "17": "Thiruvallikkeni - Sri Parthasarathy Swamy Temple",
+            "18": "Thiruneermalai - Sri Neervanna Perumal Temple",
+            "19": "Thiruvedanthai - Sri Nithya kalyana Perumal Temple",
+            "20": "Thirukadalmallai - Sri Sthala Sayana Perumal Temple",
+            "21": "Thiruvallur Sri Veeraraghava Perumal Temple",
+            "22": "Thirukkadigai - Sri Yoga Narasimha Swamy Temple"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹1800",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "image": "/assets/images/Package/innovacar.png",
+          "featuredImage": "/assets/images/Package/innovacar.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "With Divya Desan Travels, your pilgrimage becomes effortless and serene. Enjoy comfortable rides, punctual services, and well-planned itineraries designed for a stress-free temple tour. From personalized assistance to a devotional atmosphere, we ensure your two-day spiritual journey is truly divine."
       }
     },
     "sacred-shiva-vishnu-temples": {
@@ -956,14 +1135,15 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Vallakottai Murugan Temple",
-            "2": "Vadapalani Murugan Temple",
-            "3": "Kandhakottam Kandaswami Temple",
-            "4": "Kumaran Kundram Murugan Temple",
-            "5": "Kundrathur Murugan Temple",
-            "6": "Sriperumpudur Adikesava Perumal Temple",
-            "7": "Thiruporur Kandaswamy Temple",
-            "8": "Ilayanar Velur Balasubramanya Swamy Temple"
+            "1": "Arulmigu Vadapalani Andavar Temple - Vadapalani",
+            "2": "Arupadai Veedu Murugan Temple - Besant Nagar",
+            "3": "Arulmigu Subramaniya Swamy Temple - Kundrathur",
+            "4": "Sri Swaminathaswamy Temple - Kumarn kundram",
+            "5": "Arulmigu Sree Kandaswamy Temple - Kandhakottam",
+            "6": "Arulmigu Subramaniyaswamy Temple - Vallakottai",
+            "7": "Arulmigu Kandaswamy Temple - Thiruporur",
+            "8": "Arulmigu Sri Sivasubramaniyaswamy Temple - Saidapet",
+            "9": "Sri Navapasana Raja Murugan Temple - Poonamallee"
           }
         }
       },
@@ -1034,9 +1214,9 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Tiruvetriyur Valiyudaiamman Thiyagarajaswamy Temple",
-            "2": "Melur Thirumanangeeswarar Thiruvudai Amman Temple",
-            "3": "Tirumullaivoil Masilamaniswarar Kodiyidai Amman"
+            "1": "Thiruvudai Amman Temple -  Melur (Ichchaa Sakthi)",
+            "2": "Vadivudai Amman Temple - Thiruvottiyur (Gnaana Sakthi)",
+            "3": "Kodiyidai Amman Temple - Thirumullaivoyal (Kriyaa Sakthi)"
           }
         }
       },
@@ -1092,7 +1272,7 @@
     "chennai-temple-tour": {
       "id": "chennai-temple-tour",
       "packageData": {
-        "title": "One-Day Chennai Temple Tour",
+        "title": "One day Chennai sightseeing",
         "subtitle": "A spiritual day trip across Chennai’s famous temples from 24/7",
         "category": "local-tour"
       },
@@ -1107,21 +1287,15 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Kapaleeshwarar Temple",
-            "2": "Parthasarathy Temple",
-            "3": "Ashtalakshmi Temple",
-            "4": "Egmore Museum(Friday holiday)",
-            "5": "Guindy Birla Planetorium",
-            "6": "Guindy snake park (Tuesday holiday)",
-            "7": "Elliot's Beach Besant Nagar",
-            "8": "Santhome Church",
-            "9": "War Memorial Hall",
-            "10": "st.George fort",
-            "11": "st.Thomas mount",
-            "12": "Light House",
-            "13": "Merina beach",
-            "14": "vivekananda memorial hall",
-            "15": "Valluvar kottam"
+            "1": "Arulmigu Vadapalani Murugan Temple",
+            "2": "Sai Baba Temple Mylapore",
+            "3": "Kapaleeshwarar Temple - Mylapore ",
+            "4": "Arulmigu Sri Parthasarathyswamy Temple - Triplicane",
+            "5": "Kalikambal Kamadeswarar Temple - Paris",
+            "6": "Adhipuriswarer Vadivudaiyammal - Thiruvottriyur",
+            "7": "Arulmigu Devi Karumariamman Temple -  Thiruverkadu",
+            "8": "Sri Kamakshi Amman Temple - Mangadu",
+            "9": "Subramaniya swamy Temple - Kundrathur"
           }
         }
       },
@@ -1186,26 +1360,16 @@
         "image": "/assets/images/Package/localtour2.png",
         "description": {
           "1": "Chennai is a city that beautifully combines history, tradition, and modernity. This one-day heritage and culture trip is designed for travelers who want to explore the cultural landmarks and historical treasures of this vibrant city.",
-          "2": "The itinerary includes visits to Marina Beach, San Thome Basilica, Fort St. George, Government Museum, Vivekananda House, and other heritage spots that showcase Chennai’s colonial past and cultural richness.",
-          "3": "Perfect for history lovers and culture enthusiasts, this guided trip provides a comfortable and informative experience, allowing you to immerse yourself in Chennai’s unique blend of architecture, tradition, and modern lifestyle."
+          "2": "Perfect for history lovers and culture enthusiasts, this guided trip provides a comfortable and informative experience, allowing you to immerse yourself in Chennai’s unique blend of architecture, tradition, and modern lifestyle."
         },
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Egmore museum(Friday holiday)",
-            "2": "st.George fort",
-            "3": "Merina beach",
-            "4": "Light house",
-            "5": "Guindy Birla Planetorium",
-            "6": "Guindy Snake Park (Tuesday holiday)",
-            "7": "Elliot's Beach Besant Nagar",
-            "8": "VGP golden beach (Theam park)",
-            "9": "MGM Resort (Theam park)",
-            "10": "Dakshinachitra",
-            "11": "Muttukadu boat house",
-            "12": "Vandalore zoo(tuesday)",
-            "13": "vivekananda memorial hall",
-            "14": "Valluvar kottam"
+            "1": "VGP golden beach (Theam park)",
+            "2": "Temples MGM Resort (Theam park)",
+            "3": "Temples Dakshinachitra",
+            "4": "Temples Muttukadu boat house",
+            "5": "Temples Vandalore zoo(tuesday)"
           }
         }
       },
@@ -1657,104 +1821,6 @@
         "content": "With Divya Desan Travels, your Chennai to Kanchipuram trip is more than sightseeing — it’s an immersive experience in culture, spirituality, and heritage. Enjoy a flexible two-day itinerary, visit iconic temples, explore silk markets, and travel comfortably with professional drivers."
       }
     },
-    "kanchipuram-Divya-Desam-Temples": {
-      "id": "kanchipuram-Divya-Desam-Temples",
-      "packageData": {
-        "title": "Chennai to Kanchipuram Divya Desam Temples Tour Package",
-        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
-        "category": "one-day"
-      },
-      "templeSection": {
-        "title": "Discover the Temple City of Kanchipuram",
-        "image": "/assets/images/Package/oneday3.png",
-        "description": {
-          "1": "Kanchipuram, one of the holiest cities in India, is renowned for its abundance of ancient temples. Among them, the Vishnu Temples and Shiva Temples hold great significance. The Varadharaja Perumal Temple is dedicated to Lord Vishnu, while the Ekambaranathar Temple is one of the most revered shrines of Lord Shiva. Other notable temples include the Kamakshi Amman Temple, Kumara Kottam, Kachapeshwarar Temple, and the Kailasanathar Temple.",
-          "2": "The city is traditionally divided into two regions: Chinna Kanchipuram (Vishnu Kanchi), home to many Vishnu temples, and Periya Kanchipuram (Shiva Kanchi), which is famous for its numerous Shiva temples. Out of the 108 Divya Desam Temples of Lord Vishnu, 82 are located in Tamil Nadu, with 16 situated in Kanchipuram. According to legend, Lord Vishnu once worshipped Lord Shiva here in the form of a tortoise (Kurma). Inscriptions also refer to the area as Kachipedu, and the temple lies close to the Kanthakottam Temple.",
-          "3": "Kanchipuram is often called the “City of a Thousand Temples”, as its temples stand as remarkable symbols of spiritual and architectural heritage. While the majority of shrines are dedicated to Lord Vishnu and Lord Shiva, the city is also home to Buddhist monasteries, Jain temples, and mosques, showcasing its rich cultural diversity."
-        },
-        "visitplaces": {
-          "title": "Our Travel Destinations",
-          "list": {
-            "1": "Thiruvekka- sonna vannam seitha perumal",
-            "2": "Thiru Ooragam- thiru vikraman (ulagalantha perumal temple)",
-            "3": "Thiruneeragam- ulagalantha perumal temple",
-            "4": "Thiru nila thundam-santhirasoodar perumal(inside ekambar esvarar temple)",
-            "5": "Thiru karvannam-karvanar nindra thiru kolam west face (inside ulagalantha perumal temple)",
-            "6": "Thiru karagam-karunakara perumal nindra kolam(inside ulagalantha perumal temple)",
-            "7": " Thirukachi Athigiri -Varadharaja perumal temple",
-            "8": "Thiru kalvanur- kalvar perumal thiru koil (inside kamatchi amman temple)",
-            "9": "Thiru padagam- pandavar thoothar perumal temple",
-            "10": "Thiru pavala vannam-pachai vanna perumal",
-            "11": "Thiru Parameswara Vinnagaram- vaikunta nathar perumal temple",
-            "12": " Thiru thanga- vilakoli perumal temple",
-            "13": "Thiru veligai- azhagiya singar temple",
-            "14": " Asta puyakaram- adhikeshwa perumal temple",
-            "15": "Kamakostam",
-            "16": "Pachai vannan"
-          }
-        },
-        "templedescription": {
-          "1": "Chennai is a city of culture, and what better way to experience it than by taking a one-day tour package to the Divyadesam Temples in Kanchipuram. These temples are considered to be some of the most revered shrines in the Hindu religion. Here's what you can expect from our tour package:",
-          "2": "Our tour will start early in the morning, and a well-maintained car with an experienced driver will pick you up from your Chennai hotel or residence. From there, we will begin our journey to Kanchipuram, which is approximately 70 km away from Chennai. The journey takes around 2 hours, and you can sit back, relax and enjoy the scenic beauty along the way. During the tour, you will visit 16 significant temples, including Thiruvekka, Thiru Ooragam, Thiru Nilathundam, Thiru Karvannam, Thiru Karagam, Thirukachi Athigiri, Thiru Kalvanur, Thiru Padagam, Thiru Pavala Vannam, Thiru Parameswara Vinnagaram, Thiru Thanga, Thiru Veligai, Asta Puyakaram, Kamakostam, and Pachai Vannan. Each of these temples has a unique significance and history, making the trip an unforgettable experience.",
-          "3": "These temples offer visitors a chance to experience the rich cultural heritage of Kanchipuram, and each temple has its own architectural style and design. The Sri Kamatchi Amman Temple, Sri Ekambaranathar Temple, Sri Varadharaja Perumal Temple, and Sri Ulagalantha Perumal Temple are some of the temples you will visit on the tour. Our tour package includes comfortable transportation, an experienced driver, and a knowledgeable guide who will take you through the history and significance of each temple. So, get ready to explore the Divyadesam Temples in Kanchipuram with our one-day or two-day tour package and take back unforgettable memories.",
-          "4": "The tour will commence early in the morning, and a well-maintained car with a skilled driver will pick you up from your hotel or residence in Chennai. The first stop of the tour is at Thiruvekka – Sonna Vannam Seitha Perumal Temple, and the journey will continue through all the other temples mentioned in the package. During the tour, visitors will get a chance to witness the exquisite architecture and intricate carvings of each temple. The tour also provides a great opportunity for visitors to learn about the rich history and culture of the region. The package includes all entrance fees and a delicious lunch, making it a hassle-free and convenient experience for tourists. Visitors can sit back, relax, and enjoy the scenic beauty of the region while being transported in the comfort of a car. The Chennai to Kanchipuram Divyadesam Temples One-Day and Two-Day Tour Package is a perfect option for those who wish to explore the famous temples in Kanchipuram and experience the rich culture and heritage of the region.",
-          "5": "Depending on the time you choose, the one-day tour offers a fast-paced experience covering all the important temples within a single day, while the  tour allows for a more relaxed journey with additional time to explore temples like Varadharaja Perumal, Ekambaranatha, Kamakshi Amman, Kailasanathar, and other cultural highlights of Kanchipuram.",
-          "6": "The temples in Kanchipuram are not only known for their religious importance but also for their stunning architecture and historical significance. The experienced guide accompanying you will provide you with information about the history and legends of each temple, making your visit even more enriching. At the end of the trip, you will be driven back to Chennai in the same car, with the memories of a spiritually fulfilling journey.",
-          "7": "Kanchipuram is a holy city known for its numerous temples, including Vishnu Temples and Shiva Temples. Among the temples dedicated to Lord Vishnu, the Varadharaja Perumal Temple is one of the most popular. The temple is renowned for its grand architecture and rich history, attracting devotees and tourists from all over the world. The temple complex also includes several smaller shrines and a large water tank. Another prominent temple in Kanchipuram is the Ekambaranatha Temple, dedicated to Lord Shiva. It is one of the largest temples in Kanchipuram and is believed to have been built in the 6th century. The temple has a towering gopuram (entrance tower) and houses a sacred mango tree that is believed to be thousands of years old. The temple is also known for its elaborate carvings and sculptures.",
-          "8": "Apart from these two temples, Kanchipuram is home to several other famous temples. The Kamakshi Amman Temple, dedicated to the goddess Kamakshi, is a popular pilgrimage site for devotees of the goddess. The Kumara Kottam, Kachapeshwarar Temple, and the Kailasanathar Temple are other important temples that attract devotees and tourists alike. The Kanchipuram temples are not only religious places but also architectural marvels that showcase the rich cultural heritage of South India.",
-          "9": "In the 108 Divya Desa Temples of Lord Vishnu, which are considered holy by Vaishnavites, 82 temples are located in Tamil Nadu, out of which 16 temples are situated in Kanchipuram. The city is known for its deep connections with Lord Vishnu, and it is believed that the god was worshipped in the form of Kurma, a turtle, in the region. The Vishnu temples in Kanchipuram are revered for their beauty and spiritual significance.",
-          "10": "With its numerous temples and spiritual charm, the Chennai to Kanchipuram Divyadesam Temples One-Day and Two-Day Tour Package is a must-do for anyone looking to experience the divine energy, architecture, and cultural richness of South India."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "price": "₹4,800",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "price": "₹4,800",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "price": "₹5,500",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "price": "₹5,700",
-          "image": "/assets/images/Package/innovacar.png",
-          "featuredImage": "/assets/images/Package/innovacar.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "price": "₹6,300",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "The one-day to Kanchipuram Divya Desam Temples Tour is ideal for devotees, families, and tourists seeking a spiritual retreat. With Divya Desan Travels, you can enjoy a hassle-free journey, visit ancient temples, and create everlasting memories."
-      }
-    },
     "tirupati-one-day-tour-package": {
       "id": "tirupati-one-day-tour-package",
       "packageData": {
@@ -1881,15 +1947,15 @@
           "9": "Afternoon: Explore local markets for souvenirs.",
           "10": "Evening: Depart from Tirumala"
         },
-         "visitplaces": {
+        "visitplaces": {
           "title": "Tirupati Two Days Tour Packages ",
           "list": {
-            "1": "Package 1 - Tirupati Balaji Temple & Alamelmangapuram",
-            "2": "Package 2 - Tirupati Balaji Temple, Alamelmangapuram & Tirumala Sightseeing ",
-            "3": "Package 3 - Tirupati balaji darshan, Alamelmangapuram & Srikalahasti, Tirutani ",
-            "4": "Package 4 - Tirupati Balaji Temple, Alamelmangapuram & Kancheepuram Temples ",
-            "5": "Package 5 - Tirupati Balaji Temple, Alamelmangapuram & Vellore Golden Temple",
-            "6": "Package 6 - Tirupati Balaji Temple, Alamelmangapuram & Vellore Golden Temple, Kancheepuram Temples"
+            "1": "Package 1 - Tirumala Balaji Temple & Alamelumangapuram",
+            "2": "Package 2 - Tirumala Balaji Temple, Alamelumangapuram & Tirumala Sightseeing ",
+            "3": "Package 3 - Tirumala balaji darshan, Alamelumangapuram & Srikalahasti, Tirutani  ",
+            "4": "Package 4 - Tirumala Balaji Temple, Alamelumangapuram & Kancheepuram Temples ",
+            "5": "Package 5 - Tirumala Balaji Temple, Alamelumangapuram & Vellore Golden Temple ",
+            "6": "Package 6 - Tirumala Balaji Temple, Alamelumangapuram & Vellore Golden Temple, Kancheepuram Temples"
           }
         },
         "included": {
@@ -1941,7 +2007,6 @@
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
-
       "additionalContent": {
         "content": "This two-day Chennai to Tirupati tour is ideal for devotees seeking darshan of Lord Venkateswara along with sightseeing at sacred places around Tirumala. With Divya Desan Travels, enjoy a stress-free trip, spiritual blessings, and a comfortable return journey."
       }
