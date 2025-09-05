@@ -3,7 +3,9 @@ import Packagedetails from '../shared/components/Packagedetails'
 
 function Packagedetailspage() {
   return (
-    <div><Packagedetails/></div>
+    <div>
+      <Packagedetails />
+    </div>
   )
 }
 

@@ -31,7 +31,7 @@ function Register() {
                         </div>
                     </div>
                     <div className="max-w-[450px] mx-auto w-fit lg:block hidden" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                        <img src="/assets/images/About/register.png" alt="contact" className="" />
+                        <img src="/assets/images/About/register.png" alt="contact" className="" loading="lazy"/>
                     </div>
                 </div>
             </div>

@@ -46,6 +46,7 @@ function Swiperfunction(props) {
                                         alt={data}
                                         className={`transition-transform w-full h-full object-cover duration-500 mx-auto ${isActive ? ' z-10 shadow-2xl scale-110' : 'scale-80 opacity-70'}`}
                                         style={{ borderRadius: '1rem' }}
+                                        loading="lazy"
                                     />
                                 </div>
                             )}

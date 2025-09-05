@@ -109,7 +109,7 @@ function Header() {
                                     <Link to='/about-us' className={` ${isActive == '/about-us' ? 'text-[#6CBF02] ' : '  '}`}>About</Link>
                                 </li>
                                 <li className="">
-                                    <Link to='/packages' className={` ${isActive == '/packages' ? 'text-[#6CBF02] ' : '  '}`}>Package</Link>
+                                    <Link to='/packages' className={` ${isActive == '/packages' ? 'text-[#6CBF02] ' : '  '}`}>Packages</Link>
                                 </li>
 
                                 <li className="">

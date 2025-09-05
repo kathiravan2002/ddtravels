@@ -17,10 +17,6 @@
       "name": "Chennai Urban Temples/Paadal Petra Shiva Sthalams/Divya Desam Temples One Day Tour Packages"
     },
     {
-      "id": "one-way",
-      "name": "One Way Drop Service"
-    },
-    {
       "id": "car-rental",
       "name": "Chennai Car Rental Package"
     },
@@ -127,44 +123,12 @@
       "description": "Visit Navagraha temples for spiritual blessings."
     },
     {
-      "id": "taxi-rental-services",
-      "image": "/assets/images/Package/taxirental.jpg",
-      "title": "Taxi Rental Services – Chennai",
-      "time": "24/7 hours",
-      "category": "car-rental",
-      "description": "Reliable taxi rental services for your Chennai travel needs"
-    },
-    {
-      "id": "car-hire-packages",
-      "image": "/assets/images/Package/hiretaxi.jpg",
-      "title": "Car Hire Packages for Chennai Trips",
-      "time": "24/7 hours",
-      "category": "car-rental",
-      "description": "Affordable car hire packages for all your Chennai trips"
-    },
-    {
-      "id": "innova-rental-deals",
-      "image": "/assets/images/Package/innova.png",
-      "title": "Innova Rental Deals in Chennai",
-      "time": "24/7 hours",
-      "category": "car-rental",
-      "description": "Premium Innova rental services with best deals"
-    },
-    {
       "id": "temple-tour-traveller-packages",
       "image": "/assets/images/Package/temple.jpg",
       "title": "Temple Tour Traveller Packages – Chennai",
       "time": "24/7 hours",
       "category": "car-rental",
       "description": "Spacious traveller packages specially for temple tours"
-    },
-    {
-      "id": "one-way-drop-services",
-      "image": "/assets/images/Package/oneway.jpg",
-      "title": "One Way Drop Service",
-      "time": "As per requirement",
-      "category": "one-way",
-      "description": "Comfortable one-way drop service"
     },
     {
       "id": "kodaikanal",
@@ -447,6 +411,46 @@
       "description": "Discover the French charm, beaches, and spiritual retreats of Pondicherry."
     },
     {
+      "id": "pondicherry-two-days-package",
+      "image": "/assets/images/Package/pondi2.png",
+      "title": "Chennai to Pondicherry Two-Days Tour Package",
+      "time": "2 Days | Flexible Timing 24/7",
+      "category": "one-day",
+      "description": "Experience the charm of Pondicherry with a two-day tour covering beaches, French heritage, temples, churches, and cultural landmarks."
+    },
+    {
+      "id": "mahabalipuram-pondicherry-two-days-package",
+      "image": "/assets/images/Package/Mahabalipuram-Temple.jpg",
+      "title": "Chennai to Mahabalipuram & Pondicherry Two-Days Tour Packages",
+      "time": "2 Days | Flexible Timing 24/7",
+      "category": "one-day",
+      "description": "Explore heritage, beaches, temples and culture."
+    },
+    {
+      "id": "pondicherry-pichavaram-two-days-package",
+      "image": "/assets/images/Package/pichavaram.jpg",
+      "title": "Chennai to Pondicherry & Pichavaram Two-Days Tour Packages",
+      "time": "2 Days | Flexible Timing 24/7",
+      "category": "one-day",
+      "description": "Discover beaches, temples, mangroves and culture."
+    },
+    {
+      "id": "pondicherry-pichavaram-chidambaram-three-days-package",
+      "image": "/assets/images/Package/chidambaram.png",
+      "title": "Chennai to Pondicherry, Pichavaram & Chidambaram Three-Days Tour Package",
+      "time": "3 Days | Flexible Timing 24/7",
+      "category": "one-day",
+      "description": "Heritage, beaches, adventure, and spirituality."
+    },
+    {
+      "id": "tiruvannamalai-one-day-package",
+      "image": "/assets/images/Thiru.jpg",
+      "title": "Chennai to Tiruvannamalai One Day Trip",
+      "time": "1 Day | Flexible Timing 24/7",
+      "category": "one-day",
+      "description": "Temples, caves, ashrams, and spiritual journey."
+    },
+    {
       "id": "vellore-golden-temple-one-day-tour-package",
       "image": "/assets/images/Package/oneday8.jpg",
       "title": "Chennai to Vellore Golden Temple One-Day Tour Package",
@@ -472,191 +476,11 @@
     }
   ],
   "packageDetails": {
-    "taxi-rental-services": {
-      "id": "taxi-rental-services",
-      "packageData": {
-        "title": "Taxi Rental Services - Chennai",
-        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7 ",
-        "category": "car-rental"
-      },
-      "templeSection": {
-        "title": "Premium Car Rental Services",
-        "image": "/assets/images/Package/taxirental.jpg",
-        "description": {
-          "1": "Divya Desan Travels provides trusted taxi and car rental services in Chennai, offering safe and convenient travel for all occasions. Whether you require a vehicle for airport transfers, family outings, local sightseeing, temple tours, or outstation trips, we ensure a smooth and comfortable ride with our professional chauffeurs.",
-          "2": "Our fleet includes popular models such as Swift, Etios, Innova, and Crysta, along with spacious Tempo Travellers for group travel. Every vehicle is well-maintained, clean, and equipped to give you a safe and pleasant travel experience. Our drivers are experienced, courteous, and familiar with both local and outstation routes.",
-          "3": "We offer flexible travel packages including hourly rentals, one-day trips, temple tour packages, and customized South India tours. With transparent pricing, reliable service, and round-the-clock support, Divya Desan Travels is your trusted partner for hassle-free car rentals in Chennai. Book with us and make every journey memorable."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Our car rental packages are designed to give you the perfect blend of comfort, safety, and affordability. With well-maintained vehicles like Swift, Etios, Innova, and Crysta, along with professional chauffeurs, we make every trip smooth and worry-free. Choose Divya Desan Travels for reliable car rentals in Chennai and enjoy a hassle-free journey."
-      }
-    },
-    "car-hire-packages": {
-      "id": "car-hire-packages",
-      "packageData": {
-        "title": "Car Hire Packages for Chennai Trips",
-        "subtitle": "Choose your favorite Places and visit. 8 Hours / 80 Kms ",
-        "category": "car-rental"
-      },
-      "templeSection": {
-        "title": "Premium Car Rental Services",
-        "image": "/assets/images/Package/hiretaxi.jpg",
-        "description": {
-          "1": "Divya Desan Travels offers convenient and affordable car hire packages in Chennai, designed to make your travel simple and stress-free. Whether you need a car for business, airport transfers, local sightseeing, temple tours, or long outstation trips, we provide reliable service with professional drivers.",
-          "2": "Our fleet features comfortable and well-maintained cars such as Swift, Etios, Innova, and Crysta, along with spacious Tempo Travellers for groups. Each vehicle is fully serviced, clean, and equipped for a smooth ride, while our experienced chauffeurs ensure safe and punctual travel within Chennai and beyond.",
-          "3": "We provide flexible rental options including hourly plans, one-day packages, and customized multi-day tours. With transparent pricing, dedicated service, and 24/7 support, Divya Desan Travels makes car hire in Chennai easy and dependable. Choose us for your trips and experience comfort, safety, and peace of mind on every journey."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Our Chennai car hire packages are tailored to meet the needs of every traveler, whether it’s for local sightseeing, business meetings, or outstation journeys. We provide well-maintained cars including Swift, Etios, Innova, and Crysta, driven by experienced chauffeurs to ensure safety and comfort. With affordable rates and reliable service, Divya Desan Travels makes every trip in and around Chennai a pleasant experience."
-      }
-    },
-    "innova-rental-deals": {
-      "id": "innova-rental-deals",
-      "packageData": {
-        "title": "Innova Car Hire Packages in Chennai",
-        "subtitle": "Travel your way – 8 Hours / 80 Kms of Comfortable Ride",
-        "category": "car-rental"
-      },
-      "templeSection": {
-        "title": "Reliable & Comfortable Car Rentals",
-        "image": "/assets/images/Package/innova.png",
-        "description": {
-          "1": "Divya Desan Travels brings you the best Innova car hire packages in Chennai, designed for comfort, convenience, and affordability. Whether you’re planning a family trip, a business ride, airport transfers, or weekend getaways, our services are crafted to suit every need.",
-          "2": "Our fleet includes a wide range of vehicles such as Swift Dzire, Etios, Innova, Crysta, and Tempo Travellers for larger groups. Every car is kept in excellent condition, fully sanitized, and driven by skilled chauffeurs to ensure a smooth and safe journey.",
-          "3": "Choose from flexible rental options like hourly plans, one-day packages, and customized multi-day trips. With transparent pricing, reliable service, and round-the-clock customer support, Divya Desan Travels guarantees a hassle-free travel experience every time."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Our Innova rental packages in Chennai are perfect for families, corporate groups, and leisure travelers who value comfort and reliability. With clean vehicles, punctual drivers, and affordable pricing, Divya Desan Travels ensures that every trip—be it within Chennai or outstation—is a safe, enjoyable, and stress-free journey."
-      }
-    },
     "temple-tour-traveller-packages": {
       "id": "temple-tour-traveller-packages",
       "packageData": {
         "title": "Chennai Temple Tour Car Packages",
-        "subtitle": "Plan your temple visits comfortably from 6:00 AM to 9:00 PM",
+        "subtitle": "Plan your temple visits comfortably ",
         "category": "car-rental"
       },
       "templeSection": {
@@ -1356,7 +1180,7 @@
         "category": "local-tour"
       },
       "templeSection": {
-        "title": "Chennai Heritage Experience",
+        "title": "Chennai One Day Sightseeing",
         "image": "/assets/images/Package/localtour2.png",
         "description": {
           "1": "Chennai is a city that beautifully combines history, tradition, and modernity. This one-day heritage and culture trip is designed for travelers who want to explore the cultural landmarks and historical treasures of this vibrant city.",
@@ -1421,27 +1245,27 @@
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹5,500",
+          "price": "₹6,000",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹6,000",
+          "price": "₹7,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
-        "content": "This one-day Chennai heritage and culture package is ideal for travelers who want to experience the city’s history, colonial landmarks, cultural hubs, and seaside beauty in comfort. Divya Desan Travels ensures a memorable journey with reliable cars, flexible schedules, and professional chauffeurs."
+        "content": "This one-day chennai sightseeing package is ideal for travelers who want to experience the city’s history, colonial landmarks, cultural hubs, and seaside beauty in comfort. Divya Desan Travels ensures a memorable journey with reliable cars, flexible schedules, and professional chauffeurs."
       }
     },
     "chennai-navagraha-temple-tour": {
       "id": "chennai-navagraha-temple-tour",
       "packageData": {
         "title": "One-Day Navagraha Temple Tour from Chennai",
-        "subtitle": "Visit the sacred Navagraha temples in and around Chennai with a spiritual journey from 6:00 AM to 9:00 PM",
+        "subtitle": "Visit the sacred Navagraha temples in and around Chennai with a spiritual journey ",
         "category": "local-tour"
       },
       "templeSection": {
@@ -1455,9 +1279,15 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "MangaduKamatchiamman Temple",
-            "2": "KundrathurMurugan Temple",
-            "3": "Kerugambakkam"
+            "1": "Sri Agastheeswarar Temple - Kolappakkam",
+            "2": "Sri Somanadheeswarar Temple - Somangalam",
+            "3": "Sri Vaitheeswarar Temple - Poonamallee",
+            "4": "Sri Neelakandeswarar Temple - Kovur",
+            "5": "Sri Ramanadheeswarar Temple - Porur",
+            "6": "Sri Velleeswarar Temple - Mangadu",
+            "7": "Sri Naageswarar Temple - Kundrathur",
+            "8": "Sri Neelakandeswarar Temple - Gerugambakkam",
+            "9": "Sri Agastheeswarar Temple - Pozhichalur"
           }
         }
       },
@@ -1508,59 +1338,6 @@
       },
       "additionalContent": {
         "content": "This one-day Navagraha Temple tour package is perfect for devotees wishing to seek blessings from the nine planetary deities. With Divya Desan Travels, enjoy a peaceful spiritual journey supported by clean cars, flexible schedules, and experienced drivers who ensure your comfort and devotion throughout the trip."
-      }
-    },
-    "one-way-drop-services": {
-      "id": "one-way-drop-services",
-      "packageData": {
-        "title": "One Way Drop Service",
-        "subtitle": "Easy one-way travel | Flexible timings | Safe & reliable rides",
-        "category": "one-way"
-      },
-      "templeSection": {
-        "title": "Chennai to Pondicherry One Way Service",
-        "image": "/assets/images/Package/oneway.jpg",
-        "description": {
-          "1": "Our Chennai to Pondicherry one-way cab service is designed for travelers who want a convenient, private, and affordable journey. Whether you are heading to Pondicherry for a holiday, a family visit, or business purposes, we ensure a smooth and enjoyable ride.",
-          "2": "The distance between Chennai and Pondicherry is around 160 kilometers, and the travel time usually takes 3.5 to 4 hours depending on the chosen route and traffic. Our experienced drivers know the best routes, including the scenic East Coast Road (ECR), to provide you with a safe and comfortable trip. Pickup is available from any location in Chennai with drop at your preferred destination in Pondicherry.",
-          "3": "Our service removes the stress of arranging return travel and gives you flexibility at the best price. All our cars come with air conditioning, comfortable seating, and essential safety features. Transparent pricing, professional drivers, and 24/7 customer assistance make this service a reliable option for intercity travel."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova Crysta (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels provides a comfortable and budget-friendly Chennai to Pondicherry one-way drop taxi service. With skilled drivers, well-maintained vehicles, and flexible timings, we make your journey convenient and enjoyable. Choose Divya Desan Travels for a safe and smooth ride to Pondicherry."
       }
     },
     "mahabalipuram-tour-package": {
@@ -2184,13 +1961,14 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Arovil",
-            "2": "Aravindhar Ashramam",
-            "3": "Manakula Vinayagar Temple",
-            "4": "Rock Beach",
-            "5": "Saint Paul Church or Samba Koil",
-            "6": "Sri Lakshmi Narasimar temple-Singarkudi",
-            "7": "Panchavati Angeneyar temple"
+            "1": "Auroville Global",
+            "2": "white Town",
+            "3": "Auroville beach",
+            "4": "Manakula vinayagar temple",
+            "5": "Aurobindo Ashram",
+            "6": "Pondicherry Rock beach",
+            "7": "Pondicherry Museum",
+            "8": "Paradise Beach"
           }
         }
       },
@@ -2206,41 +1984,453 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "₹ 7000",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹ 7000",
+          "price": "₹ 6,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹ 7000",
+          "price": "₹ 7,500",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹ 8500",
+          "price": "₹ 8,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹ 9000",
+          "price": "₹ 9,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
         "content": "This one-day Chennai to Pondicherry trip is ideal for travelers seeking relaxation by the beach, cultural exploration, and spiritual rejuvenation. With Divya Desan Travels, enjoy a smooth journey, sightseeing, and a safe return."
+      }
+    },
+    "pondicherry-two-days-package": {
+      "id": "pondicherry-two-days-package",
+      "packageData": {
+        "title": "Chennai to Pondicherry Two-Days Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Discover the Beauty of Pondicherry in Two Days",
+        "image": "/assets/images/Package/pondi2.png",
+        "description": {
+          "1": "Divya Desan Travels presents a delightful two-day trip from Chennai to Pondicherry, a serene coastal city blending French colonial heritage, spiritual landmarks, and vibrant beaches. This extended tour allows you to explore Pondicherry at a relaxed pace while covering its cultural and spiritual gems.",
+          "2": "The itinerary includes visits to iconic attractions such as Promenade Beach, Aurobindo Ashram, Auroville, Paradise Beach, French Quarter, and ancient temples. Additionally, you will explore heritage landmarks, gardens, museums, and churches that showcase Pondicherry’s rich history and architecture.",
+          "3": "Travel comfortably with vehicle options such as Swift Dzire, Etios, Innova, or Tempo Traveller. With affordable pricing, skilled chauffeurs, and reliable service, Divya Desan Travels ensures a memorable and safe two-day Chennai to Pondicherry trip."
+        },
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Panchavati Anjaneyar Temple",
+            "2": "Manakula Vinayagar Temple",
+            "3": "White Town",
+            "4": "Aurobindo Ashram",
+            "5": "Pondicherry Rock Beach",
+            "6": "Auroville Global",
+            "7": "Bharathi Park",
+            "8": "Botanical Garden",
+            "9": "Pondicherry Museum",
+            "10": "French War Memorial",
+            "11": "Paradise Beach",
+            "12": "Chunnambar Boat House",
+            "13": "Eden Beach",
+            "14": "Saint Paul Church (Samba Kovil)",
+            "15": "Immaculate Conception Cathedral",
+            "16": "Singarkudi Sri Lakshmi Narasimhar Temple",
+            "17": "Infant Jesus Church",
+            "18": "Arikamedu Archaeological Site"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 5500",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios A/C (4+1)",
+          "price": "₹ 10,000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 9,000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "₹ 11,000",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "₹ 13,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 15,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This two-day Chennai to Pondicherry trip is perfect for travelers who want to enjoy both leisure and sightseeing. From peaceful beaches to French heritage and spiritual places, Divya Desan Travels offers a safe, comfortable, and unforgettable journey."
+      }
+    },
+    "mahabalipuram-pondicherry-two-days-package": {
+      "id": "mahabalipuram-pondicherry-two-days-package",
+      "packageData": {
+        "title": "Chennai to Mahabalipuram & Pondicherry Two-Days Tour Packages",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Explore Mahabalipuram & Pondicherry in Two Days",
+        "image": "/assets/images/Package/Mahabalipuram-Temple.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers an exciting two-day trip from Chennai covering the UNESCO heritage wonders of Mahabalipuram and the French colonial beauty of Pondicherry. This package is designed for travelers who want to explore culture, heritage, spirituality, and beaches in one journey.",
+          "2": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your needs. With affordable pricing, experienced chauffeurs, and safe travel, Divya Desan Travels ensures a comfortable and memorable two-day trip."
+        },
+        "visitplaces": {
+          "title": "Mahabalipuram local sightseeing",
+          "list": {
+            "1": "Crocodile Bank",
+            "2": "Shore Temple",
+            "3": "Mahabalipuram Beach",
+            "4": "Arjuna's Penance",
+            "5": "Krishna’s Butter Ball",
+            "6": "Tiger Cave",
+            "7": "Lighthouse"
+          },
+          "title2": "Pondicherry local sightseeing",
+          "list2": {
+            "1": "Auroville Global",
+            "2": "white Town",
+            "3": "Auroville beach",
+            "4": "Manakula vinayagar temple",
+            "5": "Aurobindo Ashram",
+            "6": "Pondicherry Rock beach",
+            "7": "Pondicherry Museum",
+            "8": "Paradise Beach"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 9,000",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios A/C (4+1)",
+          "price": "₹ 10,000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 9,000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "₹ 11,000",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "₹ 13,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 15,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This two-day Chennai to Mahabalipuram & Pondicherry trip is perfect for travelers seeking a mix of heritage exploration, cultural experiences, spiritual visits, and beachside relaxation. With Divya Desan Travels, enjoy a safe and unforgettable journey."
+      }
+    },
+    "pondicherry-pichavaram-two-days-package": {
+      "id": "pondicherry-pichavaram-two-days-package",
+      "packageData": {
+        "title": "Chennai to Pondicherry & Pichavaram Two-Days Tour Packages",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Explore Pondicherry & Pichavaram in Two Days",
+        "image": "/assets/images/Package/pichavaram.jpg",
+        "description": {
+          "1": "Divya Desan Travels presents an enriching two-day trip from Chennai covering the French colonial beauty of Pondicherry and the natural wonder of Pichavaram Mangrove Forest. This package blends heritage, culture, spirituality, and adventure for a unique travel experience.",
+          "2": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your needs. With affordable pricing, skilled chauffeurs, and safe service, Divya Desan Travels ensures a memorable and comfortable two-day journey."
+        },
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Auroville Global",
+            "2": "White Town",
+            "3": "Auroville Beach",
+            "4": "Manakula Vinayagar Temple",
+            "5": "Aurobindo Ashram",
+            "6": "Pondicherry Rock Beach",
+            "7": "Pondicherry Museum",
+            "8": "Paradise Beach",
+            "9": "Pichavaram Mangrove Forest Boating"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 6500",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios A/C (4+1)",
+          "price": "₹ 12,000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 11,000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "₹ 13,000",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "₹ 15,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 17,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This two-day Chennai to Pondicherry & Pichavaram trip is ideal for travelers seeking cultural exploration, spiritual visits, beach relaxation, and an adventurous mangrove boating experience. With Divya Desan Travels, your journey is safe, comfortable, and unforgettable."
+      }
+    },
+    "pondicherry-pichavaram-chidambaram-three-days-package": {
+      "id": "pondicherry-pichavaram-chidambaram-three-days-package",
+      "packageData": {
+        "title": "Chennai to Pondicherry, Pichavaram & Chidambaram Three-Days Tour Package",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Explore Pondicherry, Pichavaram & Chidambaram in Three Days",
+        "image": "/assets/images/Package/chidambaram.png",
+        "description": {
+          "1": "Divya Desan Travels presents a refreshing three-day trip from Chennai covering the French colonial heritage of Pondicherry, the adventurous boating experience at Pichavaram Mangrove Forest, and the spiritual magnificence of Nataraja Temple in Chidambaram.",
+          "2": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller for your journey. With affordable prices, professional chauffeurs, and safe service, Divya Desan Travels ensures your three-day journey is memorable and comfortable."
+        },
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Auroville Global",
+            "2": "White Town",
+            "3": "Auroville Beach",
+            "4": "Manakula Vinayagar Temple",
+            "5": "Aurobindo Ashram",
+            "6": "Pondicherry Rock Beach",
+            "7": "Pondicherry Museum",
+            "8": "Paradise Beach",
+            "9": "Pichavaram Mangrove Forest Boating",
+            "10": "Nataraja Temple Chidambaram"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 8500",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios A/C (4+1)",
+          "price": "₹ 15,000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 13,500",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "₹ 16,000",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "₹ 18,500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 20,500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This three-day Chennai to Pondicherry, Pichavaram, and Chidambaram trip is perfect for travelers seeking heritage, beaches, adventure, and spirituality. With Divya Desan Travels, enjoy a safe, comfortable, and unforgettable journey."
+      }
+    },
+    "tiruvannamalai-one-day-package": {
+      "id": "tiruvannamalai-one-day-package",
+      "packageData": {
+        "title": "Chennai to Tiruvannamalai One Day Trip",
+        "subtitle": "Reliable car rental services available 24/7 | Flexible timing: 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Explore Tiruvannamalai in One Day",
+        "image": "/assets/images/Thiru.jpg",
+        "description": {
+          "1": "Divya Desan Travels offers a spiritual one-day trip from Chennai to Tiruvannamalai, a sacred town known for the Annamalaiyar Temple and its mystical connection to Lord Shiva.",
+          "2": "The journey includes visits to ancient temples, caves, and ashrams that reflect deep spirituality and devotion. Experience the divine aura of Annamalaiyar Temple and the teachings of Ramana Maharshi Ashram.",
+          "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller for your trip. With affordable pricing, experienced chauffeurs, and safe travel, Divya Desan Travels ensures a peaceful and memorable pilgrimage."
+        },
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Annamalaiyar Temple",
+            "2": "Ramana Maharshi Ashram",
+            "3": "Virupaksha Cave",
+            "4": "Adi Arunachaleswara Temple",
+            "5": "Seshadri Ashram",
+            "6": "Agni Lingam",
+            "7": "Niruthi Lingam",
+            "8": "Varuna Lingam",
+            "9": "Indra Lingam",
+            "10": "Kubera Lingam"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "₹ 5500",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+     "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios A/C (4+1)",
+          "price": "₹ 6,500",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 6,000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "₹ 7,500",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "₹ 8,500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 9,500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "This one-day Chennai to Tiruvannamalai trip is perfect for devotees and travelers seeking a spiritual experience. Explore temples, sacred caves, and ashrams while enjoying a safe and comfortable journey with Divya Desan Travels."
       }
     },
     "vellore-golden-temple-one-day-tour-package": {
@@ -3280,14 +3470,30 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Berijam Lake",
-            "2": "Coakers Walk",
-            "3": "Kodai Lake",
-            "4": "Kurinjiandavar Temple",
-            "5": "Dolphin’s Nose",
-            "6": "Bryant Park",
-            "7": "Kodaikanal Solar Observatory",
-            "8": "Green Valley View"
+            "1": "Pillar Rocks",
+            "2": "Guna Caves",
+            "3": "Dolphine Nose",
+            "4": "Mannavanur Lake",
+            "5": "Pine Forest",
+            "6": "Bear Shola Falls",
+            "7": "Coakers Walk",
+            "8": "Kodaikanal Lake",
+            "9": "Kuzhandai velappar temple",
+            "10": "Poombarai village view",
+            "11": "Bryant Park",
+            "12": "Green Valley View Point",
+            "13": "Kurinji andavar Temple",
+            "14": "Saleth Matha Church",
+            "15": "Chettiar Park",
+            "16": "Moir Point",
+            "17": "Christ the king church",
+            "18": "Fairy falls",
+            "19": "Solar Physical Observatory",
+            "20": "500 Year Old Tree",
+            "21": "Pambar falls",
+            "22": "Natural History Museum",
+            "23": "Berijam lake",
+            "24": "Vattakanal Waterfalls"
           }
         }
       },

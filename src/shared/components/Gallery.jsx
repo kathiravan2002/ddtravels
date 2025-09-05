@@ -27,35 +27,35 @@ function Gallery() {
                 <div className="mt-10 grid grid-cols-1 gap-5">
                     <div className="grid sm:grid-cols-2 grid-cols-1 gap-5" >
                       <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1000">
-                        <img src="/assets/images/Gallery/photo1.png" alt="image1" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                        <img src="/assets/images/Gallery/photo1.png" alt="image1" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                       </div>
                       <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
-                        <img src="/assets/images/Gallery/photo2.png" alt="image2" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                        <img src="/assets/images/Gallery/photo2.png" alt="image2" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                       </div>
                     </div>
                     <div className="grid sm:grid-cols-3 grid-cols-1 gap-5">
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-                            <img src="/assets/images/Gallery/photo3.png" alt="image4" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo3.png" alt="image4" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1000">
-                            <img src="/assets/images/Gallery/photo4.png" alt="image5" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo4.png" alt="image5" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                            <img src="/assets/images/Gallery/photo5.png" alt="image6" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo5.png" alt="image6" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                     </div>
                     <div className="grid sm:grid-cols-4 grid-cols-1 gap-5">
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-                            <img src="/assets/images/Gallery/photo6.png" alt="image7" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300 " />
+                            <img src="/assets/images/Gallery/photo6.png" alt="image7" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300 " />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1000">
-                            <img src="/assets/images/Gallery/photo7.png" alt="image8" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo7.png" alt="image8" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
-                            <img src="/assets/images/Gallery/photo8.png" alt="image9" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo8.png" alt="image9" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                         <div className="max-w-[700px] overflow-hidden lg:rounded-[25px] rounded-[15px]" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                            <img src="/assets/images/Gallery/photo9.png" alt="image10" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
+                            <img src="/assets/images/Gallery/photo9.png" alt="image10" loading="lazy" className="lg:rounded-[25px] rounded-[15px] hover:scale-110 duration-300" />
                         </div>
                     </div>
                 </div>

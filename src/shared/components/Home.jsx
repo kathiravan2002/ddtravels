@@ -1,104 +1,3 @@
-// import React, { useState } from 'react';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-// import "swiper/css/effect-coverflow";
-
-// import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
-
-// export default function Home() {
-//     const [activeSlide, setActiveSlide] = useState(0);
-
-//     const images = [
-
-//         "/assets/images/Home/architect 1.png",
-//         "/assets/images/Home/architect 1.png",
-//         "/assets/images/Home/architect 1.png",
-//         "/assets/images/Home/architect 1.png",
-//         "/assets/images/Home/architect 1.png",
-//         "/assets/images/Home/architect 1.png",
-//     ];
-
-//     const handleSlideChange = (swiper) => {
-//         setActiveSlide(swiper.realIndex);
-//     };
-
-//     return (
-//         <>
-//             <section className="mt-20">
-//                 <div className="grid grid-cols-1 lg:grid-cols-12">
-//                     <div className="col-span-7 relative">
-//                         <div>
-//                             <img src="/assets/images/Home/lush-green-palm-fronds-tropical-paradise 1.png" alt="image" className="absolute -my-18" />
-//                         </div>
-//                         <div className="">
-//                             <img src="/assets/images/Home/travel.png" alt="image" className="absolute right-32 -bottom-18" />
-//                         </div>
-//                         <div className="absolute py-32 px-32 space-y-5">
-//                             <h1 className="text-2xl font-semibold text-[#FFC83E]">One Day</h1>
-//                             <p className="text-4xl text-[#6CBF02] font-semibold">Kanchipuram Tour Package</p>
-//                             <button className="px-5 py-2 border-2 border-[#6CBF02] text-[#6CBF02] rounded-4xl">
-//                                 Enquiry
-//                             </button>
-//                         </div>
-//                         <div className="md:mt-[30%] mt-[100%] z-50">
-
-//                             <Swiper
-//                                 className="overflow-hidden my-10 mb-20 "
-//                                 spaceBetween={-10}
-//                                 speed={1000}
-//                                 slidesPerView={2}
-//                                 breakpoints={{
-//                                     0: {
-//                                         slidesPerView: 1.5,
-//                                     },
-//                                     1024: {
-//                                         slidesPerView: 2,
-//                                     },
-//                                 }}
-//                                 centeredSlides={true}
-//                                 navigation
-//                                 pagination={{ clickable: true }}
-//                                 autoplay={{ delay: 3000, disableOnInteraction: false }}
-//                                 loop={true}
-//                                 modules={[Autoplay]}
-//                                   onSlideChange={handleSlideChange}
-//                                   onSwiper={(swiper) => {
-//                                     setActiveSlide(swiper.realIndex);
-//                                 }}
-//                             >
-//                                 {Array(3)
-//                                     .fill([
-//                                         '/assets/images/Home/architect 1.png',
-//                                         '/assets/images/Home/architect 1.png',
-//                                         '/assets/images/Home/architect 1.png'
-//                                     ])
-//                                     .flat()
-//                                     .map((data, index) => (
-//                                         <SwiperSlide key={index}
-//                                             className=""
-//                                         >{({ isActive }) => (
-//                                             <div className={`relative  overflow-hidden h-[200px] lg:h-[350px] rounded-[30px]  drop-shadow-[#c1956e] duration-300 ${isActive ? 'drop-shadow-xl drop-shadow-[#ddc49b]' : ''}`}>
-//                                                 <img
-//                                                     src={data}
-//                                                     alt={data}
-//                                                     className={`transition-transform w-full h-full object-cover duration-500 mx-auto ${isActive ? ' z-10 shadow-2xl scale-110' : 'scale-80 opacity-70'}`}
-//                                                     style={{ borderRadius: '1rem' }}
-//                                                 />
-//                                             </div>
-//                                         )}</SwiperSlide>
-//                                     ))}
-//                             </Swiper>
-//                         </div>
-//                     </div>
-//                     <div className="col-span-5 ">
-//                         <img src={images[activeSlide]} alt="" className="w-full h-screen object-cover bg-center transition-all duration-500 ease-in-out" />
-//                     </div>
-//                 </div>
-//             </section>
-//         </>
-//     );
-// }
 
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -111,13 +10,11 @@ import { PiArrowBendUpRightFill } from 'react-icons/pi';
 import { CircleCheckBig } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight, FaRegClock } from 'react-icons/fa';
-import { TbCircleArrowRightFilled } from 'react-icons/tb';
-import Swiperfunction from './Swiperfunction';
 import Homehero from './Homehero';
 
 export default function Home(props) {
 
-    const {popular,card,formData,handleChange,handleSubmit, images, goToNextSlide, goToPrevSlide, handleSlideChange, activeSlide, swiperRef, setActiveSlide } = props;
+    const {popular,card,formData,handleChange,handleSubmit,} = props;
 
    
 
@@ -125,45 +22,6 @@ export default function Home(props) {
         <>
             <div className="overflow-hidden">
                 <Homehero />
-                {/* <section className="lg:mt-10 xl:mt-0 mt-0">
-                    <div className="flex flex-col lg:flex-row lg:min-h-screen">
-                        <div className="w-full lg:w-3/5 bg-contain  2xl:bg-center sm:bg-cover  bg-center bg-no-repeat " style={{ backgroundImage: "url('/assets/images/Home/herohome2.png')" }}>
-
-                            <div className=" lg:pt-32 pt-20  pb-10 lg:pb-20 flex justify-center items-center">
-                                <div className="md:space-y-5 space-y-2   md:mt-15 mt-10">
-                                    <h1 className="md:text-4xl text-2xl fondamento-regular text-[#FFC83E] text-center">One Day</h1>
-                                    <p className="md:text-6xl text-4xl text-[#6CBF02] montez-regular text-center">Kanchipuram Tour Package</p>
-                                    <div className="flex justify-center items-center">
-                                        <Link to="/contact-us">
-                                            <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
-                                                <span className="relative z-10 text-[20px] -ml-4"> Enquiry Now </span>
-                                                <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-23  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
-                                                <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
-                                            </button>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="  relative lg:block hidden">
-                                <Swiperfunction activeSlide={activeSlide} handleSlideChange={handleSlideChange} goToPrevSlide={goToPrevSlide} goToNextSlide={goToNextSlide} images={images} swiperRef={swiperRef} setActiveSlide={setActiveSlide}/>
-                            </div>
-                        </div>
-
-                        <div className="w-full lg:w-2/5 lg:block hidden">
-                            <img
-                                src={images[activeSlide]}
-                                alt=""
-                                className="w-full h-64 md:h-full md:min-h-screen object-cover object-center transition-all duration-500 ease-in-out rounded-[20px] lg:rounded-[0px]"
-                            />
-                        </div>
-                        <div className="  relative block lg:hidden">
-                            <Swiperfunction activeSlide={activeSlide} handleSlideChange={handleSlideChange} goToPrevSlide={goToPrevSlide} goToNextSlide={goToNextSlide} images={images} swiperRef={swiperRef} setActiveSlide={setActiveSlide}/>
-                        </div>
-                    </div>
-                </section> */}
-
-
                 <section className="lg:py-20 py-15 max-w-[1450px] mx-auto px-4">
 
                     <div className="">
@@ -182,7 +40,7 @@ export default function Home(props) {
 
                                 </div>
                                 <div className="flex md:justify-between flex-col md:flex-row lg:mt-10 mt-5 gap-5">
-                                    <p className="md:text-[28px] text-[20px] dancing-script opacity-75 flex gap-5  items-center "><img src="/assets/images/Home/crystavector.jpg" alt="car" className='md:w-[100px] w-[120px]' /> Car Rental Provider </p>
+                                    <p className="md:text-[28px] text-[20px] dancing-script opacity-75 flex gap-5  items-center "><img src="/assets/images/Home/crystavector.jpg" alt="car" className='md:w-[100px] w-[120px]' loading="lazy"/> Car Rental Provider </p>
                                     <div className="flex justify-center items-center">
                                         <Link to="/about-us">
                                             <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
@@ -194,7 +52,7 @@ export default function Home(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="max-w-[480px] mx-auto " data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000"><img src="/assets/images/Home/aboutus2.png" alt="aboutus" className="" /></div>
+                            <div className="max-w-[480px] mx-auto " data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000"><img src="/assets/images/Home/aboutus2.png" alt="aboutus" className="" loading="lazy" /></div>
                         </div>
                     </div>
                 </section>
@@ -230,6 +88,7 @@ export default function Home(props) {
                                                 src={img.src}
                                                 alt={img.name}
                                                 className="w-full h-auto rounded-lg shadow-md select-none pointer-events-none"
+                                                loading="lazy"
                                             />
                                             {/* Caption BELOW the image */}
                                             <p className="text-center mt-3 text-lg poppins-semibold text-black">
@@ -276,7 +135,7 @@ export default function Home(props) {
                                     className="card relative flex justify-center items-start w-[400px] max-w-full h-[300px] mx-auto bg-white mb-13 rounded-[20px] shadow-[0_10px_25px_rgba(0,0,0,0.15)] md:mt-20 mt-5"
                                 >
                                     <div className="img-box absolute top-5 md:w-[350px] w-[300px] h-[220px] bg-gray-800 rounded-[12px] overflow-hidden">
-                                        <img src={item.image} alt='image' className="absolute top-0 left-0 w-full h-full object-cover border-4 border-[#6CBF02]" />
+                                        <img src={item.image} alt='image' className="absolute top-0 left-0 w-full h-full object-cover border-4 border-[#6CBF02]" loading="lazy"/>
                                     </div>
                                     <div className="content absolute top-[252px] w-full h-[35px] p-0 px-[30px] text-center overflow-hidden ">
                                         <div className='flex gap-2 justify-center '>

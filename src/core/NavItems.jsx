@@ -88,7 +88,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                 }}
                 className="duration-300"
               >
-                Package
+                Packages
               </li>
             </Link>
             <Link to="/gallery" className={` ${isActive == '/gallery' ? 'text-white bg-[#6CBF02] rounded-lg min-w-[75px] py-1  px-2' : ''}`}>

@@ -24,7 +24,7 @@ function ContactUs({formData,handleSubmit,handleChange}) {
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 border-2 border-gray-400 rounded-[20px]">
                     <div className="p-5 lg:border-r-2 border-gray-400">
                         <div className="flex justify-center ">
-                            <img src="/assets/images/Contact/phone.png" alt="Phone no" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
+                            <img src="/assets/images/Contact/phone.png" alt="Phone no"  loading="lazy" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
                         </div>
                         <div className="space-y-1 mt-2 flex justify-center  flex-col items-center">
                             <p className="poppins-medium md:text-[24px] text-[20px] text-center">Phone Number</p>
@@ -34,7 +34,7 @@ function ContactUs({formData,handleSubmit,handleChange}) {
                     </div>
                     <div className="p-5 lg:border-r-2 border-gray-400">
                         <div className="flex justify-center ">
-                            <img src="/assets/images/Contact/location.png" alt="location" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
+                            <img src="/assets/images/Contact/location.png" alt="location" loading="lazy" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
                         </div>
                         <div className="space-y-1 mt-2 flex justify-center  flex-col items-center">
                             <p className="poppins-medium md:text-[24px] text-[20px] text-center">Address</p>
@@ -43,7 +43,7 @@ function ContactUs({formData,handleSubmit,handleChange}) {
                     </div>
                     <div className="p-5 lg:border-r-2 border-gray-400">
                         <div className="flex justify-center ">
-                            <img src="/assets/images/Contact/message.png" alt="message" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
+                            <img src="/assets/images/Contact/message.png" alt="message" loading="lazy" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
                         </div>
                         <div className="space-y-1 mt-2 flex justify-center  flex-col items-center">
                             <p className="poppins-medium md:text-[24px] text-[20px] text-center">Email Address</p>
@@ -52,7 +52,7 @@ function ContactUs({formData,handleSubmit,handleChange}) {
                     </div>
                     <div className="p-5">
                         <div className="flex justify-center ">
-                            <img src="/assets/images/Contact/notification.png" alt="notification" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
+                            <img src="/assets/images/Contact/notification.png" alt="notification" loading="lazy" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
                         </div>
                         <div className="space-y-1 mt-2 flex justify-center  flex-col items-center">
                             <p className="poppins-medium md:text-[24px] text-[20px] text-center">Support</p>

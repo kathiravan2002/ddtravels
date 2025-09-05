@@ -51,7 +51,7 @@ function About({inView,ref,testimonials}) {
                     <div className="relative z-10 flex flex-col justify-center items-center h-full space-y-4 px-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                         <h2 className="text-[24px] md:text-[28px]  port-lligat-sans-regular text-white ">Love Where Your're Going</h2>
                         <p className="md:text-[32px] text-[26px] poppins-semibold text-white text-center">Explore Your Life - Travel Where You Want with <span className="text-[#FFB600]">Divya Desan Travels!</span></p>
-                        <img src="/assets/images/About/car2.png" alt="car_icon" className="w-[84px]" />
+                        <img src="/assets/images/About/car2.png" alt="car_icon" className="w-[84px]" loading="lazy" />
                     </div>
                 </div>
             </section>
@@ -112,7 +112,7 @@ function About({inView,ref,testimonials}) {
                                 <p className="poppins-medium text-base text-justify leading-relaxed">Travel with confidence knowing our team is available around the clock. Day or night, we're here to help  - whenever you need us.</p>
                             </div>
                             <div className="flex items-center">
-                                <img src="/assets/images/About/support.png" alt="support" className="w-[65px]" />
+                                <img src="/assets/images/About/support.png" alt="support" className="w-[65px]" loading="lazy"/>
                             </div>
                         </div>
                         <div className="bg-[#FFE196] px-5 py-2 flex gap-5 lg:flex-row flex-col-reverse items-center rounded-[10px] relative  2xl:right-20" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
@@ -121,21 +121,21 @@ function About({inView,ref,testimonials}) {
                                 <p className="poppins-medium text-base text-justify leading-relaxed">Join our growing family of satisfied explorers who trust us for unforgettable travel experiences.</p>
                             </div>
                             <div className="flex items-center">
-                                <img src="/assets/images/About/happy.png" alt="support" className="w-[65px]" />
+                                <img src="/assets/images/About/happy.png" alt="support" className="w-[65px]" loading="lazy"/>
                             </div>
                         </div>
                     </div>
 
 
                     <div className="max-w-[457px] mx-auto">
-                        <img src="/assets/images/About/trustedimage.png" alt="trustedimage" className="" />
+                        <img src="/assets/images/About/trustedimage.png" alt="trustedimage" className="" loading="lazy"/>
                     </div>
 
 
                     <div className="grid grid-cols-1 gap-10 ">
                         <div className="bg-[#FFE196] px-5 py-2 flex gap-5 lg:flex-row flex-col items-center rounded-[10px] " data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                             <div className="flex items-center">
-                                <img src="/assets/images/About/experience.png" alt="support" className="w-[65px]" />
+                                <img src="/assets/images/About/experience.png" alt="support" className="w-[65px]" loading="lazy"/>
                             </div>
                             <div className="space-y-2 flex-70">
                                 <h2 className="poppins-semibold text-[20px] lg:text-start text-center">7+ Years of Experience</h2>
@@ -144,7 +144,7 @@ function About({inView,ref,testimonials}) {
                         </div>
                         <div className="bg-[#C8FF9E] px-5 py-2 flex gap-5 lg:flex-row flex-col items-center rounded-[10px] relative  2xl:-right-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                             <div className="flex items-center">
-                                <img src="/assets/images/About/satisfication.png" alt="support" className="w-[65px]" />
+                                <img src="/assets/images/About/satisfication.png" alt="support" className="w-[65px]" loading="lazy"/>
                             </div>
                             <div className="space-y-2 flex-70">
                                 <h2 className="poppins-semibold text-[20px] lg:text-start text-center">100% Customer Satisfaction</h2>
@@ -183,6 +183,7 @@ function About({inView,ref,testimonials}) {
                                 src="/assets/images/About/testimonial.png"
                                 alt="testimonial"
                                 className=""
+                                loading="lazy"
                             />
                         </div>
                         <Swiper
@@ -241,6 +242,7 @@ function About({inView,ref,testimonials}) {
                                 src="/assets/images/About/leftarrow.png"
                                 alt="previous"
                                 className="w-[45px]"
+                                loading="lazy"
                             />
                         </button>
                         <button className='swiper-button-next-custom cursor-pointer hover:scale-110 transition-transform duration-200 ease-in-out border-none bg-transparent'>
@@ -248,6 +250,7 @@ function About({inView,ref,testimonials}) {
                                 src="/assets/images/About/leftarrow.png"
                                 alt="next"
                                 className="w-[45px] rotate-180"
+                                loading="lazy"
                             />
                         </button>
                     </div>

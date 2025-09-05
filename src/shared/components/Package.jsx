@@ -453,6 +453,7 @@ function Package() {
                                                 src={packageItem.image}
                                                 alt={packageItem.title}
                                                 className="rounded-t-[7px] w-full h-48 object-cover hover:scale-110 duration-300"
+                                                loading="lazy"
                                             />
                                         </div>
                                         <div className="space-y-2 px-4 py-4">

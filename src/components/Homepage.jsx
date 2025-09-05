@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Home from '../shared/components/Home'
+import HelmetComponent from './HelmetComponent';
 
 function Homepage() {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -126,7 +127,10 @@ function Homepage() {
         window.open(whatsappUrl);
     };
     return (
-        <div><Home activeSlide={activeSlide} handleSlideChange={handleSlideChange} goToPrevSlide={goToPrevSlide} goToNextSlide={goToNextSlide} images={images} swiperRef={swiperRef} setActiveSlide={setActiveSlide} popular={popular} card={card} formData={formData} handleSubmit={handleSubmit} handleChange={handleChange}/></div>
+        <div>
+            <HelmetComponent title={'Divya Desan Travels'} canonical={'https://divyadesantravels.com/'} />
+            <Home activeSlide={activeSlide} handleSlideChange={handleSlideChange} goToPrevSlide={goToPrevSlide} goToNextSlide={goToNextSlide} images={images} swiperRef={swiperRef} setActiveSlide={setActiveSlide} popular={popular} card={card} formData={formData} handleSubmit={handleSubmit} handleChange={handleChange} />
+        </div>
     )
 }
 

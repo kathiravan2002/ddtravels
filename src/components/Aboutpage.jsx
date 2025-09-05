@@ -1,6 +1,7 @@
 import React from 'react'
 import About from '../shared/components/About'
 import { useInView } from 'react-intersection-observer';
+import HelmetComponent from './HelmetComponent';
 
 function Aboutpage() {
 
@@ -35,7 +36,10 @@ function Aboutpage() {
         }
     ];
   return (
-    <div><About testimonials={testimonials} ref={ref} inView={inView}/></div>
+    <div>
+        <HelmetComponent title={'About Us - Divya Desan Travels'} canonical={'https://divyadesantravels.com/about-us'} />
+        <About testimonials={testimonials} ref={ref} inView={inView}/>
+        </div>
   )
 }
 

@@ -509,7 +509,7 @@ function Packagedetails() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, mobile, package: packageTitle, days, carType } = formData;
-    const phoneNumber = '+98925530559';
+    const phoneNumber = '+918925530559';
     const whatsappMessage = `***** Booking Request *****
 • Name: ${name}
 • Phone No: ${mobile}
@@ -572,6 +572,7 @@ function Packagedetails() {
               src={selectedCar.featuredImage}
               alt={`Featured ${selectedCar.name}`}
               className="w-full rounded-[30px]"
+              loading="lazy"
             />
             <div className="bg-[#6CBF02] px-5 py-2 rounded-full absolute md:top-5 top-2 left-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
               <p className="md:text-xl text-base poppins-medium text-white">{selectedCar.price}</p>
@@ -610,6 +611,7 @@ function Packagedetails() {
                     src={car.image}
                     alt={`${car.name}_image`}
                     className="w-16 h-12 md:w-20 md:h-16 object-contain"
+                    loading="lazy"
                   />
 
                   {selectedCar.id === car.id && (
@@ -740,6 +742,7 @@ function Packagedetails() {
               src={packageDetails.templeSection.image}
               alt={packageDetails.templeSection.title}
               className="rounded-[20px] w-full shadow-lg"
+              loading="lazy"
             />
           </div>
 
@@ -763,7 +766,17 @@ function Packagedetails() {
                 <div className="flex flex-col justify-center space-y-5">
                   {Object.values(packageDetails?.templeSection.visitplaces.list || {}).map((visitplaces, index) => (
                     <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" />{visitplaces}
+                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy"/>{visitplaces}
+                    </p>
+                  ))}
+                </div>
+                <h2 className="text-center md:text-2xl text-xl poppins-semibold text-[#FFC83E] my-6">
+                  {packageDetails.templeSection.visitplaces.title2}
+                </h2>
+                <div className="flex flex-col justify-center space-y-5">
+                  {Object.values(packageDetails?.templeSection.visitplaces.list2 || {}).map((visitplaces2, index) => (
+                    <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
+                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy"/>{visitplaces2}
                     </p>
                   ))}
                 </div>
@@ -777,7 +790,7 @@ function Packagedetails() {
                 <div className="flex flex-col justify-center space-y-5">
                   {Object.values(packageDetails?.templeSection.special.list || {}).map((special, index) => (
                     <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" />{special}
+                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy"/>{special}
                     </p>
                   ))}
                 </div>
@@ -828,7 +841,7 @@ function Packagedetails() {
                   <div className="space-y-4" >
                     {Object.values(packageDetails.templeSection.included || {}).map((description, index) => (
                       <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" />{description}
+                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" loading="lazy"/>{description}
                       </p>
                     ))}
                   </div>
@@ -840,7 +853,7 @@ function Packagedetails() {
                   <div className="space-y-4" >
                     {Object.values(packageDetails.templeSection.excluded || {}).map((description, index) => (
                       <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" />{description}
+                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" loading="lazy"/>{description}
                       </p>
                     ))}
                   </div>
@@ -893,7 +906,7 @@ function Packagedetails() {
                 </button>
               </div>
 
-              <div className="md:p-6  p-4 md:space-y-5 space-y-2.5">
+              <form className="md:p-6  p-4 md:space-y-5 space-y-2.5" onSubmit={handleSubmit}>
                 <div>
                   <label htmlFor="name" className="block text-sm poppins-semibold text-gray-700 mb-2">
                     Full Name *
@@ -982,14 +995,13 @@ function Packagedetails() {
 
                 <div className="pt-4">
                   <button
-                    type="button"
-                    onClick={handleSubmit}
+                    type="submit"
                     className="w-full bg-gradient-to-r from-[#6CBF02] to-[#5AA002] text-white py-3 px-6 rounded-lg text-[15px] md:text-lg poppins-semibold hover:from-[#5AA002] hover:to-[#4A8F02] transform transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
                   >
                     Submit Booking Request
                   </button>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         )}
