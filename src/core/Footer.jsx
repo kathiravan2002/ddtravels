@@ -35,30 +35,30 @@ function Footer() {
                   Popular Packages
                 </h3>
                 <div className="flex flex-col items-start space-y-2 sm:space-y-3 md:space-y-4">
-                 <Link to="/package-details/kanchipuram-one-day-tour-package">
-                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Kanchipuram 1 Day Tour 
-                  </p>
+                  <Link to="/package-details/kanchipuram-one-day-tour-package">
+                    <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
+                      • Kanchipuram 1 Day Tour
+                    </p>
                   </Link>
                   <Link to="/package-details/kanchipuram-two-days-tour-package">
-                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Kanchipuram 2 Days Tour 
-                  </p>
+                    <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
+                      • Kanchipuram 2 Days Tour
+                    </p>
                   </Link>
                   <Link to="/package-details/tirupati-one-day-tour-package">
-                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Tirupati 1 Day Tour
-                  </p>
+                    <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
+                      • Tirupati 1 Day Tour
+                    </p>
                   </Link>
                   <Link to="/package-details/tirupati-two-days-tour-package">
-                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Tirupati 2 Day Tour 
-                  </p>
+                    <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
+                      • Tirupati 2 Day Tour
+                    </p>
                   </Link>
                   <Link to="/package-details/ahobilam-temple-tour">
-                  <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
-                    • Ahobilam 
-                  </p>
+                    <p className="text-white text-sm sm:text-sm md:text-base lg:text-[16px] poppins-medium ">
+                      • Ahobilam
+                    </p>
                   </Link>
                 </div>
               </div>
@@ -96,7 +96,7 @@ function Footer() {
                     rel="noopener noreferrer"
                     className="text-white text-sm sm:text-sm md:text-base lg:text-[16px]  poppins-medium"
                   >
-                   No-3/327,Ram Street,Shanmuha Nagar, Pozhichalur, Chennai - 600074
+                    No-3/327,Ram Street,Shanmuha Nagar, Pozhichalur, Chennai - 600074
                   </a>
                 </div>
               </div>
@@ -108,7 +108,7 @@ function Footer() {
           <div className="realtive bg-white opacity-85 flex flex-col justify-center items-center gap-5 py-3 max-w-[1200px] mx-auto rounded-[10px] mb-5 px-5 " >
             <h2 className=" md:text-3xl text-xl  fondamento-regular text-center">Follow Us</h2>
             <div className="flex shrink-0 gap-10 md:text-[36px] text-[24px]">
-              <p className=""><FaInstagram /></p>
+              <a href='https://www.instagram.com/divyadesantravels?utm_source=qr&igsh=cmp4enlhZzBnbG5v' target='_blank' className=""><FaInstagram /></a>
               <p className=""><RiFacebookCircleLine /></p>
               <p className=""><RiTwitterXLine /></p>
               <p className=""><BsYoutube /></p>
@@ -117,10 +117,10 @@ function Footer() {
         </div>
         <div className='bg-white h-0.5 w-full relative' ></div>
         <div className="mt-9 relative">
-      
-            <p className=" text-center text-white poppins-medium text-sm sm:text-sm md:text-[16px]">
+
+          <p className=" text-center text-white poppins-medium text-sm sm:text-sm md:text-[16px]">
             Copyright ©2025 All rights reserved. Developed by{' '}
-          <a href="https://www.arrowthought.com/" target='_blank'> <span className="text-white poppins-medium cursor-pointer hover:underline">Arrow Thought</span></a> 
+            <a href="https://www.arrowthought.com/" target='_blank'> <span className="text-white poppins-medium cursor-pointer hover:underline">Arrow Thought</span></a>
           </p>
         </div>
       </div>

@@ -63,7 +63,7 @@ function Header() {
                     <div className='flex gap-5 items-center justify-center'>
                         <h2 className="fondamento-regular text-[20px] text-white">Follow Us</h2>
                         <div className="flex shrink-0 gap-2 text-white text-[24px] ">
-                            <p className=""><FaInstagram /></p>
+                            <a href='https://www.instagram.com/divyadesantravels?utm_source=qr&igsh=cmp4enlhZzBnbG5v' className="" target='_blank'><FaInstagram /></a>
                             <p className=""><RiFacebookCircleLine /></p>
                             <p className=""><RiTwitterXLine /></p>
                             <p className=""><BsYoutube /></p>

@@ -234,7 +234,7 @@ export default function Home(props) {
                                     </div>
                                     <div className="col-span-1 md:col-span-2 md:row-span-2 md:col-start-5 md:row-start-1 rounded-xl overflow-hidden" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                                         <img
-                                            src="/assets/images/Home/architect 1.png"
+                                            src="/assets/images/Home/Srisailam.jpg"
                                             alt="Room 4"
                                             loading="lazy"
                                             className="rounded-xl w-full h-64 md:h-full object-cover hover:scale-110 transform transition-transform duration-300 "
