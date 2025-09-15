@@ -45,7 +45,7 @@
     {
       "id": "paadal-petra-shiva-sthalams",
       "image": "/assets/images/Package/templetour1.jpg",
-      "title": "One-Day Spiritual Tour to Paadal Petra Shiva Sthalams",
+      "title": "One-Day Spiritual Tour to Paadal Petra Shiva Temple in Chennai",
       "time": "24/7 hours",
       "category": "temple-tour",
       "description": "Explore sacred Paadal Petra Shiva Sthalams."
@@ -53,7 +53,7 @@
     {
       "id": "chennai-divya-desam-temples",
       "image": "/assets/images/Package/templetour2.jpg",
-      "title": "Chennai to Divya Desam Temples One Day Tour Package",
+      "title": "Divya Desam Temples One Day Tour Package in Chennai",
       "time": "24/7 hours",
       "category": "one-day",
       "description": "Visit renowned Divya Desam temples today."
@@ -61,7 +61,7 @@
     {
       "id": "kanchipuram-divya-desam-temples",
       "image": "/assets/images/Package/kanchi dd.jpg",
-      "title": "Kanchipuram to Divya Desam Temples One Day Tour Package",
+      "title": "Kanchipuram 15 Divya Desam Temples One Day Tour Package from Chennai ",
       "time": "24/7 hours",
       "category": "one-day",
       "description": "Explore sacred temples with divine heritage"
@@ -73,6 +73,22 @@
       "time": "24/7 hours",
       "category": "one-day",
       "description": "Discover sacred temples with timeless heritage"
+    },
+    {
+      "id": "putlur-temple-tour-package",
+      "image": "/assets/images/Package/putlurtemple.jpg",
+      "title": "Chennai to Putlur Temple Tour Package",
+      "time": "24/7 hours",
+      "category": "one-day",
+      "description": "Seek peace and blessings"
+    },
+    {
+      "id": "siruvapuri-priyapalayam-one-day-tour-package",
+      "image": "/assets/images/Package/Siruvapuri.jpg",
+      "title": "Chennai to Siruvapuri & Periyapalayam One Day Tour Package ",
+      "time": "24/7 hours",
+      "category": "one-day",
+      "description": "Divine blessings await you"
     },
     {
       "id": "sacred-shiva-vishnu-temples",
@@ -101,14 +117,14 @@
     {
       "id": "chennai-temple-tour",
       "image": "/assets/images/Package/localtour.png",
-      "title": "One day Chennai Temple Tour",
+      "title": "One day Chennai Local Temple Tour Package",
       "time": "24/7 hours",
       "category": "local-tour",
       "description": "Explore Chennai’s famous temples in peace."
     },
     {
       "id": "chennai-heritage-culture-trip",
-      "image": "/assets/images/Package/chennaitemple.jpg",
+      "image": "/assets/images/Package/marina.jpg",
       "title": "Chennai One Day Sightseeing Tour Package",
       "time": "24/7 hours",
       "category": "local-tour",
@@ -117,7 +133,7 @@
     {
       "id": "chennai-navagraha-temple-tour",
       "image": "/assets/images/Package/localtour3.jpg",
-      "title": "One-Day Navagraha Temple Tour from Chennai",
+      "title": "One-Day Navagraha Temple Tour in Chennai",
       "time": "24/7 hours",
       "category": "local-tour",
       "description": "Visit Navagraha temples for spiritual blessings."
@@ -129,6 +145,14 @@
       "time": "24/7 hours",
       "category": "car-rental",
       "description": "Spacious traveller packages specially for temple tours"
+    },
+    {
+      "id": "pacha-bhoota-sthalam-tour-packages",
+      "image": "/assets/images/Package/pachabhoota.jpg",
+      "title": "Pacha Bhoota Sthalam Tour Package from Chennai",
+      "time": "24/7 hours",
+      "category": "temple-tour",
+      "description": "Discover divine Panchabootha shrines"
     },
     {
       "id": "kodaikanal",
@@ -227,28 +251,12 @@
       "description": "Marvel at Thanjavur’s great Brihadeeswarar temple"
     },
     {
-      "id": "thiruvarur-temple-tour",
-      "image": "/assets/images/Package/tn-temple-5.jpg",
-      "title": "Sacred Chennai to Thiruvarur Journey",
-      "time": "24/7 hours",
-      "category": "tn-temples",
-      "description": "Explore Thiruvarur’s musical heritage temple"
-    },
-    {
       "id": "madurai-temple-tour",
       "image": "/assets/images/Package/tn-temple-6.jpg",
       "title": "Temple City Chennai to Madurai Tour",
       "time": "24/7 hours",
       "category": "tn-temples",
       "description": "Admire Madurai’s colorful Meenakshi Amman temple"
-    },
-    {
-      "id": "pudukkottai-temple-tour",
-      "image": "/assets/images/Package/tn-temple-7.jpg",
-      "title": "Historic Chennai to Pudukkottai Day Trip",
-      "time": "24/7 hours",
-      "category": "tn-temples",
-      "description": "Visit Pudukkottai’s ancient cave temple sites"
     },
     {
       "id": "rameshwaram-temple-tour",
@@ -259,36 +267,12 @@
       "description": "Sacred Rameshwaram temples with devotional significance"
     },
     {
-      "id": "karur-temple-tour",
-      "image": "/assets/images/Package/tn-temple-9.jpg",
-      "title": "Cultural Chennai to Karur Day Tour",
-      "time": "24/7 hours",
-      "category": "tn-temples",
-      "description": "Experience Karur’s temples and heritage culture"
-    },
-    {
-      "id": "erode-temple-tour",
-      "image": "/assets/images/Package/tn-temple-10.jpg",
-      "title": "Chennai to Erode Heritage Visit",
-      "time": "24/7 hours",
-      "category": "tn-temples",
-      "description": "Discover Erode’s temples with spiritual essence"
-    },
-    {
       "id": "coimbatore-temple-tour",
       "image": "/assets/images/Package/tn-temple-11.jpg",
       "title": "Chennai to Coimbatore One-Day Tour",
       "time": "24/7 hours",
       "category": "tn-temples",
       "description": "Explore Coimbatore’s temples and cultural highlights"
-    },
-    {
-      "id": "tirunelveli-temple-tour",
-      "image": "/assets/images/Package/tn-temple-12.jpg",
-      "title": "Chennai to Tirunelveli Temple Darshan Trip",
-      "time": "24/7 hours",
-      "category": "tn-temples",
-      "description": "Seek blessings at Tirunelveli’s divine temples"
     },
     {
       "id": "kanyakumari-temple-tour",
@@ -305,14 +289,6 @@
       "time": "24/7 hours",
       "category": "tn-temples",
       "description": "Complete Murugan’s six temples spiritual circuit"
-    },
-    {
-      "id": "tirupathi-temple-tour",
-      "image": "/assets/images/Home/tirupathi.jpg",
-      "title": "Chennai to Tirupathi Balaji Darshan Tour",
-      "time": "24/7",
-      "category": "andhra",
-      "description": "Divine blessings at Lord Venkateswara Temple"
     },
     {
       "id": "kalahasthi-temple-tour",
@@ -404,7 +380,7 @@
     },
     {
       "id": "pondicherry-tour-package",
-      "image": "/assets/images/Package/Pondicherry.jpg",
+      "image": "/assets/images/Package/pondibeach.jpg",
       "title": "Chennai to Pondicherry One-Day Tour Package",
       "time": "24/7 hours",
       "category": "one-day",
@@ -494,15 +470,15 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Suriyanar Kovil (Navagraha Temple Sun) - Thirumangalagudi",
-            "2": "Sri Agneeswarar Temple (Sukran Venus) - Kanjanur",
-            "3": "Sri Naganatha Swami Temple ( Rahu Sthalam) - Thirunageshvaram",
-            "4": "Vaitheeswarankoil (Angaraka  Mars)  Navagraha Temple",
-            "5": "Swethaaranyeshwarar Temple (Budha Mercury) -  Thiruvenkadu",
-            "6": "Arulmigu Naganathaswamy Temple - (Sri Kethu Sthalam) - Keezhperumpallam ",
-            "7": "Arulmigu Abathsagayeswarar Temple (Guru Jupiter) - Alangudi",
-            "8": "Shri Dharbaranyeswaraswamy Temple (Sani Saturn) - Thirunallar",
-            "9": "Shri Kailasanathar Temple  (Chandran Sthalam  Moon) - Thingalur"
+            "1": "Suriyanar Kovil - Thirumangalagudi",
+            "2": "Sri Agneeswarar Temple- Kanjanur",
+            "3": "Sri Naganatha Swami Temple- Thirunageshvaram",
+            "4": "VaitheeswarankoilNavagraha Temple",
+            "5": "Swethaaranyeshwarar Temple -  Thiruvenkadu",
+            "6": "Arulmigu Naganathaswamy Temple - Keezhperumpallam ",
+            "7": "Arulmigu Abathsagayeswarar - Alangudi",
+            "8": "Shri Dharbaranyeswaraswamy - Thirunallar",
+            "9": "Shri Kailasanathar Temple - Thingalur"
           }
         }
       },
@@ -510,7 +486,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 18,000",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -518,41 +493,115 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "18,000",
+          "price": "₹ 18,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "18,000",
+          "price": "₹ 18,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "19,000",
+          "price": "₹ 19,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "21,000",
+          "price": "₹ 21,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "23,000",
+          "price": "₹ 23,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
         "content": "Our Chennai temple tour car rentals are perfect for families, devotees, and groups looking to explore sacred sites in comfort. With experienced drivers, punctual service, and affordable pricing, Divya Desan Travels makes every temple visit peaceful, safe, and spiritually fulfilling."
+      }
+    },
+    "pacha-bhoota-sthalam-tour-packages": {
+      "id": "pacha-bhoota-sthalam-tour-packages",
+      "packageData": {
+        "title": "Pacha Bhoota Sthalam Tour Package from Chennai",
+        "subtitle": "Explore the five elemental Shiva temples | Service Available 24/7",
+        "category": "temple-tour"
+      },
+      "templeSection": {
+        "title": "Pacha Bhoota Sthalam Tour Package from Chennai",
+        "image": "/assets/images/Package/pachabhoota.jpg",
+        "description": {
+          "1": "Embark on a sacred journey to the Pancha Bhoota Sthalams, the five grand Shiva temples that represent the elements of nature — Earth, Water, Fire, Air, and Sky.",
+          "2": "Each temple carries deep spiritual significance, showcasing divine architecture, timeless traditions, and centuries of devotion to Lord Shiva.",
+          "3": "This pilgrimage offers an opportunity to connect with nature’s elements while seeking blessings, peace, and spiritual enlightenment across Tamil Nadu and Andhra Pradesh."
+        },
+        "visitplaces": {
+          "title": "The Five Temples and their Elements",
+          "list": {
+            "1": "Earth (Prithvi): Ekambareswarar Temple - Kanchipuram",
+            "2": "Water (Jalam): Jambukeswarar Temple - Thiruvanaikkaval",
+            "3": "Fire (Agni): Arunachaleswarar Temple - Tiruvannamalai",
+            "4": "Air (Vayu): Sri Kalahasteeswarar Temple - Srikalahasti",
+            "5": "Ether/Sky (Akasha): Thillai Nataraja Temple - Chidambaram"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "price": "₹ 30,000",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 30,000",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "₹ 33,000",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "₹ 38,000",
+          "image": "/assets/images/Package/innovacar.png",
+          "featuredImage": "/assets/images/Package/innovacar.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 40,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "Divya Desan Travels offers a complete pilgrimage experience to the Pancha Bhoota Sthalams. With reliable transportation, experienced drivers, and carefully planned routes, devotees can focus on worship and spiritual growth while we ensure a smooth and comfortable journey."
       }
     },
     "paadal-petra-shiva-sthalams": {
@@ -586,7 +635,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹5,000",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -594,35 +642,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹5,000",
+          "price": "₹ 5,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹5,000",
+          "price": "₹ 5,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹5,800",
+          "price": "₹ 5,800",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹6,500",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹7,500",
+          "price": "₹ 7,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -663,7 +711,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹7,000",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -671,35 +718,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹7,000",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹7,000",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹7,800",
+          "price": "₹ 7,800",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹8,500",
+          "price": "₹ 8,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹9,000",
+          "price": "₹ 9,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -748,7 +795,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -756,35 +802,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹7,000",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹7,000",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹7,800",
+          "price": "₹ 7,800",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹8,500",
+          "price": "₹ 8,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹9,000",
+          "price": "₹ 9,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -840,7 +886,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹12,000",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -848,7 +893,7 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹12,000",
+          "price": "₹ 12,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
@@ -862,27 +907,170 @@
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "13,000",
+          "price": "₹ 13,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "14,500",
+          "price": "₹ 14,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "15,500",
+          "price": "₹ 15,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
         "content": "With Divya Desan Travels, your pilgrimage becomes effortless and serene. Enjoy comfortable rides, punctual services, and well-planned itineraries designed for a stress-free temple tour. From personalized assistance to a devotional atmosphere, we ensure your two-day spiritual journey is truly divine."
+      }
+    },
+    "putlur-temple-tour-package": {
+      "id": "putlur-temple-tour-package",
+      "packageData": {
+        "title": "Chennai to Putlur Temple Tour Package",
+        "subtitle": "Embark on a spiritual one-day journey to the famous Putlur Angala Parameswari Temple | Service Available 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Chennai to Putlur Temple Tour Package",
+        "image": "/assets/images/Package/putlurtemple.jpg",
+        "description": {
+          "1": "Visit the renowned Putlur Angala Parameswari Temple, a unique shrine where the goddess is worshipped in a lying posture symbolizing motherhood.",
+          "2": "This sacred temple is believed to bless devotees with fertility, good health, and protection from hardships.",
+          "3": "Experience a peaceful spiritual retreat just a short drive from Chennai, perfect for a fulfilling one-day pilgrimage."
+        },
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Angala Parameshwari Amman Temple - Putlur"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "price": "",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "",
+          "image": "/assets/images/Package/innovacar.png",
+          "featuredImage": "/assets/images/Package/innovacar.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "With Divya Desan Travels, your trip to the sacred Putlur Temple is comfortable and worry-free. Enjoy smooth rides, timely service, and personalized guidance to ensure your one-day pilgrimage is both peaceful and memorable."
+      }
+    },
+    "siruvapuri-priyapalayam-one-day-tour-package": {
+      "id": "siruvapuri-priyapalayam-one-day-tour-package",
+      "packageData": {
+        "title": "Chennai to Siruvapuri & Periyapalayam One Day Tour Package",
+        "subtitle": "Embark on a divine one-day journey to Siruvapuri Murugan Temple and Periyapalayam Bhavani Amman Temple | Service Available 24/7",
+        "category": "one-day"
+      },
+      "templeSection": {
+        "title": "Chennai to Siruvapuri & Periyapalayam One Day Tour Package",
+        "image": "/assets/images/Package/Siruvapuri.jpg",
+        "description": {
+          "1": "Begin your journey at Siruvapuri Arulmigu Balasubramanya Swamy Temple, a sacred shrine of Lord Murugan known for granting child blessings and family harmony.",
+          "2": "Continue to Periyapalayam Om Sri Bhavani Amman Temple, where devotees seek the goddess’s grace for protection, prosperity, and fulfillment of wishes.",
+          "3": "This spiritual one-day pilgrimage offers peace, devotion, and divine blessings, just a short drive from Chennai."
+        },
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Siruvapuri Arulmigu Balasubramanya Swamy Temple",
+            "2": "Periyapalayam Om Sri Bhavani Amman Temple"
+          }
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "price": "",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios  A/C (4+1)",
+          "price": "",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "",
+          "image": "/assets/images/Package/innovacar.png",
+          "featuredImage": "/assets/images/Package/innovacar.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        }
+      },
+      "additionalContent": {
+        "content": "With Divya Desan Travels, your Siruvapuri and Periyapalayam temple trip is comfortable and hassle-free. Enjoy well-planned travel, punctual service, and a serene pilgrimage experience filled with devotion and peace."
       }
     },
     "sacred-shiva-vishnu-temples": {
@@ -920,7 +1108,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -928,35 +1115,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹4,500",
+          "price": "₹ 4,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹4,500",
+          "price": "₹ 4,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹5,500",
+          "price": "₹ 5,500",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹5,500",
+          "price": "₹ 5,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹6,000",
+          "price": "₹ 6,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -999,7 +1186,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹6,500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1007,35 +1193,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹6,500",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹6,500",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹7,000",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹8,000",
+          "price": "₹ 8,000",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹9,000",
+          "price": "₹ 9,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1072,7 +1258,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹5,500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1080,35 +1265,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹5,500",
+          "price": "₹ 5,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹5,500",
+          "price": "₹ 5,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹6,000",
+          "price": "₹ 6,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹7,000",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹8,000",
+          "price": "₹ 8,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1151,7 +1336,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹6,500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1159,35 +1343,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹6,500",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹6,500",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹6,800",
+          "price": "₹ 6,800",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹7,500",
+          "price": "₹ 7,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹8,500",
+          "price": "₹ 8,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1205,7 +1389,7 @@
       },
       "templeSection": {
         "title": "Chennai One Day Sightseeing",
-        "image": "/assets/images/Package/chennaitemple.jpg",
+        "image": "/assets/images/Package/marina.jpg",
         "description": {
           "1": "Chennai is a city that beautifully combines history, tradition, and modernity. This one-day heritage and culture trip is designed for travelers who want to explore the cultural landmarks and historical treasures of this vibrant city.",
           "2": "Perfect for history lovers and culture enthusiasts, this guided trip provides a comfortable and informative experience, allowing you to immerse yourself in Chennai’s unique blend of architecture, tradition, and modern lifestyle."
@@ -1240,7 +1424,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹6,500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1248,35 +1431,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹6,500",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹6,500",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹6,800",
+          "price": "₹ 6,800",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹7,500",
+          "price": "₹ 7,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹8,500",
+          "price": "₹ 8,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1319,7 +1502,7 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹6,000",
+          "price": "₹ 6,000",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1327,14 +1510,14 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹6,000",
+          "price": "₹ 6,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹6,000",
+          "price": "₹ 6,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
@@ -1348,7 +1531,7 @@
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹7,000",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
@@ -1405,7 +1588,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1413,35 +1595,35 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "₹4,500",
+          "price": "₹ 6,300",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹4,500",
+          "price": "₹ 6,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹5,000 ",
+          "price": "₹ 7,200 ",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹5,500",
+          "price": "₹ 8,300",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹6,000",
+          "price": "₹ 9,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1501,7 +1683,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1509,35 +1690,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹4,000 ",
+          "price": "₹ 5,500 ",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹3,800",
+          "price": "₹ 5,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹5,500",
+          "price": "₹ 6,300",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹5,500",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹6,500",
+          "price": "₹ 8,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1589,7 +1770,7 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹7,500",
+          "price": "₹ 7,500",
           "name": "Etios A/C (4+1)"
         }
       },
@@ -1597,35 +1778,35 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "₹7,500",
+          "price": "₹ 7,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹8,000",
+          "price": "₹ 8,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹8,500",
+          "price": "₹ 8,500",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹8,500",
+          "price": "₹ 8,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹9,500",
+          "price": "₹ 9,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1661,7 +1842,7 @@
         "special": {
           "title": "Our Special Care For",
           "list": {
-            "1": "Infant Darshan",
+            "1": "Infant Darshan ",
             "2": "NRI Darshan",
             "3": "Srivani VIP Break Darshan",
             "4": "Senior Citizens/physically Challenged",
@@ -1670,12 +1851,24 @@
             "7": "SRIVARI ARJITHA SEVAS like Kalyanam, Unjal Seva, Arjitha Brahmotsavam,Sahasra Deepalankara Seva"
           }
         },
-        "templedescription": {
-          "1": "Tirupati is one of the most sacred pilgrimage centers in India, attracting millions of devotees every year to seek the blessings of Lord Venkateswara. Divya Desan Travels offers a comfortable and devotional one-day journey to Tirupati, ensuring you get the most out of your pilgrimage.",
-          "2": "In addition to the main darshan, the trip also includes visits to several holy sites around Tirumala such as Govindaraja Swamy Temple and Kapila Theertham. Each location has its own spiritual and historical importance, offering devotees a deeply enriching experience.",
-          "3": "The package is designed to ensure comfort and convenience. Our drivers are experienced in Tirupati routes, making sure your darshan and temple visits are completed on time. For larger groups, Tempo Travellers are available, ensuring everyone travels together in comfort.",
-          "4": "This one-day trip is an ideal choice for families, groups, and individuals looking for a divine spiritual journey without worrying about travel arrangements. Divya Desan Travels takes care of everything from transportation to guiding you through the important temples, making your Tirupati trip truly blessed."
-        },
+        "templedescription1": [
+          {
+            "title": "Infant Darshan Tour Package",
+            "description": "Experience a peaceful and convenient temple visit with our Infant Darshan Tour Package, thoughtfully designed for families with young children. We understand the special care infants require, so this package ensures a smooth, comfortable, and spiritually fulfilling journey. Every detail is planned to give parents ease and peace of mind while making your temple visit truly memorable."
+          },
+          {
+            "title": "Special Supadam Entry for Foreigners – TTD NRI Darshan Tirumala",
+            "description": "Our NRI Darshan Tour Packages are specially designed for Non-Resident Indians to make their Tirumala temple visit seamless and stress-free. With dedicated NRI Darshan slots and special entry options, you can avoid long queues, save time, and focus on what truly matters—your prayers and spiritual experience."
+          },
+          {
+            "title": "Senior Citizen Darshan Tour Package",
+            "description": "Our Senior Citizen Darshan Tour Package is thoughtfully designed to offer a comfortable and stress-free pilgrimage experience for our esteemed senior travelers. Prioritizing convenience and ease, this package allows seniors to visit sacred temples with peace, reverence, and a truly serene experience."
+          },
+          {
+            "title": "Book Srivani VIP Break Darshan Tickets Online",
+            "description": "Experience the divine like never before with our Srivani Trust Donation Tickets. This exclusive offering provides privileged access to the sanctum sanctorum, ensuring shorter wait times and priority TTD Srivani VIP Break Darshan at revered temples. Immerse yourself in the spirituality and receive the blessings of these sacred places with ease and devotion."
+          }
+        ],
         "included": {
           "1": "Tirumala lord balaji special Entry darshan ticket  ",
           "2": "SriVari Laddu – 1 per person",
@@ -1689,7 +1882,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1697,28 +1889,28 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "₹10,500",
+          "price": "₹ 10,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹10,500",
+          "price": "₹ 10,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹14,500",
+          "price": "₹ 14,500",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹15,500",
+          "price": "₹ 15,500",
           "image": "/assets/images/Package/innovacar.png",
           "featuredImage": "/assets/images/Package/innovacar.png"
         },
@@ -1769,6 +1961,24 @@
             "4": "Package 4 - Tirumala Balaji Temple, Alamelumangapuram & Kancheepuram Temples ",
             "5": "Package 5 - Tirumala Balaji Temple, Alamelumangapuram & Vellore Golden Temple ",
             "6": "Package 6 - Tirumala Balaji Temple, Alamelumangapuram & Vellore Golden Temple, Kancheepuram Temples"
+          },
+          "title2": "Tirumala Sightseeing",
+          "list2": {
+            "1": "Papavinasam",
+            "2": "Akasa Ganga",
+            "3": "Japali Theertham ",
+            "4": "Silathoranam",
+            "5": " Chakra Theertham ",
+            "6": "Srivari Padalu"
+          },
+          "title3": "Tirupati additional Temple",
+          "list3": {
+            "1": "Sri Kapileswara Swamy Temple (Kapila Theertham) -  Tirupati ",
+            "2": "Iskcon Temple - Tirupati",
+            "3": "Govindaraja Swamy Temple - Tirupati ",
+            "4": "Sri Kalyana Venkateswara Swamy Temple - Srinivasa Mangapuram",
+            "5": "Sri Prasanna Venkateswara Swamy Temple - Appalayagunta",
+            "6": " Sri Kalahatheeswarar temple - Sri Kalahasti"
           }
         },
         "included": {
@@ -1778,13 +1988,18 @@
           "4": "Toll Gate Charges, Permit charges, Parking charges included",
           "5": "Pick and drop at your Doorstep (City limit only)",
           "6": "Overnight Stay Provided (Tirupati Accommodation)"
+        },
+        "templedescription": {
+          "1": "Note: ",
+          "2": "Add or remove places based on your preferences.",
+          "3": "Additional charge for driver allowance if the trip extends beyond 11 pm.",
+          "4": "AC will be turned off while driving through Tirumala hill ghat roads for safety and compliance."
         }
       },
       "carBookingSection": {
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1844,7 +2059,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1852,28 +2066,28 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "₹4,200",
+          "price": "₹ 4,200",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹4,200",
+          "price": "₹ 4,200",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹5,300",
+          "price": "₹ 5,300",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "5,800",
+          "price": "₹ 5,800",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -1893,28 +2107,32 @@
         "title": "Seek Blessings at Ahobilam Narasimha Swamy Temple",
         "image": "/assets/images/Package/oneday6.jpg",
         "description": {
-          "1": "Divya Desan Travels presents a one-day trip from Chennai to Ahobilam, a sacred site dedicated to Lord Narasimha. Experience a spiritually enriching journey with our comfortable and well-maintained vehicles.",
+          "1": "Divya Desan Travels presents a trip from Chennai to Ahobilam, a sacred site dedicated to Lord Narasimha. Experience a spiritually enriching journey with our comfortable and well-maintained vehicles.",
           "2": "This tour covers the famous Ahobilam temples, believed to be the place where Lord Narasimha appeared to protect Prahlada. Pilgrims can visit both Upper and Lower Ahobilam, exploring the nine Narasimha shrines (Nava Narasimha).",
           "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your travel needs. With affordable pricing, skilled chauffeurs, and timely service, Divya Desan Travels ensures your Chennai to Ahobilam trip is comfortable, safe, and spiritually fulfilling."
         },
         "visitplaces": {
-          "title": "Our Travel Destinations",
+          "title": "Lower Ahobilam",
           "list": {
-            "1": "Ahobilam Narasimha (Upper Ahobilam includes Narasimha Temples) ",
-            "2": "Kroda Narasimha (Upper Ahobilam includes Narasimha Temples)",
-            "3": "Jwala Narasimha (Upper Ahobilam includes Narasimha Temples)",
-            "4": "Malola Narasimha (Upper Ahobilam includes Narasimha Temples)",
-            "5": "Karanja Narasimha Temple (Upper Ahobilam includes Narasimha Temples)",
-            "6": "Yogananda Narasimha (lower Ahobilam includes Narasimha Temples)",
-            "7": "Chatravata Narasimha (lower Ahobilam includes Narasimha Temples)",
-            "8": "Pavana Narasimha (lower Ahobilam includes Narasimha Temples) ",
-            "9": "Bhargava Narasimha (lower Ahobilam includes Narasimha Temples)"
+            "1": "1. Bhargava Narasimha",
+            "2": "2. Yogananda Narasimha",
+            "3": "3. Paavana Narasimha",
+            "4": "4. Chatravata Narasimha"
+          },
+          "title2": "Upper Ahobilam",
+          "list2": {
+            "1": "5. Ahobila Narasimha",
+            "2": "6. Jwala Narasimha",
+            "3": "7. Malola Narasimha",
+            "4": "8. Varaha Narasimha (Kroda Narasimha)",
+            "5": "9. Karanja Narasimha"
           }
         },
         "templedescription": {
-          "1": "Day 1: Pickup from Chennai at 5:00 AM and proceed towards Ahobilam. On the way, visit Sri Kodanda Rama Swamy Temple, Vontimitta. Arrive at Ahobilam by 4:00 PM and check in for a comfortable night stay. After freshening up, visit Chatravata Narasimha Temple, Yogananda Narasimha Temple, and Sri Lakshmi Narasimha Swamy Temple. Overnight stay at Ahobilam.",
-          "2": "Day 2: Early morning 6:00 AM, begin the temple tour. Visit Ahobilam Narasimha Temple, Karanja Narasimha Temple, Kroda Narasimha Temple, Jwala Narasimha Temple, and Malola Narasimha Temple. Enjoy lunch around 2:00 PM, followed by visits to Pavana Narasimha Temple and Bhargava Narasimha Temple. Overnight stay at Ahobilam.",
-          "3": "Day 3: After breakfast, check out and start the return journey to Chennai at 7:00 AM, marking the end of the tour."
+          "1": "The package ranges from ₹7,000 to ₹13,000 per person, depending on the number of travelers, transportation and accommodation.",
+          "2": "Day 1: Pickup from Chennai at 5:00 AM and proceed towards Ahobilam. On the way, visit Sri Kodanda Rama Swamy Temple, Vontimitta. Arrive at Ahobilam by 4:00 PM and check in for a comfortable night stay. After freshening up, visit Chatravata Narasimha Temple, Yogananda Narasimha Temple, and Sri Lakshmi Narasimha Swamy Temple. Overnight stay at Ahobilam.",
+          "3": "Day 2: Early morning 6:00 AM, begin the temple tour. Visit Ahobilam Narasimha Temple, Karanja Narasimha Temple, Kroda Narasimha Temple, Jwala Narasimha Temple, and Malola Narasimha Temple. Enjoy lunch around 2:00 PM, followed by visits to Pavana Narasimha Temple and Bhargava Narasimha Temple. Overnight stay at Ahobilam.",
+          "4": "Day 3: After breakfast, check out and start the return journey to Chennai at 7:00 AM, marking the end of the tour."
         },
         "included": {
           "1": "Two Night Room Stay",
@@ -1929,7 +2147,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -1937,34 +2154,34 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "24,000",
+          "price": "₹ 24,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "24,000",
+          "price": "₹ 24,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Innova A/C (6+1)",
-          "price": "30,500",
+          "price": "₹ 30,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "4": {
           "id": 4,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹32,500",
+          "price": "₹ 32,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
-        "content": "This one-day Chennai to Ahobilam trip is perfect for devotees seeking the divine blessings of Lord Narasimha. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and a safe return."
+        "content": " Chennai to Ahobilam trip is perfect for devotees seeking the divine blessings of Lord Narasimha. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and a safe return."
       }
     },
     "pondicherry-tour-package": {
@@ -1976,7 +2193,7 @@
       },
       "templeSection": {
         "title": "Explore the Serenity of Pondicherry",
-        "image": "/assets/images/Package/Pondicherry.jpg",
+        "image": "/assets/images/Package/pondibeach.jpg",
         "description": {
           "1": "Divya Desan Travels presents a refreshing trip from Chennai to Pondicherry, a beautiful coastal city known for its French colonial charm, spiritual aura, and scenic beaches. This tour offers a perfect blend of culture, leisure, and relaxation.",
           "2": "The trip covers popular attractions such as the Promenade Beach, Aurobindo Ashram, Auroville, French Quarter, Paradise Beach, and ancient temples. Visitors can enjoy peaceful walks along the seafront, explore heritage streets, and immerse themselves in the unique fusion of Indian and French cultures.",
@@ -2000,7 +2217,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2088,7 +2304,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 5500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2175,7 +2390,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 9,000",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2253,7 +2467,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 6500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2332,7 +2545,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 8500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2412,7 +2624,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 5500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2503,35 +2714,35 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "7000",
+          "price": "₹ 7000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "7000",
+          "price": "₹ 7000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "7000",
+          "price": "₹ 7000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "8500",
+          "price": "₹ 8500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "9000",
+          "price": "₹ 9000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -2585,7 +2796,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2593,35 +2803,35 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "9,800",
+          "price": "₹ 9,800",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "9,800",
+          "price": "₹ 9,800",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "10,500",
+          "price": "₹ 10,500",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "11,000",
+          "price": "₹ 11,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "13,000",
+          "price": "₹ 13,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -2644,6 +2854,50 @@
           "1": "Divya Desan Travels offers a one-day trip from Chennai to Sholingur, a famous hill temple dedicated to Lord Narasimha and Yoga Anjaneya. This ancient temple is known for its spiritual significance and breathtaking hilltop views.",
           "2": "Pilgrims climb around 1,300 steps to reach the temple, experiencing both devotion and divine energy along the way. Sholingur is believed to bestow blessings of health, prosperity, and peace.",
           "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller for your trip. With affordable fares, professional drivers, and timely service, Divya Desan Travels ensures your Chennai to Sholingur journey is safe, comfortable, and spiritually fulfilling."
+        }
+      },
+      "carBookingSection": {
+        "title": "Car Package Details",
+        "featuredCar": {
+          "image": "/assets/images/Package/packagecar.png",
+          "name": "Swift Dzire A/C (4+1)"
+        }
+      },
+      "carOptions": {
+        "1": {
+          "id": 1,
+          "name": "Etios A/C (4+1)",
+          "price": "₹ 6,500",
+          "image": "/assets/images/Package/etios.png",
+          "featuredImage": "/assets/images/Package/etios.png"
+        },
+        "2": {
+          "id": 2,
+          "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 6,500",
+          "image": "/assets/images/Package/dezire.png",
+          "featuredImage": "/assets/images/Package/dezire.png"
+        },
+        "3": {
+          "id": 3,
+          "name": "Ertiga A/C (6+1)",
+          "price": "₹ 7,500",
+          "image": "/assets/images/Package/ertiga.png",
+          "featuredImage": "/assets/images/Package/ertiga.png"
+        },
+        "4": {
+          "id": 4,
+          "name": "Innova A/C (6+1)",
+          "price": "₹ 8,500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 9,500",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
@@ -2669,7 +2923,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2728,7 +2981,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2787,7 +3039,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2795,30 +3046,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
+          "price": "₹ 7,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 7,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
+          "price": "₹ 8,500",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
+          "price": "₹ 9,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 11,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -2846,7 +3102,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -2886,65 +3141,6 @@
         "content": "Divya Desan Travels offers one-day and two-day Thanjavur temple packages from Chennai. Discover the grandeur of Chola architecture, world heritage temples, and a seamless travel experience."
       }
     },
-    "thiruvarur-temple-tour": {
-      "id": "thiruvarur-temple-tour",
-      "packageData": {
-        "title": "Sacred Chennai to Thiruvarur Journey",
-        "subtitle": "Comfortable rides | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Discover the Divine Temples of Thiruvarur",
-        "image": "/assets/images/Package/tn-temple-5.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Thiruvarur trip covers the famous Thyagaraja Temple, Veedhi Vidangar Temple, and Kamalambal Temple. Same-day return with comfortable travel.",
-          "twoDay": "This two-day Chennai to Thiruvarur temple trip provides a relaxed experience. Day 1 includes Thyagaraja Temple and Kamalambal Temple with overnight stay in Thiruvarur. Day 2 covers Veedhi Vidangar Temple and nearby shrines before returning to Chennai."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers one-day and two-day Chennai to Thiruvarur temple packages. Experience the grandeur of Thyagaraja Temple and other sacred shrines with safe rides and professional drivers."
-      }
-    },
     "madurai-temple-tour": {
       "id": "madurai-temple-tour",
       "packageData": {
@@ -2964,7 +3160,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -3004,65 +3199,6 @@
         "content": "Divya Desan Travels offers Chennai to Madurai temple tour packages with one-day and two-day options. Visit the iconic Meenakshi Amman Temple, explore cultural landmarks, and enjoy safe, comfortable rides with professional drivers."
       }
     },
-    "pudukkottai-temple-tour": {
-      "id": "pudukkottai-temple-tour",
-      "packageData": {
-        "title": "Historic Chennai to Pudukkottai Day Trip",
-        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Discover the Historic Temples of Pudukkottai",
-        "image": "/assets/images/Package/tn-temple-7.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Pudukkottai trip covers Avudaiyar Kovil (Thiruperunthurai), Kudumiyanmalai Temple, and Viralimalai Murugan Temple. Same-day return with a blend of spirituality and history.",
-          "twoDay": "This two-day Chennai to Pudukkottai heritage tour offers a relaxed itinerary. Day 1 includes Avudaiyar Kovil, Kudumiyanmalai Temple, and Thiruvappudaiyar Temple with overnight stay in Pudukkottai. Day 2 covers Viralimalai Murugan Temple, Sathyamurthi Perumal Temple, and other nearby shrines before returning to Chennai."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels provides historic temple tour packages from Chennai to Pudukkottai. Visit iconic temples like Avudaiyar Kovil and Kudumiyanmalai, with comfortable rides, professional drivers, and flexible trip plans for your divine journey."
-      }
-    },
     "rameshwaram-temple-tour": {
       "id": "rameshwaram-temple-tour",
       "packageData": {
@@ -3077,25 +3213,25 @@
           "oneDay": "This one-day Chennai to Rameshwaram trip is a fast-paced pilgrimage covering Ramanathaswamy Temple and Agni Theertham. Same-day return journey for divine seekers.",
           "twoDay": "This two-day Chennai to Rameshwaram spiritual trip offers a peaceful darshan. Day 1 covers Ramanathaswamy Temple, Agni Theertham, and Panchamukhi Hanuman Temple with an overnight stay. Day 2 includes Dhanushkodi, Ramar Patham, and other nearby shrines before returning to Chennai."
         },
-        "visitplaces":{
-          "title":"Our Travel Destinations",
-          "list":{
-            "1":"Ramanathaswamy Temple",
-            "2":"Kothandaramaswamy Temple",
-            "3":"Agnitheertham",
-            "4":"Dhanushkodi Beach ",
-            "5":"Pamban Bridge",
-            "6":"Villoondi Theertham",
-            "7":"Panchmukhi Hanuman Temple",
-            "8":"Jada Theertham",
-            "9":"Adam’s Bridge",
-            "10":"Dr.A.P.J.Abdul Kalam Memorial",
-            "11":"Kunthukal Beach ",
-            "12":"Sri Aadhi Jaganatha Perumal Temple ",
-            "13":"Rama Theertham",
-            "14":"Jada Theertham ",
-            "15":"Gandhamadhana Parvatham",
-            "16":"Lakshmana Theertham"
+        "visitplaces": {
+          "title": "Our Travel Destinations",
+          "list": {
+            "1": "Ramanathaswamy Temple",
+            "2": "Kothandaramaswamy Temple",
+            "3": "Agnitheertham",
+            "4": "Dhanushkodi Beach ",
+            "5": "Pamban Bridge",
+            "6": "Villoondi Theertham",
+            "7": "Panchmukhi Hanuman Temple",
+            "8": "Jada Theertham",
+            "9": "Adam’s Bridge",
+            "10": "Dr.A.P.J.Abdul Kalam Memorial",
+            "11": "Kunthukal Beach ",
+            "12": "Sri Aadhi Jaganatha Perumal Temple ",
+            "13": "Rama Theertham",
+            "14": "Jada Theertham ",
+            "15": "Gandhamadhana Parvatham",
+            "16": "Lakshmana Theertham"
           }
         }
       },
@@ -3103,7 +3239,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -3111,154 +3246,41 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
+          "price": "₹ 28,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
+          "price": "₹ 28,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
+          "price": "₹ 31,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
+          "price": "₹ 34,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
+          "price": "₹ 38,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
         "content": "Divya Desan Travels offers Chennai to Rameshwaram temple tour packages with one-day and two-day options. Experience the sacred Ramanathaswamy Temple, Dhanushkodi, and holy theerthams with a comfortable and safe journey."
-      }
-    },
-    "karur-temple-tour": {
-      "id": "karur-temple-tour",
-      "packageData": {
-        "title": "Cultural Chennai to Karur Day Tour",
-        "subtitle": "Professional drivers | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore the Historic Temples of Karur",
-        "image": "/assets/images/Package/tn-temple-9.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Karur temple tour covers Pasupatheswarar Temple, Sri Kalyana Pasupatheswarar Temple, and Sri Mariamman Temple. Same-day return for a cultural spiritual trip.",
-          "twoDay": "This two-day Chennai to Karur temple trip offers a relaxed pilgrimage. Day 1 includes Pasupatheswarar Temple and Sri Kalyana Pasupatheswarar Temple, with overnight stay in Karur. Day 2 covers Mariamman Temple and nearby shrines before returning to Chennai."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels presents one-day and two-day Chennai to Karur cultural temple tours. Discover Pasupatheswarar Temple, Mariamman Temple, and other sacred sites with reliable car rental and safe travel."
-      }
-    },
-    "erode-temple-tour": {
-      "id": "erode-temple-tour",
-      "packageData": {
-        "title": "Chennai to Erode Heritage Visit",
-        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore the Ancient Temples of Erode",
-        "image": "/assets/images/Package/tn-temple-10.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Erode heritage trip covers famous temples including Bhavani Sangameshwarar Temple, Periya Mariamman Temple, and Bannari Amman Temple. Same-day return for a spiritual and cultural experience.",
-          "twoDay": "This two-day Chennai to Erode temple tour allows relaxed exploration. Day 1 includes Bhavani Sangameshwarar Temple and Bannari Amman Temple with overnight stay in Erode. Day 2 covers Periya Mariamman Temple, Thindal Murugan Temple, and other local shrines before returning to Chennai."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers heritage temple packages from Chennai to Erode, covering iconic temples like Bhavani Sangameshwarar and Bannari Amman. Travel comfortably with experienced drivers and flexible itineraries."
       }
     },
     "coimbatore-temple-tour": {
@@ -3280,7 +3302,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -3320,65 +3341,6 @@
         "content": "Divya Desan Travels offers a special Coimbatore temple package covering Marudhamalai Murugan, Perur Pateeswarar, and Eachanari Vinayagar temples with flexible and comfortable travel options."
       }
     },
-    "tirunelveli-temple-tour": {
-      "id": "tirunelveli-temple-tour",
-      "packageData": {
-        "title": "Chennai to Tirunelveli Temple Darshan Trip",
-        "subtitle": "Comfortable car rental services | Flexible timing: 24/7",
-        "category": "tn-temples"
-      },
-      "templeSection": {
-        "title": "Explore Tirunelveli Temples",
-        "image": "/assets/images/Package/tn-temple-12.jpg",
-        "description": {
-          "oneDay": "This one-day Chennai to Tirunelveli temple trip covers the famous Nellaiappar Kanthimathi Amman Temple, Sankaranarayanar Kovil, and Tiruchendur Murugan Temple with same-day return.",
-          "twoDay": "This two-day Chennai to Tirunelveli temple tour allows relaxed darshan. Day 1 covers Nellaiappar Kanthimathi Amman Temple and Sankaranarayanar Kovil. Overnight stay in Tirunelveli. Day 2 includes Tiruchendur Murugan Temple and additional cultural spots before return to Chennai."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        },
-        "5": {
-          "id": 5,
-          "name": "Innova Crysta A/C (6+1)",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "Divya Desan Travels offers a divine Tirunelveli temple darshan trip covering Nellaiappar Kanthimathi Amman, Sankaranarayanar, and Tiruchendur Murugan temples with flexible car packages for comfortable journeys."
-      }
-    },
     "kanyakumari-temple-tour": {
       "id": "kanyakumari-temple-tour",
       "packageData": {
@@ -3398,7 +3360,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -3476,35 +3437,35 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "30,000",
+          "price": "₹ 30,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "30,000",
+          "price": "₹ 30,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "33,000",
+          "price": "₹ 33,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "38,000",
+          "price": "₹ 38,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "5": {
           "id": 5,
           "name": "Innova Crysta A/C (6+1)",
-          "price": " 40,000",
+          "price": "₹ 40,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -3562,7 +3523,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -3881,7 +3841,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -3965,7 +3924,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 1800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -4017,20 +3975,17 @@
         "image": "/assets/images/Package/kerala-1.jpg",
         "description": {
           "1": "Sabarimala, located in Kerala’s Pathanamthitta district, is one of the most revered pilgrimage sites in India, dedicated to Lord Ayyappa. Devotees undertake this journey with great devotion, following traditional rituals and practices.",
-          "2": "Highlights of the pilgrimage include the trek through dense forests, sacred Pamba River, Erumeli route, and finally reaching the holy Sannidhanam to have darshan of Lord Ayyappa. The experience is both spiritual and transformative.",
-          "3": "Our package ensures a safe and comfortable journey with well-arranged travel, stays, and guidance for devotees, making this a fulfilling spiritual yatra for families and groups."
+          "2": "Our package ensures a safe and comfortable journey with well-arranged travel, stays, and guidance for devotees, making this a fulfilling spiritual yatra for families and groups."
         },
         "visitplaces": {
-          "title": "Our Travel Destinations",
+          "title": "Chennai to sabarimala 3 days tour Packages",
           "list": {
-            "1": "Tirupattur (Brahmapureeswarar temple)",
-            "2": "Samayapuram Mariyamman Koil",
-            "3": "Srirangam Temple",
-            "4": "Sabarimalai",
-            "5": "Kutralam",
-            "6": "Tenkasi",
-            "7": "Madurai",
-            "8": "Chennai"
+            "1": "Pandalam Ayyappa Temple",
+            "2": "Pamba Ganapathi Temple",
+            "3": "Sree Dharma Sastha Temple",
+            "4": "Vavar Swamy Mosque",
+            "5": "Malikkappuram Devi Temple ",
+            "6": "Nilakkal Sree Mahadeva Temple"
           }
         },
         "included": {
@@ -4041,7 +3996,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 18,500",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -4049,21 +4003,21 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹18,000",
+          "price": "₹ 18,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹18,000",
+          "price": "₹ 18,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹22,000",
+          "price": "₹ 22,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
@@ -4158,64 +4112,6 @@
         "content": "The Alleppey Backwater Cruise Tour offers an unforgettable houseboat experience, where you drift through calm waters, enjoy authentic Kerala cuisine, and witness the enchanting rural charm of God’s Own Country."
       }
     },
-    "tirupathi-temple-tour": {
-      "id": "tirupathi-temple-tour",
-      "packageData": {
-        "title": "Chennai to Tirupathi Balaji Darshan Tour",
-        "subtitle": "Sacred pilgrimage to Lord Venkateswara | Duration: 24/7 | Includes darshan and temple visits",
-        "category": "andhra"
-      },
-      "templeSection": {
-        "title": "Tirupathi Balaji - Divine Pilgrimage",
-        "image": "/assets/images/Home/tirupathi.jpg",
-        "description": {
-          "1": "Tirupathi, home to the sacred Sri Venkateswara Temple, is one of the most visited pilgrimage destinations in India, drawing millions of devotees every year.",
-          "2": "Highlights include darshan at the Tirumala Temple, visits to Padmavathi Temple, Govindaraja Swamy Temple, and other nearby shrines of great spiritual importance.",
-          "3": "This package ensures a comfortable spiritual journey with well-planned travel, temple assistance, and a fulfilling darshan experience of Lord Balaji."
-        }
-      },
-      "carBookingSection": {
-        "title": "Car Package Details",
-        "featuredCar": {
-          "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 9,500",
-          "name": "Swift Dzire A/C (4+1)"
-        }
-      },
-      "carOptions": {
-        "1": {
-          "id": 1,
-          "name": "Etios  A/C (4+1)",
-          "price": "₹10,000",
-          "image": "/assets/images/Package/etios.png",
-          "featuredImage": "/assets/images/Package/etios.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "Swift Dzire A/C (4+1)",
-          "price": "₹9,500",
-          "image": "/assets/images/Package/dezire.png",
-          "featuredImage": "/assets/images/Package/dezire.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Ertiga A/C (6+1)",
-          "price": "₹12,500",
-          "image": "/assets/images/Package/ertiga.png",
-          "featuredImage": "/assets/images/Package/ertiga.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "Innova A/C (6+1)",
-          "price": "₹14,000",
-          "image": "/assets/images/Package/crysta.png",
-          "featuredImage": "/assets/images/Package/crysta.png"
-        }
-      },
-      "additionalContent": {
-        "content": "The Tirupathi Balaji Darshan Tour offers devotees a divine experience with peaceful travel, temple guidance, and a blessed darshan of Lord Venkateswara, making it a memorable spiritual journey."
-      }
-    },
     "kalahasthi-temple-tour": {
       "id": "kalahasthi-temple-tour",
       "packageData": {
@@ -4244,28 +4140,35 @@
         "1": {
           "id": 1,
           "name": "Etios A/C (4+1)",
-          "price": "₹4,200",
+          "price": "₹ 6,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹4,200",
+          "price": "₹ 6,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹5,300",
+          "price": "₹ 7,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "5,800",
+          "price": "₹ 8,000",
+          "image": "/assets/images/Package/crysta.png",
+          "featuredImage": "/assets/images/Package/crysta.png"
+        },
+        "5": {
+          "id": 5,
+          "name": "Innova Crysta A/C (6+1)",
+          "prics": "₹ 9,000",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -4292,16 +4195,19 @@
         "visitplaces": {
           "title": "Our Travel Destinations",
           "list": {
-            "1": "Sikharam ",
-            "2": "Hathakesvara Temple",
-            "3": "Sakshi Ganapathi Temple",
-            "4": "Mallikarjuna Swamy Temple",
-            "5": "Bhramarambha Temple",
-            "6": "Pathala Ganga (Krishna River)",
-            "7": "Srisailam Dam View",
-            "8": "Chenchu Lakshmi Tribal Museum",
-            "9": "Chhatrapati Shivaji Maharaj Temple",
-            "10": "Akka Mahadevi Caves(Krishna River Boating)"
+            "1": "Srisailam Dam ",
+            "2": "Paladhara Panchadara Sikharam",
+            "3": "Hathakesvara Temple",
+            "4": "Sakshi Ganapathi Temple",
+            "5": "Mallikarjuna Swamy Temple ",
+            "6": "Bhramarambha Devi Temple",
+            "7": "Pathala Ganga ",
+            "8": "Mallela Theertham",
+            "9": "Chenchu Lakshmi Tribal Museum",
+            "10": "Chhatrapati Shivaji Maharaj Temple",
+            "11": "Akka Mahadevi Temple & Caves",
+            "12": "Sri Mahanandhi temple ",
+            "13": "Lingala Gattu viewpoint"
           }
         },
         "templedescription": {
@@ -4321,7 +4227,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 18,500",
           "name": "Innova A/C (6+1)"
         }
       },
@@ -4329,28 +4234,28 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹16,000",
+          "price": "₹ 16,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹15,500",
+          "price": "₹ 15,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Ertiga A/C (6+1)",
-          "price": "₹17,000",
+          "price": "₹ 17,000",
           "image": "/assets/images/Package/ertiga.png",
           "featuredImage": "/assets/images/Package/ertiga.png"
         },
         "4": {
           "id": 4,
           "name": "Innova A/C (6+1)",
-          "price": "₹18,500",
+          "price": "₹ 18,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
@@ -4370,28 +4275,32 @@
         "title": "Seek Blessings at Ahobilam Narasimha Swamy Temple",
         "image": "/assets/images/Package/oneday6.jpg",
         "description": {
-          "1": "Divya Desan Travels presents a one-day trip from Chennai to Ahobilam, a sacred site dedicated to Lord Narasimha. Experience a spiritually enriching journey with our comfortable and well-maintained vehicles.",
+          "1": "Divya Desan Travels presents a trip from Chennai to Ahobilam, a sacred site dedicated to Lord Narasimha. Experience a spiritually enriching journey with our comfortable and well-maintained vehicles.",
           "2": "This tour covers the famous Ahobilam temples, believed to be the place where Lord Narasimha appeared to protect Prahlada. Pilgrims can visit both Upper and Lower Ahobilam, exploring the nine Narasimha shrines (Nava Narasimha).",
           "3": "Choose from Swift Dzire, Etios, Innova, or Tempo Traveller as per your travel needs. With affordable pricing, skilled chauffeurs, and timely service, Divya Desan Travels ensures your Chennai to Ahobilam trip is comfortable, safe, and spiritually fulfilling."
         },
         "visitplaces": {
-          "title": "Our Travel Destinations",
+          "title": "Lower Ahobilam",
           "list": {
-            "1": "Ahobilam Narasimha (Upper Ahobilam includes Narasimha Temples) ",
-            "2": "Kroda Narasimha (Upper Ahobilam includes Narasimha Temples)",
-            "3": "Jwala Narasimha (Upper Ahobilam includes Narasimha Temples)",
-            "4": "Malola Narasimha (Upper Ahobilam includes Narasimha Temples)",
-            "5": "Karanja Narasimha Temple (Upper Ahobilam includes Narasimha Temples)",
-            "6": "Yogananda Narasimha (lower Ahobilam includes Narasimha Temples)",
-            "7": "Chatravata Narasimha (lower Ahobilam includes Narasimha Temples)",
-            "8": "Pavana Narasimha (lower Ahobilam includes Narasimha Temples) ",
-            "9": "Bhargava Narasimha (lower Ahobilam includes Narasimha Temples)"
+            "1": "1. Bhargava Narasimha",
+            "2": "2. Yogananda Narasimha",
+            "3": "3. Paavana Narasimha",
+            "4": "4. Chatravata Narasimha"
+          },
+          "title2": "Upper Ahobilam",
+          "list2": {
+            "1": "5. Ahobila Narasimha",
+            "2": "6. Jwala Narasimha",
+            "3": "7. Malola Narasimha",
+            "4": "8. Varaha Narasimha (Kroda Narasimha)",
+            "5": "9. Karanja Narasimha"
           }
         },
         "templedescription": {
-          "1": "Day 1: Pickup from Chennai at 5:00 AM and proceed towards Ahobilam. On the way, visit Sri Kodanda Rama Swamy Temple, Vontimitta. Arrive at Ahobilam by 4:00 PM and check in for a comfortable night stay. After freshening up, visit Chatravata Narasimha Temple, Yogananda Narasimha Temple, and Sri Lakshmi Narasimha Swamy Temple. Overnight stay at Ahobilam.",
-          "2": "Day 2: Early morning 6:00 AM, begin the temple tour. Visit Ahobilam Narasimha Temple, Karanja Narasimha Temple, Kroda Narasimha Temple, Jwala Narasimha Temple, and Malola Narasimha Temple. Enjoy lunch around 2:00 PM, followed by visits to Pavana Narasimha Temple and Bhargava Narasimha Temple. Overnight stay at Ahobilam.",
-          "3": "Day 3: After breakfast, check out and start the return journey to Chennai at 7:00 AM, marking the end of the tour."
+          "1": "The package ranges from ₹7,000 to ₹13,000 per person, depending on the number of travelers, transportation and accommodation.",
+          "2": "Day 1: Pickup from Chennai at 5:00 AM and proceed towards Ahobilam. On the way, visit Sri Kodanda Rama Swamy Temple, Vontimitta. Arrive at Ahobilam by 4:00 PM and check in for a comfortable night stay. After freshening up, visit Chatravata Narasimha Temple, Yogananda Narasimha Temple, and Sri Lakshmi Narasimha Swamy Temple. Overnight stay at Ahobilam.",
+          "3": "Day 2: Early morning 6:00 AM, begin the temple tour. Visit Ahobilam Narasimha Temple, Karanja Narasimha Temple, Kroda Narasimha Temple, Jwala Narasimha Temple, and Malola Narasimha Temple. Enjoy lunch around 2:00 PM, followed by visits to Pavana Narasimha Temple and Bhargava Narasimha Temple. Overnight stay at Ahobilam.",
+          "4": "Day 3: After breakfast, check out and start the return journey to Chennai at 7:00 AM, marking the end of the tour."
         },
         "included": {
           "1": "Two Night Room Stay",
@@ -4406,7 +4315,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 2800",
           "name": "Swift Dzire A/C (4+1)"
         }
       },
@@ -4414,34 +4322,34 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "24,000",
+          "price": "₹ 24,000",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "24,000",
+          "price": "₹ 24,000",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },
         "3": {
           "id": 3,
           "name": "Innova A/C (6+1)",
-          "price": "30,500",
+          "price": "₹ 30,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         },
         "4": {
           "id": 4,
           "name": "Innova Crysta A/C (6+1)",
-          "price": "₹32,500",
+          "price": "₹ 32,500",
           "image": "/assets/images/Package/crysta.png",
           "featuredImage": "/assets/images/Package/crysta.png"
         }
       },
       "additionalContent": {
-        "content": "This one-day Chennai to Ahobilam trip is perfect for devotees seeking the divine blessings of Lord Narasimha. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and a safe return."
+        "content": " Chennai to Ahobilam trip is perfect for devotees seeking the divine blessings of Lord Narasimha. With Divya Desan Travels, enjoy a smooth journey, temple darshan, and a safe return."
       }
     },
     "mysore-palace-tour": {
@@ -4489,7 +4397,6 @@
         "title": "Car Package Details",
         "featuredCar": {
           "image": "/assets/images/Package/packagecar.png",
-          "price": "₹ 12,000",
           "name": "Innova A/C (6+1)"
         }
       },
@@ -4497,14 +4404,14 @@
         "1": {
           "id": 1,
           "name": "Etios  A/C (4+1)",
-          "price": "₹14,500",
+          "price": "₹ 14,500",
           "image": "/assets/images/Package/etios.png",
           "featuredImage": "/assets/images/Package/etios.png"
         },
         "2": {
           "id": 2,
           "name": "Swift Dzire A/C (4+1)",
-          "price": "₹14,500",
+          "price": "₹ 14,500",
           "image": "/assets/images/Package/dezire.png",
           "featuredImage": "/assets/images/Package/dezire.png"
         },

@@ -11,16 +11,28 @@ function Main() {
         <Outlet />
       </main>
       <Footer />
-      <div className="fixed md:bottom-28 bottom-56 right-5 z-50 ">
+      <div className="fixed md:bottom-28 bottom-44 right-5 z-50 ">
         <a
-          href="https://wa.me/918925530559" 
+          href="https://wa.me/918925530559"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             src="/assets/images/whatsapp.png"
             alt="whatsapp"
-            className="whatsapp-icon hover:scale-110 duration-300 w-[45px] md:w-[56px]"
+            className="whatsapp-icon hover:scale-110 duration-300 w-[45px] md:w-[56px] border-2 border-white"
+          />
+        </a>
+      </div>
+      <div className="fixed md:bottom-72 bottom-72 right-5 z-50 ">
+        <a
+          href="tel:+918925530559"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/assets/images/Home/telephone.png"
+            alt="phone"
+            className="whatsapp-icon hover:scale-110 duration-300 w-[45px] md:w-[56px] "
           />
         </a>
       </div>

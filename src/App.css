@@ -116,7 +116,7 @@
 }
 
 .card:hover {
-  height: 400px;
+  height: 430px;
 }
 
 .card .img-box {
@@ -135,7 +135,7 @@
 
 .card:hover .content {
   top: 130px;
-  height: 300px;
+  height: 350px;
 }
 
 /* .card .content a:hover {

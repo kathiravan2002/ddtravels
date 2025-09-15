@@ -76,7 +76,7 @@ function Homepage() {
 
     const card = [
         {
-            image: '/assets/images/Package/oneday1.jpg',
+            image: '/assets/images/Package/tirupatibalaji.jpg',
             title: 'Tirupati One Day Tour Package',
             content1: 'Sacred Tirupati Balaji Darshan',
             time: '24/7',
@@ -84,7 +84,7 @@ function Homepage() {
             link: 'package-details/tirupati-one-day-tour-package'
         },
         {
-            image: '/assets/images/Package/oneday8.jpg',
+            image: '/assets/images/Package/oneday2.jpg',
             title: 'Kanchipuram One Day Tour Package',
             content1: 'Spiritual Kanchipuram Temple Tour',
             time: '24/7',
@@ -98,6 +98,22 @@ function Homepage() {
             time: '24/7',
             content2: 'Experience the sacred Nava Narasimha temples nestled in the Nallamala hills.',
             link: 'package-details/ahobilam-tour-package'
+        },
+        {
+            image: '/assets/images/Package/pondibeach.jpg',
+            title: 'Pondicherry',
+            content1: 'Pondicherry One-Day Tour Package',
+            time: '24/7',
+            content2: 'Discover the French colonial charm of Pondicherry with serene beaches',
+            link: 'package-details/pondicherry-tour-package'
+        },
+        {
+            image: '/assets/images/Package/oneday1.jpg',
+            title: 'Mahabalipuram',
+            content1: 'Mahabalipuram One Day Heritage and Culture Trip',
+            time: '24/7',
+            content2: 'Explore the UNESCO World Heritage monuments of Mahabalipuram and ancient sculptures.',
+            link: 'package-details/mahabalipuram-tour-package'
         },
 
     ]

@@ -12,7 +12,7 @@ function Footer() {
         className="relative py-6 sm:py-8  bg-cover bg-center "
         style={{ backgroundImage: "url('/assets/images/footerbg3.jpg')" }}
       >
-        <div className="absolute md:-top-8 lg:-top-14 2xl:-top-24 -top-4 sm:-top-8  z-20"><img src="/assets/images/footercloud.png" alt="footercloud" /></div>
+        <img src="/assets/images/footercloud.png" alt="footercloud" className='absolute md:-top-8 lg:-top-14 2xl:-top-24 -top-4 sm:-top-8  z-20 w-full'/>
         <div className="absolute inset-0 bg-[#000000]  opacity-75 lg:opacity-80"></div>
         <div className="relative max-w-[1800px] mx-auto md:py-20 py-10 px-5">
           <div className="flex justify-evenly lg:flex-row flex-col gap-8 sm:gap-8 md:gap-10 lg:gap-10 xl:gap-10 ">

@@ -766,7 +766,7 @@ function Packagedetails() {
                 <div className="flex flex-col justify-center space-y-5">
                   {Object.values(packageDetails?.templeSection.visitplaces.list || {}).map((visitplaces, index) => (
                     <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy"/>{visitplaces}
+                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy" />{visitplaces}
                     </p>
                   ))}
                 </div>
@@ -776,7 +776,7 @@ function Packagedetails() {
                 <div className="flex flex-col justify-center space-y-5">
                   {Object.values(packageDetails?.templeSection.visitplaces.list2 || {}).map((visitplaces2, index) => (
                     <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy"/>{visitplaces2}
+                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy" />{visitplaces2}
                     </p>
                   ))}
                 </div>
@@ -790,7 +790,7 @@ function Packagedetails() {
                 <div className="flex flex-col justify-center space-y-5">
                   {Object.values(packageDetails?.templeSection.special.list || {}).map((special, index) => (
                     <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy"/>{special}
+                      <img src="/assets/images/arrow.png" alt="Temples" className="w-6" loading="lazy" />{special}
                     </p>
                   ))}
                 </div>
@@ -798,6 +798,16 @@ function Packagedetails() {
             )}
           </div>
 
+          <div className="space-y-4 mt-15" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+            {Object.values(packageDetails?.templeSection.templedescription1 || {}).map((item, index) => (
+              <div key={index} className="">
+                <h3 className=" poppins-semibold text-xl md:text-2xl text-[#6CBF02] text-center mb-6">{item.title}</h3>
+                <p className="poppins-medium opacity-80 leading-[30px] md:text-lg text-base text-justify">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
           <div className="space-y-4 mt-10" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
             {Object.values(packageDetails?.templeSection.templedescription || {}).map((description, index) => (
               <p
@@ -808,30 +818,30 @@ function Packagedetails() {
               </p>
             ))}
           </div>
-          <div className="max-w-[800px] mx-auto">
-          {Object.values(packageDetails?.templeSection.daywise || {}).map((desc, index) => {
-            const [prefix, ...rest] = desc.split(":");
-            const restText = rest.join(":").trim();
+          <div className="max-w-[1450px] mx-auto">
+            {Object.values(packageDetails?.templeSection.daywise || {}).map((desc, index) => {
+              const [prefix, ...rest] = desc.split(":");
+              const restText = rest.join(":").trim();
 
-            return (
-              <p
-                key={index}
-                className={     
-                  desc.startsWith("Day")
-                    ? "text-[#6CBF02] poppins-semibold text-xl md:text-2xl mt-6 mb-2 "
-                    : "text-base md:text-lg md:leading-[30px] leading-[28px] opacity-80 poppins-medium mb-2 text-justify"
-                } data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"
-              >
-                {desc.startsWith("Day") ? (
-                  desc
-                ) : (
-                  <>
-                    <span className="poppins-semibold text-[#FFC83E]">{prefix} :</span> {restText}
-                  </>
-                )}
-              </p>
-            );
-          })}
+              return (
+                <p
+                  key={index}
+                  className={
+                    desc.startsWith("Day")
+                      ? "text-[#6CBF02] poppins-semibold text-xl md:text-2xl mt-6 mb-2 "
+                      : "text-base md:text-lg md:leading-[30px] leading-[28px] opacity-80 poppins-medium mb-2 text-justify"
+                  } data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"
+                >
+                  {desc.startsWith("Day") ? (
+                    desc
+                  ) : (
+                    <>
+                      <span className="poppins-semibold text-[#FFC83E]">{prefix} :</span> {restText}
+                    </>
+                  )}
+                </p>
+              );
+            })}
           </div>
           <div className="flex flex-col justify-center items-center">
             <div className="">
@@ -841,7 +851,7 @@ function Packagedetails() {
                   <div className="space-y-4" >
                     {Object.values(packageDetails.templeSection.included || {}).map((description, index) => (
                       <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" loading="lazy"/>{description}
+                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" loading="lazy" />{description}
                       </p>
                     ))}
                   </div>
@@ -853,7 +863,7 @@ function Packagedetails() {
                   <div className="space-y-4" >
                     {Object.values(packageDetails.templeSection.excluded || {}).map((description, index) => (
                       <p key={index} className="flex gap-3 items-center poppins-medium opacity-80 leading-[30px] md:text-lg text-base">
-                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" loading="lazy"/>{description}
+                        <img src="/assets/images/alert.png" alt="Temples" className="w-6" loading="lazy" />{description}
                       </p>
                     ))}
                   </div>

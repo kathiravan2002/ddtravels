@@ -137,21 +137,21 @@ export default function Home(props) {
                                     <div className="img-box absolute top-5 md:w-[350px] w-[300px] h-[220px] bg-gray-800 rounded-[12px] overflow-hidden">
                                         <img src={item.image} alt='image' className="absolute top-0 left-0 w-full h-full object-cover border-4 border-[#6CBF02]" loading="lazy"/>
                                     </div>
-                                    <div className="content absolute top-[252px] w-full h-[35px] p-0 px-[30px] text-center overflow-hidden ">
+                                    <div className="content absolute top-[252px] w-full h-[35px] p-0 px-4 text-center overflow-hidden ">
                                         <div className='flex gap-2 justify-center '>
                                             <p className="poppins-semibold text-xl text-[#6CBF02] mt-1">{item.title}</p>
                                         </div>
                                         {/* <h2 className="text-xl poppins-bold mt-5 " style={{ color: 'var(--clr)' }}></h2>
                                 <p className="text-gray-800 poppins-regular mt-3"></p> */}
-                                        <div className="space-y-2 mt-4 flex flex-col items-center ">
+                                        <div className="space-y-2 mt-4 flex flex-col items-center  ">
                                             <h2 className="poppins-medium text-base opacity-85">{item.content1}</h2>
                                             <p className="poppins-medium text-base opacity-85 flex justify-center items-center gap-2"><FaRegClock className='text-[24px] flex shrink-0 text-[#6CBF02]' />{item.time}</p>
                                             <p className="poppins-medium text-base opacity-85">{item.content2}</p>
-                                            <div className="flex gap-5">
+                                            <div className="flex gap-5 md:mt-5 mt-0">
                                                 <Link to={item.link}>
                                                     <div className="flex justify-center items-center ">
                                                         <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer px-10 py-2 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
-                                                            <span className="relative z-10 text-[16px] -ml-4"> View More </span>
+                                                            <span className="relative z-10 md:text-lg text-[16px] -ml-4"> View More </span>
                                                             <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-14  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
                                                             <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
                                                         </button>
@@ -160,7 +160,7 @@ export default function Home(props) {
                                                 <Link to="/contact-us">
                                                     <div className="flex justify-center items-center ">
                                                         <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer px-10 py-2 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
-                                                            <span className="relative z-10 text-[16px] -ml-4"> Enquiry </span>
+                                                            <span className="relative z-10 md:text-lg text-[16px] -ml-4"> Enquiry </span>
                                                             <PiArrowBendUpRightFill className='absolute z-10  group-hover:translate-x-10  opacity-0 group-hover:opacity-100 text-[24px] flex shrink-0 group-hover:text-[#000] transition-transform duration-500' />
                                                             <div className="absolute inset-0  scale-x-0 group-hover:scale-x-100 duration-500 bg-[#FFC83E] rounded-md"></div>
                                                         </button>
