@@ -2,8 +2,9 @@ import React from 'react'
 import Register from './Register'
 import { Link } from 'react-router-dom'
 import { PiArrowBendUpRightFill } from 'react-icons/pi'
-
-function ContactUs({formData,handleSubmit,handleChange}) {
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
+function ContactUs({ formData, handleSubmit, handleChange, setFormData }) {
 
     return (
         <div className='overflow-hidden'>
@@ -24,7 +25,7 @@ function ContactUs({formData,handleSubmit,handleChange}) {
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 border-2 border-gray-400 rounded-[20px]">
                     <div className="p-5 lg:border-r-2 border-gray-400">
                         <div className="flex justify-center ">
-                            <img src="/assets/images/Contact/phone.png" alt="Phone no"  loading="lazy" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
+                            <img src="/assets/images/Contact/phone.png" alt="Phone no" loading="lazy" className="w-[65px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" />
                         </div>
                         <div className="space-y-1 mt-2 flex justify-center  flex-col items-center">
                             <p className="poppins-medium md:text-[24px] text-[20px] text-center">Phone Number</p>
@@ -84,9 +85,33 @@ function ContactUs({formData,handleSubmit,handleChange}) {
                                     <label htmlFor="email" className='text-lg fondamento-regular tracking-wide  '>Email</label>
                                     <input type="email" className='border-2 border-gray-400 rounded-[5px] p-2 poppins-medium' id='email' value={formData.email} onChange={handleChange} placeholder='Enter Your Email' required />
                                 </div>
-                                <div className="flex gap-2 flex-col w-full">
+                                {/* <div className="flex gap-2 flex-col w-full">
                                     <label htmlFor="phoneno" className='text-lg fondamento-regular tracking-wide  '>Mobile Number</label>
-                                    <input type="number" className='border-2 border-gray-400 rounded-[5px] p-2 poppins-medium' id='phoneno' value={formData.phoneno} onChange={handleChange} placeholder='Enter Your Mobile Number' required />
+                                    <input type="tel" className='border-2 border-gray-400 rounded-[5px] p-2 poppins-medium' id='phoneno' value={formData.phoneno} onChange={handleChange} placeholder='Enter Your Mobile Number' required />
+                                </div> */}
+                                <div className="flex gap-2 flex-col w-full">
+                                    <label
+                                        htmlFor="phoneno"
+                                        className="text-lg fondamento-regular tracking-wide"
+                                    >
+                                        Mobile Number
+                                    </label>
+
+                                    <PhoneInput
+                                        country={"in"} // default country
+                                        value={formData.phoneno}
+                                        onChange={(value, country, e, formattedValue) =>
+                                            setFormData((prev) => ({ ...prev, phoneno: formattedValue }))
+                                        }
+                                        inputProps={{
+                                            name: "phoneno",
+                                            required: true,
+                                            id: "phoneno",
+                                        }}
+                                        containerClass="w-full"
+                                        inputClass="!w-full !p-2 !pl-12 !py-5 !border-2 !border-gray-400 !rounded-[5px] poppins-medium"
+                                        buttonClass="!border-2 !border-gray-400 !rounded-l-[5px]"
+                                    />
                                 </div>
                             </div>
                             <div className="flex gap-2 flex-col">

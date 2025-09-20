@@ -11,7 +11,7 @@ function Register() {
                         <img src="/assets/images/About/register.png" alt="contact" className="" />
                     </div>
                     <div className="space-y-2 col-span-2" >
-                        <h2 className="fondamento-regular md:text-2xl  text-xl" data-aos="fade-down-right" data-aos-delay="300" data-aos-duration="1000">
+                        <h2 className="fondamento-regular md:text-2xl text-[#6CBF02] text-xl" data-aos="fade-down-right" data-aos-delay="300" data-aos-duration="1000">
                             Offer For You!
                         </h2>
                         <p className="poppins-medium md:text-xl text-lg" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">

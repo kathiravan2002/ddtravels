@@ -120,7 +120,8 @@ function Homepage() {
 
 
     const [formData, setFormData] = useState({
-        name: '',
+        firstname: '',
+        lastname: '',
         email: '',
         phoneno: "",
         message: ''
@@ -131,10 +132,10 @@ function Homepage() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const { name, email, phoneno, message } = formData;
+        const { firstname, lastname, email, phoneno, message } = formData;
         const phoneNumber = '+918925530559'; // e.g., +919876543210
         const whatsappMessage = `***** Contact Request *****
-  • Name: ${name}
+  • Name: ${firstname} ${lastname}
   • Email: ${email}
   • Phone No: ${phoneno}
   • Message: ${message}
@@ -145,7 +146,7 @@ function Homepage() {
     return (
         <div>
             <HelmetComponent title={'Divya Desan Travels'} canonical={'https://divyadesantravels.com/'} />
-            <Home activeSlide={activeSlide} handleSlideChange={handleSlideChange} goToPrevSlide={goToPrevSlide} goToNextSlide={goToNextSlide} images={images} swiperRef={swiperRef} setActiveSlide={setActiveSlide} popular={popular} card={card} formData={formData} handleSubmit={handleSubmit} handleChange={handleChange} />
+            <Home setFormData={setFormData} activeSlide={activeSlide} handleSlideChange={handleSlideChange} goToPrevSlide={goToPrevSlide} goToNextSlide={goToNextSlide} images={images} swiperRef={swiperRef} setActiveSlide={setActiveSlide} popular={popular} card={card} formData={formData} handleSubmit={handleSubmit} handleChange={handleChange} />
         </div>
     )
 }

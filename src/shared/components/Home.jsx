@@ -11,12 +11,14 @@ import { CircleCheckBig } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight, FaRegClock } from 'react-icons/fa';
 import Homehero from './Homehero';
+import PhoneInput from 'react-phone-input-2';
+import "react-phone-input-2/lib/style.css";
 
 export default function Home(props) {
 
-    const {popular,card,formData,handleChange,handleSubmit,} = props;
+    const { popular, card, formData, handleChange, handleSubmit, setFormData } = props;
 
-   
+
 
     return (
         <>
@@ -40,7 +42,7 @@ export default function Home(props) {
 
                                 </div>
                                 <div className="flex md:justify-between flex-col md:flex-row lg:mt-10 mt-5 gap-5">
-                                    <p className="md:text-[28px] text-[20px] dancing-script opacity-75 flex gap-5  items-center "><img src="/assets/images/Home/crystavector.jpg" alt="car" className='md:w-[100px] w-[120px]' loading="lazy"/> Car Rental Provider </p>
+                                    <p className="md:text-[28px] text-[20px] dancing-script opacity-75 flex gap-5  items-center "><img src="/assets/images/Home/crystavector.jpg" alt="car" className='md:w-[100px] w-[120px]' loading="lazy" /> Car Rental Provider </p>
                                     <div className="flex justify-center items-center">
                                         <Link to="/about-us">
                                             <button className="group relative overflow-hidden hover:text-[#000] bg-[#6CBF02] text-white  port-lligat-sans-regular   cursor-pointer py-3 px-10 rounded-full shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 flex items-center gap-2">
@@ -135,7 +137,7 @@ export default function Home(props) {
                                     className="card relative flex justify-center items-start w-[400px] max-w-full h-[300px] mx-auto bg-white mb-13 rounded-[20px] shadow-[0_10px_25px_rgba(0,0,0,0.15)] md:mt-20 mt-5"
                                 >
                                     <div className="img-box absolute top-5 md:w-[350px] w-[300px] h-[220px] bg-gray-800 rounded-[12px] overflow-hidden">
-                                        <img src={item.image} alt='image' className="absolute top-0 left-0 w-full h-full object-cover border-4 border-[#6CBF02]" loading="lazy"/>
+                                        <img src={item.image} alt='image' className="absolute top-0 left-0 w-full h-full object-cover border-4 border-[#6CBF02]" loading="lazy" />
                                     </div>
                                     <div className="content absolute top-[252px] w-full h-[35px] p-0 px-4 text-center overflow-hidden ">
                                         <div className='flex gap-2 justify-center '>
@@ -190,7 +192,7 @@ export default function Home(props) {
                                         <img src="/assets/images/Home/architect 1.png" alt="Room 1" loading="lazy" className="rounded-xl w-full h-full object-cover hover:scale-110 transform transition-transform duration-300" />
                                     </div>
                                     <div className="col-span-2 row-span-2 col-start-1 row-start-3 rounded-xl overflow-hidden" data-aos="fade-up-right" data-aos-delay="700" data-aos-duration="1000">
-                                        <img src="/assets/images/Home/architect 2.png" alt="Room 2" loading="lazy" className="rounded-xl h-full w-full object-cover hover:scale-110 transform transition-transform duration-300" />
+                                        <img src="/assets/images/Package/tn-temple-9.jpg" alt="Room 2" loading="lazy" className="rounded-xl h-full w-full object-cover hover:scale-110 transform transition-transform duration-300" />
                                     </div>
                                     <div className="col-span-2 row-span-4 col-start-3 row-start-1 rounded-xl overflow-hidden" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1000">
                                         <img src="/assets/images/Home/architect 4.jpg" alt="Room 3" loading="lazy" className="h-full w-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />
@@ -202,7 +204,7 @@ export default function Home(props) {
                                         <img src="/assets/images/Home/architect 5.jpg" alt="Room 5" loading="lazy" className="h-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />
                                     </div>
                                     <div className="row-span-2 col-start-6 row-start-3 rounded-xl overflow-hidden" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
-                                        <img src="/assets/images/Home/architect 3.png" alt="Room 6" loading="lazy" className="h-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />
+                                        <img src="/assets/images/Package/templetour4.jpg" alt="Room 6" loading="lazy" className="h-full object-cover rounded-xl hover:scale-110 transform transition-transform duration-300" />
                                     </div>
                                 </div>
                             </div>
@@ -218,7 +220,7 @@ export default function Home(props) {
                                     </div>
                                     <div className="col-span-1 md:col-span-2 md:row-span-2 md:col-start-1 md:row-start-3 rounded-xl overflow-hidden" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                                         <img
-                                            src="/assets/images/Home/architect 2.png"
+                                            src="/assets/images/Package/tn-temple-12.jpg"
                                             alt="Room 2"
                                             loading="lazy"
                                             className="rounded-xl w-full h-64 md:h-full object-cover hover:scale-110 transform transition-transform duration-300"
@@ -250,7 +252,7 @@ export default function Home(props) {
                                     </div>
                                     <div className="col-span-1 md:col-span-1 md:row-span-2 md:col-start-6 md:row-start-3 rounded-xl overflow-hidden" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                                         <img
-                                            src="/assets/images/Home/architect 3.png"
+                                            src="/assets/images/Package/templetour4.jpg"
                                             alt="Room 6"
                                             loading="lazy"
                                             className="rounded-xl w-full h-64 md:h-full object-cover hover:scale-110 transform transition-transform duration-300"
@@ -293,21 +295,36 @@ export default function Home(props) {
                             </div>
 
                             <form className="space-y-7 flex-40" onSubmit={handleSubmit}>
-                                <div className="relative">
-                                    <label htmlFor='name' className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
-                                        Name
-                                    </label>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        value={formData.name}
-                                        onChange={handleChange}
-                                        className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors poppins-medium"
-                                        required
-                                    />
+                                <div className="flex flex-col md:flex-row gap-5 w-full">
+                                    <div className="relative w-full">
+                                        <label htmlFor='firstname' className="absolute -top-3.5 left-3 rounded-lg bg-white px-3 text-lg text-gray-600 poppins-medium ">
+                                            First Name
+                                        </label>
+                                        <input
+                                            type="text"
+                                            id="firstname"
+                                            value={formData.firstname}
+                                            onChange={handleChange}
+                                            className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors poppins-medium"
+                                            required
+                                        />
+                                    </div>
+                                    <div className="relative w-full">
+                                        <label htmlFor='lastname' className="absolute -top-3.5 left-3 rounded-lg bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                            Last Name
+                                        </label>
+                                        <input
+                                            type="text"
+                                            id="lastname"
+                                            value={formData.lastname}
+                                            onChange={handleChange}
+                                            className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors poppins-medium"
+                                            required
+                                        />
+                                    </div>
                                 </div>
 
-                                <div className="relative">
+                                {/* <div className="relative">
                                     <label htmlFor="phoneno" className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium" >
                                         Mobile
                                     </label>
@@ -319,10 +336,35 @@ export default function Home(props) {
                                         className="w-full px-4 py-3 border-2 border-[#6CBF02] rounded-lg focus:border-[#6CBF02] focus:outline-none transition-colors poppins-medium"
                                         required
                                     />
+                                </div> */}
+
+                                <div className="relative">
+                                    <label
+                                        htmlFor="phoneno"
+                                        className="absolute -top-4 left-3 bg-white  px-3 rounded-lg text-lg text-gray-600 poppins-medium z-20"
+                                    >
+                                        Mobile
+                                    </label>
+
+                                    <PhoneInput
+                                        country={"in"}
+                                        value={formData.phoneno}
+                                        onChange={(value, country, e, formattedValue) =>
+                                            setFormData((prev) => ({ ...prev, phoneno: formattedValue }))
+                                        }
+                                        inputProps={{
+                                            name: "phoneno",
+                                            required: true,
+                                            autoFocus: false,
+                                        }}
+                                        containerClass="w-full"
+                                        inputClass="!w-full px-4 !py-6 !border-2 !border-[#6CBF02] !rounded-lg focus:!border-[#6CBF02] focus:!outline-none transition-colors poppins-medium"
+                                        buttonClass="!border-2 !border-[#6CBF02] !rounded-l-lg"
+                                    />
                                 </div>
 
                                 <div className="relative">
-                                    <label htmlFor='email' className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                    <label htmlFor='email' className="absolute -top-3.5 left-3 rounded-lg bg-white px-3 text-lg text-gray-600 poppins-medium">
                                         Email
                                     </label>
                                     <input
@@ -336,7 +378,7 @@ export default function Home(props) {
                                 </div>
 
                                 <div className="relative">
-                                    <label htmlFor='message' className="absolute -top-3.5 left-3 bg-white px-3 text-lg text-gray-600 poppins-medium">
+                                    <label htmlFor='message' className="absolute -top-3.5 left-3 rounded-lg bg-white px-3 text-lg text-gray-600 poppins-medium">
                                         Message
                                     </label>
                                     <textarea

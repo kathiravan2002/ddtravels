@@ -90,7 +90,7 @@ function Header() {
                                                 <img
                                                     src='/assets/images/Logo.png'
                                                     alt="Website Logo"
-                                                    className="sm:max-w-80 max-w-[250px] select-none  "
+                                                    className="sm:max-w-80 max-w-[230px] select-none  "
                                                 />
                                                 {/* <h2 className="fondamento-regular md:text-[32px] text-[24px] text-[#6CBF02]">DD Travels</h2> */}
                                             </div>

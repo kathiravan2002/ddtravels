@@ -31,7 +31,7 @@ function ContactUspage() {
   return (
     <div>
       <HelmetComponent title={'Contact Us - Divya Desan Travels'} canonical={'https://divyadesantravels.com/contact-us'} />
-      <ContactUs formData={formData} handleSubmit={handleSubmit} handleChange={handleChange} />
+      <ContactUs formData={formData} handleSubmit={handleSubmit} handleChange={handleChange}  setFormData={setFormData}/>
     </div>
   )
 }
